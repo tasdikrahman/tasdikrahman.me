@@ -1,0 +1,35 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Tasdik Rahman
+description:      'Dreamer | Developer | Soccer Fanatic'
+# url:              http://tasdikrahman.me
+url:              http://0.0.0.0:4000/
+baseurl:          /
+logo:             /content/images/dp.jpg
+
+author:
+  name:           'Tasdik Rahman'
+  url:            https://plus.google.com/+TasdikRahman
+
+paginate:         5
+
+disqus_shortname: tasdikrahman
+
+github:
+  repo:           https://github.com/prodicus/
+
+gems:
+  - jekyll-sitemap
+
+twitter: '@tasdikrahman'
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
