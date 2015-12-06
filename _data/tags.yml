@@ -1,0 +1,24 @@
+bash:
+  name: Bash
+github:
+  name: Github
+github-pages:
+  name: Github Pages
+jekyll:
+  name: Jekyll
+linux:
+  name: Linux
+python:
+  name: Python
+apache:
+  name: Apache
+bigdata:
+  name: Big Data
+cgi:
+  name: CGI 
+dbpedia:
+  name: DB Pedia
+hadoop:
+  name: hadoop
+lamp:
+  name: LAMP

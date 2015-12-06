@@ -1,0 +1,99 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        
+      <a href="{{ site.baseurl }}" title="Link to homepage for {{ site.title }}"><img src="{{ site.logo }}" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
+        
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}{% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}{% endif %}
+      {% endfor %}
+      
+          </nav>
+     
+      
+      <nav class="sidebar-social">
+  <ul class="navigation">
+
+
+  <!-- GitHub -->
+  <li class="social-item github">
+    <a href="http://github.com/prodicus" title="@prodicus on GitHub" target="_blank">
+      <i class='icon fi-social-github'></i>
+      <span class="label">GitHub</span>
+    </a>
+  </li>
+  
+  <!-- StackOverflow -->
+  <li class="social-item stackoverflow">
+    <a href="http://stackoverflow.com/users/3834059/prodicus" title="prodicus on StackOverflow" target="_blank">
+      <i class='icon fi-social-stack-overflow'></i>
+      <span class="label">StackOverflow</span>
+    </a>
+  </li>
+
+  <!-- LinkedIn -->
+  <li class="social-item linkedin">
+    <a href="https://in.linkedin.com/in/tasdikrahman" title="Tasdik Rahman on LinkedIn" target="_blank">
+      <i class='icon fi-social-linkedin'></i>
+      <span class="label">LinkedIn</span>
+    </a>
+  </li>
+
+  <!-- Instagram -->
+  <li class="social-item instagram">
+    <a href="http://instagram.com/tasdikrahman" title="Tasdik Rahman on instagram" target="_blank">
+      <i class='icon fi-social-instagram'></i>
+      <span class="label">instagram</span>
+    </a>
+  </li>
+  
+  <!-- Twitter -->
+  <li class="social-item twitter">
+    <a href="http://twitter.com/{{ site.twitter }}" title="{{ site.twitter }} on Twitter" target="_blank">
+      <i class='icon fi-social-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+
+  <!-- Google+ -->
+  <!-- <li class="social-item gplus">
+    <a href="http://plus.google.com/+TasdikRahman" title="+ChrisBanes" target="_blank">
+      <i class='icon fi-social-google-plus'></i>
+      <span class="label">Google+</span>
+    </a>
+  </li> -->
+
+  <!-- Email -->
+  <li class="social-item mail">
+    <a href="mailto:prodicus@outlook.com" title="Tasdik Rahman" target="_blank">
+      <i class='icon fi-mail'></i>
+      <span class="label">Mail</span>
+    </a>
+  </li>
+
+  </ul>
+</nav>
+      
+   <p><small>&copy; <a rel="license" href="https://github.com/prodicus">Tasdik Rahman</a>  All rights reserved.</small></p>
+   <p><small>2014-{{ site.time | date: "%Y" }}</small></p>
+  </div>
+</div>
