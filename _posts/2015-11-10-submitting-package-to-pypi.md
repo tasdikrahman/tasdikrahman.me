@@ -5,7 +5,7 @@ description: "Submitting python package to pypi"
 tags: [python, pypi, ubuntu]
 comments: true
 share: true
-cover_image: 'content/images/2015/12/pypi.jpg'
+cover_image: 'content/images/2015/12/pypi.png'
 ---
 
 Recently I had written a [thin wrapper around getziptastic's API](https://github.com/prodicus/pyzipcode-cli/) and I wanted that to be availble as a [pypi package](pypi.python.org/pypi). 
