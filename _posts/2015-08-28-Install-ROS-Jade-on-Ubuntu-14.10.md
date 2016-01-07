@@ -7,7 +7,7 @@ comments: true
 share: true
 ---
 
-###What the heck is ROS anyway : 
+### What the heck is ROS anyway : 
 
 Robot Operating System (ROS) is a collection of software frameworks for robot software development, providing operating system-like functionality on a heterogeneous computer cluster. 
 
@@ -15,7 +15,7 @@ So in layman terms, it just helps us build robot applications.
 
 > Previous post on ROS : [Configuring ROS - Jade on Ubuntu 14.10](http://prodicus.github.io/2015/08/28/Configure-ROS-Jade-on-Ubuntu-14.10/)
 
-###Note : 
+### Note : 
 
 ROS Jade ONLY supports Trusty (14.04), Utopic (14.10) and Vivid (15.04) for debian packages. 
 If you are on any other version of Ubuntu or have a different flavor of linux installed, I suggest you head over 
@@ -25,7 +25,7 @@ Note that this guide is written keeping in mind that we are on Ubuntu 14.10 !
 
 
 
-###Requirements : 
+### Requirements : 
 
 * Supported OS : 
   * Ubuntu Trusty(14.04)
@@ -42,7 +42,7 @@ Note that this guide is written keeping in mind that we are on Ubuntu 14.10 !
   * Boost 1.54
 
 
-###Installation : 
+### Installation : 
 
 
 1. **Configure your Ubuntu repositories** :
@@ -125,7 +125,7 @@ Note that this guide is written keeping in mind that we are on Ubuntu 14.10 !
   because it can take a helluva a time depending on the speed of your internet connection.
   
   
-###Initialize rosdep
+### Initialize rosdep
   
   Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system 
   dependencies for source you want to compile and is required to run some core components in ROS.
@@ -137,7 +137,7 @@ tasdik@Acer:~$ rosdep update
 {% endhighlight %}
 
 
-###Environment setup
+### Environment setup
   
   It's convenient if the ROS environment variables are automatically added to your bash session every time 
   a new shell is launched:
@@ -149,7 +149,7 @@ tasdik@Acer:~$ source ~/.bashrc
 {% endhighlight %}
   
   
-###Getting rosinstall
+### Getting rosinstall
   
   [rosinstall](http://wiki.ros.org/rosinstall) is a frequently used command-line tool in ROS that is 
   distributed separately. It enables you to easily download many source trees for ROS packages with one command.

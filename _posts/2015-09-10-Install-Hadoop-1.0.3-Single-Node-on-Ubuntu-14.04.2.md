@@ -6,9 +6,9 @@ tags: [Hadoop, BigData, Ubuntu]
 comments: true
 share: true
 ---
+ 
 
-
-##On a starting note : 
+## On a starting note : 
 
   I am assuming that you have a fresh Ubuntu install on your system as this will cut down a lot of frustration trying to debug why Hadoop is not running. 
 
@@ -16,9 +16,9 @@ share: true
 
 >Next article : [Install Hadoop Multi Node 1.0.3 on Ubuntu 14.04.2](http://prodicus.github.io/2015/09/13/Setup-Hadoop-on-Ubuntu-Multi-Node-Cluster/)
 
-##Installation
+## Installation
 
-###Create a dedicated user 
+### Create a dedicated user 
 
 Create a seperate user named `hadoop` for seperating out the configuration files and the installation files 
 
@@ -48,7 +48,7 @@ Install JAVA which is in the default repos of Ubuntu
 hadoop@sys8:~$ sudo apt-get install default-jdk
 {% endhighlight %}
 
-###Configure SSH:
+### Configure SSH:
 
 Enabling ssh for localhost is the next step
 
@@ -113,10 +113,10 @@ Connection to localhost closed.
 hadoop@sys8:~$
 {% endhighlight %}
 
-###Apache Hadoop Installation:
+### Apache Hadoop Installation:
 
 Download hadoop from apache's site, 
-
+ 
 But first change to hadoop's home directory first 
 
 {% highlight bash %}
@@ -151,9 +151,9 @@ hadoop@sys8:~$ sudo chown -R hadoop:hadoop hadoop
 
 ***
 
-##Configuration
+## Configuration
 
-###Update `/etc/profile`
+### Update `/etc/profile`
 
 {% highlight bash %}
 hadoop@sys8:~$ sudo nano /etc/profile
@@ -179,9 +179,9 @@ export PATH="$PATH:$HADOOP_HOME/bin"
 
 ***
 
-##Edit the configuration files for Hadoop
+## Edit the configuration files for Hadoop
 
-###Edit `hadoop-env.sh`
+### Edit `hadoop-env.sh`
 
 Change to the hadoop folder and add the JAVA home path
 
@@ -217,7 +217,7 @@ hadoop@sys8:~/hadoop$ sudo chmod 750 /app/hadoop/tmp
 {% endhighlight %}
 
 
-###Edit `conf/core-site.xml`
+### Edit `conf/core-site.xml`
 
 {% highlight bash %}
 hadoop@sys8:~/hadoop$ sudo nano conf/core-site.xml
@@ -254,7 +254,7 @@ It should look something like this after editing
 {% endhighlight %}
 
 
-###Edit `conf/mapred-site.xml`
+### Edit `conf/mapred-site.xml`
 
 {% highlight bash %}
 hadoop@sys8:~/hadoop$ sudo nano conf/mapred-site.xml
@@ -282,7 +282,7 @@ It should look something like this after editing
 {% endhighlight %}
 
 
-###Edit `conf/hdfs-site.xml`
+### Edit `conf/hdfs-site.xml`
 
 {% highlight bash %}
 hadoop@sys8:~/hadoop$ sudo nano conf/hdfs-site.xml
@@ -310,7 +310,7 @@ It should look something like this after editing
 {% endhighlight %}
 
 
-###Format the HDFS file 
+### Format the HDFS file 
 
 **Note** : Run this one command only once, i.e now
 
@@ -367,7 +367,7 @@ localhost: starting tasktracker, logging to /home/hadoop/hadoop/libexec/../logs/
 {% endhighlight %}
 
 
-###Check if everything is running fine:
+### Check if everything is running fine:
 
 Run `jps` for that and the output should look something like this
 
@@ -385,7 +385,7 @@ hadoop@sys8:~/hadoop$
 
 ***
 
-##Stopping hadoop
+## Stopping hadoop
 
 {% highlight bash %}
 hadoop@sys8:~/hadoop$ bin/stop-all.sh

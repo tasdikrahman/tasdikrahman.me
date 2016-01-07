@@ -66,7 +66,7 @@ tasdik@Acer:~$ cd ~/catkin_ws/
 Do an `ls` and now you can see that we have folders like `build`, `devel` folder. 
 Inside the `devel` folder, there are several `*.sh` files
 
-##Source the setup file
+## Source the setup file
 
 
 {% highlight bash %}

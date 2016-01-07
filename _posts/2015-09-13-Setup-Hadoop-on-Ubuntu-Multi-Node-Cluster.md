@@ -8,7 +8,7 @@ share: true
 ---
 
 
-##Intro: 
+## Intro: 
 
   In this article,  I will describe the required steps for setting up a distributed, multi-node  Apache Hadoop cluster backed by the Hadoop Distributed File System (HDFS), running on Ubuntu Linux.
 
@@ -21,7 +21,7 @@ share: true
   I will be demonstrating for 3 nodes but you can add more nodes as you like. 
 
 
-##Installation
+## Installation
 
   >Install for the three node [using this tutuorial](http://prodicus.github.io/2015/09/10/Install-Hadoop-1.0.3-Single-Node-on-Ubuntu-14.04.2/)
 
@@ -169,7 +169,7 @@ Here `192.168.103.24` is the ip address of the master node.
 We just have replaced `localhost` with this ip address
 
 
-###Editing `conf/mapred-site.xml` (All nodes)
+### Editing `conf/mapred-site.xml` (All nodes)
 
 After editing, the file should be
 
@@ -341,7 +341,7 @@ hadoop@sys8:~/hadoop/conf$
 {% endhighlight %}
 
 
-##Format the `/app/tmp/` directory contents (master node)
+## Format the `/app/tmp/` directory contents (master node)
 
 {% highlight bash %}
 hadoop@sys8:~$ sudo rm -rf /app/hadoop/tmp/*
@@ -349,7 +349,7 @@ hadoop@sys8:~$
 {% endhighlight %}
 
 
-##Format the namenode (master node)
+## Format the namenode (master node)
 
 {% highlight bash linenos %}
 hadoop@sys8:~/hadoop$ bin/hadoop namenode -format
@@ -389,7 +389,7 @@ hadoop@sys8:~/hadoop$
 {% endhighlight %}
 
 
-##Start the name node (in master node)
+## Start the name node (in master node)
 
 {% highlight bash linenos %}
 hadoop@sys8:~/hadoop$ bin/start-all.sh 
@@ -408,7 +408,7 @@ hadoop@sys8:~/hadoop$
 {% endhighlight %}
 
 
-##Check JPS (in all systems)
+## Check JPS (in all systems)
 
 `sys8`
 

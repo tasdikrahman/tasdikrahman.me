@@ -17,7 +17,7 @@ I have written an article on that. Here's the link
 
 **[Running-CGI-Sripts-with-CGIHTTPServer](http://prodicus.github.io/2015/10/20/Running-CGI-Sripts-with-CGIHTTPServer/)**
 
-##Configuring the Apache2 Web server to run CGI scripts 
+## Configuring the Apache2 Web server to run CGI scripts 
 
 I am assuming that you are using `apache2` version `2.4.*`,  as in `Apache2.4`, the configuration was cleaned up considerably, and things in the default site definition have been moved to configuration files in conf-available. Among other things, this also includes the CGI-related configuration lines seen in the default site of older versions. These have been moved to `/etc/apache2/conf-available/serve-cgi-bin.conf`, which contains:
 
@@ -113,7 +113,7 @@ tasdik@Acer:~$ sudo service apache2 restart
 {% endhighlight %}
 
 
-##Creating a simple CGI script : 
+## Creating a simple CGI script : 
 
 We have to first create the folder that will hold the cgi-scripts, so lets do that.
 

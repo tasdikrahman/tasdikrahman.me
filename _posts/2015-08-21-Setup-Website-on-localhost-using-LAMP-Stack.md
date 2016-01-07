@@ -7,17 +7,17 @@ comments: true
 share: true
 ---
 
-##What do we need?
+## What do we need?
 The two most common tools for this are the Apache and nginx servers.
 
-###Notes:
+### Notes:
 
 You'll need to edit a few system configuration files. If you're uncomfortable with vim, replace vim with nano, or gedit in the following commands. For example, sudo vim will become `sudo -H gedit` or `sudo nano`.
 
 Once you're done setting it up, have a look at How to avoid using sudo when working in `/var/www`?
 A more detailed guide is available from the Ubuntu LTS Server Guide.
 
-###First, install Apache:
+### First, install Apache:
 
 {% highlight bash %}
 tasdik@Acer:~$ sudo apt-get install apache2
@@ -34,7 +34,7 @@ The enabled site configuration files are linked to `/etc/apache2/conf-enabled`.
 
 * For most instructions, I'll assume we are in `/etc/apache2`.
  
-###VirtualHost setup
+### VirtualHost setup
 
 Let us create a new site. There's a default configuration available in `sites-enabled/default.conf`. We will make a copy of this, and work on it:
 
@@ -90,7 +90,7 @@ It should look something like this
 {% endhighlight %}
 
 
-###Save the file, and enable it:
+### Save the file, and enable it:
 
 {% highlight bash %}
 tasdik@Acer:~$ sudo a2ensite my-name
@@ -137,7 +137,7 @@ ff02::2 ip6-allrouters
 {% endhighlight %}
 
 
-###Save, and then restart Apache:
+### Save, and then restart Apache:
 
 {% highlight bash %}
 tasdik@Acer:~$ sudo service apache2 restart

@@ -7,7 +7,7 @@ comments: true
 share: true
 ---
 
-##Intro : 
+## Intro : 
 
 SQLite has limited `ALTER TABLE` support that you can use to add a column to the end of a table or to change the name of a table. If you want to make more complex changes in the structure of a table, you will have to recreate the table. You can save existing data to a temporary table, drop the old table, create the new table, then copy the data back in from the temporary table.
 
