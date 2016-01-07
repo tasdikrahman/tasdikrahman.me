@@ -7,7 +7,7 @@ comments: true
 share: true
 ---
 
-##Intro : 
+## Intro : 
 
 Well as luck would have it, we were having our Database labs in `ORACLE 11g` as part of the coursework. And I must admit, I still have my love for `mysql`.
 
@@ -15,7 +15,7 @@ I installed it on my system(after a lot of trials!) this way.
 
 >[Next part of this article](http://prodicus.github.io/2015/09/27/My-Ramblings-about-Oracle-11g/)
 
-##Pre-requisites:
+## Pre-requisites:
 
 JAVA should be installed and the environment variable for it should be set. Check it by doing 
 
@@ -247,7 +247,7 @@ tasdik@Acer:~$
 
 I recommend rebooting the system at this point of time
 
-##After a System Reboot
+## After a System Reboot
 
 {% highlight bash %}
 tasdik@Acer:~$ sudo service oracle-xe start
