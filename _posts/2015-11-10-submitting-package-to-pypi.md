@@ -10,11 +10,11 @@ cover_image: 'content/images/2015/12/pypi.png'
 
 Recently I had written a [thin wrapper around getziptastic's API](https://github.com/prodicus/pyzipcode-cli/) and I wanted that to be availble as a [pypi package](pypi.python.org/pypi). 
 
-##What is `PyPI`?
+## What is `PyPI`?
 
 From the official website:
 
-####`PyPI` — the Python Package Index
+#### `PyPI` — the Python Package Index
 The Python Package Index is a repository of software for the Python programming language.
 Written something cool? Want others to be able to install it with easy_install or pip? Put your code on PyPI. It's a big list of python packages that you absolutely must submit your package to for it to be easily one-line installable.
 
@@ -24,7 +24,7 @@ Create your accounts
 
 On [PyPI Live](http://pypi.python.org/pypi?%3Aaction=register_form) and also on [PyPI Test](http://testpypi.python.org/pypi?%3Aaction=register_form). You must create an account in order to be able to upload your code. I recommend using the same email/password for both accounts, just to make your life easier when it comes time to push.
 
-##Create a `.pypirc` configuration file
+## Create a `.pypirc` configuration file
 
 This file holds your information for authenticating with PyPI, both the live and the test versions. This file should be placed in your home directory. So do a 
 
@@ -56,7 +56,7 @@ password: your_password
 
 This is just to make your life easier, so that when it comes time to upload you don't have to type/remember your username and password. 
 
-##Prepare your package
+## Prepare your package
 
 Every package on PyPI needs to have a file called `setup.py` at the root of the directory. If your'e using a markdown-formatted read me file you'll also need a `setup.cfg` file. Also, you'll want a `LICENSE.txt` file describing what can be done with your code. So if I've been working on a library called mypackage, my directory structure would look like this:
 
@@ -76,7 +76,7 @@ Every package on PyPI needs to have a file called `setup.py` at the root of the 
 
 Here's a breakdown of what goes in which file:
 
-####`setup.py`
+#### `setup.py`
 
 This is metadata about your library.
 
@@ -144,7 +144,7 @@ git push --tags origin master
 
  to update your code on Github with the latest tag information. Github creates tarballs for download at `https://github.com/{username}/{module_name}/tarball/{tag}`.
 
-####`setup.cfg`
+#### `setup.cfg`
 
 This tells PyPI where your README file is.
 
@@ -156,11 +156,11 @@ description-file = README.md
 
 This is necessary if you're using a markdown readme file. At upload time, you may still get some errors about the lack of a readme — don't worry about it. If you don't have to use a markdown `README` file, I would recommend using reStructuredText (REST) instead.
 
-####`LICENSE.txt`
+#### `LICENSE.txt`
 
 This file will contain whichver license you want your code to have. I tend to use the [MIT license](prodicus.mit-license.org).
 
-##Upload your package to PyPI Test
+## Upload your package to PyPI Test
 
 Run:
 
@@ -178,7 +178,7 @@ $ python setup.py sdist upload -r pypitest
 
 You should get no errors, and should also now be able to see your library in the test PyPI repository.
 
-##Upload to PyPI Live
+## Upload to PyPI Live
 
 Once you've successfully uploaded to PyPI Test, perform the same steps but point to the live PyPI server instead. To register, run:
 
@@ -194,7 +194,7 @@ $ python setup.py sdist upload -r pypi
 
 and you're done!
 
-##Some shameless promotion
+## Some shameless promotion
 
 If you want to try my package out here is the 
 

@@ -16,13 +16,13 @@ Sure, we do have some very good GUI modules like `PyQT`, `wxPython`, `PySide`. A
 
 What I mean by that is you don't have to install anything to run and write GUI's with it and run my Calculator program for instance.
 
-##Dabbling with it:
+## Dabbling with it:
 
 I got naturally interested in it so after reading the docs for some time. I thought why not apply it by making something small. It got me thinking about what to make with it!
 
 After some rambling aroung, I settled with the thought of making a Calculator using `Tkinter`. Aiming for a file search program at my second go.
 
-##Taking a piece of paper:
+## Taking a piece of paper:
 
 So the first task was to decide whether to use `OOP`'s for this project or not. I figured out that adding `class`'es would only complicate it in the first go. 
 
@@ -37,7 +37,7 @@ Now to get `80` as the first operand, one has to press `8` and then `8` again. N
 
 I figured out that, it was best that I dumped the whole input into a function called `calculate` where I got the whole of the entered input through `display.get()`, `display` being an `Entry()` object.
 
-###How was I dumping what I clicked into `Entry()` widget? 
+### How was I dumping what I clicked into `Entry()` widget? 
 
 I used two functions for that, `get_variables(num)` for `operand` and `get_operation(operator)` for `operator`. Inside each, I have a `global` variable, whose value gets incremented each time control transfers to any of these functions. I use this `global` variable to keep track of the position of the next data item(be it a operand or operator) to be inserted into the `Entry` widget.
 
@@ -61,7 +61,7 @@ seven.grid(row = 4, column = 0)
 
 Well one problem solved!
 
-###Adding and `<-` (undo) button
+### Adding and `<-` (undo) button
 
 Now what if you pressed something wrong, you don't want to press the `AC` button to clear the whole of the entered text as you would have to again waster your time into typing it again. How do we achieve that?
 
@@ -79,7 +79,7 @@ display.insert(0, new_string)
 
 That did it what `<-` was supposed to do
 
-###How do I seperate the operands from the operators?
+### How do I seperate the operands from the operators?
 
 Now at first thoughts, I thought I should hardcode it for each and every operator. Like you have `+` inside the `whole_string` which stores the value of `display.get()`. And then you do a 
 
@@ -117,13 +117,13 @@ This solved my problem and it works for most of the test cases I have checked wi
 
 Will refactor to include it in my next release.
 
-##Download it!
+## Download it!
 
 - <a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1" class="btn btn-success">Download executable (Linux/Mac)</a>
 
 - <a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1.exe" class="btn btn-success">Download executable (Windows)</a>
 
-##Fork this project
+## Fork this project
 
 Feel free to fork this project and make changes to it. 
 
