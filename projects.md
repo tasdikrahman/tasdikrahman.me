@@ -21,6 +21,12 @@ A python module using which you can get a words Meaning, Synonyms, Antonym and w
 
 A Food recommendation system made during Startup Weekend Chennai, 2015.
 
+- [pyzipcode](https://github.com/prodicus/pyzipcode-cli)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+
+Python module to extract every possible meta data from a Zip Code
+
 - [xkcd-dl](../xkcd_dl)
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> 
