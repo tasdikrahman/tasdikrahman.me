@@ -5,7 +5,7 @@ description: "Working with unicode"
 tags: [unicode, ubuntu, python]
 comments: true
 share: true
-cover_image: '/content/images/2015/12/onesandzeros.png'
+cover_image: '/content/images/2015/12/onesandzeros.jpg'
 ---
 
 ## Summary 
