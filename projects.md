@@ -9,43 +9,57 @@ A short list of projects that I am involved in or have made. Many more can be fo
 
 ***
 
-## [SRM Search Engine](http://srmsearchengine.in/se.html)
+### [SRM Search Engine](http://srmsearchengine.in/se.html)
 
-[SRMSE](http://i.imgur.com/rg45z9w.jpg)
+
+<center><img src="http://i.imgur.com/rg45z9w.jpg"></center>
+
+<!-- ![SRMSE](http://i.imgur.com/rg45z9w.jpg) -->
+
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
 ***
 
-## [vocabulary](../vocabulary)  
+### [vocabulary](../vocabulary)  
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> 
 
+
 ![Vocabulary](https://raw.githubusercontent.com/prodicus/vocabulary/master/assets/usage.gif)
+
 
 A python module using which you can get a words Meaning, Synonyms, Antonym and what not!
 
 ***
 
-## [Foodoh](https://github.com/prodicus/foodoh)
+### [Foodoh](https://github.com/prodicus/foodoh)
 
-[Foodoh](http://i.imgur.com/GwraWSw.jpg)
+
+<!-- ![Foodoh](http://i.imgur.com/GwraWSw.jpg) -->
+
+<center><img src="http://i.imgur.com/GwraWSw.jpg"></center>
+
 
 A Food recommendation system made during Startup Weekend Chennai, 2015.
 
 ***
 
-## [pyzipcode](https://github.com/prodicus/pyzipcode-cli)
+### [pyzipcode](https://github.com/prodicus/pyzipcode-cli)
+
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+
 
 Python module to extract every possible meta data from a Zip Code
 
 ***
 
-## [xkcd-dl](../xkcd_dl)
+### [xkcd-dl](../xkcd_dl)
+
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> 
+
 
 ![Usage](https://raw.githubusercontent.com/prodicus/xkcd-dl/master/img/usage.gif)
 
@@ -53,11 +67,15 @@ A CLI app to download all xkcd's which have been uploaded till date. Ever!
 
 ***
 
-## [pyCalc](https://github.com/prodicus/pyCalc)
+### [pyCalc](https://github.com/prodicus/pyCalc)
+
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> 
 
-![pyCalc Demo](https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif)
+
+<!-- ![pyCalc Demo](https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif) -->
+
+<center><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif"></center>
 
 A GUI calculator made using `Tkinter` and `python`
 
