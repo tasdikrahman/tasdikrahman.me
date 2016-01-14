@@ -12,7 +12,7 @@ A short list of projects that I am involved in or have made. Many more can be fo
 ### [SRM Search Engine](http://srmsearchengine.in/se.html)
 
 
-<center><img src="http://i.imgur.com/rg45z9w.jpg"></center>
+<center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
 
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
@@ -47,7 +47,7 @@ A Food recommendation system made during Startup Weekend Chennai, 2015.
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
-[![Demo](http://i.imgur.com/rwSTxH7.gifv)](https://github.com/prodicus/pyzipcode-cli)
+[![Demo](https://raw.githubusercontent.com/prodicus/pyzipcode-cli/master/assets/pyzip_demo.gif)](https://github.com/prodicus/pyzipcode-cli)
 
 
 Python module to extract every possible meta data from a Zip Code
@@ -72,7 +72,7 @@ A CLI app to download all xkcd's which have been uploaded till date. Ever!
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-<center><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif"></center>
+<center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif"></a></center>
 
 A GUI calculator made using `Tkinter` and `python`
 
