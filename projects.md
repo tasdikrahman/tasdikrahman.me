@@ -37,7 +37,7 @@ A python module using which you can get a words Meaning, Synonyms, Antonym and w
 <center><a href="https://github.com/prodicus/foodoh"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
 
 
-A Food recommendation system made during Startup Weekend Chennai, 2015.
+A Food recommendation system made during [Startup Weekend Chennai, 2015.](https://www.f6s.com/foodoh)
 
 ***
 
