@@ -64,3 +64,21 @@ Type "help", "copyright", "credits" or "license" for more information.
 {% endhighlight %}
 
 If there is no Error on that, then you are good to go.
+
+## A simple Pygame Boilerplate
+
+I made a dead simple `Pygame` boilerplate for creating a base for your `pygame` programs. 
+
+Here is the Github link for you.
+
+- link : [prodicus/pygame-boilerplate](https://github.com/prodicus/pygame-boilerplate)
+
+A sneak peak
+
+<center><http://i.imgur.com/p7PxMZl.jpg></center>
+
+## References
+
+- [http://askubuntu.com/questions/399824/how-to-install-pygame](http://askubuntu.com/questions/399824/how-to-install-pygame)
+- [https://inventwithpython.com/pygame/chapter1.html](https://inventwithpython.com/pygame/chapter1.html)
+- [http://kidscancode.org/blog/2015/09/pygame_install/](http://kidscancode.org/blog/2015/09/pygame_install/)
