@@ -75,7 +75,7 @@ Here is the Github link for you.
 
 A sneak peak
 
-<center><http://i.imgur.com/p7PxMZl.jpg></center>
+<center><img src="http://i.imgur.com/p7PxMZl.jpg"></center>
 
 ## References
 
