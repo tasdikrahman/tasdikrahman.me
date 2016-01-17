@@ -74,7 +74,9 @@ A CLI app to download all xkcd's which have been uploaded till date. Ever!
 
 <center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif"></a></center>
 
-A GUI calculator made using `Tkinter` and `python`
+A GUI calculator made using `Tkinter` and `python`. 
+
+The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious. 
 
 ***
 
