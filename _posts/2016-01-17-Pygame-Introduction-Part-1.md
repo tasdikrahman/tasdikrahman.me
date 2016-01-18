@@ -77,6 +77,12 @@ A sneak peak
 
 <center><img src="http://i.imgur.com/p7PxMZl.jpg"></center>
 
+## What can you do with this?
+
+I created [Space Shooter](https://github.com/prodicus/spaceShooter) using this boilerplate. Here's a demo screen for you
+
+<center><img src="http://i.imgur.com/I5mTBFB.png"></center>
+
 ## References
 
 - [http://askubuntu.com/questions/399824/how-to-install-pygame](http://askubuntu.com/questions/399824/how-to-install-pygame)
