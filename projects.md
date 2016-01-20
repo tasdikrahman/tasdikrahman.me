@@ -32,6 +32,17 @@ A python module using which you can get a words Meaning, Synonyms, Antonym and w
 
 ***
 
+### [Space Shooter](https://github.com/prodicus/spaceShooter)
+
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+
+<center><a href="https://github.com/prodicus/spaceShooter"><img src="http://i.imgur.com/D7uiZ1p.gifv"></a></center>
+
+The retro game recreated using `python` and `pygame`
+
+***
+
 ### [Foodoh](https://github.com/prodicus/foodoh)
 
 <center><a href="https://github.com/prodicus/foodoh"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
