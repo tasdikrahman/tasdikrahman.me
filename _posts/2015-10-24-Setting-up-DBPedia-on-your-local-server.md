@@ -5,7 +5,7 @@ description: "DBPedia Spotlight on your local server"
 tags: [DBPedia, Ubuntu, Unix, nlp]
 comments: true
 share: true
-cover_image: '/content/images/2014/11/materialdesign-goals-swirlanddot_large_xhdpi.png'
+cover_image: '/content/images/2014/11/materialdesign-goals-swirlanddot_large_xhdpi.jpeg'
 ---
 
 ## Intro : 
