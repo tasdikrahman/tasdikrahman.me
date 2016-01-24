@@ -84,6 +84,8 @@ Python module to extract every possible meta data from a Zip Code
 
 A CLI app to download all xkcd's which have been uploaded till date. Ever! 
 
+Got covered by [lamiradadelreplicante.com](http://lamiradadelreplicante.com) on their blog post ["Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/), a spanish Linux blog.
+
 ***
 
 ### [pyCalc](https://github.com/prodicus/pyCalc)
