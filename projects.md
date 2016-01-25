@@ -17,7 +17,11 @@ A short list of projects that I am involved in or have made. Many more can be fo
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
-Covered thrice by Times Of India, titled ["College team develops search engine"](http://timesofindia.indiatimes.com/city/chennai/College-team-develops-search-engine/articleshow/45129062.cms), ["SRM University to launch search engine"](http://timesofindia.indiatimes.com/city/chennai/SRM-University-to-launch-search-engine/articleshow/48748309.cms), ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms) 
+Covered thrice by Times Of India, titled 
+
+- ["College team develops search engine"](http://timesofindia.indiatimes.com/city/chennai/College-team-develops-search-engine/articleshow/45129062.cms)
+- ["SRM University to launch search engine"](http://timesofindia.indiatimes.com/city/chennai/SRM-University-to-launch-search-engine/articleshow/48748309.cms)
+- ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms) 
 
 The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired us once. Yeah thats much about it!
 
@@ -34,7 +38,10 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 A python module using which you can get a words Meaning, Synonyms, Antonym and what not!
 
-Got covered in [pycoders issue #195](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=06f1263282)
+Got covered in 
+
+- [pycoders issue #195](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=06f1263282)
+- [importpython issue #53](http://importpython.com/newsletter/no/53/)
 
 ***
 
@@ -48,7 +55,11 @@ Got covered in [pycoders issue #195](http://us4.campaign-archive2.com/?u=9735795
 
 The retro game recreated using `python` and `pygame`. 
 
-Got covered in [pythondigest](http://pythondigest.ru/view/9725/), [pyclub](http://vk.com/pyclub) and [next.36kr.com](http://next.36kr.com/posts/26644)
+Got covered in 
+
+- [pythondigest](http://pythondigest.ru/view/9725/)
+- [pyclub](http://vk.com/pyclub)
+- [next.36kr.com](http://next.36kr.com/posts/26644)
 
 ***
 
