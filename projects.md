@@ -105,7 +105,7 @@ Got covered by [lamiradadelreplicante.com](http://lamiradadelreplicante.com) on 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-<center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif"></a></center>
+<center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
 
 A GUI calculator made using `Tkinter` and `python`. 
 
