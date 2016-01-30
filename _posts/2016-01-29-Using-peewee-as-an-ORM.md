@@ -94,7 +94,7 @@ def add_student():
             student_record.save()
 {% endhighlight %}
 
-## Checking whether ther is anything in there
+## Checking whether there is anything in there
 
 Firing up the interpreter and running `sqlite3`
 
