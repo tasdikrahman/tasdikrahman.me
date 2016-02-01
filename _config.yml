@@ -4,7 +4,9 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# relative_permalinks: true         ## removed from jekyll 3 and above 
+## refer: https://jekyllrb.com/docs/upgrading/2-to-3/#relative-permalink-support-removed
+## refer: https://help.github.com/articles/using-jekyll-with-pages/#troubleshooting
 
 # Setup
 title:            Tasdik Rahman
