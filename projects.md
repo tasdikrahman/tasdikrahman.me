@@ -74,6 +74,19 @@ A Food recommendation system made during [Startup Weekend Chennai, 2015.](https:
 
 ***
 
+### [tnote](https://github.com/prodicus/tnote)
+
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+
+
+<center><a href="https://asciinema.org/a/35378"><img src="https://asciinema.org/a/35378.png"/></a></center>
+
+
+A cross platform, command line note taking app built using `python`. `peewee` was used as the **ORM** choice.
+
+***
+
 ### [pyzipcode](https://github.com/prodicus/pyzipcode-cli)
 
 
@@ -84,6 +97,7 @@ A Food recommendation system made during [Startup Weekend Chennai, 2015.](https:
 
 
 Python module to extract every possible meta data from a Zip Code
+
 
 ***
 
