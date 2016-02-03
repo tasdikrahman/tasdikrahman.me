@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2016/1/spaceshooter.jpg'
 ---
 
-<link rel="stylesheet" href="http://tasdikrahman.me/public/css/milligram.min.css">
+<!-- <link rel="stylesheet" href="http://tasdikrahman.me/public/css/milligram.min.css"> -->
 
 I procrastinated enough in writing this post so here it goes. `Pygame` treated me good. So good that it was able to create a decent enough `2-D` game in a day!
 
