@@ -8,9 +8,9 @@ share: true
 cover_image: '/content/images/2016/1/spaceshooter.jpg'
 ---
 
-<!-- <link rel="stylesheet" href="http://tasdikrahman.me/public/css/milligram.min.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-I procrastinated enough in writing this post so here it goes. `Pygame` treated me good. So good that it was able to create a decent enough `2-D` game in a day!
+I procrastinated enough in writing this post so here it goes. `Pygame` treated me good. So good that I was able to create a decent enough `2-D` game in a day!
 
 So here is my breakdown of it.
 
@@ -54,22 +54,32 @@ So this is what is what the main menu looks like
 
 In the end. I loved making this game a lot and I hope you make something much cooler than this. Do share it when you do. 
 
-Here's the git repo if you are interested in taking a look at the source
+Here's the git repo if you are interested in taking a look at the source code.
 
 ***
 
-**Space Shooter** [prodicus/spaceShooter](https://github.com/prodicus/spaceShooter)
+<i class="fa fa-github-alt fa-2x"></i> [prodicus/spaceShooter](https://github.com/prodicus/spaceShooter)
 
-Wanna have a nostalgic trip back to your childhood playing it?
+## Wanna play?
 
-<a class="button" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip" target="_blank">Download for windows</a>
+Have a nostalgic trip back to your childhood playing it! You can Download it for your preferred system.
 
-<a class="button" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip" target="_blank">Download for windows</a>
+Best part, it requires no installation! Just unzip it and you are good to go
+
+| <i class="fa fa-linux fa-2x"></i>   | [Download for linux based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip)     |
+|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
+
+<!-- <a class="btn btn-lg btn-success" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip">
+  <i class="fa fa-flag fa-2x pull-left"></i> Space Shooter - Windows <br>Version 0.0.3</a>
+
+<a class="btn btn-lg btn-success" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip">
+  <i class="fa fa-flag fa-2x pull-left"></i> Space Shooter - linux <br>Version 0.0.3</a> -->
+
+**Support for MAC OS coming soon!**
 
 ***
 
-Watch me how I fared on it 
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/o99zpLsM-ZI" frameborder="0" allowfullscreen></iframe>
+<center><a href="https://github.com/prodicus/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
 
 Happy coding!

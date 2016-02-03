@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Projects
+customjs:
+ - https://asciinema.org/a/35557.js
 ---
 
-A short list of projects that I am involved in or have made. Many more can be found out over my [Github](https://github.com/prodicus) profile
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+A selected list of projects that I am involved in or have made. Many more can be found out over my [Github](https://github.com/prodicus) profile
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 
@@ -36,11 +40,12 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 [![vocabulary](https://raw.githubusercontent.com/prodicus/vocabulary/master/assets/usage.gif)](https://github.com/prodicus/vocabulary)
 
 
-A python module using which you can get a words Meaning, Synonyms, Antonym and what not!
+A python module using which you can get `Meaning`, `Synonyms`, `Antonyms`, `translations` and what not for a given word!
 
 Got covered in 
 
 - [pycoders issue #195](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=06f1263282)
+- [python weekly issue #220](http://us2.campaign-archive2.com/?u=e2e180baf855ac797ef407fc7&id=c3a5d1d4a8)
 - [importpython issue #53](http://importpython.com/newsletter/no/53/)
 
 ***
@@ -57,15 +62,24 @@ The retro game recreated using `python` and `pygame`.
 
 Got covered in 
 
+- [pythondigest.ru on issue no #109](http://pythondigest.ru/issue/109/)
+- [importpython.com on issue no #58](http://importpython.com/newsletter/no/58/)
+- [weekly.pychina.org on issue #58](http://weekly.pychina.org/importpython/importpython-58.html)
+- [dighub.ru on issue #35](http://dighub.ru/digests/35/)
+- [oschina.net](http://www.oschina.net/p/spaceshooter): An open source community supported by Ministry of OSS promotion Union
+- [mybridge.co](http://www.mybridge.co/view/28020): A `San Francisco` based news aggregator. 
 - [recordnotfound.com](https://recordnotfound.com/spaceShooter-prodicus-5374): A curated list of open source projects
-- [pythondigest.ru](http://pythondigest.ru/view/9725/): A russian python daily
 - [neuropuff.com](https://neuropuff.com/post/show-hn-space-shooter-retro-game-recreated-using-python): a programming blog
-- [pyclub](http://vk.com/pyclub)
-- [next.36kr.com](http://next.36kr.com/posts/26644)
+
+Wanna play? Requires no installation! Just unzip it and you are good to go!
+
+| <i class="fa fa-linux fa-2x"></i>   | [Download for linux based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip)     |
+|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
 
 ***
 
-### [Foodoh](https://github.com/prodicus/foodoh)
+### [Foodoh](https://github.com/foodoh)
 
 <center><a href="https://github.com/prodicus/foodoh"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
 
@@ -80,10 +94,22 @@ A Food recommendation system made during [Startup Weekend Chennai, 2015.](https:
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
-<center><a href="https://asciinema.org/a/35378"><img src="https://asciinema.org/a/35378.png"/></a></center>
+<!-- <center><a href="https://asciinema.org/a/35378"><img src="https://asciinema.org/a/35378.png"/></a></center> -->
+<center><script type="text/javascript" src="https://asciinema.org/a/35557.js" id="asciicast-35557" async></script></center>
 
 
-A cross platform, command line note taking app built using `python`. `peewee` was used as the **ORM** choice.
+A cross platform, command line note taking app built using `python`. **peewee** was used as the **ORM** choice.
+
+- **Secure**: Encrypts your database using standard `AES-256 in CBC mode`.
+- Title, content(duh!), timestamp and tags support.
+- Delete/add notes tags.
+- Supports full text search for notes using content as well as tags as search parameter. 
+- Query highlighting when a search result is found
+
+Got covered in
+
+- [importpython's issue #60](http://importpython.com/newsletter/no/60/)
+- [pythonweekly issue #229](http://us2.campaign-archive1.com/?u=e2e180baf855ac797ef407fc7&id=c78bf6d519)
 
 ***
 
@@ -96,7 +122,11 @@ A cross platform, command line note taking app built using `python`. `peewee` wa
 [![Demo](https://raw.githubusercontent.com/prodicus/pyzipcode-cli/master/assets/pyzip_demo.gif)](https://github.com/prodicus/pyzipcode-cli)
 
 
-Python module to extract every possible meta data from a Zip Code
+`Python` module to extract every possible meta data from a Zip Code. Meta data like what?
+
+- `latitude` and `longitude`
+- `city`, `county`, `state`
+- boundaries (in latitude and longitude)
 
 
 ***
@@ -107,13 +137,13 @@ Python module to extract every possible meta data from a Zip Code
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-[![Usage](https://raw.githubusercontent.com/prodicus/xkcd-dl/master/img/usage.gif)](../xkcd_dl)
+[![Usage](https://raw.githubusercontent.com/prodicus/xkcd-dl/master/assets/usage.gif)](../xkcd_dl)
 
-A CLI app to download all xkcd's which have been uploaded till date. Ever! 
+A command line application to **download all xkcd's** which have been uploaded till date. Ever! 
 
 Got covered by 
 
-- [lamiradadelreplicante.com](http://lamiradadelreplicante.com) on their blog post ["Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/), a spanish Linux blog.
+- [lamiradadelreplicante.com on their blog post named "Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/) a spanish Linux blog.
 
 ***
 
@@ -125,7 +155,7 @@ Got covered by
 
 <center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
 
-A GUI calculator made using `Tkinter` and `python`. 
+A cross platform, GUI calculator made using `Tkinter` and `python`. 
 
 The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious. 
 
