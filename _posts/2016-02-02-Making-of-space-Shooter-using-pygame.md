@@ -8,6 +8,8 @@ share: true
 cover_image: '/content/images/2016/1/spaceshooter.jpg'
 ---
 
+<link rel="stylesheet" href="../../_includes/milligram/dist/milligram.min.css">
+
 I procrastinated enough in writing this post so here it goes. `Pygame` treated me good. So good that it was able to create a decent enough `2-D` game in a day!
 
 So here is my breakdown of it.
@@ -59,8 +61,6 @@ Here's the git repo if you are interested in taking a look at the source
 **Space Shooter** [prodicus/spaceShooter](https://github.com/prodicus/spaceShooter)
 
 Wanna have a nostalgic trip back to your childhood playing it?
-
-Download it from here
 
 <a class="button" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip" target="_blank">Download for windows</a>
 
