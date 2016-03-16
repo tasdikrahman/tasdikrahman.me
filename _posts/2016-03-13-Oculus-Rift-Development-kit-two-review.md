@@ -38,13 +38,13 @@ The door closes after a brief 3-4 seconds and off we go again. I am contemplatin
 I look up expecting the same old tricycle but I see none which does little to relieve me. I move forward to leave the elevator and the next thing I know is a dark shadow landing right in front of me! I mean right on my freckin' face.
 
 As I compose myself, I see the man standing right in front me. A black suit, red tie. I watch the masked man as I take fumbled steps towards the back of the elevator.
-I watch in horror, as the figure slowly grows in size and reaches a height in which his literally touches the elevator top. 
+I watch in horror, as the figure slowly grows in size and reaches a height in which his head literally touches the elevator top. 
 
 In a flick of a second, the masked man lungs at me and I fall down on the ground so as to dogde him.
 
 *** 
 
-And then I take off the **Oculus Rift** over from my head!
+### And then I took off the **Oculus Rift** over from my head!
 
 >It all happened so fast that I was left panting for more!
 
@@ -52,12 +52,12 @@ Sorry for the long intro, but it would be shame if I did not explain the level o
 
 <center><img src="/content/images/2016/3/elev_man.jpg"></center>
 
-It's been two week or so, since [Milan 2k16](www.srmmilan.com/)(our college cultural fest) has passed by. And I thank the guys over at **Nvidia** (being one of the many great sponsers that we had) and the guys at TGN for bringing over super cool gadgets and gaming rigs over to our college.
+It's been two week or so, since [Milan 2k16](www.srmmilan.com/) (our college cultural fest) has passed by. And I thank the guys over at **Nvidia** (being one of the many great sponsers that we had) and the guys at **TGN** for bringing over super cool gadgets and gaming rigs over to our college.
 
-Enjoyed the fest and all the events in it, but this was the cherry on top thing for me.
+Enjoyed the fest and all the events in it, but this was the cherry on top for me.
 
 ***
 
-Here's me being dumbfounded by the next big thing after internet!
+Here's me being dumbfounded by the next big thing after the internet!
 
 <center><img src="/content/images/2016/3/oculus_milan.jpg"></center>
