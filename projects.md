@@ -11,10 +11,42 @@ A selected list of projects that I am involved in or have made. Many more can be
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 
+## <a name="index"/>Index
+
+#### Web Apps
+
+- [SRM Search Engine](#srmsearch)
+
+#### Machine Learning
+
+- [Movie Reviews Analysis](#moviereview)
+
+#### API's
+
+- [vocabulary](#vocabulary)
+- [pyzipcode](#pyzipcode)
+
+#### GUI's
+
+- [thanos](#thanos)
+- [pyCalc](#pycalc)
+
+#### Games anyone?
+
+- [Space Shooter](#spaceshooter)
+
+#### Command line apps
+
+- [tnote](#tnote)
+- [xkcd-dl](#xkcddl)
+
+#### Hackathons
+
+- [Foodoh - Startup Weekend Chennai, 2016](#foodoh)
+
 ***
 
-### [SRM Search Engine](http://srmsearchengine.in/se.html)
-
+### <a name="srmsearch"/>[SRM Search Engine](http://srmsearchengine.in/se.html)
 
 <center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
 
@@ -29,9 +61,25 @@ Covered thrice by Times Of India, titled
 
 The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired us once. Yeah thats much about it!
 
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
 ***
 
-### [vocabulary](../vocabulary)  
+### <a name="moviereview"/>[Movie Reviews Analysis](https://github.com/prodicus/movieReviewsAnalysis)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+
+<center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/d7pwSTe.jpg"></a></center>
+
+An analysis of the `movie_reviews` corpus present in the `nltk` corpus by applying various machine learning algorithms (like `MultinomialNB`, `LogisticRegression`, `LinearSVC` and some more)
+
+<i class="fa fa-code fa-2x"></i> `python`, `nltk`, `pickle`, `scikitlearn`
+
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+***
+
+### <a name="vocabulary"/>[vocabulary](../vocabulary)  
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
@@ -42,15 +90,19 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 A python module using which you can get `Meaning`, `Synonyms`, `Antonyms`, `translations` and what not for a given word!
 
-Got covered in 
+<i class="fa fa-code fa-2x"></i> `python`, `requests`
+
+As covered by
 
 - [pycoders issue #195](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=06f1263282)
 - [python weekly issue #220](http://us2.campaign-archive2.com/?u=e2e180baf855ac797ef407fc7&id=c3a5d1d4a8)
 - [importpython issue #53](http://importpython.com/newsletter/no/53/)
 
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
 ***
 
-### [Space Shooter](https://github.com/prodicus/spaceShooter)
+### <a name="spaceshooter"/>[Space Shooter](https://github.com/prodicus/spaceShooter)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
@@ -58,9 +110,11 @@ Got covered in
 
 <center><a href="https://github.com/prodicus/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
 
-The retro game recreated using `python` and `pygame`. 
+Go back to the memory lane by playing **spaceShooter** on your system.
 
-Got covered in 
+<i class="fa fa-code fa-2x"></i> `python`, `pygame`, `cxFreeze`, `pyinstaller`, `sprites`
+
+As covered by
 
 - [pythondigest.ru on issue no #109](http://pythondigest.ru/issue/109/)
 - [importpython.com on issue no #58](http://importpython.com/newsletter/no/58/)
@@ -77,18 +131,25 @@ Wanna play? Requires no installation! Just unzip it and you are good to go!
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
 
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
 ***
 
-### [Foodoh](https://github.com/foodoh)
+### <a name="foodoh"/>[Foodoh](https://github.com/foodoh)
 
 <center><a href="https://github.com/prodicus/foodoh"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
 
+Was the team leader for **Startup Weekend Chennai, 2015** where we made a Food recommendation system.
 
-A Food recommendation system made during [Startup Weekend Chennai, 2015.](https://www.f6s.com/foodoh)
+<i class="fa fa-code fa-2x"></i>  `python`, `beautifulsoup4`, `Image Processing`, `tesseract-OCR`, `Mongo-DB`, `HMTL`, `CSS`, `Bootstrap`, `Javascript`, `PIL`
+
+**Startup weekend Team page**: [https://www.f6s.com/foodoh](https://www.f6s.com/foodoh)
+
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
 
 ***
 
-### [tnote](https://github.com/prodicus/tnote)
+### <a name="tnote"/>[tnote](https://github.com/prodicus/tnote)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
@@ -106,14 +167,33 @@ A cross platform, command line note taking app built using `python`. **peewee** 
 - Supports full text search for notes using content as well as tags as search parameter. 
 - Query highlighting when a search result is found
 
-Got covered in
+<i class="fa fa-code fa-2x"></i>  `python`, `pycrypto`, `pysqlcipher3`, `peewee`, `sqlite3`, `clint`, `args`
+
+
+As covered by
 
 - [importpython's issue #60](http://importpython.com/newsletter/no/60/)
 - [pythonweekly issue #229](http://us2.campaign-archive1.com/?u=e2e180baf855ac797ef407fc7&id=c78bf6d519)
 
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
 ***
 
-### [pyzipcode](https://github.com/prodicus/pyzipcode-cli)
+### <a name="thanos"/>[thanos](https://github.com/prodicus/thanos)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+
+[![Demo](http://i.imgur.com/qlzSCuP.jpg)](https://github.com/prodicus/thanos)
+
+A dead simple demonstration of exploiting an `sqlite` database using **SQL Injection**
+
+<i class="fa fa-code fa-2x"></i>  `python`, `tkinter`, `sqlite3`
+
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+***
+
+### <a name="pyzipcode"/>[pyzipcode](https://github.com/prodicus/pyzipcode-cli)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
@@ -128,10 +208,13 @@ Got covered in
 - `city`, `county`, `state`
 - boundaries (in latitude and longitude)
 
+<i class="fa fa-code fa-2x"></i>  `python`, `requests`
+
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
 
 ***
 
-### [xkcd-dl](../xkcd_dl)
+### <a name="xkcddl"/>[xkcd-dl](../xkcd_dl)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
@@ -141,13 +224,18 @@ Got covered in
 
 A command line application to **download all xkcd's** which have been uploaded till date. Ever! 
 
-Got covered by 
+
+<i class="fa fa-code fa-2x"></i>  `python`, `requests`, `beautifulsoup4`, `docopt`, `python-magic`
+
+As covered by 
 
 - [lamiradadelreplicante.com on their blog post named "Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/) a spanish Linux blog.
 
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
 ***
 
-### [pyCalc](https://github.com/prodicus/pyCalc)
+### <a name="pycalc"/>[pyCalc](https://github.com/prodicus/pyCalc)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
@@ -155,9 +243,13 @@ Got covered by
 
 <center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
 
-A cross platform, GUI calculator made using `Tkinter` and `python`. 
+A cross platform, GUI calculator.
 
 The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious. 
+
+<i class="fa fa-code fa-2x"></i>  `python`, `tkinter`
+
+<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
 
 ***
 
