@@ -50,7 +50,6 @@ A selected list of projects that I am involved in or have made. Many more can be
 
 <center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
 
-
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
 Covered thrice by Times Of India, titled 
@@ -60,6 +59,10 @@ Covered thrice by Times Of India, titled
 - ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms) 
 
 The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired us once. Yeah thats much about it!
+
+**SRMSE [Team Page](http://srmsearchengine.in/about_us/team)**
+
+<i class="fa fa-code fa-2x"></i> Most of our our [technology stack](http://srmsearchengine.in/about_us/) is listed in our About me page.
 
 <i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
 
@@ -128,7 +131,7 @@ As covered by
 Wanna play? Requires no installation! Just unzip it and you are good to go!
 
 | <i class="fa fa-linux fa-2x"></i>   | [Download for linux based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip)     |
-|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 | <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
 
 <i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
