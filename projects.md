@@ -64,7 +64,9 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 <i class="fa fa-code fa-2x"></i> Most of our our [technology stack](http://srmsearchengine.in/about_us/) is listed in our About me page.
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top](#index) -->
 
 ***
 
@@ -78,7 +80,8 @@ An analysis of the `movie_reviews` corpus present in the `nltk` corpus by applyi
 
 <i class="fa fa-code fa-2x"></i> `python`, `nltk`, `pickle`, `scikitlearn`
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -101,7 +104,9 @@ As covered by
 - [python weekly issue #220](http://us2.campaign-archive2.com/?u=e2e180baf855ac797ef407fc7&id=c3a5d1d4a8)
 - [importpython issue #53](http://importpython.com/newsletter/no/53/)
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -134,7 +139,9 @@ Wanna play? Requires no installation! Just unzip it and you are good to go!
 |:-------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 | <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -148,7 +155,8 @@ Was the team leader for **Startup Weekend Chennai, 2015** where we made a Food r
 
 **Startup weekend Team page**: [https://www.f6s.com/foodoh](https://www.f6s.com/foodoh)
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -178,7 +186,9 @@ As covered by
 - [importpython's issue #60](http://importpython.com/newsletter/no/60/)
 - [pythonweekly issue #229](http://us2.campaign-archive1.com/?u=e2e180baf855ac797ef407fc7&id=c78bf6d519)
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -192,7 +202,8 @@ A dead simple demonstration of exploiting an `sqlite` database using **SQL Injec
 
 <i class="fa fa-code fa-2x"></i>  `python`, `tkinter`, `sqlite3`
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -213,7 +224,8 @@ A dead simple demonstration of exploiting an `sqlite` database using **SQL Injec
 
 <i class="fa fa-code fa-2x"></i>  `python`, `requests`
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
@@ -234,7 +246,8 @@ As covered by
 
 - [lamiradadelreplicante.com on their blog post named "Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/) a spanish Linux blog.
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top](#index) -->
 
 ***
 
@@ -252,7 +265,7 @@ The making of this project was covered in a [blog post](http://tasdikrahman.me/2
 
 <i class="fa fa-code fa-2x"></i>  `python`, `tkinter`
 
-<i class="fa fa-chevron-circle-up fa-2x"></i>    [Back to top](#index)
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
 
 ***
 
