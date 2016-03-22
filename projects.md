@@ -13,6 +13,8 @@ A selected list of projects that I am involved in or have made. Many more can be
 
 ## <a name="index"/>Index
 
+<!-- _Click on a link to jump to that part of page_ -->
+
 #### Web Apps
 
 - [SRM Search Engine](#srmsearch)

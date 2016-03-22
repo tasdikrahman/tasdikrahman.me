@@ -14,24 +14,21 @@ title: About Me
 
 #### Social media
 
-| <i class="fa fa-linkedin fa-2x"></i>    | [tasdikrahman](https://www.linkedin.com/in/tasdikrahman)   |
+
+
+| <a href="https://www.linkedin.com/in/tasdikrahman"><i class="fa fa-linkedin fa-2x"></i></a>  | <a href="https://quora.com/profile/Tasdik-Rahman"><b>Quora</b></a> |
 |:-------------------------------------------:|:-------------------------------------------------------------:|
-| **Quora**                                   | [Tasdik-Rahman](https://quora.com/profile/Tasdik-Rahman) |
-| <i class="fa fa-medium fa-2x"></i>          | [@tasdikrahman](https://medium.com/@tasdikrahman)  |
-| <i class="fa fa-soundcloud fa-2x"></i>      | [tasdikrahman](https://soundcloud.com/tasdikrahman)      |
-| <i class="fa fa-youtube fa-2x"></i>         | [/c/TasdikRahman](https://www.youtube.com/c/TasdikRahman)  |
-| <i class="fa fa-vimeo fa-2x"></i>    | [tasdikrahman](https://vimeo.com/tasdikrahman)       |
+| <a href="https://medium.com/@tasdikrahman"><i class="fa fa-medium fa-2x"></i></a>  | <a href="https://soundcloud.com/tasdikrahman"><i class="fa fa-soundcloud fa-2x"></i></a> |
+| <a href="https://www.youtube.com/c/TasdikRahman"><i class="fa fa-youtube fa-2x"></i></a>   |   <a href="https://vimeo.com/tasdikrahman"><i class="fa fa-vimeo fa-2x"></i></a> |
 
 
 ####  Developer portfolio
 
-| <i class="fa fa-github fa-2x"></i>          | [prodicus](https://github.com/prodicus)       |
+| <a href="https://github.com/prodicus"><i class="fa fa-github fa-2x"></i></a>  | <a href="https://devpost.com/tasdikrahman"><b>Devpost</b></a>   |
 |:-------------------------------------------:|:---------------------:|
-| **Devpost**                                 | [tasdikrahman](https://devpost.com/tasdikrahman)   |
-| <i class="fa fa-angellist fa-2x"></i>       | [tasdikrahman](https://angel.co/tasdikrahman)    |
-| <i class="fa fa-stack-overflow fa-2x"></i>  | [tasdikrahman](http://careers.stackoverflow.com/tasdikrahman) |
+| <a href="https://angel.co/tasdikrahman"><i class="fa fa-angellist fa-2x"></i></a> | <a href="http://careers.stackoverflow.com/tasdikrahman"><i class="fa fa-stack-overflow fa-2x"></i></a>   |
 
-You can reach me through **prodicus at outlook dot com**
+<center>You can reach me through <b>prodicus at outlook dot com</b></center>.
 
 ***
 
