@@ -28,7 +28,7 @@ title: About Me
 |:-------------------------------------------:|:---------------------:|
 | <a href="https://angel.co/tasdikrahman"><i class="fa fa-angellist fa-2x"></i></a> | <a href="http://careers.stackoverflow.com/tasdikrahman"><i class="fa fa-stack-overflow fa-2x"></i></a>   |
 
-<center>You can reach me through <b>prodicus at outlook dot com</b></center>.
+<center>You can reach me through <b>prodicus at outlook dot com</b></center>
 
 ***
 
