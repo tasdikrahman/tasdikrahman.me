@@ -50,7 +50,7 @@ A selected list of projects that I am involved in or have made. Many more can be
 
 ### <a name="srmsearch"/>[SRM Search Engine](http://srmsearchengine.in/se.html)
 
-<center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
+<center><a href="http://srmsearchengine.in/se.html" target="_blank"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
@@ -149,7 +149,7 @@ Wanna play? Requires no installation! Just unzip it and you are good to go!
 
 ### <a name="foodoh"/>[Foodoh](https://github.com/foodoh)
 
-<center><a href="https://github.com/prodicus/foodoh"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
+<center><a href="https://github.com/prodicus/foodoh" target="_blank"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
 
 Was the team leader for **Startup Weekend Chennai, 2015** where we made a Food recommendation system.
 
