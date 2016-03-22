@@ -8,6 +8,8 @@ share: true
 cover_image: '/content/images/2015/4/scaffolding.jpg'
 ---
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 ## BackDrop: 
 
 So I was reading about this wonderful module called `tkinter` some days back. And man was I not sucked into it!
@@ -119,9 +121,7 @@ Will refactor to include it in my next release.
 
 ## Download it!
 
-- <a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1" class="btn btn-success">Download executable (Linux/Mac)</a>
-
-- <a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1.exe" class="btn btn-success">Download executable (Windows)</a>
+<a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1" target="_blank"><i class="fa fa-linux fa-2x"></i></a>
 
 ## Fork this project
 

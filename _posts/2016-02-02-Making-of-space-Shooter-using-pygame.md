@@ -67,7 +67,7 @@ Have a nostalgic trip back to your childhood playing it! You can Download it for
 Best part, it requires no installation! Just unzip it and you are good to go
 
 | <i class="fa fa-linux fa-2x"></i>   | [Download for linux based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip)     |
-|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 | <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
 
 <!-- <a class="btn btn-lg btn-success" href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip">
