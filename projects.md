@@ -138,11 +138,11 @@ As covered by
 - [recordnotfound.com](https://recordnotfound.com/spaceShooter-prodicus-5374): A curated list of open source projects
 - [neuropuff.com](https://neuropuff.com/post/show-hn-space-shooter-retro-game-recreated-using-python): a programming blog
 
-Wanna play? Requires no installation! Just unzip it and you are good to go!
+**Wanna play? Requires no installation! Just unzip it and you are good to go!**
 
-| <i class="fa fa-linux fa-2x"></i>   | [Download for linux based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip)     |
+| <i class="fa fa-linux fa-2x"></i>   | <a href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a>  |
 |:-------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
-| <i class="fa fa-windows fa-2x"></i> | [Download for windows based systems](https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip) |
+| <i class="fa fa-windows fa-2x"></i> | <a href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a> |
 
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
