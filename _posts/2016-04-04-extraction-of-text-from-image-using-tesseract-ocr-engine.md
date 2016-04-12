@@ -133,6 +133,8 @@ This improved the accuracy to a certain extent. Here is a sample greyscaled imag
 
 <center><img src="http://tasdikrahman.me/content/images/2016/4/greyscaled_img.jpg"></center>
 
+> Some of the cleaning scripts lie here [(https://github.com/foodoh/image_cleansing/)](https://github.com/foodoh/image_cleansing/)
+
 ### Automating the task of OCR
 
 Now tesseract was provinding a `CLI` interface for interacting with it. But how would you automate this? I am not gonna sit there and type 
