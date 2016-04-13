@@ -16,7 +16,7 @@ A selected list of projects that I am involved in or have made. Many more can be
 
 ## <a name="index"/>Index
 
-<!-- _Click on a link to jump to that part of page_ -->
+_**Click on any link to jump to that project**_
 
 #### Web Apps
 
