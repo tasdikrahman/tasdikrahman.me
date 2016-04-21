@@ -21,9 +21,11 @@ _**Click on any link to jump to that project**_
 #### Web Apps
 
 - [SRM Search Engine](#srmsearch)
+- [Plino](#plino)
 
 #### Machine Learning
 
+- [Spammy](#spammy)
 - [Movie Reviews Analysis](#moviereview)
 
 #### API's
@@ -72,6 +74,49 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
 <!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top](#index) -->
+
+***
+
+### <a name="plino"/>[Plino](https://plino.herokuapp.com)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+
+<center><a href="https://plino.herokuapp.com"><img src="http://i.imgur.com/jJfnz7f.jpg"></a></center>
+
+A high accuracy spam filtering system built on top of a custom Naive Bayes Classifier
+to extract specific feature sets. Designed and developed RESTful APIs using Flask for users to integrate
+our service with their apps. Implemented Caching for server load reduction. Achieved over 3000 users in
+the first version of the application. Classifier was trained against 33,000 emails.
+
+<i class="fa fa-code fa-2x"></i> `python`, `nltk`, `Machine Learning`, `flask`, `REST APIs`, `dill`
+
+As covered by 
+
+- [Product Hunt](https://www.producthunt.com/tech/plino)
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+
+
+***
+
+### <a name="spammy"/>[Spammy](https://github.com/prodicus/spammy)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+
+<center><a href="https://github.com/prodicus/spammy"><img src="http://i.imgur.com/L8moQ2U.jpg"></a></center>
+
+Custom `Naive Bayes classifier` in the form of pip module , which can be trained on your own dataset for
+classifying emails into spam/ham. **Accuracy achieved: 80%-90%**. Blazingly fast once trained. “Dill” was
+used to serialize the classifier object for later use. Powers the web app [**Plino**](https://plino.herokuapp.com/)
+
+As covered by 
+
+- [Import Python's issue #68](http://importpython.com/newsletter/no/68/)
+- ['Awesome Machine Learning' Github](https://github.com/josephmisiti/awesome-machine-learning#natural-language-processing-9)
+
+<i class="fa fa-code fa-2x"></i> `python`, `nltk`, `Machine Learning`, `dill`
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
 
 ***
 
@@ -129,6 +174,7 @@ Go back to the memory lane by playing **spaceShooter** on your system.
 
 As covered by
 
+- [Product hunt](https://www.producthunt.com/games/space-shooter)
 - [pythondigest.ru on issue no #109](http://pythondigest.ru/issue/109/)
 - [importpython.com on issue no #58](http://importpython.com/newsletter/no/58/)
 - [weekly.pychina.org on issue #58](http://weekly.pychina.org/importpython/importpython-58.html)
@@ -203,7 +249,8 @@ As covered by
 
 [![Demo](http://i.imgur.com/qlzSCuP.jpg)](https://github.com/prodicus/thanos)
 
-A dead simple demonstration of exploiting an `sqlite` database using **SQL Injection**
+A GUI demonstration of SQL injection and prevention techniques on a local `SQLite` database following
+the guidelines layed out by OWASP.
 
 <i class="fa fa-code fa-2x"></i>  `python`, `tkinter`, `sqlite3`
 
