@@ -3,6 +3,9 @@ _gh_pages
 _site
 .ruby-version
 
+# ignore the resume folder in the resume directory of the root folder
+resume/new/
+
 # Numerous always-ignore extensions
 *.diff
 *.err
