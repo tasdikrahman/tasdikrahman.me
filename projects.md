@@ -20,32 +20,36 @@ _**Click on any link to jump to that project**_
 
 #### Web Apps
 
-- [SRM Search Engine](#srmsearch)
-- [Plino](#plino)
+- [SRM Search Engine: As the name says](#srmsearch)
+- [Plino: RESTful spam filtering API powered by spammy](#plino)
 
 #### Machine Learning
 
-- [Spammy](#spammy)
+- [Spammy: Spam filtering made easy for the masses](#spammy)
 - [Movie Reviews Analysis](#moviereview)
 
 #### API's
 
-- [vocabulary](#vocabulary)
+- [vocabulary: Similar to Wordnet, comes with a better API](#vocabulary)
 - [pyzipcode](#pyzipcode)
 
 #### GUI's
 
-- [thanos](#thanos)
-- [pyCalc](#pycalc)
+- [thanos: SQL injection demo on SQLite3](#thanos)
+- [pyCalc: Cross platform Calculator](#pycalc)
+
+#### Bot's
+
+- [Margo: An opiniated slack bot](#margo)
 
 #### Games anyone?
 
-- [Space Shooter](#spaceshooter)
+- [Space Shooter: 2D cross platform FPS](#spaceshooter)
 
 #### Command line apps
 
-- [tnote](#tnote)
-- [xkcd-dl](#xkcddl)
+- [tnote: Note taking for the command line](#tnote)
+- [xkcd-dl: Download all the xkcd's, like ever](#xkcddl)
 
 #### Hackathons
 
@@ -59,11 +63,11 @@ _**Click on any link to jump to that project**_
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
-Covered thrice by Times Of India, titled 
+Covered thrice by Times Of India, titled
 
 - ["College team develops search engine"](http://timesofindia.indiatimes.com/city/chennai/College-team-develops-search-engine/articleshow/45129062.cms)
 - ["SRM University to launch search engine"](http://timesofindia.indiatimes.com/city/chennai/SRM-University-to-launch-search-engine/articleshow/48748309.cms)
-- ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms) 
+- ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms)
 
 The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired us once. Yeah thats much about it!
 
@@ -321,8 +325,26 @@ The making of this project was covered in a [blog post](http://tasdikrahman.me/2
 
 ***
 
-If you have something in your mind, you can reach me at **prodicus [at] outlook [dot] com** 
+### <a name="margo"/>[margo](https://github.com/prodicus/margo)
+
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+
+
+<center><a href="https://github.com/prodicus/margo"><img src="https://raw.githubusercontent.com/prodicus/margo/master/assets/demo.gif"></a></center>
+
+An opiniated slack bot for [SRMSE's](http://srmsearchengine.in/) slack channel
+
+Related blog [post of mine](http://tasdikrahman.me/2016/06/25/Margo-An-opiniated-Python-based-slack-bot-for-SRM-Search-Engine/)
+
+<i class="fa fa-code fa-2x"></i>  `python`, `slackclient`, `requests`
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+
+***
+
+If you have something in your mind, you can reach me at **prodicus [at] outlook [dot] com**
 
 I do tweet sometimes by the handle [@tasdikrahman](http://twitter.com/tasdikrahman)
 
-Happy coding! 
+Happy coding!

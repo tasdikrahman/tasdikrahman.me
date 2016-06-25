@@ -9,9 +9,15 @@ title: About Me
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
->programmer. born on the net, damned if I don't die here. Speaks parseltongue way too often apparently. Has been wasting his weekends lately building stuff instead of studying. 
+Currently working as a Summer Engineering Intern('16) with the backend team @ [Wingify](https://wingify.com/), helping build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
 
->When not programming, he can be found gobbling up pizzas and listenting to rap music
+Speaks [parseltongue](https://python.org/) way too often apparently. Has been wasting his weekends lately building stuff instead of studying. Loves working on tools, infrastructure and everything Pythonic.
+
+***
+
+When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!) or listenting to rap music in moderate to high volumes every day.
+
+_I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers_
 
 
 ###  Me splattered across the web
