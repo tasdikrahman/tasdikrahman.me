@@ -43,7 +43,7 @@ Here's a glimpse to what it does
 
 ![Margo demo](https://raw.githubusercontent.com/prodicus/margo/master/assets/demo.gif)
 
-Pretty basic for now. I plan to automate the pinging process. But the current deployment of the bot forbades me on doing so. You see, I have deployed it to a basic dyno on [heroku](https://heroku.com/). The thing is that, the dyno goes to sleep if does not recieve any HTTP requests afer some time. Moreover, they have a fixed 6 hour downtime for any basic dyno. So yeah, as I am pretty broke right now. I cannot afford a Digital Ocean/Linode server. But hey, at least it works for now!
+Pretty basic for now. I plan to automate the pinging process. But the current deployment of the bot forbades me on doing so. You see, I have deployed it to a basic dyno on [heroku](https://heroku.com/). The thing is that, the dyno goes to sleep if it does not recieve any `HTTP requests` afer some time. Moreover, they have a fixed 6 hour downtime for any basic dyno. So yeah, as I am pretty much broke right now. I cannot afford a Digital Ocean/Linode server. But I mean what the heck right, at least it works for now!
 
 More functionalities are coming through over.
 
@@ -53,7 +53,7 @@ All in all, I enjoyed building [Margo](https://github.com/margo/) for this was a
 
 ***
 
-Back there, I just finished working on an internal backend service which is a [rabbitMQ](https://www.rabbitmq.com/) consumer handling the consumed messages (based on type of the queue) from the numerous queues. Did some refactoring of it and then integrated [statsd](https://statsd.readthedocs.io/en/v3.2.1/index.html) with the it to graph the IO operations done by it. [Graphite](https://graphite.readthedocs.io) along with it's components [carbon](https://graphite.readthedocs.io/en/latest/carbon-daemons.html) and [whisper](https://graphite.readthedocs.io/en/latest/whisper.html) were used to visualize the data in a human readable graph format.
+Back there, I just finished working on an internal backend service which is a [rabbitMQ](https://www.rabbitmq.com/) consumer handling the consumed messages (based on type of the queue) from the numerous queues and processing them accordingly. Did some refactoring of the service and then integrated [statsd](https://statsd.readthedocs.io/en/v3.2.1/index.html) with it to graph the IO operations done by it. [Graphite](https://graphite.readthedocs.io) along with it's components [carbon](https://graphite.readthedocs.io/en/latest/carbon-daemons.html) and [whisper](https://graphite.readthedocs.io/en/latest/whisper.html) were used to visualize the data in a human readable graph format. Last step was to deploy the setup to a test server on Digital Ocean.
 
 Maybe what I just wrote is quite abstract. But I plan on writing a blog post about my experience with, but let's see when I get time to write about it!
 
