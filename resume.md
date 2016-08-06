@@ -14,7 +14,7 @@ title: Resume
 
     <br><br><i>Last updated on 22nd April, 2016</i>
 
-    <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_2016.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
+    <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_aug_2016.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
 
 </p>
 
@@ -22,7 +22,7 @@ title: Resume
 
 <!--<object data="http://tasdikrahman.me/resume/tasdik_rahman_cv_2016.pdf" type="application/pdf" width="100%" height="1000px">-->
    <!--<p>It appears you don't have a PDF plugin for this browser.-->
-     <!--No biggie... you can <a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_2016.pdf">click here to-->
+     <!--No biggie... you can <a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_aug_2016.pdf">click here to-->
    <!--download the PDF file.</a>-->
    <!--</p>-->
 <!--</object>-->
