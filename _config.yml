@@ -32,6 +32,8 @@ github:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
 #   - jekyll-archives
 
 jekyll-archives:
