@@ -1,8 +1,8 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+#highlighter:      pygments
 ### ref: https://help.github.com/articles/page-build-failed-config-file-error/#fixing-highlighting-errors
-# highlighter:      rouge
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
