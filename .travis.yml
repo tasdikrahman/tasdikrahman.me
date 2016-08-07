@@ -1,0 +1,19 @@
+dist: trusty
+
+language: node_js
+node_js:
+  - "4.4.7"
+
+branches:
+  only:
+    - gh-pages
+
+install:
+- gem install bundle
+- bundle install
+
+before_script:
+- bundle exec jekyll build
+
+script:
+- bundle exec jekyll serve
