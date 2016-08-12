@@ -10,9 +10,10 @@ title: Resume
 
     <br><br>The fastest way to reach me would be through <a href="mailto:tasdik95@gmail.com" > email</a>. 
 
-    <br><br><i>The blue highlights in the resume would be links to the references.</i>
+    <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
+    my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
 
-    <br><br><i>Last updated on 22nd April, 2016</i>
+    <br><br><i>Last updated on 5th of August, 2016</i>
 
     <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_aug_2016.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
 
