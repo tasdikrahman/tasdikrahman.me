@@ -48,8 +48,6 @@ That's me by the way. Thanks to the bad camera quality *sigh*.
 
 <center><img src="/content/images/2016/10/chennaipy3.jpeg"></center> 
 
-<center><img src="/content/images/2016/10/chennaipy4.jpeg"></center> 
-
 <center><img src="/content/images/2016/10/chennaipy5.jpeg"></center> 
 
 The lovely crowd for the meetup. Cheers to them!
