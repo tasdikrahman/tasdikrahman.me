@@ -51,4 +51,4 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 <center><img src="/content/images/pycon2015_res.jpg"></center>
 
 
-<center><p><em>Me @ Pycon 2015, Bangalore</em></p></center>
+<center><p><em>Me @ Pycon India 2015, Bangalore</em></p></center>
