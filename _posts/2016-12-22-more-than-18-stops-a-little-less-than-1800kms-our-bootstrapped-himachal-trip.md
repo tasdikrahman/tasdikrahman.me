@@ -77,19 +77,21 @@ For a change, not everyone was trying to loot us. And it was a little warmer tha
 
 Manali was a little over 9kms from our place and we left early the next morning.
 
-It was a mix of Shimla's mall road and valleys that you find around in Pune. We visited the local tibetan monasteries, bought a lot of souvenirs and some indigenous handricrafts. Van vihar should have been prepended with a "big".Minus the fact that it was not snowing, I liked it more than Shimla.
-
 <center><img src="/content/images/2016/12/manali2.jpg"></center>
+
+It was a mix of Shimla's mall road and valleys that you find around in Pune. We visited the local tibetan monasteries, bought a lot of souvenirs and some indigenous handricrafts.
 
 <center><img src="/content/images/2016/12/manali3.jpg"></center>
 
 We returned back to kullu the same night. ATMs were scarse. Further finding ATMs which had any money in them was like finding water in a desert. But we survived the night.
 
+<center><img src="/content/images/2016/12/manali5.jpg"></center>
+
 Kheerganga is a good destination for trekkers if you are in the mood of any of it. But we didn't plan it(read on)
 
 <center><img src="/content/images/2016/12/manali4.jpg"></center>
 
-<center><img src="/content/images/2016/12/manali5.jpg"></center>
+Van vihar should have been prepended with a "big".Minus the fact that it was not snowing, I liked it more than Shimla.
 
 <center><img src="/content/images/2016/12/manali6.jpg"></center>
 
@@ -137,13 +139,11 @@ One night was enough for the whole thing!
 
 This trip from Manikaran was the most gruelling bus trips.
 
-<center><img src="/content/images/2016/12/manikaran2.jpg"></center>
-
 Manikaran to kasol was the first leg. This went swiftly. Next stop was bhunter. After that we had to catch a bus for Mandi. All this consumed nothing but our patience and time. We reached Mandi just a little after 4o'clock.
 
 Such was our luck that we just missed a direct bus for Dharamshala. We were famished! Our stomachs were empty since the raw Israeli breakfast that we had back at Kasol(it was Devaraj's idea).
 
-<center><img src="/content/images/2016/12/kasol_5.jpg"></center>
+<center><img src="/content/images/2016/12/kasol5.jpg"></center>
 
 We had some momo's at a local shop near the bus stand.
 
@@ -237,8 +237,6 @@ After some refreshments and countless pit stops, we did reach the top. I mean fi
 We reached just before the sunset and the view! It was ethereal. The sun rays falling down on the dhauladhar mountain range. The dogs running around and playing with each other occasionally coming to the lap of the tea stall owner, wagging his tail for some buscuits.
 
 <center><img src="/content/images/2016/12/triund4.jpg"></center>
-
-<center><img src="/content/images/2016/12/triund5.jpg"></center>
 
 <center><img src="/content/images/2016/12/triund6.jpg"></center>
 
