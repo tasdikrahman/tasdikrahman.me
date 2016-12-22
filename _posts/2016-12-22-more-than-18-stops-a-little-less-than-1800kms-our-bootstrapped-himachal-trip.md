@@ -276,4 +276,8 @@ Best trip till now for me!
 
 <center><img src="/content/images/2016/12/triund10.jpg"></center>
 
-So that was much about it. If you are reading till the end. I sincerely thank you for going till the end. Godspeed!
+So that was much about it. If you are reading till the end. I sincerely thank you for going till the end.
+
+Between, I have hardly pinned any photos for the trip here. So if you wanted a deeper look, [my friends on instagram](https://instagram.com/tasdikrahman/) will surely complain about my never ending feed of this trips photographs!
+
+Godspeed!
