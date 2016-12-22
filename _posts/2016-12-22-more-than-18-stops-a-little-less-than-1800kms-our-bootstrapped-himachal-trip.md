@@ -171,9 +171,11 @@ Sleep came naturally to both of us and both of us greeted our families on phone 
 
 Next stop was the famed Norbulingka institute.
 
-<center><img src="/content/images/2016/12/dharamshala1.jpg"></center>s
+<center><img src="/content/images/2016/12/dharamshala1.jpg"></center>
 
 I would say it would be the best place for someone visiting Dharamshala who wants to have a closer look at the Tibetan culture and how they live their daily lives.
+
+<center><img src="/content/images/2016/12/dharamshala3.jpg"></center>
 
 You had workshops which taught you about the traditional wood carving practices.
 
@@ -183,11 +185,9 @@ The 3-D wall paintings which you could see on monastries, the bronze buddha idol
 
 <center><img src="/content/images/2016/12/dharamshala2.jpg"></center>
 
-<center><img src="/content/images/2016/12/dharamshala4.jpg"></center>
-
-<center><img src="/content/images/2016/12/dharamshala3.jpg"></center>
-
 The whole compound resonated tibetan architechture. They had a musuem which had exhibits displaying how different sects of the buddhist community dressed like all the way from the comman man to the wifes of kings.
+
+<center><img src="/content/images/2016/12/dharamshala4.jpg"></center>
 
 We thought about dropping by the souvenir shop to find something in our budget but we were so wrong! But it was well maintained. I give them that.
 
