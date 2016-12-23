@@ -18,13 +18,13 @@ But hopefully, our decided trip was completed. Wasn't that smooth. But as the sa
 
 > What is an ocean if it doesn't challenge the sailors!
 
-Thanks to the recent [demonetization drive](www.wsj.com/articles/indias-demonetization-debacle-1481851086) by the Indian govt. We had to delay our plans for the trip by some days.
+Thanks to the recent [demonetization drive](http://www.wsj.com/articles/indias-demonetization-debacle-1481851086) by the Indian govt. We had to delay our plans for the trip by some days.
 
 ## Shimla
 
-I started from Dehradun on the night of 28th of November. Left for Delhi in the middle of the night, after much cajoling and reassurances to my mum that I wouldn't be doing bat-sh*t crazy stuff on my trip. Which was not entirely fulfilled as you will see after some time.
+I started from Dehradun on the night of 28th of November. Left for Delhi in the middle of the night, after much cajoling and giving reassurances to my mum that I wouldn't be doing bat-sh*t crazy stuff on my trip. Which was not entirely fulfilled as you will see after some time.
 
-The bus ride was full of surprises as air seeped in through like water from the narrow gapes in the metal sheets. And how could I miss the creeking noise of the suspension. All this amounted to me not getting little or no sleep at all througout the night. Add it to the amount of cold it was outside.
+The bus ride was full of surprises as air seeped in through like water from the narrow gapes in the metal sheets. And how could I miss the creeking noise of the suspension. All this amounted to me not getting little or no sleep at all throughout the night. Add it to the amount of cold it was outside.
 
 I was dropped well before my destination citing reasons of excessive fog and traffic. Panic? Rushing to the nearest metro station was the answer. Reached Kashemere Gate from where we had our next bus to Shimla. Devaraj tagged along from there.
 
@@ -42,7 +42,7 @@ The sweet talking manager showed us our rooms which had a great view of shimla f
 
 <center><img src="/content/images/2016/12/room_shimla.jpg"></center>
 
-We had dinner at the local chinese shop after which we roamed around the famous mall road. Handicrafts were priced off the roof. No wonder, given the amount of tourists which flocked this city.
+We had dinner at the local Chinese cuisine shop after which we roamed around the famous mall road. Handicrafts were priced off the roof. No wonder, given the amount of tourists which flocked this city.
 
 <center><img src="/content/images/2016/12/room_shimla_1.jpg"></center>
 
@@ -191,7 +191,7 @@ The 3-D wall paintings which you can see on monastries, the bronze buddha idols 
 
 <center><img src="/content/images/2016/12/dharamshala2.jpg"></center>
 
-The whole compound resonated rich tibetan architechture. They had a musuem which had exhibits displaying how different sects of the buddhist communities dressed. All the way from the comman man to the wives of kings and their family.
+The whole compound resonated rich Tibetan architecture. They had a Museum which had exhibits displaying how different sects of the Buddhist communities dressed. All the way from the comman man to the wives of kings and their family.
 
 <center><img src="/content/images/2016/12/dharamshala4.jpg"></center>
 
@@ -236,7 +236,7 @@ The only means of taking goods up the hill are donkeys. Each donkey costs 800 IN
 
 The shops have dustbins where they store all the garbage to be given back to the same donkeys when they come back on a U-turn to be taken downhill. The charges for this is cheap. 9/- INR per bag. Enough with the tariffs.
 
-So we reached the famous `magic view cafe`. Well it's not exactly the typical CCD or barista that we frequent out. But apparantly, it's the oldest `chai` point on the way to triund's top.
+So we reached the famous `magic view cafe`. Well it's not exactly the typical CCD or barista that we frequent out. But apparently, it's the oldest `chai` point on the way to triund's top.
 
 After some refreshments and countless pit stops, we did reach the top. I mean finally!
 
@@ -254,7 +254,7 @@ Pain, fatigue and thirst were long lost friends when we sat down and drank the l
 
 <center><img src="/content/images/2016/12/triund8.jpg"></center>
 
-We got ours tents fixed and settled down our bags in them and got out to join the others in the bonfire. We had a very diverse group of people in our vicinity. Some came from Mumbai, a group of students from Delhi University and some from Banaras.
+We got ours tents fixed and settled down our bags in them and got out to join the others in the bonfire. We had a very diverse group of people in our vicinity. Some came from Mumbai, a group of students from Delhi University and some from Benaras.
 
 <center><img src="/content/images/2016/12/triund7.jpg"></center>
 
@@ -266,7 +266,7 @@ So here we were watching "Harry Potter and the deathly hallows" on Deveraj's pho
 
 > I don't know what the time was, but I woke up to some heavy breathing nearby. I thought it was Devaraj vaping but he was fast asleep.
 
-Turned out the dog decided to sleep right next to my side of the tent. I could literally feel his hot and heavy breathing, continuously near me. I told Deveraj that a black came to visit us in the morning! And he was gullible enough to even say OMG for a second.
+Turned out the dog decided to sleep right next to my side of the tent. I could literally feel his hot and heavy breathing, continuously near me. I told Deveraj that a black bear (the chaiwala told us that they frequented the path uphill in search of food sometimes) came to visit us in the morning! And he was gullible enough to even say OMG for a second.
 
 I woke up at around 6o'clock, opened the tent sheets and we woke up to this.
 
@@ -286,13 +286,13 @@ The climax comes over when the spot where you are squatting over is on a cliff. 
 
 After a cup of maggi, packing our rucksacks and bading goodbye with the friends we made, we left the summit.
 
-From Dharamshala, Devaraj got on a bus to Delhi and I boarded a bus to Chandigarh which I reached at around 11:30p.m. I thought about staying over for the night but I wanted to reach back home badly.
+From Dharamshala, Devaraj got on a bus to Delhi and I boarded a bus to Chandigarh which I reached at around 11:30p.m. Mum reminded me again of staying over for the night but I wanted to reach back home badly.
 
 With all the bad decisions so far, this was no better. I reached Dehradun at around 3:30a.m.
 
-No Taxi, no auto. No nothing! So what was that I did? Oh no, I didn't walk all the way to my house!
+No Taxi, no auto. No nothing! Oh no, I didn't walk all the way to my house!
 
-I did wait for the night to get over at the bus stand and boarded the first city bus and got off near my house.
+I did wait for the night to get over at the bus stand. Boarded the first city bus and got off near my house.
 
 Best trip till now for me!
 
@@ -300,6 +300,6 @@ Best trip till now for me!
 
 So that was much about it. If you are reading till the end. I sincerely thank you for being so patient!
 
-Between, I have hardly pinned any photos for the trip here. So if you wanted a deeper look, [my friends on instagram](https://instagram.com/tasdikrahman/) will surely complain about my never ending feed of this trips photographs!
+Between, I have hardly pinned any photos for the trip here. So if you wanted a deeper look, [my friends on instagram](https://instagram.com/tasdikrahman/) will surely complain about my never ending feed from this trips photographs!
 
 Godspeed!
