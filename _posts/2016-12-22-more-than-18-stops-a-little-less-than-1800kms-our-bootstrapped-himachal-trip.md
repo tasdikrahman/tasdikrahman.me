@@ -24,7 +24,7 @@ Thanks to the recent [demonetization drive](http://www.wsj.com/articles/indias-d
 
 I started from Dehradun on the night of 28th of November. Left for Delhi in the middle of the night, after much cajoling and giving reassurances to my mum that I wouldn't be doing bat-sh*t crazy stuff on my trip. Which was not entirely fulfilled as you will see after some time.
 
-The bus ride was full of surprises as air seeped in through like water from the narrow gapes in the metal sheets. And how could I miss the creeking noise of the suspension. All this amounted to me not getting little or no sleep at all throughout the night. Add it to the amount of cold it was outside.
+The bus ride was full of surprises as air seeped in through like water from the narrow gapes in the metal sheets. And how could I miss the creaking noise of the suspension. All this amounted to me not getting little or no sleep at all throughout the night. Add it to the amount of cold it was outside.
 
 I was dropped well before my destination citing reasons of excessive fog and traffic. Panic? Rushing to the nearest metro station was the answer. Reached Kashemere Gate from where we had our next bus to Shimla. Devaraj tagged along from there.
 
@@ -56,7 +56,7 @@ After much shouting and drama, we settled with him for the initial booking amoun
 
 Just when we were thinking that this trip was going on a downhill drive, we had our impromptu rafting trip.
 
-And boy it was amazing! 25kms of raw nature. I cannot articulate the feeling. And 3 hours later, after countless rapids an being drenched to the bone, we reached back to the last spot from where we would be picked up back on the trucks. I slept like a baby.
+And boy it was amazing! 25kms of raw nature. I cannot articulate the feeling. And 3 hours later, after countless rapids and being drenched to the bone, we reached back to the last spot from where we would be picked up back on the trucks. We changed our wet clothes with some dry ones and hopped inside our ride back. I slept like a baby.
 
 <center><img src="/content/images/2016/12/rafting_1.jpg"></center>
 
@@ -73,7 +73,7 @@ The 2 nights spent in Shimla went just fine. And on the 3rd day, we left for man
 
 <center><img src="/content/images/2016/12/manali1.jpg"></center>
 
-Before I write any further. I confess that we were one of the guys who didn't know that kullu and manali were two different places altogether. Oh come on now. Don't go so hard on me!
+Before I write any further. I confess, that we were one of those guys who didn't know that kullu and manali were two different places altogether. Hey, I never said that I am good at geography!
 
 So before Manali, you arrive at Kullu if you go by road from Shimla.
 
@@ -83,15 +83,15 @@ Manali was a little over 9kms from our place and we left early the next morning.
 
 <center><img src="/content/images/2016/12/manali2.jpg"></center>
 
-It was a mix of Shimla's mall road and valleys that you find around in Pune. We visited the local tibetan monasteries, bought a lot of souvenirs and some indigenous handricrafts.
+It was a mix of Shimla's mall road and valleys that you find around in Pune. We visited the local Tibetan monasteries, bought a lot of souvenirs and some indigenous handicrafts.
 
 <center><img src="/content/images/2016/12/manali3.jpg"></center>
 
-We returned back to Kullu the same night. ATMs were scarse. Further, finding ATMs which had any money in them was like finding water in a desert. But we survived the night.
+We returned back to Kullu the same night. ATMs were scarce. Further, finding ATMs which had any money in them was like finding water in a desert. But we survived the night.
 
 <center><img src="/content/images/2016/12/manali5.jpg"></center>
 
-Kheerganga is a good destination for trekking if you are in the mood for any of it. But as we didn't plan it we left it out for this trip for another trek(read on)
+Kheerganga is a good destination for trekking if you are in the mood for any of it. But as we didn't plan it, we left it out for another reason(read on)
 
 <center><img src="/content/images/2016/12/manali4.jpg"></center>
 
@@ -111,7 +111,7 @@ Imagine a tall unshaven guy, wearing a tattered blue denim with a pair of Quechu
 
 We first had to reach bhunter and then take a bus to kasol. We reached kasol just before sunset and got us a good room. It was a real steal at the price at which we got.
 
-You could find pugmarks of Israeli culture almost everywhere. The shops, the cafes. All had menu cards, graffiti and wall posters in Israeli.
+You could find the essense of Israeli culture almost everywhere. The shops, the cafes. All had menu cards, graffiti and wall posters in Israeli.
 
 <center><img src="/content/images/2016/12/kasol2.jpg"></center>
 
@@ -121,9 +121,9 @@ You ask why was our room deal a good one? Our room was situated right beside the
 
 The main Kasol is a small place and you can literally cover it within an hour by foot. All the shops and cafes are situated around a T-shaped area.
 
-This place is a must for anybody who is attracted towards the `hippie culture`. You will find Israeli's buying groceries talking in fluent Hindi. People roam around wearing long beaded jewellery, colorful khakhi pants (imagine a purple tinge for example), flower print tops, unkempt dirty long hair(no offence) filled with beads.
+This place is a must for anybody who is attracted towards the `hippie culture`. You will find Israeli's buying groceries talking in fluent Hindi. People roam around wearing long beaded jewelry, colorful khaki pants (imagine a purple tinge for example), flower print tops, unkempt dirty long hair(no offence) filled with beads.
 
-Some Beatles and Bob Dylan music and there you are back to the late 1960s hippie culture of the United States.
+Some Beetles and Bob Dylan music and there you are back to the late 1960s hippie culture of the United States.
 
 <center><img src="/content/images/2016/12/kasol3.jpg"></center>
 
@@ -143,7 +143,7 @@ A one night stay at Kasol was enough for the whole thing!
 ## Dharamshala
 
 
-This trip from Manikaran was the most gruelling of bus trips till now.
+This trip from Manikaran was the most grueling of bus trips till now.
 
 Manikaran to Kasol was the first leg. This went swiftly. Next stop was Bhunter. After that we had to catch a bus for Mandi. All this consumed a lot more than our patience and time. We reached Mandi just a little after 4o'clock.
 
@@ -161,15 +161,15 @@ And we could have always booked a room at Mandi and waited for the next morning 
 
 Given how reckless we are, we chose the 6o'clock bus. If you have ever gotten into a BEST bus(referring to the local state transport for Bombay), our bus was worse than that. I could hardly position my legs in a comfortable way. Sleeping was out of question. But we had to endure. I mean did we have any other choice here?
 
-Fast forward some uncomfortable hours, I was jolted by a thud at my feet. Next thing I know, a man was literally down at my feet. A tinge of alcohol arose from under his breath. It became apparant that he did not fall down from his seat by the violent jerks which the driver didn't care giving the passengers.
+Fast forward some uncomfortable hours, I was jolted by a thud at my feet. Next thing I know, a man was literally down at my feet. A tinge of alcohol arose from under his breath. It became apparent that he did not fall down from his seat by the violent jerks which the driver didn't care giving the passengers.
 
 His fellow mate (or what I assumed him to be) swooped him up from my feet before I kept my bag aside to help him. He placed him back to his seat.
 
 We reached Dharamshala's ISBT a few minutes shyer than 12:30a.m. In search of a hotel, we started roaming the streets. There was nobody to be found on the streets, Leave alone dogs. Well I didn't expect anybody to be out of their houses at that unearthly hour given the experience at Shimla where the whole of Mall road closes by 9:30p.m.
 
-After some hurried searching, we got a decent room and settled down. The squemish feeling since Mandi didn't go away hence I didn't want anything to eat. But Devaraj was feeling uncomfortably hungry. He went out in search of some food at a time when most people are having their first cycle of REM sleep!
+After some hurried searching, we got a decent room and settled down. The squeamish feeling since Mandi didn't go away hence I didn't want anything to eat. But Devaraj was feeling uncomfortably hungry. He went out in search of some food at a time when most people are having their first cycle of REM sleep!
 
-To both of our surprise, he did find a local `dhaba` serving `roti sabzi and dal`. While Deveraj was gobbling down his supper, I read on that our honorable Chief Minister, Jayalalitha had passed away that day! News of which came as a shocker for both of us.
+To both of our surprise, he did find a local `dhaba` serving `roti sabzi and dal`. While Devaraj was gobbling down his supper, I read on that our honorable Chief Minister, Jayalalitha had passed away that day! News of which came as a shocker for both of us.
 
 Sleep came naturally and both of us greeted our families on phone with a good afternoon as it was past 12 when we woke up the next day.
 
@@ -187,11 +187,11 @@ You have workshops which teach you about the traditional wood carving practices.
 
 <center><img src="/content/images/2016/12/dharamshala5.jpg"></center>
 
-The 3-D wall paintings which you can see on monastries, the bronze buddha idols which are hand crafted to perfection in the local workshop. It was beautiful!
+The 3-D wall paintings which you can see on monasteries, the bronze buddha idols which are hand crafted to perfection in the local workshop. It was beautiful!
 
 <center><img src="/content/images/2016/12/dharamshala2.jpg"></center>
 
-The whole compound resonated rich Tibetan architecture. They had a Museum which had exhibits displaying how different sects of the Buddhist communities dressed. All the way from the comman man to the wives of kings and their family.
+The whole compound resonated rich Tibetan architecture. They had a Museum which had exhibits displaying how different sects of the Buddhist communities dressed. All the way from the common man to the wives of kings and their family.
 
 <center><img src="/content/images/2016/12/dharamshala4.jpg"></center>
 
@@ -208,7 +208,7 @@ We came back to our room and had our dinner after some time and went to sleep.
 
 Way back in the 1930s, McLeodGanj was literally left for ruins when it was hit with a massive earthquake. It was brought back to the scene when the exiled Tibetan govt was given refuge in its hills.
 
-The honorable Dalai Lama and his house of ministers all reside in and around that area. I found that the tibetan souvenirs, if to be bought, were much cheaper in comparison to kasol/shimla/manali here. This was to be expected as a large population of exiled tibetan refugees stay here. So if you want to shop, this is the place to do so!
+The honorable Dalai Lama and his house of ministers all reside in and around that area. I found that the Tibetan souvenirs, if to be bought, were much cheaper in comparison to kasol/shimla/manali here. This was to be expected as a large population of exiled Tibetan refugees stay here. So if you want to shop, this is the place to do so!
 
 We hopped around some shops and had our refreshments keeping in mind the affordable shops to buy from while returning back. And we left for triund.
 
@@ -224,11 +224,11 @@ Loose placed rocks, rubble, dry grass mixed with the dump of local herders cattl
 
 <center><img src="/content/images/2016/12/triund2.jpg"></center>
 
-The initial wider and plain track gave way to a much narrow and harder path. We had our moments where we had an extremely beautiful view of McLeodGanj in front of us and there were times when Deveraj would almost collapse (blackout if you may) due to fatigue. He has a heart condition which he didn't tell me before. But never the less.
+The initial wider and plain track gave way to a much narrow and harder path. We had our moments where we had an extremely beautiful view of McLeodGanj in front of us and there were times when Devaraj would almost collapse (blackout if you may) due to fatigue. He has a heart condition which he didn't tell me before. But never the less.
 
 <center><img src="/content/images/2016/12/triund3.jpg"></center>
 
-There were 3-4 shops placed (2 were closed the day we visited) at the edge of the path where you could buy chocolates, water bottles and maggi. They sold things at 2x the MRP but I think this is justified.
+There were 3-4 shops placed (2 were closed the day we visited) at the edge of the path where you could buy chocolates, water bottles and Maggi. They sold things at 2x the MRP but I think this is justified.
 
 The only means of taking goods up the hill are donkeys. Each donkey costs 800 INR a per trip from the campsite to the hill top.
 
@@ -250,11 +250,11 @@ Pain, fatigue and thirst were long lost friends when we sat down and drank the l
 
 <center><img src="/content/images/2016/12/triund11.jpg"></center>
 
-> Deveraj was as usual puffing on to one of his Marlboro's while I checked my cell phone for any coverage. Zero signal! But what else do you expect at 2875 meters above sea level!
+> Devaraj was as usual puffing on to one of his Marlboro's while I checked my cell phone for any coverage. Zero signal! But what else do you expect at 2875 meters above sea level!
 
 <center><img src="/content/images/2016/12/triund8.jpg"></center>
 
-We got ours tents fixed and settled down our bags in them and got out to join the others in the bonfire. We had a very diverse group of people in our vicinity. Some came from Mumbai, a group of students from Delhi University and some from Benaras.
+We got ours tents fixed and settled down our bags in them and got out to join the others in the bonfire. We had a very diverse group of people in our vicinity. Some came from Mumbai, a group of students from Delhi University and some from Banaras.
 
 <center><img src="/content/images/2016/12/triund7.jpg"></center>
 
@@ -262,13 +262,13 @@ As we devoured down our modest plate of `Dal Chawal` (which costed a bomb!) we t
 
 Time for sleep came a lot early for me as I was feeling really cold and fatigued. I slept with 3 layers of clothes, a muffler, a bunny cap and a sleeping bag on top of it! And still I was shaking vigorously due to the cold for some time.
 
-So here we were watching "Harry Potter and the deathly hallows" on Deveraj's phone, sharing his earpieces and finishing the last piece of Lays packet we had on us and before I knew it I was fast asleep.
+So here we were watching "Harry Potter and the deathly hallows" on Devaraj's phone, sharing his earpieces and finishing the last piece of Lays packet we had on us and before I knew it I was fast asleep.
 
 > I don't know what the time was, but I woke up to some heavy breathing nearby. I thought it was Devaraj vaping but he was fast asleep.
 
-Turned out the dog decided to sleep right next to my side of the tent. I could literally feel his hot and heavy breathing, continuously near me. I told Deveraj that a black bear (the chaiwala told us that they frequented the path uphill in search of food sometimes) came to visit us in the morning! And he was gullible enough to even say OMG for a second.
+Turned out the dog decided to sleep right next to my side of the tent. I could literally feel his hot and heavy breathing, continuously near me. I told Devaraj that a black bear (the chaiwala told us that they frequented the path uphill in search of food sometimes) came to visit us in the morning! And he was gullible enough to even say OMG for a second.
 
-I woke up at around 6o'clock, opened the tent sheets and we woke up to this.
+It may be around 6o'clock in the morning, opened the tent sheets and this was in front of us.
 
 <center><img src="/content/images/2016/12/triund9.jpg"></center>
 
@@ -284,7 +284,7 @@ Surprisingly not, there is not even a makeshift loo for you. So what's the solut
 
 The climax comes over when the spot where you are squatting over is on a cliff. So if you accidentally slip over. You are not coming back alive the 2780 meters! Hope you have done your insurance?
 
-After a cup of maggi, packing our rucksacks and bading goodbye with the friends we made, we left the summit.
+After a bowl of Maggi, packing our rucksacks and bading goodbye with the friends we made, we left the summit.
 
 From Dharamshala, Devaraj got on a bus to Delhi and I boarded a bus to Chandigarh which I reached at around 11:30p.m. Mum reminded me again of staying over for the night but I wanted to reach back home badly.
 
@@ -300,6 +300,6 @@ Best trip till now for me!
 
 So that was much about it. If you are reading till the end. I sincerely thank you for being so patient!
 
-Between, I have hardly pinned any photos for the trip here. So if you wanted a deeper look, [my friends on instagram](https://instagram.com/tasdikrahman/) will surely complain about my never ending feed from this trips photographs!
+Between, I have hardly pinned any photos for the trip here. So if you wanted a deeper look, [my friends on Instagram](https://instagram.com/tasdikrahman/) will surely complain about my never ending feed from this trips photographs!
 
 Godspeed!
