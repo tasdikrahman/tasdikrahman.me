@@ -11,7 +11,9 @@ title: About Me
 
 Speaks [parseltongue](https://python.org/) way too often apparently. Has been wasting his weekends lately building stuff instead of studying. Loves working on tools, infrastructure and everything Pythonic.
 
-Former Summer Engineering Intern('16) with the backend team @ [Wingify](https://wingify.com/), helping build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
+Engineering Intern @ Cisco as part of their Security Business group helping make scalable security products.
+
+Former Summer Engineering Intern(S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
 
 ***
 
