@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'json', github: 'flori/json', branch: 'v1.8'
 gem 'github-pages'
 gem 'font-awesome-less'
 gem 'jekyll-compose', group: [:jekyll_plugins]

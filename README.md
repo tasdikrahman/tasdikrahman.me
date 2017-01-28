@@ -9,3 +9,20 @@ Heavily influnced from
 
 Hosted with love on Github pages, Domain registered at [Namecheap](https://namecheap.com)
 
+## setup
+
+#### OS X
+
+```
+$ git clone https://github.com/prodicus/tasdikrahman.me && cd tasdikrahman.me
+$ git checkout gh-pages
+$ brew install ruby coreutils
+$ gem install jekyll bundler
+$ bundle install
+$ bundle exec jekyll build 
+$ bundle exec jekyll serve
+```
+
+Go to [http://localhost:4000/](http://localhost:4000/) and voila!
+
+**NOTE**: Don't use `sudo` if you don't wan't to break things for other users on the machine.
