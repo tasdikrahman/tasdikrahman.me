@@ -77,6 +77,8 @@ I just wanted to get started with some or the other tool! That's it.
 
 I am pretty sure that `chef`, `puppet`, `salt stack` and the like are equally good and will serve your use case. So do check them out too and have a feel around the different hammers around the market.
 
+But one great thing about Ansible is that you don't need a PKI architecture or some special communication protocol for managing it's nodes. It(your manager) just uses plain on SSH for communicating with it's nodes. Although for older versions of ansible, it used to communicate using the paramiko SSH-2 python implementation
+
 ## A simple comparison
 
 Nothing much, just a simple `apache2` virtual hosts setup for your VPS.
@@ -133,8 +135,9 @@ You can put all the necessary commands above and put it inside a `provision.sh` 
 
 The above configuration is just a simple POC showing the general relative ease of using tools like `Ansible`. You can do a lot more like provisioning full blown distributed servers from scratch, load balance them by putting a load balancer like HAProxy in front of it and what not!
 
-Moral of the story? __Use Configuration management tools!__
-
-You will sleep well in night instead of worrying about your servers.
+So it's left on you to decide what suits you best.
 
 Cheers!
+
+On a side note, I automated installing and setting up the dev environment for OpenCV 3 for python3 using Ansible. The code as usual for every other project lies in [github](https://github.com/prodicus/opencv3-ansible-vagrant-playbook)
+
