@@ -86,6 +86,59 @@ The contents of my `play.yml` are sequenced in such a manner so that the roles g
 
 The roles are placed as key-value's inside the dict roles here. the `username` variable is being passed to the roles `create_new_server` and `vimserver` as a value using which the new user should be created.
 
+You can also put the `username` variable inside individual roles dir, which would look something like
+
+```
+└── roles
+    └── create_new_user
+        ├── vars
+        │   └── main.yml
+        └── tasks
+            └── main.yml
+```
+
+The `vars/main.yml` would contain
+
+```
+---
+username: tasdik
+```
+
+But I feel this would become a cumbersome task for the ansible-playbook at question. I would again have to put the same `vars/main.yml` inside the role `vimserver` which would be a duplicate of this file.
+
+For that reason, I am passing the variable at the play level for each of the ansible roles.
+
+## How does Jinja2 come into play here?
+
+Have a look at the file
+
+```bash
+$ cat digitalocean/roles/vimserver/tasks/main.yml
+---
+- name: Place vimrc_server on ~/.vimrc
+  copy:
+    src: vimrc_server
+    dest: /home/{ username }/.vimrc
+    mode: 0644
+    owner: "{ username }"
+```
+
+The `"{ username }"` is substitued with the value that you provided to the role at runtime. The reason we have put quotes around it is because the yaml parser for ansible requires it so when you are just starting the jinja variable as the starting value.
+
+You needn't have put the quotes if for example it were something like this.
+
+```bash
+- name: Copy .ssh/id_rsa from host box to the remote box for user username
+  become: true
+  copy:
+    src: ~/.ssh/id_rsa.pub
+    dest: /home/{ username }/.ssh/authorized_keys
+```
+
+**NOTE: Please note that there are double curly braces in the above example which surround `username`. The templating engine wasn't allowing me to put it there as it would take it as a variable for substitution.**
+
+## Closing thoughts
+
 Ansible uses Jinja2 as the templating engine of choice(also the choice of the biggies Flask and Django). So you would be in familair territory if you have dabbled in those.
 
 You can finally run this playbook using 
