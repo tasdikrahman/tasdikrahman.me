@@ -1,0 +1,97 @@
+---
+layout: post
+title: "Organising tasks in roles using Ansible"
+description: "Organising tasks in roles using Ansible"
+tags: [python, devops]
+comments: true
+share: true
+cover_image: '/content/images/2017/03/front.png'
+---
+
+**NOTE**: __The ansible playbook written here can be found at [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)__
+
+Roles are nothing but a further abstraction of making your playbook more modular. If you have played around with the `ansible-playbook` command. You might have noticed the common patter of repeating tasks which you did some or the other time back.
+
+Ansible roles provide you a way to reuse tasks(or roles for that matter). Imagine this to be a very similar concept writing Object oriented code.
+
+For an example, let's take this structure for an example.
+
+## What does this playbook do?
+
+I realized that I was doing the same thing over and over again whenever I had to spin up a new droplet(instance for the EC2 people). The droplet would be the base of anything I would start doing something with. Things like
+
+- Updating and upgrading the existing packages
+- Installing some bare essentials on it (eg: git, vim, ncdu etc)
+- creating a non-root user with admin privileges
+- enabling a basic firewall
+- some common chores.
+
+Hence I found myself writing [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)
+
+
+```bash
+$ tree digitalocean
+digitalocean
+├── README.md
+├── play.yml
+└── roles
+    ├── bootstrap_server
+    │   └── tasks
+    │       └── main.yml
+    ├── create_new_user
+    │   └── tasks
+    │       └── main.yml
+    ├── update
+    │   └── tasks
+    │       └── main.yml
+    └── vimserver
+        ├── files
+        │   └── vimrc_server
+        └── tasks
+            └── main.yml
+```
+
+Let's break it down further.
+
+- `digitalocean` : The root dir which will contain the `roles` dir which further contains roles for tasks
+- `play.yml` : A normal playbook in `.yml` format which stiches the roles that we have created inside `roles` dir
+- `bootstrap_server` : contains the task file(s) needed for the necessary tasks declared inside the `tasks/main.yml`. The roles `create_new_user` et el suggest the same thing.
+- `tasks` : This directory contains all of the tasks that would normally be in a playbook. These can reference files and templates contained in their respective directories without using a path.
+
+Similar to `tasks` dir inside roles, we have many more files specifically used for other things
+
+Those being,
+
+- `files`: This directory contains regular files that need to be transferred to the hosts you are configuring for this role. This may also include script files to run.
+- `handlers`: All handlers that were in your playbook previously can now be added into this directory.
+- `meta` : This directory can contain files that establish role dependencies. You can list roles that must be applied before the current role can work correctly.
+- `templates`: You can place all files that use variables to substitute information during creation in this directory.
+- `vars`: Variables for the roles can be specified in this directory and used in your configuration files.
+
+## `play.yml`
+
+The contents of my `play.yml` are sequenced in such a manner so that the roles get executed in a sequence. This is a very handy feature which allows you to configure software which depends on some other software. 
+
+```
+---
+- hosts: testdroplets
+  roles:
+    - update
+    - bootstrap_server
+    - role: create_new_user
+      username: tasdik
+    - role: vimserver
+      username: tasdik
+```
+
+The roles are placed as key-value's inside the dict roles here. the `username` variable is being passed to the roles `create_new_server` and `vimserver` as a value using which the new user should be created.
+
+Ansible uses Jinja2 as the templating engine of choice(also the choice of the biggies Flask and Django). So you would be in familair territory if you have dabbled in those.
+
+You can finally run this playbook using 
+
+```bash
+$ ansible-playbook play.yml -vvv 
+```
+
+Happy ansibling!
