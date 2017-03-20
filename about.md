@@ -23,6 +23,16 @@ I am always a tweet away if you have something interesting in mind.
 
 _I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers_
 
+***
+
+If you have found my little bits of software of any use to you, you can help me pay my internet bills :)
+
+<p align="center">
+<a href="https://www.paypal.me/tasdikrahman"><img src="https://tuxtricks.files.wordpress.com/2016/12/donate.png" alt="Donate via PayPal!" title="Donate via PayPal!" /></a>
+</p>
+
+Some of my projects are also on [gratipay](https://gratipay.com/~prodicus/)
+
 
 ###  Me splattered across the web
 
