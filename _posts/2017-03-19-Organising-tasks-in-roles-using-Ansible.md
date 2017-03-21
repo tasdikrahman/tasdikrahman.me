@@ -10,15 +10,13 @@ cover_image: '/content/images/2017/03/front.png'
 
 **NOTE**: __The ansible playbook written here can be found at [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)__
 
-Roles are nothing but a further abstraction of making your playbook more modular. If you have played around with the `ansible-playbook` command. You might have noticed the common patter of repeating tasks which you did some or the other time back.
+Roles are nothing but a further abstraction of making your playbook more modular. If you have played around with the `ansible-playbook` command. You might have noticed the common pattern of repeating tasks which you did some or the other time back.
 
 Ansible roles provide you a way to reuse tasks(or roles for that matter). Imagine this to be a very similar concept writing Object oriented code.
 
-For an example, let's take this structure for an example.
+## Need for roles?
 
-## What does this playbook do?
-
-I realized that I was doing the same thing over and over again whenever I had to spin up a new droplet(instance for the EC2 people). The droplet would be the base of anything I would start doing something with. Things like
+I realised that I was doing the same thing over and over again whenever I had to spin up a new droplet(instance for the EC2 people). Things like
 
 - Updating and upgrading the existing packages
 - Installing some bare essentials on it (eg: git, vim, ncdu etc)
@@ -28,6 +26,7 @@ I realized that I was doing the same thing over and over again whenever I had to
 
 Hence I found myself writing [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)
 
+Take this structure for example.
 
 ```bash
 $ tree digitalocean
