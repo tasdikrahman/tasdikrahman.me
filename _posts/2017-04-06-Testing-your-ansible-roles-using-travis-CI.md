@@ -193,11 +193,17 @@ The Build config will be something like, where you can see the `"env": "ANSIBLE_
 }
 ```
 
-`ansible-playbook -i tests/inventory tests/test.yml --syntax-check` would check for any syntax errors as obvious from the command itself, helps in checking any errors early on before the build.
+- `ansible-playbook -i tests/inventory tests/test.yml --syntax-check`: 
 
-`ansible-playbook -i tests/inventory tests/test.yml -vvvv --skip-tags update,copy_host_ssh_id` is the line which actually runs the playbook
+would check for any syntax errors as obvious from the command itself, helps in checking any errors early on before the build.
 
-`id -u tasdik | grep -q "no" && (echo "user not found" && exit 1) || (echo "user found" && exit 0)` checks whether a user named `tasdik` exists or not after the playbook has completed its execution.
+- `ansible-playbook -i tests/inventory tests/test.yml -vvvv --skip-tags update,copy_host_ssh_id`:
+
+is the line which actually runs the playbook
+
+- `id -u tasdik | grep -q "no" && (echo "user not found" && exit 1) || (echo "user found" && exit 0)`:
+
+checks whether a user named `tasdik` exists or not after the playbook has completed its execution.
 
 I have skipped explaining some of the parts in my `.travis.yml`. You can learn more about [build configuration inside travis from the docs](https://docs.travis-ci.com/user/customizing-the-build)
 
@@ -224,8 +230,9 @@ Would be trying out testing ansible roles on docker next. Stay tuned.
 
 Happy ansibling!
 
-**Docs**
+**Further reading**
 
 - [http://docs.ansible.com/ansible/playbooks_tags.html](http://docs.ansible.com/ansible/playbooks_tags.html)
 - [https://docs.travis-ci.com/user/customizing-the-build#Build-Timeouts](https://docs.travis-ci.com/user/customizing-the-build#Build-Timeouts)
 - [https://docs.travis-ci.com/user/customizing-the-build](https://docs.travis-ci.com/user/customizing-the-build)
+- [https://www.jeffgeerling.com/blog/testing-ansible-roles-travis-ci-github](https://www.jeffgeerling.com/blog/testing-ansible-roles-travis-ci-github)
