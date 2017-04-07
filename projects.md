@@ -104,6 +104,10 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 <center><a href="https://plino.herokuapp.com"><img src="http://i.imgur.com/jJfnz7f.jpg"></a></center>
 
+<a href="https://news.ycombinator.com/item?id=11491949"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/hn.png" width="150" height="20"/></a>
+<a href="https://www.producthunt.com/posts/plino"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/product_hunt.png" width="100" height="20"/></a>
+
+
 A high accuracy spam filtering system built on top of a custom Naive Bayes Classifier
 to extract specific feature sets. Designed and developed RESTful APIs using Flask for users to integrate
 our service with their apps. Implemented Caching for server load reduction. Achieved over 3000 users in
@@ -188,6 +192,11 @@ As covered by
 
 
 <center><a href="https://github.com/prodicus/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
+
+
+<a href="https://news.ycombinator.com/item?id=10925168"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/hn.png" width="150" height="20"/></a>
+<a href="https://www.producthunt.com/posts/space-shooter"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/product_hunt.png" width="100" height="20"/></a>
+
 
 Go back to the memory lane by playing **spaceShooter** on your system.
 
