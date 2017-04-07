@@ -15,17 +15,17 @@ cover_image: '/content/images/2017/04/ansible_plus_travis.png'
 Simply put with each commit that you are making to shared repository, which is then verified by an automated build. This helps in detection of errors early on.
 
 If you are new to this development style. There are [plenty](https://martinfowler.com/articles/continuousIntegration.html
-) [of](http://softwareengineering.stackexchange.com/questions/198471/simple-explanation-of-continuous-integration) [places](https://www.thoughtworks.com/continuous-integration) which explain you. This practice in itself is quite old. CI/CD anyone?
+) [of](http://softwareengineering.stackexchange.com/questions/198471/simple-explanation-of-continuous-integration) [places](https://www.thoughtworks.com/continuous-integration) which explain will help you understand. This practice in itself is quite old. CI/CD anyone?
 
 But I am not writing this to explain what is CI right?
 
 ## So you made an ansible playbook?
 
-Taking Infra as code has long been talked about. Automatically provisioning your complete server(s) in minutes is something which every org is trying/has achieved. 
+I have talked about Infra as code in some of my earlier blog posts. Automatically provisioning your complete server(s) in minutes is something which every org is trying/has achieved. 
 
 If you follow TDD principles, you would be knowing right where I am taking this conversation to. 
 
-Here is the directory structure 
+Here is the directory structure for the ansible role I am testing this out
 
 ```bash
 ansible-bootstrap-server
@@ -67,7 +67,13 @@ ansible-bootstrap-server
 
 ## Writings tests
 
-I would be running the tests inside the travis build environment. So unlike when I am running the `ansible-playbook` from the controller node, I would be running the playbook on the `localhost`. This part would be obvious by now.
+I would be running the tests inside the travis build environment.
+
+Why travis?
+
+I like them more! But there are many other good CI/CD providers namely circleCI, bambooCI and some more. Choose whatever fits best to your organisation or personal appeal.
+
+So unlike when I am running the `ansible-playbook` from the controller node, I would be running the playbook on the `localhost`. This part would be obvious by now.
 
 Let's have a look at `tests/test.yml`
 
@@ -86,17 +92,17 @@ Let's have a look at `tests/test.yml`
 
 Let's break it down, 
 
-- `hosts: localhost` this is simply telling the host/group of hosts which this playbook would be targeting
-- `connection: local` would tell ansible to run the tasks on the system itself
+- `hosts: localhost` this is simply telling the host/group of hosts which this playbook would be targeting.
+- `connection: local` would tell ansible to run the tasks on the system itself and not `ssh` onto to some remote machine for executing the playbook.
 - `become: true` makes the tasks run as the `root` user
 
-and the `roles` part is where we would be sequentially executing the roles.
+and the `roles` part is where we would be organising our roles to be executed sequentially.
 
 ## Testing against different versions of Ansible
 
 For travis to build your code, it would be requiring a `.travis.yml` file in the root directory of your project.
 
-Contents of it
+In this particualr example, the contents of it. 
 
 ```bash
 ---
@@ -187,6 +193,14 @@ The Build config will be something like, where you can see the `"env": "ANSIBLE_
 }
 ```
 
+`ansible-playbook -i tests/inventory tests/test.yml --syntax-check` would check for any syntax errors as obvious from the command itself, helps in checking any errors early on before the build.
+
+`ansible-playbook -i tests/inventory tests/test.yml -vvvv --skip-tags update,copy_host_ssh_id` is the line which actually runs the playbook
+
+`id -u tasdik | grep -q "no" && (echo "user not found" && exit 1) || (echo "user found" && exit 0)` checks whether a user named `tasdik` exists or not after the playbook has completed its execution.
+
+I have skipped explaining some of the parts in my `.travis.yml`. You can learn more about [build configuration inside travis from the docs](https://docs.travis-ci.com/user/customizing-the-build)
+
 ## Skipping tasks inside build
 
 Travis builds will fail, if you try to exceed a particular limit while your build job is running. You can find more about the exact specs and timings in the [travis docs talking about build timeouts](https://docs.travis-ci.com/user/customizing-the-build#Build-Timeouts)
@@ -214,3 +228,4 @@ Happy ansibling!
 
 - [http://docs.ansible.com/ansible/playbooks_tags.html](http://docs.ansible.com/ansible/playbooks_tags.html)
 - [https://docs.travis-ci.com/user/customizing-the-build#Build-Timeouts](https://docs.travis-ci.com/user/customizing-the-build#Build-Timeouts)
+- [https://docs.travis-ci.com/user/customizing-the-build](https://docs.travis-ci.com/user/customizing-the-build)
