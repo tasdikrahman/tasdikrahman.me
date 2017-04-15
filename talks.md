@@ -13,6 +13,10 @@ Talks given by me so far! More to come.
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#chennaiPy_oct)
 
+#### Automation
+
+- ["Introduction to Ansible", Bangpypers April 2017](#bangpypers_april)
+
 ***
 
 ### <a name="chennaiPy_oct"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
@@ -22,3 +26,11 @@ Talks given by me so far! More to come.
 
 - **Code snippets used during the talk:** [https://github.com/prodicus/talks](https://github.com/prodicus/talks)
 - **chennaiPy October meetup talks list**: [http://chennaipy.org/meetup-oct-2016.html](http://chennaipy.org/meetup-oct-2016.html)
+
+### <a name="bangpypers_april"/>[Introduction to Ansible](https://speakerdeck.com/tasdikrahman/introduction-to-ansible)
+
+<script async class="speakerdeck-embed" data-id="dacfbe2fca344ffda3b93a5abcd155c7" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"></script>
+
+- **Code snippets used during the talk:** [https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
+
+- **Bangpypers April meetup talks list**: [https://www.meetup.com/BangPypers/events/238670176/](https://www.meetup.com/BangPypers/events/238670176/)
