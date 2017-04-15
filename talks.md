@@ -11,15 +11,15 @@ Talks given by me so far! More to come.
 
 #### Python internals
 
-- ["Demystifying how imports work in python", ChennaiPy October 2016](#chennaiPy_oct)
+- ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
 #### Automation
 
-- ["Introduction to Ansible", Bangpypers April 2017](#bangpypers_april)
+- ["Introduction to Ansible", Bangpypers April 2017](#introduction-to-ansible-bangpypers-april)
 
 ***
 
-### <a name="chennaiPy_oct"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
+### <a name="how-imports-word-chennaipy"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
 
 <script async class="speakerdeck-embed" data-id="df1b0dd2c89b44678015f3565c876881" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -27,7 +27,7 @@ Talks given by me so far! More to come.
 - **Code snippets used during the talk:** [https://github.com/prodicus/talks](https://github.com/prodicus/talks)
 - **chennaiPy October meetup talks list**: [http://chennaipy.org/meetup-oct-2016.html](http://chennaipy.org/meetup-oct-2016.html)
 
-### <a name="bangpypers_april"/>[Introduction to Ansible](https://speakerdeck.com/tasdikrahman/introduction-to-ansible)
+### <a name="introduction-to-ansible-bangpypers-april"/>[Introduction to Ansible](https://speakerdeck.com/tasdikrahman/introduction-to-ansible)
 
 <script async class="speakerdeck-embed" data-id="dacfbe2fca344ffda3b93a5abcd155c7" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"></script>
 
