@@ -31,6 +31,9 @@ Talks given by me so far! More to come.
 
 <script async class="speakerdeck-embed" data-id="dacfbe2fca344ffda3b93a5abcd155c7" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"></script>
 
+- **Youtube link:** [https://youtu.be/6ovLhYgAiO4](https://youtu.be/6ovLhYgAiO4)
+
 - **Code snippets used during the talk:** [https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
 
 - **Bangpypers April meetup talks list**: [https://www.meetup.com/BangPypers/events/238670176/](https://www.meetup.com/BangPypers/events/238670176/)
+
