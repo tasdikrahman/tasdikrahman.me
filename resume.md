@@ -13,9 +13,9 @@ title: Resume
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
     my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
 
-    <br><br><i>Last updated on 23rd of October, 2016</i>
+    <br><br><i>Last updated on 27th of April, 2017</i>
 
-    <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_oct_2016.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
+    <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
 
 </p>
 
