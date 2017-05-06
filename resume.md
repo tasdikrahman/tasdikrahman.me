@@ -13,17 +13,19 @@ title: Resume
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
     my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
 
-    <br><br><i>Last updated on 27th of April, 2017</i>
-
-    <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
+    <br><br><i>Last updated on 6th of May, 2017</i>
 
 </p>
 
 
 
-<!--<object data="http://tasdikrahman.me/resume/tasdik_rahman_cv_oct_2016.pdf"" type="application/pdf" width="100%" height="1000px">-->
-   <!--<p>It appears you don't have a PDF plugin for this browser.-->
-     <!--No biggie... you can <a href="http://tasdikrahman.me/resume/tasdik_rahman_cv_oct_2016.pdf">click here to-->
-   <!--download the PDF file.</a>-->
-   <!--</p>-->
-<!--</object>-->
+<object data="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf" type="application/pdf" width="100%" height="1000px">
+   <p>It appears you don't have a PDF plugin for this browser.
+     No biggie... you can <a href="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf">click here to
+   download the PDF file.</a>
+
+   <center><a href="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
+   </p>
+</object>
+
+<br><br>
