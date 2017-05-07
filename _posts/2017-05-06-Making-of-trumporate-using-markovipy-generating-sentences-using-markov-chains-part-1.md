@@ -32,7 +32,7 @@ The picture which you saw, titled is "calvin and Markov", is generated using [Ma
 
 Quite simply put, it theorises that
 
-> every event happening is dependent on its previous event that occured. 
+> every event happening is dependent on its previous event that occurred. 
 
 When the probability of some event is dependent or is conditional on previous events, we say they are dependent events.
 
@@ -102,6 +102,8 @@ I would like to end this article using the last issue of Calvin and Hobbes which
 <center><img src="/content/images/2017/05/calvin-hobbes-final-strip-dec-31-1995.jpg"></center>
 
 Thanks for your time. Cheers!
+
+**DISCLAIMER: All Calvin and Hobbes Comic strips and images copyright to Bill Watterson and publishers. All written © CalvinAndHobbes.co.uk**
 
 ## Further read
 
