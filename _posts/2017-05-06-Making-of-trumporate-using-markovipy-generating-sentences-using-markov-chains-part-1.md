@@ -10,7 +10,7 @@ cover_image: '/content/images/2017/05/calkov-7127446174257307648.jpg'
 
 ## Do you even read comics?
 
-Kiddin. Between, I love reading [Calvin and Hobbes](http://www.calvinandhobbes.co.uk/). It's something which I keep re-reading their well worn collections, maybe for the n-th time. The thing which keeps me hooked to it maybe the blunt truthfullness of strip.
+Kiddin. Between, I love reading [Calvin and Hobbes](http://www.calvinandhobbes.co.uk/). It's something which I keep re-reading their well worn collections, maybe for the n-th time. The thing which keeps me hooked to it maybe the blunt truthfulness of strip.
 
 Haven't read any?
 
@@ -22,11 +22,11 @@ This one makes me smile all the time.
 
 <center><img src="/content/images/2017/05/calvin-smile.jpg"></center> 
 
-[xkcd](https://xkcd.com/) is the only thing that comes close to the comic strips which I freuent to. 
+[xkcd](https://xkcd.com/) is the only thing that comes close in comic strips which I visit frequently.
 
 ## Psst. Let me tell you something
 
-The picture which you saw, titled is "calvin and Markov", is generated using [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) as explained [here by the author](http://www.joshmillard.com/2015/07/06/calvin-and-markov/).
+The picture which you saw, titled is "calvin and Markov", is generated using [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) as explained [here by the author](http://www.joshmillard.com/2015/07/06/calvin-and-markov/). So it's not written by a human but generated programmitcally using a corpus.
 
 ## Markov What?
 
@@ -40,7 +40,7 @@ Let me put it this way.
 
 You could relate to it from the fact that most of the things in the physical world are dependent on their previous outcomes. 
 
-Imagine a coin flip, which is dependent on previous outcomes. So it has short-term memory of one event. This can be visualized using a hypothetical machine which contains two cups, which we call states. In one state we have a 50-50 mix of light versus dark beads, while in the other state we have more dark versus light. One cup we can call state zero. 
+Imagine a coin flip, which is dependent on previous outcomes. So it has short-term memory of one event. This can be visualised using a hypothetical machine which contains two cups, which we call states. In one state we have a 50-50 mix of light versus dark beads, while in the other state we have more dark versus light. One cup we can call state zero. 
 
 It represents a dark having previously occurred, and the other state, we can call one, it represents a light bead having previously occurred. To run our machine, we simply start in a random state and make a selection. Then we move to either state zero or one, depending on that event. Based on the outcome of that selection, we output either a zero if it's dark, or a one if it's light. 
 
@@ -50,7 +50,7 @@ But Markov proved that as long as every state in the machine is reachable, when 
 
 Quite naturally , if it rains when it's a cloudy day. You don't drown when you are in your bed.
 
-This helps in calculating the conditional probabilty and can be applied to various scenarious.
+This helps in calculating the conditional probability and can be applied to various scenarios.
 
 <center><img src="/content/images/2017/05/markovdiag.png"></center>
 
@@ -58,7 +58,7 @@ This helps in calculating the conditional probabilty and can be applied to vario
 
 Maybe because it comes into the intersection of math and linguistics. Or maybe I wanted something new to fool around. Take your pick. You wouldn't be wrong both ways.
 
-Going down the rabbit hole I wanted to build something of my own with this new found knowledge from the readups. 
+Going down the rabbit hole I wanted to build something of my own with this new found knowledge from the read ups. 
 
 <center><img src="/content/images/2017/05/markovipy.png"></center>
 
