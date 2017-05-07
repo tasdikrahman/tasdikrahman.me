@@ -102,6 +102,8 @@ This was taken on my last day at office. And boy was I sad!
 
 Ankit threw a huge party at pub in Rajouri garden for all the interns and my last day turned out to be the best day in Delhi.
 
-<center><img src="/content/images/2016/08/wingify_2016_summer_interns.jpg.jpg"></center> 
+<center><img src="/content/images/2016/08/wingify_2016_summer_interns.jpg"></center> 
 
 Until next time Delhi!
+
+_This post was cross posted at [Wingify's team blog too](http://team.wingify.com/tasdik-talks-about-his-internship-experience-at-wingify)_
