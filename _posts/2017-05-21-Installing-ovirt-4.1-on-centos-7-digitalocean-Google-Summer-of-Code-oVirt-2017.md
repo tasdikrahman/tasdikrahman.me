@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "Installing oVirt 4.1 on centOS 7 (DigitalOCean)"
-description: "Installing oVirt 4.1 on centOS 7 (DigitalOCean)"
+title: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
+description: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
 tags: [open-source, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/OVirt-logo-highres.png'
 ---
 
-I was trying to install oVirt engine on a VM deployed on DigitalOcean. My learnings from it are documented here.
+Was trying to install oVirt engine on a VM deployed on DigitalOcean. My learnings from it are documented here. 
 
 ## Installing oVirt Engine 
 
 I would concentrate on the part of just installing oVirt-engine as I had a fair share of problems while doing so. 
 
-The VM I am installing it is a 4GB box centOS 7 box with 80GB of SSD to spare for. Make sure you read through the whole requirements [mentioned on the official docs](http://www.ovirt.org/documentation/quickstart/quickstart-guide/#ovirt-engine) while going forward with this. 
+The VM I am installing it on is a 4GB centOS 7 box with 80GB of SSD to spare for. Also, make sure you read through the whole requirements [mentioned on the official docs](http://www.ovirt.org/documentation/quickstart/quickstart-guide/#ovirt-engine) while going forward with this. 
 
-A quick run through of what oVirt is.
+A quick run through of what oVirt is. If you have used vSphere by VMWare, this product offered by Redhat is a competitor to it.
 
 The oVirt platform consists of at least one oVirt Engine and one or more Nodes.
 
-- oVirt Engine provides a graphical user interface to manage the physical and logical resources of the oVirt infrastructure. The Engine is installed on a Fedora 19, Red Hat Enterprise Linux 6 or CentOS 6 server, and accessed from a client running Firefox.
-- oVirt Engine runs virtual machines. A physical server running Fedora 19, Red Hat Enterprise Linux 6 or CentOS 6 can also be configured as a host for virtual machines on the oVirt platform.
+- oVirt Engine provides a graphical user interface to manage the physical and logical resources of the oVirt infrastructure. 
+- oVirt Engine runs virtual machines. 
 
 oVirt Engine is the control center of the oVirt environment. It allows you to define hosts, configure data centers, add storage, define networks, create virtual machines, manage user permissions and use templates from one central location.
 

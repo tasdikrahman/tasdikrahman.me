@@ -21,16 +21,15 @@ Also, we are just a week away from the official coding time period for GSoC 2017
 
 ## Recent developments in the oVirt community
 
-I have been subscribed to the [oVirt](http://ovirt.org) devel mailing lists for quite some time now. Interacting on minor discussions to get a feel of the whole community. #ovirt IRC is something which I haven't been quite active. 
-
+I have been subscribed to the [oVirt](http://ovirt.org) devel mailing lists for quite some time now. Interacting on minor discussions to get a feel of the whole community. #ovirt IRC is something which I haven't been quite active on. 
 
 Some recent developments for our latest 4.2 release lined up. The stable one would be 4.1 for the moment. Check out [oVirt blog](http://www.ovirt.org/blog/) for what we have been up to lately.
 
 Our infra team made some changes on our gerrit UI to make it fit better with other oVirt services. Which looks great by the way. Check it out here at [https://gerrit-staging.phx.ovirt.org/](https://gerrit-staging.phx.ovirt.org/)
 
-If you have any suggestions, you can create a JIRA ticket here [https://ovirt-jira.atlassian.net/browse/OVIRT-912](https://ovirt-jira.atlassian.net/browse/OVIRT-912)
+Check it out and if any suggestions the new UI, you can create a JIRA ticket here [https://ovirt-jira.atlassian.net/browse/OVIRT-912](https://ovirt-jira.atlassian.net/browse/OVIRT-912)
 
-If you like living your life on the edge. Check out the nightly builds here [https://www.ovirt.org/develop/dev-process/install-nightly-snapshot/](https://www.ovirt.org/develop/dev-process/install-nightly-snapshot/).
+Also, if you like living your life on the edge. Check out the nightly builds here [https://www.ovirt.org/develop/dev-process/install-nightly-snapshot/](https://www.ovirt.org/develop/dev-process/install-nightly-snapshot/).
 
 We are also having some enhanced OVA support. Which would be 
 
