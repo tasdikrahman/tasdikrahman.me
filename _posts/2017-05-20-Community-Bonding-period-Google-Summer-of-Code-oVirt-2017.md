@@ -13,17 +13,18 @@ A lot has happened over the last few weeks.
 Chelsea won the premiership and that too with a comfortable lead. Dominance is something which we definitely had in the premiership. But I must say, West Brom did put up a good show. 
 
 The same day, [WannaCry Ransomware](https://en.wikipedia.org/wiki/WannaCry_ransomware_attack) started it's havoc. If you are affected, be sure to check out [wanawiki](https://github.com/gentilkiwi/wanakiwi
-) and [https://github.com/gentilkiwi/wanadecrypt](https://github.com/gentilkiwi/wanadecrypt). Benjamin does a wonderful job in explaining the intrinsic details of the tools.
+) and [wanadecrypt](https://github.com/gentilkiwi/wanadecrypt). Benjamin does a wonderful job in explaining the intrinsic details of the tools [in this blog post](https://blog.comae.io/wannacry-decrypting-files-with-wanakiwi-demo-86bafb81112d).
 
-[Bitcoin just surged past $2,000 for the first time](https://techcrunch.com/2017/05/20/btc2k/). Sadly I don't any.
+[Bitcoin just surged past $2,000 for the first time](https://techcrunch.com/2017/05/20/btc2k/). Sadly I don't own any.
 
-And what not.
+Also, we are just a week away from the official coding time period for GSoC 2017 which starts on 30th May.
 
-Also, we are just a week away from the official coding time period for GSoC 2017.
+## Recent developments in the oVirt community
 
-## Community Bonding
+I have been subscribed to the [oVirt](http://ovirt.org) devel mailing lists for quite some time now. Interacting on minor discussions to get a feel of the whole community. #ovirt IRC is something which I haven't been quite active. 
 
-Been subscribed to the [oVirt](http://ovirt.org) devel mailing lists for quite some time now and some recent developments for our latest 4.2 release lined up. The stable one would be 4.1 for the moment. Check out [oVirt blog](http://www.ovirt.org/blog/) for what we have been up to lately.
+
+Some recent developments for our latest 4.2 release lined up. The stable one would be 4.1 for the moment. Check out [oVirt blog](http://www.ovirt.org/blog/) for what we have been up to lately.
 
 Our infra team made some changes on our gerrit UI to make it fit better with other oVirt services. Which looks great by the way. Check it out here at [https://gerrit-staging.phx.ovirt.org/](https://gerrit-staging.phx.ovirt.org/)
 
