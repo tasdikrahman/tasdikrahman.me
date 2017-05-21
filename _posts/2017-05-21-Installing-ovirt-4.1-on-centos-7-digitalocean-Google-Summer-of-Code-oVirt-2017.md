@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Community bonding period, GSoc 2017 with oVirt org"
-description: "Community bonding period, GSoc 2017 with oVirt org"
+title: "Installing oVirt 4.1 on centOS 7 (DigitalOCean)"
+description: "Installing oVirt 4.1 on centOS 7 (DigitalOCean)"
 tags: [open-source, gsoc]
 comments: true
 share: true
@@ -286,12 +286,16 @@ round-trip min/avg/max/stddev = 5.322/5.322/5.322/0.000 ms
 
 Now on your dev box, check the admin panel by going to the url https://ovirt.gsoc.org:443/ovirt-engine
 
-<iframe src="/content/images/2017/05/ovirt-admin-landingpage.png" frameborder="0" width="100%" height="800"></iframe>
+<center><img src="/content/images/2017/05/ovirt-admin-landingpage_840x610.png"></center>
 
-Taking the Admin panel to a spin
+Let's take the admin panel for a spin
 
-<iframe src="/content/images/2017/05/ovirt-admin-panel.png" frameborder="0" width="100%" height="800"></iframe>
+<center><img src="/content/images/2017/05/ovirt-admin-panel.png"></center>
 
 Isn't she pretty?
 
 Had been fighting with some dumb defaults for almost an hour. It's 5 am. in the morning. So I need to get some sleep. Stay tuned!
+
+## Links
+
+- [http://www.ovirt.org/documentation/quickstart/quickstart-guide/](http://www.ovirt.org/documentation/quickstart/quickstart-guide/)
