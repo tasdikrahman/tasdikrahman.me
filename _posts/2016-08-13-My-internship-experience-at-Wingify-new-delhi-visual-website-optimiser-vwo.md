@@ -42,11 +42,11 @@ StatsD collects and aggregates metrics and then ships them off to Graphite which
 
 Graphite consists of three parts.
 
-carbon - a daemon that listens for time-series data.
+- carbon: a daemon that listens for time-series data.
 
-whisper - a simple database library for storing time-series data.
+- whisper: a simple database library for storing time-series data.
 
-webapp - a (Django) webapp that renders graphs on demand.
+- webapp: a (Django) webapp that renders graphs on demand.
 
 The setting up of the the overall stack was a bit archaic but I finally got it right and the metrics for our internal service were being graphed correctly by Graphite. And they looked pretty too!
 
@@ -60,7 +60,7 @@ To be honest, I was quite clueless on what to build for the first half an hour o
 
 It was written in python and Ankit was too kind to let me open source it. Here is the link for the curious.
 
-https://github.com/wingify/bumblebee
+[https://github.com/wingify/bumblebee](https://github.com/wingify/bumblebee)
 
 ### Optimization much? (Project #3)
 
@@ -100,7 +100,7 @@ This was taken on my last day at office. And boy was I sad!
 
 <center><img src="/content/images/2016/08/wingify_newdelhi_tasdik.jpg"></center> 
 
-Ankit threw a huge party at pub in Rajouri garden for all the interns and my last day turned out to be the best day in Delhi.
+Ankit threw a huge party at a pub in Rajouri garden for all the interns along with the other guys and my last day turned out to be the best day in Delhi.
 
 <center><img src="/content/images/2016/08/wingify_2016_summer_interns.jpg"></center> 
 
