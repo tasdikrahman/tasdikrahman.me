@@ -9,6 +9,10 @@ Talks given by me so far! More to come.
 
 <!--## <a name="index"/>Index-->
 
+#### Upcoming talks 
+
+- ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/)
+
 #### Python internals
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
