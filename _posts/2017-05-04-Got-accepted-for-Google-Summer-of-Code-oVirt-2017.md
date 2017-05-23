@@ -16,6 +16,9 @@ We are just 3 wins away from the premier league title with Tottenham right behin
 
 What other better news can there be for me?
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Accepted for <a href="https://twitter.com/gsoc">@gsoc</a> 2017! Will write software for <a href="https://twitter.com/ovirt">@ovirt</a> under <a href="https://twitter.com/redhatopen">@redhatopen</a>. Couldn&#39;t be any happier 😄 <a href="https://twitter.com/hashtag/GSOC?src=hash">#GSOC</a> <a href="https://twitter.com/hashtag/gsoc2017?src=hash">#gsoc2017</a> <a href="https://twitter.com/hashtag/RedHat?src=hash">#RedHat</a> <a href="https://twitter.com/hashtag/opensource?src=hash">#opensource</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/860188737376067587">May 4, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Google Summer of Code
 
 Well turns out there is. I got accepted for GSoC 2017 under [oVirt](http://ovirt.org) and will be working with [Lukas Svaty](https://cz.linkedin.com/in/lukas-svaty-4236b573) among others this summer.
