@@ -296,6 +296,13 @@ Isn't she pretty?
 
 Had been fighting with some dumb defaults for almost an hour. It's 5 am. in the morning. So I need to get some sleep. Stay tuned!
 
+## Debugging tips
+
+- make sure its (the remote host where you are installing `ovirt-engine`) resolvable from your machine.
+- check if the engine is running (check `/var/log/engine.log` and `ovirt-engine` service)
+- check firewall on the machine. 
+- try to connect to the web browser from the virtual machine to be sure its not network issue between you and VM `ping your.vm.com` should resolve that ip address
+
 ## Links
 
 - [http://www.ovirt.org/documentation/quickstart/quickstart-guide/](http://www.ovirt.org/documentation/quickstart/quickstart-guide/)
