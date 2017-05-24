@@ -30,6 +30,7 @@ _**Click on any link to jump to that project**_
 
 #### API's
 
+- [Markovipy: Random sentence generator based on Markov Chains](#markovipy)
 - [vocabulary: Similar to Wordnet, comes with a better API](#vocabulary)
 - [pyzipcode](#pyzipcode)
 
@@ -270,6 +271,29 @@ As covered by
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
 <!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
+
+***
+
+### <a name="markovipy"/>[markovipy](https://github.com/prodicus/markovipy)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+
+Simply put, a markov chains based sentence generator
+
+She tries striking conversations with you with her cohesive sentences after you have given her fill of text to her. And no she won’t complain about how big your corpus is. Also, don’t ask her if she can pass the turing test. She might not talk to you again.
+
+The results are often just nonsense, but at times can be strangely poetic - the sentences below were generated from the text of “The Hamlet” by Shakespeare:
+
+> If his occulted guilt, Do not it selfe vnkennell in one speech, It is most retrograde to our desire And we beseech you, bend you to remaine Heere in the cheere and comfort of our eye, Our cheefest Courtier Cosin, and our whole Kingdome To be contracted in one brow of woe Yet so farre hath Discretion fought with Nature, That we with wisest sorrow thinke on him, Together with remembrance of our selues.
+
+- [Blog post going through it's making](http://tasdikrahman.me/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/)
+
+<i class="fa fa-code fa-2x"></i>  `python`, `markov chains`
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
+
+***
 
 ***
 
