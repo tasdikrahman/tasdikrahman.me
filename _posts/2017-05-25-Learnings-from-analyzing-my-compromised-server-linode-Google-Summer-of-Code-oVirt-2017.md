@@ -273,6 +273,16 @@ change it to something not common as the default `22` would be known by you as w
 
 - Take regular backups/snapshot’s of your server. That way if something funny does happen. You can always restore it to a previous state.
 
+- KEEP A STRONG PASSWORD! Even though there is a brute force attack on your server, it is relatively very hard to crack the password if you keep a strong one.
+
+Bruce has a nice essay a nice essay about the subject here. Won’t repeat what he has said so take a look at it.
+
+Research suggests that adding password complexity requirements like upper case/numbers/symbols cause users to make easy to predict changes and cause them to create simpler passwords overall due to being harder to remember.
+
+Also read [OWASP’s blog](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Implement_Proper_Password_Strength_Controls) here about what they have to say about passwords 
+
+There was a discussion on [security exchange](https://security.stackexchange.com/questions/29836/what-are-good-requirements-for-a-password) too over this 
+
 - protect ssh with fail2ban
 
  Fail2ban can mitigate this problem by creating rules that automatically alter your iptables firewall configuration based on a predefined number of unsuccessful login attempts. This will allow your server to respond to illegitimate access attempts without intervention from you. 
