@@ -226,7 +226,7 @@ Initiating Service scan at 14:37
 
 Did not get much out of it.
 
-So this brings me to the moment where I the attack vector which was placed by the perpetrator has been removed. I did not see any other activity which would wry my attention again. 
+So this brings me to the moment where I see the attack vector which was placed by the perpetrator becomes dormant. I did not see any other activity which would wry my attention again. 
 
 I let my server run for the night to check in the morning what was the status.
 
