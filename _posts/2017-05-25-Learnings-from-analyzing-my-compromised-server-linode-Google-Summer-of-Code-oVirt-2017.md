@@ -321,11 +321,13 @@ If your system was compromised, none of your system tools can be trusted to reve
 
 And I just have to post this image.
 
-<center><img src="/content/images/2017/05/today-was-a-good-day-meme.jpg"></center>today-was-a-good-day-meme.jpg
+<center><img src="/content/images/2017/05/today-was-a-good-day-meme.jpg"></center>
 
 **If I have made any mistakes or you think I should have done something else from what I have tried or not described something as it should be. Please feel free to point it out. I am just starting out on the infosec scene :)**
 
 Cheers and stay secured!
+
+Catch the discussion over [HN](https://news.ycombinator.com/item?id=14416982) and [reddit](https://www.reddit.com/r/netsec/comments/6d99gc/a_perpetrator_gained_root_access_to_a_private/)
 
 ## Further read
 
