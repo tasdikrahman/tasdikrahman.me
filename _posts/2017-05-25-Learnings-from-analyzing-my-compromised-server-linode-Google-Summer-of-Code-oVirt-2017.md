@@ -254,6 +254,11 @@ It happened to have my public key on the server. This is not something one shoul
 
 But just to be on the safer side, I regenerated my ssh keys, deleted the old ones at the places it was being used and updated it with the new ones.
 
+Just to be extra sure of everything, I checked the activity logs of the services which did use the older ssh keys. No unusual activities.
+
+<center><img src="/content/images/2017/05/github-logs.png"></center>
+
+
 ## Learnings
 
 - disable root password login
@@ -265,6 +270,8 @@ The very first thing that I should have done after provisioning the server would
 change it to something not common as the default `22` would be known by you as well as the perpetrator. As someone rightfully said, security lies in obscurity.
 
 - Use your public key to ssh into the machine instead of password login as suggested. 
+
+- Take regular backups/snapshot’s of your server. That way if something funny does happen. You can always restore it to a previous state.
 
 - protect ssh with fail2ban
 
