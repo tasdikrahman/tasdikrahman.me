@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Community bonding period, GSoc 2017 with oVirt org"
-description: "Community bonding period, GSoc 2017 with oVirt org"
+title: "Community bonding period, GSoC 2017 with oVirt org"
+description: "Community bonding period, GSoC 2017 with oVirt org"
 tags: [open-source, gsoc]
 comments: true
 share: true
