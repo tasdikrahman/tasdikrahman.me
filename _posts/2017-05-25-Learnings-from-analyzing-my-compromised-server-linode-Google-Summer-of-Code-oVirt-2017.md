@@ -264,6 +264,8 @@ The very first thing that I should have done after provisioning the server would
 
 change it to something not common as the default `22` would be known by you as well as the perpetrator. As someone rightfully said, security lies in obscurity.
 
+- Use your public key to ssh into the machine instead of password login as suggested. 
+
 - protect ssh with fail2ban
 
  Fail2ban can mitigate this problem by creating rules that automatically alter your iptables firewall configuration based on a predefined number of unsuccessful login attempts. This will allow your server to respond to illegitimate access attempts without intervention from you. 
@@ -299,6 +301,14 @@ You don't!
 I know, I know - but it's the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically - it might be impossible to tell. It's good to understand that nothing is ever completely secure. But we need to work for more secure, so I will point at all the other answers instead ;)
 
 If your system was compromised, none of your system tools can be trusted to reveal the truth.
+
+And I just have to post this image.
+
+<center><img src="/content/images/2017/05/today-was-a-good-day-meme.jpg"></center>today-was-a-good-day-meme.jpg
+
+**If I have made any mistakes or you think I should have done something else from what I have tried or not described something as it should be. Please feel free to point it out. I am just starting out on the infosec scene :)**
+
+Cheers and stay secured!
 
 ## Further read
 
