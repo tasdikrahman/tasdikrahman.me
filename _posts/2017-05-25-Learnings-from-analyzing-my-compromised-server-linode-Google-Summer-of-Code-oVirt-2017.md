@@ -279,7 +279,7 @@ Security through obscurity would be burying your money under a tree. The only th
 
 - KEEP A STRONG PASSWORD! Even though there is a brute force attack on your server, it is relatively very hard to crack the password if you keep a strong one.
 
-Bruce has a nice essay a nice essay about the subject here. Won’t repeat what he has said so take a look at it.
+Bruce [has a nice essay](http://www.schneier.com/essay-148.html) about the subject here. Won’t repeat what he has said so take a look at it.
 
 Research suggests that adding password complexity requirements like upper case/numbers/symbols cause users to make easy to predict changes and cause them to create simpler passwords overall due to being harder to remember.
 
