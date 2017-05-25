@@ -111,7 +111,7 @@ Digging down further, I wanted to see what were the files being opened by our, a
 
 <center><img src="/content/images/2017/05/lsof-cd.png"></center>
 
-The perpetrator had been running his malicious program under `/usr/bin` which obviously meant he did gain root access to my server. There was no other way I could think of through which he could have placed it under `/usr/bin` otherwise.
+The perpetrator had been running his malicious program under `/usr/bin` which obviously meant he did gain root access to my server. There was no other way I could think of, through which the perpetrator could have placed it under `/usr/bin` otherwise.
 
 If you feel, someone else too is logged in, you can easily check that by doing a 
 
