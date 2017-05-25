@@ -267,7 +267,11 @@ The very first thing that I should have done after provisioning the server would
 
 - obfuscate the port `sshd` uses
 
-change it to something not common as the default `22` would be known by you as well as the perpetrator. As someone rightfully said, security lies in obscurity.
+change it to something not common as the default `22` would be known by you as well as the perpetrator. ~As someone rightfully said, security lies in obscurity.~
+
+But thinking that security through obscurity is makes you fail safe. Think again. 
+
+Security through obscurity would be burying your money under a tree. The only thing that makes it safe is no one knows it’s there. Real security is putting it behind a lock or combination, say in a safe.
 
 - Use your public key to ssh into the machine instead of password login as suggested. 
 
@@ -315,7 +319,7 @@ How do you know if my Linux server has been hacked?
 
 You don't!
 
-I know, I know - but it's the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically - it might be impossible to tell. It's good to understand that nothing is ever completely secure. But we need to work for more secure, so I will point at all the other answers instead ;)
+I know, I know - but it's the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically - it might be impossible to tell. It's good to understand that nothing is ever completely secure.
 
 If your system was compromised, none of your system tools can be trusted to reveal the truth.
 
@@ -338,3 +342,5 @@ Catch the discussion over [HN](https://news.ycombinator.com/item?id=14416982) an
 - [https://stackoverflow.com/questions/884525/how-to-investigate-what-a-process-is-doing](https://stackoverflow.com/questions/884525/how-to-investigate-what-a-process-is-doing)
 - [https://jorge.fbarr.net/2014/01/19/introduction-to-strace/](https://jorge.fbarr.net/2014/01/19/introduction-to-strace/)
 - [https://stackoverflow.com/questions/3972534/dsa-what-can-a-hacker-do-with-just-a-public-key](https://stackoverflow.com/questions/3972534/dsa-what-can-a-hacker-do-with-just-a-public-key)
+- [https://security.stackexchange.com/questions/44094/isnt-all-security-through-obscurity](https://security.stackexchange.com/questions/44094/isnt-all-security-through-obscurity)
+- [https://stackoverflow.com/questions/533965/why-is-security-through-obscurity-a-bad-idea](https://stackoverflow.com/questions/533965/why-is-security-through-obscurity-a-bad-idea)
