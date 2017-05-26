@@ -333,7 +333,7 @@ If your system was compromised, meaning once someone has root access on your hos
 
 Simply put, you cant trust anything your terminal tells you, period.
 
-**I would like to thank the people over at Linode who work very hard to secure make servers work just work for us in a secure manner in an affordable price. Thanks guys!**
+**I would like to thank the people over at Linode who work very hard to make servers work just right for us in a secure and affordable price. Thanks guys!**
 
 **If I have made any mistakes or you think I should have done something else from what I have tried or not described something as it should be. Please feel free to point it out. I am just starting out on the infosec scene :)**
 
