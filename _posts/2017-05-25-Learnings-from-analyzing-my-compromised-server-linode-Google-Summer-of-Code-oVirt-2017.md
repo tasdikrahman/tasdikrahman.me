@@ -8,6 +8,8 @@ share: true
 cover_image: '/content/images/2017/05/web-server-security.jpg'
 ---
 
+> DISCLAIMER: All views presented are personal and not that of my employers or anyone else for that matter. In no occasion do I blame Linode for this security breach. It was because I did not follow the best practices which you will read and not repeat again.
+
 Yesterday, I was having a great day!
 
 I had the daily goal of walking 6000 steps done. Thanks to my swanky new Mi band 1 (bade goodbye to my Sony SWR10). Wrote about installing `ovirt-engine` using an ansible-playbook in a post [yesterday](http://tasdikrahman.me/2017/05/24/Installing-ovirt-4.1-on-centos-7-using-ansible-linode-Google-Summer-of-Code-oVirt-2017/). My mom wasn't telling me for a change to get a haircut and suggested I start packing some proper clothes (she means washed and ironed) for my upcoming [trip to Taiwan](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/) which would be my first international trip. 
@@ -19,7 +21,7 @@ Anyways. So about yesterday, I finally decided to shift from DigitalOcean to Lin
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/tasdikrahman">@tasdikrahman</a> <a href="https://twitter.com/linode">@linode</a> Now, I&#39;m not trying to entice you further, but you could use the code &#39;linode10&#39; and get some credit to start with. It&#39;s nice to have.</p>&mdash; Feeling OK (@FeelingSohSoh) <a href="https://twitter.com/FeelingSohSoh/status/867382204430766080">May 24, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Some one from Linode further fueled it by giving me a $10 promo code. Talk about pushing things.
+Thanks for the credits Linode. Appreciate it :)
 
 Fast forward some hours. I have a 4GB centOS 7 box up and running on a Singapore datecenter. After some failed attempts, got my `ansible-playbook` to run on the remote machine which installed ovirt-engine on it.
 
@@ -228,9 +230,9 @@ Did not get much out of it.
 
 So this brings me to the moment where I see the attack vector which was placed by the perpetrator becomes dormant. I did not see any other activity which would wry my attention again. 
 
-I let my server run for the night to check in the morning what was the status.
+I let my server run for the night (stupid call but I was just plain old curious) to check in the morning what was the status.
 
-Turned out there still had been a fair amount of outboung calls being made during that time. 
+Turned out there still had been a fair amount of outbound calls being made during that time. 
 
 <center><img src="/content/images/2017/05/still-outboung-io.png"></center>
 
@@ -271,13 +273,19 @@ change it to something not common as the default `22` would be known by you as w
 
 But thinking that security through obscurity is makes you fail safe. Think again. 
 
-Security through obscurity would be burying your money under a tree. The only thing that makes it safe is no one knows it’s there. Real security is putting it behind a lock or combination, say in a safe.
+Security by obscurity is a beginner fail! one thing is to keep secrets and make it harder to exploit, the other is to rely on secrets for security. The financials were doing it for long until they learned it does not work.
+
+It’s better to use known good practices, protocols and techniques than to come with your own, reinventing the wheel and trying to keep it secret. Reverse engineering has been done for everything, from space rockets to smart toasters. It takes usually 30min to fingerprint an OS version aling with libraries no matter how you protect it. Just looking at a ping RTT can identify the OS, for example.
+
+Finally, nobody ever got blamed for using best practices. Yet, if you try to outsmart the system it’ll all be your fault.
 
 - Use your public key to ssh into the machine instead of password login as suggested. 
 
 - Take regular backups/snapshot’s of your server. That way if something funny does happen. You can always restore it to a previous state.
 
-- KEEP A STRONG PASSWORD! Even though there is a brute force attack on your server, it is relatively very hard to crack the password if you keep a strong one.
+- I kept a really easy to guess, dictionary based password. I have to admit it, this is simply the stupidest thing one can do. And yes, I did it. My only reasoning for doing that was that this was a throwaway server, but that makes up for no excuse for not following security practices.
+
+KEEP A STRONG PASSWORD! Even though there is a brute force attack on your server, it is relatively very hard to crack the password if you keep a strong one.
 
 Bruce [has a nice essay](http://www.schneier.com/essay-148.html) about the subject here. Won’t repeat what he has said so take a look at it.
 
@@ -317,21 +325,26 @@ Configure syslog to send your logfiles to a remote log server where they can't b
 
 How do you know if my Linux server has been hacked?
 
-You don't!
+You don’t!
 
-I know, I know - but it's the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically - it might be impossible to tell. It's good to understand that nothing is ever completely secure.
+I know, I know — but it’s the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically — it might be impossible to tell. It’s good to understand that nothing is ever completely secure.
 
-If your system was compromised, none of your system tools can be trusted to reveal the truth.
+If your system was compromised, meaning once someone has root on your host, you cannot trust anything you see because above and beyond the more obvious methods like modifying ps, ls, etc, one can simply attack kernel level system calls to subjugate IO itself. None of your system tools can be trusted to reveal the truth.
 
-And I just have to post this image.
+Simply put, you cant trust anything your terminal tells you, period.
 
-<center><img src="/content/images/2017/05/today-was-a-good-day-meme.jpg"></center>
+**I would like to thank the people over at Linode who work very hard to secure make servers work just work for us in a secure manner in an affordable price. Thanks guys!**
 
 **If I have made any mistakes or you think I should have done something else from what I have tried or not described something as it should be. Please feel free to point it out. I am just starting out on the infosec scene :)**
 
 Cheers and stay secured!
 
-Catch the discussion over [HN](https://news.ycombinator.com/item?id=14416982) and [reddit](https://www.reddit.com/r/netsec/comments/6d99gc/a_perpetrator_gained_root_access_to_a_private/)
+And I just have to post this image.
+
+<center><img src="/content/images/2017/05/today-was-a-good-day-meme.jpg"></center>
+
+> Catch the discussion over [HN](https://news.ycombinator.com/item?id=14416982)
+
 
 ## Further read
 
