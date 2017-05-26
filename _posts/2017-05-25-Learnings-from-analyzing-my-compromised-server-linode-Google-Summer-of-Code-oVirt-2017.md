@@ -323,13 +323,13 @@ Configure syslog to send your logfiles to a remote log server where they can't b
 
 ## Closing notes
 
-How do you know if my Linux server has been hacked?
+> How do you know if your Linux server has been hacked?
 
 You don’t!
 
 I know, I know — but it’s the paranoid, sad truth, really ;) There are plenty of hints of course, but if the system was targeted specifically — it might be impossible to tell. It’s good to understand that nothing is ever completely secure.
 
-If your system was compromised, meaning once someone has root on your host, you cannot trust anything you see because above and beyond the more obvious methods like modifying ps, ls, etc, one can simply attack kernel level system calls to subjugate IO itself. None of your system tools can be trusted to reveal the truth.
+If your system was compromised, meaning once someone has root access on your host, you cannot trust anything you see because above and beyond the more obvious methods like modifying ps, ls, etc, one can simply attack kernel level system calls to subjugate IO itself. None of your system tools can be trusted to reveal the truth.
 
 Simply put, you cant trust anything your terminal tells you, period.
 
