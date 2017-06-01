@@ -14,15 +14,13 @@ cover_image: '/content/images/2017/06/rbac_header.jpg'
 
 If I have some 100 users in my system and for each user I am writing some form of ACL using which the system makes choices whether he should be having authorisation for different actions on resources. At it's base, this is how it works.
 
-But as analogous to `iptables`, this model does not scale very well when you have a couple more of users in your syste. By practicality, your existing rules would be circus. Editing and reomoving some user from that? Even harder. 
-
 How do you solve that?
 
-Do you remember your English class ** *teacher* **? I sure do. She used to tell all kinds of interesting facts in and around Indian history. She was one of the best ** *teacher ** that I had. 
+Do you remember your English class ** *teacher* **? I sure do. She used to tell all kinds of interesting facts in and around Indian history. Anyways
 
 Do you see, the word teacher here? What is that?
 
-A Role? So whoever was a teacher had a `role` as a teacher in the school? 
+A Role? So whoever was a ** *teacher* ** had a `role` as a 1teacher1 in the school? 
 
 What permissions/privileges did they have on the resources? Were they needed to be as assigned special permissions/authorisations on per teacher basis(yes, for let's say the CS teacher gets access to the CS labs at any time but that would be an exception). More or less they had a lot of responsibilities or so as to speak privileges commong among themselves
 
@@ -35,6 +33,10 @@ Now instead of defining some 100 rules for 100 teachers, I can create a `Role` c
 This way I can easily manage the permissions for all the 100 teachers without getting repetitive. 
 
 I also get the freedom to easily delete a teacher if he decides to leave for another school for some reason or the other. 
+
+Analogous to this would be `iptables`, this model does not scale very well when you have a couple more of users in your syste. By practicality, your existing rules would be circus. Editing and reomoving some user from that? Even harder. 
+
+This is what `ufw` solves for you.
 
 ## Introduction to RBAC
 
@@ -67,9 +69,9 @@ Layered RBAC basic model
 
 ## easyrbac
 
-Easiest way you can grok and retain all I had read, was to make something out of it. `easyrbac` was born out of it. 
+Easiest way you can grok and retain all I had read, was to make something out of it. `easyrbac` was born out of it. I have tried implementing `RBAC0` for this release. The next release would focus on getting `RBAC1`, which includes role inheritance. 
 
-Got a very simple API to interact around and create `Roles` and `Users`
+`easyrbac` has a very simple API to interact around and create `Roles` and `Users`
 
 ```python
 from easyrbac import Role, User
