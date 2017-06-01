@@ -40,17 +40,15 @@ This is what `ufw` solves for you.
 
 ## Introduction to RBAC
 
-RBAC is Role Based Access Control, a powerful complement to traditional access control strategies and is the most manageable model (Who's how to do what (Which))
+RBAC is Role Based Access Control, a powerful complement to traditional access control strategies and is the most manageable model (Who’s how to do what (Which)) and is (one of)the most popular access control mechanism which greatly reduces the workload of security administrators.
 
-Is an effective way to solve the same resource access control for large enterprises, and is the most popular access control mechanism which greatly reduces the workload of security administrators
-
-Here, the use of the role as an authorized intermediary, its basic idea is to access the permissions assigned to a certain role, the user by playing a different role to obtain the role of access rights have access
+Here, the use of the role as an authorised intermediary, its basic idea is to access the permissions assigned to a certain role, the user by playing a different role to obtain the role of access rights have access
 
 <center><img src="/content/images/2017/06/rbac_model.jpg"></center>
 
-RBAC from the control of the main point of view, according to the management of the relatively stable terms and responsibilities to divide the role of the access rights and roles, by assigning the appropriate role to the user, so that users and access permissions, the role of access control access A bridge between the subject and the controlled object
+Professor Sandhu has done a great job in explaining everything. Do check his article out which I have pointed at the end. 
 
-Professor Sandhu has done a great job in explaining everything
+So I would use an RBAC for it’s
 
 # Advantages
 
