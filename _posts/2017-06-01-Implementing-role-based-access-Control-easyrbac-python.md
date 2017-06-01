@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Implementing Role Based Access Control (CORE)"
-description: "Implementing Role Based Access Control (CORE)"
+title: "Implementing Role Based Access Control"
+description: "Implementing Role Based Access Control"
 tags: [security, python]
 comments: true
 share: true
-cover_image: '/content/images/2017/06/rbac-header.jpg'
+cover_image: '/content/images/2017/06/rbac_header.jpg'
 ---
 
 > You can find the python module for implementing RBAC0 here at [https://github.com/prodicus/easyrbac](https://github.com/prodicus/easyrbac)
