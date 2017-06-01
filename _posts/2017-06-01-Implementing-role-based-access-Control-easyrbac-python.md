@@ -12,7 +12,7 @@ cover_image: '/content/images/2017/06/rbac_header.jpg'
 
 ## Main Idea behind it
 
-If I have some 100 users in my system and for each user I am writing some form of ACL using which the system makes choices whether he should be having authorisation for different actions on resources. At it's base, this is how it works.
+If I have some 100 users in my system and for each user. I need to have some form of ACL using which the system makes choices whether they should be having authorisation for different actions on resources. Meaning, only the actors should be able to perform only those actions for which they are having authorisation.
 
 How do you solve that?
 
