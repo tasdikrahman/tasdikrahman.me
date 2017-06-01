@@ -20,7 +20,7 @@ Do you remember your English class ** *teacher* **? I sure do. She used to tell 
 
 Do you see, the word teacher here? What is that?
 
-A Role? So whoever was a ** *teacher* ** had a `role` as a 1teacher1 in the school? 
+A Role? So whoever was a ** *teacher* ** had a `role` as a teacher in the school? 
 
 What permissions/privileges did they have on the resources? Were they needed to be as assigned special permissions/authorisations on per teacher basis(yes, for let's say the CS teacher gets access to the CS labs at any time but that would be an exception). More or less they had a lot of responsibilities or so as to speak privileges commong among themselves
 
