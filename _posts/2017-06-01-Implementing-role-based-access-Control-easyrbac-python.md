@@ -22,7 +22,7 @@ Do you see, the word teacher here? What is that?
 
 A Role? So whoever was a ** *teacher* ** had a `role` as a teacher in the school? 
 
-What permissions/privileges did they have on the resources? Were they needed to be as assigned special permissions/authorisations on per teacher basis(yes, for let's say the CS teacher gets access to the CS labs at any time but that would be an exception). More or less they had a lot of responsibilities or so as to speak privileges commong among themselves
+What permissions/privileges did they have on the resources? Were they needed to be as assigned special permissions/authorisations on per teacher basis(yes, for let's say the CS teacher gets access to the CS labs at any time but that would be an exception). More or less they had a lot of responsibilities or so as to speak privileges common among themselves
 
 So it would be common sense to group them (teachers) together and create an entity(role in this case).
 
@@ -30,11 +30,11 @@ How does this help?
 
 Now instead of defining some 100 rules for 100 teachers, I can create a `Role` called `teacher` and create users which would be assigned the role of a teacher. 
 
-This way I can easily manage the permissions for all the 100 teachers without getting repetitive. 
+This way I can easily manage the permissions for all the 100 teachers without getting repetitive as now I would just need to edit rules at the role level and not the 100 Users which were assigned the role of a teacher.
 
-I also get the freedom to easily delete a teacher if he decides to leave for another school for some reason or the other. 
+I also get the freedom to easily delete a role from a user in a cleaner manner. Imagine writing individual ACL policies for every user out there. Horror right?
 
-Analogous to this would be `iptables`, this model does not scale very well when you have a couple more of users in your syste. By practicality, your existing rules would be circus. Editing and reomoving some user from that? Even harder. 
+Analogous to this would be `iptables`, this model does not scale very well when you have a couple more of users in your system. By practicality, your existing rules would be circus managing which would be a huge man-hour consumer. This also, increases the chance of human error while doing so. Editing and removing some user from that? Even harder.
 
 This is what `ufw` solves for you.
 
