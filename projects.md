@@ -30,9 +30,10 @@ _**Click on any link to jump to that project**_
 
 #### API's
 
+- [easyrbac: Role Based Access Control (version 0) implementation](#easyrbac)
 - [Markovipy: Random sentence generator based on Markov Chains](#markovipy)
 - [vocabulary: Similar to Wordnet, comes with a better API](#vocabulary)
-- [pyzipcode](#pyzipcode)
+- [pyzipcode: All things possible with a zipcode](#pyzipcode)
 
 #### GUI's
 
@@ -77,7 +78,7 @@ Some of my projects are also on [gratipay](https://gratipay.com/~prodicus/)
 
 ### <a name="srmsearch"/>[SRM Search Engine](http://srmsearchengine.in/se.html)
 
-<center><a href="http://srmsearchengine.in/se.html" target="_blank"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
+<center><a href="#" target="_blank"><img src="http://i.imgur.com/rg45z9w.jpg"></a></center>
 
 A general purpose Search Engine which is funded by the [National Internet Exchange](http://nixi.in/), Govt. of India
 
@@ -88,10 +89,6 @@ Covered thrice by Times Of India, titled
 - ["Smart search"](http://timesofindia.indiatimes.com/home/education/news/Smart-search/articleshow/45253861.cms)
 
 The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired us once. Yeah thats much about it!
-
-**SRMSE [Team Page](http://srmsearchengine.in/about_us/team)**
-
-<i class="fa fa-code fa-2x"></i> Most of our our [technology stack](http://srmsearchengine.in/about_us/) is listed in our About me page.
 
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
@@ -278,6 +275,8 @@ As covered by
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
+<center><a href="https://github.com/prodicus/markovipy"><img src="/content/images/2017/05/markovipy.png"></a></center>
+
 Simply put, a markov chains based sentence generator
 
 She tries striking conversations with you with her cohesive sentences after you have given her fill of text to her. And no she won’t complain about how big your corpus is. Also, don’t ask her if she can pass the turing test. She might not talk to you again.
@@ -294,6 +293,25 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 <!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
+
+### <a name="easyrbac"/>[easyrbac](https://github.com/prodicus/easyrbac)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+
+[![Demo](http://tasdikrahman.me/content/images/2017/05/markov.png)](https://github.com/prodicus/easyrbac)
+
+> [Blog post](http://tasdikrahman.me/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
+
+Role based access control (RBAC0) implementation 
+
+As covered by
+
+- [importpython's issue #127](http://importpython.com/newsletter/no/127/)
+
+<i class="fa fa-code fa-2x"></i>  `python`
+
+<center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
+<!-- [<i class="fa fa-chevron-circle-up fa-2x"></i>Back to top]() -->
 
 ***
 
