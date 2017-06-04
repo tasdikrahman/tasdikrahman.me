@@ -298,7 +298,7 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
-[![Demo](http://tasdikrahman.me/content/images/2017/05/markov.png)](https://github.com/prodicus/easyrbac)
+[![Demo](http://tasdikrahman.me/content/images/2017/05/easyrbac.png)](https://github.com/prodicus/easyrbac)
 
 > [Blog post](http://tasdikrahman.me/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
 
