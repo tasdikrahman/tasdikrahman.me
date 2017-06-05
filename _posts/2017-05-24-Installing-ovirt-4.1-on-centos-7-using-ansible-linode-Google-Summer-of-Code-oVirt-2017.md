@@ -16,7 +16,7 @@ Turns out we can automate the whole process using ansible playbooks!
 
 Secondly, I have thought of shifting from [digitalocean](https://digitalocean.com/) to [linode](https://linode.com). Why?
 
-Well, first off. It's not that I don't like digitalocean. It's just that the prices for the VMS that I provisioning, are getting too high for me.
+Well, first off. It's not that I don't like digitalocean. It's just that the prices for the VMS that I'am provisioning, are getting too high for me.
 
 For a 4GB VM with 2 cores and 60GB of SSD to spare with. I am getting some 4TB of network I/O. 4TB for me is generous. All this adds up to a damage of $40/month or roughly speaking, $0.060/hour.
 
