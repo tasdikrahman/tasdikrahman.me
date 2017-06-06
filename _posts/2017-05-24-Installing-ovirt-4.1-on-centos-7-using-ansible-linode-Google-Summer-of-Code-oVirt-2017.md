@@ -68,7 +68,7 @@ You have to change the `hostname` of your server. Will explaing the why in a bit
 ```bash
 $ ssh root@ovirtlinode.gsoc.org
 root@ovirtlinode.gsoc.org's password:
-[root@ovirtlinode ~]# hostname ovirtlinode.gsoc.org
+[root@ovirtlinode ~]# hostnamectl set-hostname ovirtlinode.gsoc.org
 [root@ovirtlinode ~]# hostname 
 ovirtlinode.gsoc.org
 [root@ovirtlinode ~]# 
