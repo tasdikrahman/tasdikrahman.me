@@ -11,10 +11,11 @@ Talks given by me so far! More to come.
 
 #### Upcoming talks 
 
-- ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/)
+https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/
 
 #### Python internals
 
+- ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](#pycontaiwan-deep-dive-imports)
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
 #### Automation
@@ -22,6 +23,12 @@ Talks given by me so far! More to come.
 - ["Introduction to Ansible", Bangpypers April 2017](#introduction-to-ansible-bangpypers-april)
 
 ***
+
+### <a name="#pycontaiwan-deep-dive-imports"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
+
+<script async class="speakerdeck-embed" data-id="cf622908ec8641ef88ab5c775592812a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+- **PyCon Taiwan talk scehdule**: [https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/)
 
 ### <a name="how-imports-word-chennaipy"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
 
