@@ -9,10 +9,6 @@ Talks given by me so far! More to come.
 
 <!--## <a name="index"/>Index-->
 
-#### Upcoming talks 
-
-https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/
-
 #### Python internals
 
 - ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](#pycontaiwan-deep-dive-imports)
