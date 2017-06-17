@@ -95,7 +95,7 @@ And it was a wrap up for PyCon Taiwan 2017.
 
 I had a great time and made amazing friends. Adrian, Tzu, Keith, Mike, Yahsin and I missing out a lot of names in this list. 
 
+You will be missed Taiwan!
+
 <center><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So it&#39;s a wrap up for <a href="https://twitter.com/PyConTW">@PyConTW</a>. Had a great time with the community back there. Missing you guys already! TPE ✈️ BKK ✈️ BLR <a href="https://twitter.com/hashtag/PyConTW?src=hash">#PyConTW</a> <a href="https://t.co/2xlQd5Mwz8">pic.twitter.com/2xlQd5Mwz8</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/874049878371872768">June 11, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
-
-You will be missed Taiwan!
