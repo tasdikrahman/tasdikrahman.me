@@ -162,6 +162,8 @@ After some fooling around this issue, I remembered that even the `hostname` comm
 
 Tried that and it worked!
 
+<center><img src="/content/images/2017/06/travis-pass-log.png"></center>
+
 Another thing which was making the tests fail were the `ansible-lints`.
 
 I had to replace `shell` module usage with `command` module in most of the places. Turns out that both these modules are just the same.
@@ -211,3 +213,11 @@ index 8c96082..ed28298 100644
 Had chat with Lukas about it and he suggested that most of the systems use the DNS to pull out the hostname. So that task in the playbook ovirt-engine-rename would not be necessary and commented out on most cases.
 
 Will be having a look at [Lago](https://lago.readthedocs.io/en/latest/) and ovirt-system-test as you suggested as Yaniv Kaul suggested for end to end testing.
+
+## Older Blog post
+
+- [https://medium.com/@tasdikrahman/using-ansible-playbooks-to-install-ovirt-4-1-on-centos-7-linode-9dadd90143af](https://medium.com/@tasdikrahman/using-ansible-playbooks-to-install-ovirt-4-1-on-centos-7-linode-9dadd90143af)
+- [https://medium.com/@tasdikrahman/installing-ovirt-4-1-on-centos-7-digitalocean-fbb4fa037c11](https://medium.com/@tasdikrahman/installing-ovirt-4-1-on-centos-7-digitalocean-fbb4fa037c11)
+- [https://medium.com/@tasdikrahman/community-bonding-period-gsoc-2017-with-ovirt-org-5d0faac95257](https://medium.com/@tasdikrahman/community-bonding-period-gsoc-2017-with-ovirt-org-5d0faac95257)
+- [https://medium.com/@tasdikrahman/hello-ovirt-gsoc-2017-6c18100f21dd](https://medium.com/@tasdikrahman/hello-ovirt-gsoc-2017-6c18100f21dd)
+- [https://medium.com/@tasdikrahman/testing-your-ansible-roles-using-travis-ci-d186749a8edf](https://medium.com/@tasdikrahman/testing-your-ansible-roles-using-travis-ci-d186749a8edf)
