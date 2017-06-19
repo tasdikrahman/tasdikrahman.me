@@ -152,7 +152,7 @@ The command `$ hostnamectl set-hostname test.ovirt.org` which would be used to t
 
 <center><img src="/content/images/2017/06/dbus-error.png"></center>
 
-I mean what does `Success` mean here?
+I mean what does `Success` mean here? Quite the irony if you ask me. Hah
 
 Searching around, didn't result to much. Meanwhile Lukas thought there was some issue with the DBUS which was maybe due to some permissions change just before the particular task.
 
