@@ -183,3 +183,31 @@ And it’s always good to see your CI server mailing you things like this one.
 So far it's been a great time for me and I have learned tons. Thanks for reading till this point. 
 
 Cheerio!
+
+**EDIT:**
+
+[Yaniv Kaul](https://medium.com/@ykaul/why-not-look-at-http-docs-ansible-com-ansible-hostname-module-html-to-change-the-host-name-b3c68f1481ec) suggested me that I try renaming the container using the http://docs.ansible.com/ansible/hostname_module.html module to rename the engine, but the module failed with the same DBUS error as the previous one.
+
+Not a big change per se for testing it out.
+
+```patch
+diff --git a/roles/ovirt-engine-rename/tasks/main.yml b/roles/ovirt-engine-rename/tasks/main.yml
+index 8c96082..ed28298 100644
+--- a/roles/ovirt-engine-rename/tasks/main.yml
++++ b/roles/ovirt-engine-rename/tasks/main.yml
+@@ -49,7 +49,9 @@
+ # to get the hostname, if not let it remain
+ - name: Changing the system host name to reflect the new engine-name
+   # command: hostnamectl set-hostname {{ ovirt_engine_rename_new_fqdn }}
+-  command: hostname {{ ovirt_engine_rename_new_fqdn }}
++  # command: hostname {{ ovirt_engine_rename_new_fqdn }}
++  hostname:
++    name: '{{ ovirt_engine_rename_new_fqdn }}'
+   tags:
+     - skip_ansible_lint
+```
+
+
+Had chat with Lukas about it and he suggested that most of the systems use the DNS to pull out the hostname. So that task in the playbook ovirt-engine-rename would not be necessary and commented out on most cases.
+
+Will be having a look at [Lago](https://lago.readthedocs.io/en/latest/) and ovirt-system-test as you suggested as Yaniv Kaul suggested for end to end testing.
