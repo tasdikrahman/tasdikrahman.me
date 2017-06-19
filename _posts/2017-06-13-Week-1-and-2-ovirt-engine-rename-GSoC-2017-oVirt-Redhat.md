@@ -114,9 +114,9 @@ If the diff with this expected file returns nothing, we are already at our requi
 
 If not the `engine-rename` command is run.
 
-After which again a recursive grep is done again on `/etc/ovirt-engine` with the search paramater as the new engine name.
+After which again a recursive grep is done again on `/etc/ovirt-engine` with the search parameter as the new engine name.
 
-This result is registered and compared to the expected grep result. If this passes, we now have our ovirt-engine at the desired state. i.e the name of the engine was renamed succesfully.
+This result is registered and compared to the expected grep result. If this passes, we now have our ovirt-engine at the desired state. i.e the name of the engine was renamed successfully.
 
 After which we are checking the engine health at the end of the role.
 
