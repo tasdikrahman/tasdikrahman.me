@@ -146,13 +146,9 @@ Adding mine just above that will do the trick.
 
 ## Few gotcha's
 
-The command `$ hostnamectl set-hostname test.ovirt.org` which would be used to to change the hostname was giving wierd errors inside the CI and the error traceback didn't give much out apparantly.
+The command `$ hostnamectl set-hostname test.ovirt.org` which would be used to to change the hostname was giving weird errors inside the CI and the error traceback didn't give much out apparently.
 
-```bash
-"stderr_lines": [
-        "Could not set property: Failed to execute program /lib64/dbus-1/dbus-daemon-launch-helper: Success"
-], 
-```
+<center><img src="/content/images/2017/06/dbus-error.png"></center>
 
 I mean what does `Success` mean here?
 
