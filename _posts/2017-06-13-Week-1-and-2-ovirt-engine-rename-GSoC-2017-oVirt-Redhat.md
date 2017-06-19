@@ -176,6 +176,10 @@ So by default, the `command` module is all that one requires to achieve most of 
 
 Also, there were some places in my PR where I had no choice but to use the `shell` module. For those, I had to pass the `skip_ansible_tag` for `ansible-lint` to skip those tasks.
 
+And it’s always good to see your CI server mailing you things like this one.
+
+<center><img src="/content/images/2017/06/travis-pass.png"></center>
+
 So far it's been a great time for me and I have learned tons. Thanks for reading till this point. 
 
 Cheerio!
