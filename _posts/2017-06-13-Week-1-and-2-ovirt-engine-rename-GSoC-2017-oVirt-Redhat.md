@@ -144,6 +144,8 @@ The role `ovirt-engine-rename` would be coming just before we would be running t
 
 Adding mine just above that will do the trick. 
 
+> The particular PR which covers the above [https://github.com/rhevm-qe-automation/ovirt-ansible/pull/132/files](https://github.com/rhevm-qe-automation/ovirt-ansible/pull/132/files)
+
 ## Few gotcha's
 
 The command `$ hostnamectl set-hostname test.ovirt.org` which would be used to to change the hostname was giving weird errors inside the CI and the error traceback didn't give much out apparently.
