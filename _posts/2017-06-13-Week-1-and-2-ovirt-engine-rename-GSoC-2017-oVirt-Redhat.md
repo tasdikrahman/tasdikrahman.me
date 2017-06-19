@@ -199,10 +199,10 @@ index 8c96082..ed28298 100644
  # to get the hostname, if not let it remain
  - name: Changing the system host name to reflect the new engine-name
    # command: hostnamectl set-hostname {{ ovirt_engine_rename_new_fqdn }}
--  command: hostname {{ ovirt_engine_rename_new_fqdn }}
-+  # command: hostname {{ ovirt_engine_rename_new_fqdn }}
+-  command: hostname { { ovirt_engine_rename_new_fqdn } }
++  # command: hostname { { ovirt_engine_rename_new_fqdn } }
 +  hostname:
-+    name: '{{ ovirt_engine_rename_new_fqdn }}'
++    name: '{ { ovirt_engine_rename_new_fqdn } }'
    tags:
      - skip_ansible_lint
 ```
