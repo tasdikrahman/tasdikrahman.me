@@ -31,8 +31,12 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 
 If you have found my little bits of software of any use to you, you can help me pay my internet bills :)
 
-<p align="center">
+<!--<p align="center">
 <a href="https://www.paypal.me/tasdikrahman" target="_blank"><img src="https://tuxtricks.files.wordpress.com/2016/12/donate.png" alt="Donate via PayPal!" title="Donate via PayPal!" /></a>
+</p>-->
+
+<p align="center">
+<a href="https://transferwise.com/pay/cd41344d-60fe-457f-80d5-f0ece9e4ebf3" target="_blank"><img src="https://cdn.icomparefx.com/wp-content/uploads/2015/05/Transferwise_logo_small.jpg" alt="Donate via TransferWire!" title="Donate via TransferWire!" /></a>
 </p>
 
 If you are from the Indian subcontinent.
