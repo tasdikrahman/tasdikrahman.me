@@ -35,18 +35,18 @@ If you have found my little bits of software of any use to you, you can help me 
 <a href="https://www.paypal.me/tasdikrahman" target="_blank"><img src="https://tuxtricks.files.wordpress.com/2016/12/donate.png" alt="Donate via PayPal!" title="Donate via PayPal!" /></a>
 </p>-->
 
-<p align="center">
-<a href="https://transferwise.com/pay/cd41344d-60fe-457f-80d5-f0ece9e4ebf3" target="_blank"><img src="https://cdn.icomparefx.com/wp-content/uploads/2015/05/Transferwise_logo_small.jpg" alt="Donate via TransferWire!" title="Donate via TransferWire!" /></a>
-</p>
+<!--<p align="center">
+<a href="https://transferwise.com/pay/cd41344d-60fe-457f-80d5-f0ece9e4ebf3" target="_blank"><img src="https://cdn.icomparefx.com/wp-content/uploads/2015/05/Transferwise_logo_small.jpg" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a>
+</p>-->
 
-If you are from the Indian subcontinent.
-
-<p align="center">
+<!--<p align="center">
 <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.instamojo.com/blog/wp-content/uploads/2017/01/instamojo-91.png" alt="Donate via instamojo" title="Donate via instamojo" /></a>
-</p>
+</p>-->
 
-
-Some of my projects are also on [gratipay](https://gratipay.com/~prodicus/)
+| £ (GBP) | <a href="https://transferwise.com/pay/d804d854-6862-4127-afdd-4687d64cbd28" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
+|:-------------------------------------------:|:-------------------------------------------------------------:|
+| € Euros | <a href="https://transferwise.com/pay/64c586e3-ec99-4be8-af0b-59241f7b9b79" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
+| ₹ (INR)  | <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.instamojo.com/blog/wp-content/uploads/2017/01/instamojo-91.png" alt="Donate via instamojo" title="Donate via instamojo" /></a> | 
 
 
 ###  Me splattered across the web
