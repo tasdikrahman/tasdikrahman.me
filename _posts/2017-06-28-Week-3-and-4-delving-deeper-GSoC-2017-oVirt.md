@@ -575,6 +575,8 @@ If for any reason, the admin panel is still giving you an error.
 
 ## Automating it
 
+<center><img src="/content/images/2017/06/ansible-playbook-flow.jpg"></center>
+
 For testing my newly created `ovirt-engine-install-remote-dwh`, provisioned 2x2gig CentOS 7 vms on linode
 
 ```bash
@@ -726,6 +728,7 @@ Until next time!
 
 - [Github branch for the work being done on issue #9 namely `remote-dwh-fresh-engine-install`](https://github.com/rhevm-qe-automation/ovirt-ansible/compare/master...prodicus:remote-dwh-fresh-engine-install)
 - [https://github.com/rhevm-qe-automation/ovirt-ansible/issues/9](https://github.com/rhevm-qe-automation/ovirt-ansible/issues/9)
+- [https://bugzilla.redhat.com/show_bug.cgi?id=1465859](https://bugzilla.redhat.com/show_bug.cgi?id=1465859)
 - [https://www.ovirt.org/documentation/architecture/architecture/](https://www.ovirt.org/documentation/architecture/architecture/)
 - [http://www.ovirt.org/documentation/data-warehouse/Data_Warehouse_Guide/](http://www.ovirt.org/documentation/data-warehouse/Data_Warehouse_Guide/)
 - [http://www.ovirt.org/documentation/data-warehouse/Migrating_Data_Warehouse_to_a_Separate_Machine/](http://www.ovirt.org/documentation/data-warehouse/Migrating_Data_Warehouse_to_a_Separate_Machine/)
