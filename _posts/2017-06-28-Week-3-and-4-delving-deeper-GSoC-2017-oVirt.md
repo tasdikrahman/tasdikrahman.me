@@ -12,11 +12,11 @@ At last I have got a hold of IRC's and I declare my love for [irssi](https://irs
 
 My current installation of irssi is there on my VPC hosted on linode. For logging my chat's and conversations, I have setup logrotate daemon to log the channels and private chats in their respective directories.
 
-So what does it look like? Definitely a huge shift from the webchat interface and more customizable.
+So what does it look like? Definitely a huge shift from the web chat interface and more customisable.
 
 <center><img src="/content/images/2017/06/irssi_tmux.png"></center>
 
-I love the current setup. Just one thing which I think is missing out from here is that I would like to get a nitification when I get a message or someone mentions my name in a channel. Will have to look that up.
+I love the current setup. Just one thing which I think is missing out from here is that I would like to get a notification when I get a message or someone mentions my name in a channel. Will have to look that up.
 
 You can try [Limechat](limechat.net/mac/) if you are on a MAC.
 
@@ -97,7 +97,7 @@ $ firewalld-cmd --reload  # for the rules to take effect
 $ iptables -S  # to check whether the changes have taken effect
 ```
 
-`iptables` would spit everyrule defined out there for your system. That would get ugly real quick. A cleaner way would be to do a 
+`iptables` would spit every rule defined out there for your system. That would get ugly real quick. A cleaner way would be to do a 
 
 ```bash
 [root@dwhtest-3-engine ~]# iptables-save | grep 443
@@ -284,11 +284,13 @@ Configure Data Warehouse on this host (Yes, No) [Yes]: No
 ...
 ```
 
-The other thing to note in the above installation is the `answerfile` which was generated out of the insatallation process.
+The other thing to note in the above installation is the `answerfile` which was generated out of the installation process.
 
 ## Answerfile?
 
-Tools like `engine-setup`, `engine-cleanup` and `ovirt-engine-rename` which are based out on OTOPI(key value pair store of data and configuration), all generate something called as an answerfile upon completion of their (be it successful or erroneous). This file is placed under `/var/lib/ovirt-engine/setup/answers/` ending with a `*.conf`.
+Tools like `engine-setup`, `engine-cleanup` and `ovirt-engine-rename` which are based out on OTOPI(key value pair store of data and configuration), all generate something called as an answerfile upon completion of their (be it successful or erroneous). 
+
+This file is placed under `/var/lib/ovirt-engine/setup/answers/` ending with a `*.conf`.
 
 <center><img src="/content/images/2017/06/state0-to-state1.jpg"></center>
 
