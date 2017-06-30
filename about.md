@@ -11,11 +11,14 @@ title: About Me
 
 Speaks [parseltongue](https://python.org/) way too often apparently. Has been wasting his weekends lately building stuff instead of studying. Loves working on tools, infrastructure and everything Pythonic.
 
-Engineering Intern @ Cisco as part of their Security Business group helping make scalable security products.
+## Present
 
 Google Summer of Code (GSoC 2017) intern for oVirt org under the Redhat umbrella. You can know more about my GSoC [work here](https://summerofcode.withgoogle.com/projects/#6188534896525312).
 
-Former Summer Engineering Intern(S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
+## Formerly
+
+Formerly Engineering Intern @ Cisco as part of their Security Business group helping make scalable security products. Former Summer Engineering Intern(S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
+
 
 Occasionally, I speak sometimes at local meetup groups. You can find them [here](http://tasdikrahman.me/talks/)
 
