@@ -9,7 +9,11 @@ title: About Me
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-Speaks [parseltongue](https://python.org/) way too often apparently. Has been wasting his weekends lately building stuff instead of studying. Loves working on tools, infrastructure and everything Pythonic.
+Speaks [parseltongue](https://python.org/) way too often apparently. Used to waste his weekends building stuff instead of studying back in college. Loves working on tools, infrastructure and everything Pythonic. Occasional gopher
+
+When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!) or listenting to rap music in moderate to high volumes every day.
+
+Sometimes I get lucky that people allow me to speak at local meetup groups. Sometimes international too(Looking at you PyCon Taiwan) You can find the presentations [here](https://tasdikrahman.me/talks/)
 
 ## Present
 
@@ -17,16 +21,14 @@ Google Summer of Code (GSoC 2017) intern for oVirt org under the Redhat umbrella
 
 ## Formerly
 
-Formerly Engineering Intern @ Cisco as part of their Security Business group helping make scalable security products. Former Summer Engineering Intern(S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool.
-
-
-Occasionally, I speak sometimes at local meetup groups. You can find them [here](http://tasdikrahman.me/talks/)
+- Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
+- Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://tasdikrahman.me/2016/08/13/My-internship-experience-at-Wingify-new-delhi-visual-website-optimiser-vwo/) 
 
 ***
 
-When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!) or listenting to rap music in moderate to high volumes every day.
+I am always a [tweet](https://twitter.com/tasdikrahman) away if you have something interesting in mind.
 
-I am always a tweet away if you have something interesting in mind.
+If you are `IRC` person, I will be there with the handle `tasdikrahman` hanging around OFTC as well as on freenode.
 
 _I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers_
 
