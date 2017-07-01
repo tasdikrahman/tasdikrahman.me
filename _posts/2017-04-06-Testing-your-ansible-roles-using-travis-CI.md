@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2017/04/ansible_plus_travis.png'
 ---
 
-**NOTE**: __The ansible playbook written here can be found at [prodicus/ansible-bootstrap-server](https://github.com/prodicus/ansible-bootstrap-server)__
+**NOTE**: __The ansible playbook written here can be found at [tasdikrahman/ansible-bootstrap-server](https://github.com/tasdikrahman/ansible-bootstrap-server)__
 
 ## Continous Integration
 

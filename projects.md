@@ -8,11 +8,11 @@ customjs:
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-<a href="https://github.com/prodicus" target="_blank" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: fixed; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<a href="https://github.com/tasdikrahman" target="_blank" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: fixed; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
-A selected list of projects that I have contributed to  or have made. Many more can be found out over at my [Github](https://github.com/prodicus) profile.
+A selected list of projects that I have contributed to  or have made. Many more can be found out over at my [Github](https://github.com/tasdikrahman) profile.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 
 ## <a name="index"/>Index
 
@@ -81,7 +81,7 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 ### <a name="plino"/>[Plino](https://plino.herokuapp.com)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=plino&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 <center><a href="https://plino.herokuapp.com"><img src="http://i.imgur.com/jJfnz7f.jpg"></a></center>
 
@@ -105,11 +105,11 @@ As covered by
 
 ***
 
-### <a name="spammy"/>[Spammy](https://github.com/prodicus/spammy)
+### <a name="spammy"/>[Spammy](https://github.com/tasdikrahman/spammy)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spammy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
-<center><a href="https://github.com/prodicus/spammy"><img src="http://i.imgur.com/L8moQ2U.jpg"></a></center>
+<center><a href="https://github.com/tasdikrahman/spammy"><img src="http://i.imgur.com/L8moQ2U.jpg"></a></center>
 
 Custom `Naive Bayes classifier` in the form of pip module , which can be trained on your own dataset for
 classifying emails into spam/ham. **Accuracy achieved: 80%-90%**. Blazingly fast once trained. “Dill” was
@@ -126,9 +126,9 @@ As covered by
 
 ***
 
-### <a name="moviereview"/>[Movie Reviews Analysis](https://github.com/prodicus/movieReviewsAnalysis)
+### <a name="moviereview"/>[Movie Reviews Analysis](https://github.com/tasdikrahman/movieReviewsAnalysis)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=movieReviewsAnalysis&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 <center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/d7pwSTe.jpg"></a></center>
 
@@ -144,10 +144,10 @@ An analysis of the `movie_reviews` corpus present in the `nltk` corpus by applyi
 ### <a name="vocabulary"/>[vocabulary](../vocabulary)  
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-[![vocabulary](https://raw.githubusercontent.com/prodicus/vocabulary/master/assets/usage.gif)](https://github.com/prodicus/vocabulary)
+[![vocabulary](https://raw.githubusercontent.com/tasdikrahman/vocabulary/master/assets/usage.gif)](https://github.com/tasdikrahman/vocabulary)
 
 
 A python module using which you can get `Meaning`, `Synonyms`, `Antonyms`, `translations` and what not for a given word!
@@ -166,13 +166,13 @@ As covered by
 
 ***
 
-### <a name="spaceshooter"/>[Space Shooter](https://github.com/prodicus/spaceShooter)
+### <a name="spaceshooter"/>[Space Shooter](https://github.com/tasdikrahman/spaceShooter)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-<center><a href="https://github.com/prodicus/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
+<center><a href="https://github.com/tasdikrahman/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
 
 
 <a href="https://news.ycombinator.com/item?id=10925168"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/hn.png" width="150" height="20"/></a>
@@ -192,14 +192,14 @@ As covered by
 - [dighub.ru on issue #35](http://dighub.ru/digests/35/)
 - [oschina.net](http://www.oschina.net/p/spaceshooter): An open source community supported by Ministry of OSS promotion Union
 - [mybridge.co](http://www.mybridge.co/view/28020): A `San Francisco` based news aggregator. 
-- [recordnotfound.com](https://recordnotfound.com/spaceShooter-prodicus-5374): A curated list of open source projects
+- [recordnotfound.com](https://recordnotfound.com/spaceShooter-tasdikrahman-5374): A curated list of open source projects
 - [neuropuff.com](https://neuropuff.com/post/show-hn-space-shooter-retro-game-recreated-using-python): a programming blog
 
 **Wanna play? Requires no installation! Just unzip it and you are good to go!**
 
-| <i class="fa fa-linux fa-2x"></i>   | <a href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a>  |
+| <i class="fa fa-linux fa-2x"></i>   | <a href="https://github.com/tasdikrahman/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_linux.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a>  |
 |:-------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
-| <i class="fa fa-windows fa-2x"></i> | <a href="https://github.com/prodicus/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a> |
+| <i class="fa fa-windows fa-2x"></i> | <a href="https://github.com/tasdikrahman/spaceShooter/releases/download/v0.0.3/spaceShooter-v0.0.3_windows.zip" target="_blank"><i class="fa fa-cloud-download fa-2x"></i></a> |
 
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
@@ -209,7 +209,7 @@ As covered by
 
 ### <a name="foodoh"/>[Foodoh](https://github.com/foodoh)
 
-<center><a href="https://github.com/prodicus/foodoh" target="_blank"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
+<center><a href="https://github.com/tasdikrahman/foodoh" target="_blank"><img src="http://i.imgur.com/GwraWSw.jpg"></a></center>
 
 Was the team leader for **Startup Weekend Chennai, 2015** where we made a Food recommendation system.
 
@@ -222,10 +222,10 @@ Was the team leader for **Startup Weekend Chennai, 2015** where we made a Food r
 
 ***
 
-### <a name="tnote"/>[tnote](https://github.com/prodicus/tnote)
+### <a name="tnote"/>[tnote](https://github.com/tasdikrahman/tnote)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=tnote&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=tnote&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=tnote&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=tnote&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 <!-- <center><a href="https://asciinema.org/a/35378"><img src="https://asciinema.org/a/35378.png"/></a></center> -->
@@ -254,11 +254,11 @@ As covered by
 
 ***
 
-### <a name="markovipy"/>[markovipy](https://github.com/prodicus/markovipy)
+### <a name="markovipy"/>[markovipy](https://github.com/tasdikrahman/markovipy)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=markovipy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=markovipy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=markovipy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=markovipy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
-<center><a href="https://github.com/prodicus/markovipy"><img src="/content/images/2017/05/markovipy.png"></a></center>
+<center><a href="https://github.com/tasdikrahman/markovipy"><img src="/content/images/2017/05/markovipy.png"></a></center>
 
 Simply put, a markov chains based sentence generator
 
@@ -277,11 +277,11 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 ***
 
-### <a name="easyrbac"/>[easyrbac](https://github.com/prodicus/easyrbac)
+### <a name="easyrbac"/>[easyrbac](https://github.com/tasdikrahman/easyrbac)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=easyrbac&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
-[![Demo](http://tasdikrahman.me/content/images/2017/05/easyrbac.png)](https://github.com/prodicus/easyrbac)
+[![Demo](http://tasdikrahman.me/content/images/2017/05/easyrbac.png)](https://github.com/tasdikrahman/easyrbac)
 
 > [Blog post](http://tasdikrahman.me/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
 
@@ -298,11 +298,11 @@ As covered by
 
 ***
 
-### <a name="thanos"/>[thanos](https://github.com/prodicus/thanos)
+### <a name="thanos"/>[thanos](https://github.com/tasdikrahman/thanos)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=thanos&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=thanos&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=thanos&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=thanos&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
-[![Demo](http://i.imgur.com/qlzSCuP.jpg)](https://github.com/prodicus/thanos)
+[![Demo](http://i.imgur.com/qlzSCuP.jpg)](https://github.com/tasdikrahman/thanos)
 
 A GUI demonstration of SQL injection and prevention techniques on a local `SQLite` database following
 the guidelines layed out by OWASP.
@@ -314,13 +314,13 @@ the guidelines layed out by OWASP.
 
 ***
 
-### <a name="pyzipcode"/>[pyzipcode](https://github.com/prodicus/pyzipcode-cli)
+### <a name="pyzipcode"/>[pyzipcode](https://github.com/tasdikrahman/pyzipcode-cli)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyzipcode-cli&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyzipcode-cli&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyzipcode-cli&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
-[![Demo](https://raw.githubusercontent.com/prodicus/pyzipcode-cli/master/assets/pyzip_demo.gif)](https://github.com/prodicus/pyzipcode-cli)
+[![Demo](https://raw.githubusercontent.com/tasdikrahman/pyzipcode-cli/master/assets/pyzip_demo.gif)](https://github.com/tasdikrahman/pyzipcode-cli)
 
 
 `Python` module to extract every possible meta data from a Zip Code. Meta data like what?
@@ -339,10 +339,10 @@ the guidelines layed out by OWASP.
 ### <a name="xkcddl"/>[xkcd-dl](../xkcd_dl)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-[![Usage](https://raw.githubusercontent.com/prodicus/xkcd-dl/master/assets/usage.gif)](../xkcd_dl)
+[![Usage](https://raw.githubusercontent.com/tasdikrahman/xkcd-dl/master/assets/usage.gif)](../xkcd_dl)
 
 A command line application to **download all xkcd's** which have been uploaded till date. Ever! 
 
@@ -358,13 +358,13 @@ As covered by
 
 ***
 
-### <a name="pycalc"/>[pyCalc](https://github.com/prodicus/pyCalc)
+### <a name="pycalc"/>[pyCalc](https://github.com/tasdikrahman/pyCalc)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-<center><a href="https://github.com/prodicus/pyCalc"><img src="https://raw.githubusercontent.com/prodicus/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
+<center><a href="https://github.com/tasdikrahman/pyCalc"><img src="https://raw.githubusercontent.com/tasdikrahman/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
 
 A cross platform, GUI calculator.
 
@@ -376,13 +376,13 @@ The making of this project was covered in a [blog post](http://tasdikrahman.me/2
 
 ***
 
-### <a name="margo"/>[margo](https://github.com/prodicus/margo)
+### <a name="margo"/>[margo](https://github.com/tasdikrahman/margo)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=prodicus&repo=margo&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
 
 
-<center><a href="https://github.com/prodicus/margo"><img src="https://raw.githubusercontent.com/prodicus/margo/master/assets/demo.gif"></a></center>
+<center><a href="https://github.com/tasdikrahman/margo"><img src="https://raw.githubusercontent.com/tasdikrahman/margo/master/assets/demo.gif"></a></center>
 
 An opiniated slack bot for [SRMSE's](http://srmsearchengine.in/) slack channel
 

@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2017/03/front.png'
 ---
 
-**NOTE**: __The ansible playbook written here can be found at [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)__
+**NOTE**: __The ansible playbook written here can be found at [tasdikrahman/ansible-playbook](https://github.com/tasdikrahman/ansible-playbooks/tree/master/digitalocean)__
 
 Roles are nothing but a further abstraction of making your playbook more modular. If you have played around with the `ansible-playbook` command. You might have noticed the common pattern of repeating tasks which you did some or the other time back.
 
@@ -24,7 +24,7 @@ I realised that I was doing the same thing over and over again whenever I had to
 - enabling a basic firewall
 - some common chores.
 
-Hence I found myself writing [prodicus/ansible-playbook](https://github.com/prodicus/ansible-playbooks/tree/master/digitalocean)
+Hence I found myself writing [tasdikrahman/ansible-playbook](https://github.com/tasdikrahman/ansible-playbooks/tree/master/digitalocean)
 
 Take this structure for example.
 

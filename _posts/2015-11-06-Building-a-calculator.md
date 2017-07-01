@@ -33,7 +33,7 @@ Second was to decide which functions/operators should it have initially, upon wh
 The problem which took me the hardest to figure out was where we had to parse the input entered by the user. 
 Take this input as an example. 
 
-![calcBlog_1](https://raw.githubusercontent.com/prodicus/prodicus.github.io/master/images/calcBlog_1.jpg)
+![calcBlog_1](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/master/images/calcBlog_1.jpg)
 
 Now to get `80` as the first operand, one has to press `8` and then `8` again. Now you and I know that it is `80`. But how do you make the program understand that?
 
@@ -121,19 +121,19 @@ Will refactor to include it in my next release.
 
 ## Download it!
 
-<a href="https://github.com/prodicus/pyCalc/releases/download/v1.0/pyCalc_v1" target="_blank"><i class="fa fa-linux fa-2x"></i></a>
+<a href="https://github.com/tasdikrahman/pyCalc/releases/download/v1.0/pyCalc_v1" target="_blank"><i class="fa fa-linux fa-2x"></i></a>
 
 ## Fork this project
 
 Feel free to fork this project and make changes to it. 
 
-<div markdown="0"><a href="https://github.com/prodicus/pyCalc" class="btn btn-info">Github repo</a></div>
+<div markdown="0"><a href="https://github.com/tasdikrahman/pyCalc" class="btn btn-info">Github repo</a></div>
 
 ## Filing bugs
 
 If you find some bugs, 
 please file an issue on the github page 
 
-<div markdown="0"><a href="https://github.com/prodicus/pyCalc/issues/new" class="btn btn-danger">Report a bug</a></div>
+<div markdown="0"><a href="https://github.com/tasdikrahman/pyCalc/issues/new" class="btn btn-danger">Report a bug</a></div>
 
 Till then. Goodbye!

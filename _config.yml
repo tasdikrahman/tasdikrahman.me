@@ -14,7 +14,7 @@ permalink:        pretty
 title:            Tasdik Rahman
 description:      'blog > /dev/null 2>&1'
 
-url:              http://tasdikrahman.me
+url:              https://tasdikrahman.me
 # url:              http://0.0.0.0:4000/
 baseurl:          /
 logo:             /content/images/dp.jpg
@@ -28,7 +28,7 @@ paginate:         5
 disqus_shortname: tasdikrahman
 
 github:
-  repo:           https://github.com/prodicus/
+  repo:           https://github.com/tasdikrahman/
 
 gems:
   - jekyll-sitemap

@@ -31,7 +31,7 @@ Talks given by me so far! More to come.
 <script async class="speakerdeck-embed" data-id="df1b0dd2c89b44678015f3565c876881" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-- **Code snippets used during the talk:** [https://github.com/prodicus/talks](https://github.com/prodicus/talks)
+- **Code snippets used during the talk:** [https://github.com/tasdikrahman/talks](https://github.com/tasdikrahman/talks)
 - **chennaiPy October meetup talks list**: [http://chennaipy.org/meetup-oct-2016.html](http://chennaipy.org/meetup-oct-2016.html)
 
 ### <a name="introduction-to-ansible-bangpypers-april"/>[Introduction to Ansible](https://speakerdeck.com/tasdikrahman/introduction-to-ansible)
@@ -40,7 +40,7 @@ Talks given by me so far! More to come.
 
 - **Youtube link:** [https://youtu.be/6ovLhYgAiO4](https://youtu.be/6ovLhYgAiO4)
 
-- **Code snippets used during the talk:** [https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/prodicus/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
+- **Code snippets used during the talk:** [https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
 
 - **Bangpypers April meetup talks list**: [https://www.meetup.com/BangPypers/events/238670176/](https://www.meetup.com/BangPypers/events/238670176/)
 

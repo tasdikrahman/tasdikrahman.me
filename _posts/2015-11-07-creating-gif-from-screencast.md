@@ -18,7 +18,7 @@ How about we create one?
 
 Well recently when I was building a Calculator app, I wanted a `gif` image to be there in the `README.md` so as to show the usage of the app.
 
->I wrote a [How hard can Building a calclator be right?](http://prodicus.github.io/2015/11/06/Building-a-calculator/) for the same some time back.
+>I wrote a [How hard can Building a calclator be right?](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) for the same some time back.
 
 Did some googling and found out `byzanz-record` as the tool perfect for me
 
@@ -98,7 +98,7 @@ This will immediately start the recording for the `Calculator` window until 45 s
 
 Here's is what I got from the above script
 
-![https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif](https://raw.githubusercontent.com/prodicus/pyCalc/master/pyCalc_usage.gif)
+![https://raw.githubusercontent.com/tasdikrahman/pyCalc/master/pyCalc_usage.gif](https://raw.githubusercontent.com/tasdikrahman/pyCalc/master/pyCalc_usage.gif)
 
 
 ## References:

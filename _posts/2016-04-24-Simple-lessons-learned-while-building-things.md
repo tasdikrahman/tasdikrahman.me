@@ -42,6 +42,6 @@ Learn to dig into codebases, read code, and understand other people’s styles, 
 
 Research is underrated. Computer Science history is short, but many problems have established, proven solutions. Knowing those solutions and the principles with which they were solved will give you the power of the ancients.
 
-Here's a link to my github profile for the curious [@prodicus](https://github.com/prodicus)
+Here's a link to my github profile for the curious [@tasdikrahman](https://github.com/tasdikrahman)
 
 Until next time then!

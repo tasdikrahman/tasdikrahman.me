@@ -12,9 +12,9 @@ cover_image: '/content/images/2015/12/binary-code1.jpg'
 
 In this post I will try to explain how to handle them in `python 2 and 3`.
 
-I had long undermined the way I handled strings in my projects, but I could feel the gravity of handling `strings` properly when I was working on [vocabulary](https://github.com/prodicus/vocabulary/), a side project of mine. 
+I had long undermined the way I handled strings in my projects, but I could feel the gravity of handling `strings` properly when I was working on [vocabulary](https://github.com/tasdikrahman/vocabulary/), a side project of mine. 
 
-There was this one feature in it where the `module` had to return the `pronunciation` for a given word. Well I wrote the logic to parse the content and all the stuff. I had it all figured out, but then I was facing [this  issue](https://github.com/prodicus/vocabulary/#known-issues).
+There was this one feature in it where the `module` had to return the `pronunciation` for a given word. Well I wrote the logic to parse the content and all the stuff. I had it all figured out, but then I was facing [this  issue](https://github.com/tasdikrahman/vocabulary/#known-issues).
 
 Let's start shall we?
 
@@ -187,7 +187,7 @@ So there you go.
 
 ## Word of caution
 
-Weird things happen in `python2` if you think that `str` is a `string`. To be safe, convert the `str` object to `utf-8` format immediately by doing a `decode('utf-8')`. Then work with your `unicode` object and not the `str` or else you will some real pain handling the issues. Like I had in [vocabulary](https://github.com/prodicus/vocabulary#known-issues)
+Weird things happen in `python2` if you think that `str` is a `string`. To be safe, convert the `str` object to `utf-8` format immediately by doing a `decode('utf-8')`. Then work with your `unicode` object and not the `str` or else you will some real pain handling the issues. Like I had in [vocabulary](https://github.com/tasdikrahman/vocabulary#known-issues)
 
 > In python2, a unicode object type represents real strings whereas the str object is a sequece of bytes.
 

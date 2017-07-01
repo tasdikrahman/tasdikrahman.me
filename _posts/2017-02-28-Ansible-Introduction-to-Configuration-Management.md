@@ -139,5 +139,5 @@ So it's left on you to decide what suits you best.
 
 Cheers!
 
-On a side note, I automated installing and setting up the dev environment for OpenCV 3 for python3 using Ansible. The code as usual for every other project lies in [github](https://github.com/prodicus/opencv3-ansible-vagrant-playbook)
+On a side note, I automated installing and setting up the dev environment for OpenCV 3 for python3 using Ansible. The code as usual for every other project lies in [github](https://github.com/tasdikrahman/opencv3-ansible-vagrant-playbook)
 

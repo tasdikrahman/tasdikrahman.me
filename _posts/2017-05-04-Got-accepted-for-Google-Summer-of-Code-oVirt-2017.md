@@ -25,7 +25,7 @@ Well turns out there is. I got accepted for GSoC 2017 under [oVirt](http://ovirt
 
 > Building things which ease human effort is something which I deeply believe in. 
 
-I used to read a lot of [xkcd](https://xkcd.com/) so ended up making an [xkcd-dl](https://github.com/prodicus/xkcd-dl), a cross platform comic downloader for readers. I liked playing classic FPS games so I ended up writing [spaceShooter](https://github.com/prodicus/spaceShooter), a cross platform game using pygame which ended up on HN, Product hunt and what not. Used to spend most of the time at the terminal, had a lot of `.txt` files lying around which had random links or pieces of text conjured from couch surfing. Thought I should keep them at a unified place with tags and a searcheable interface. Hacked together [tnote](https://github.com/prodicus/tnote) which does just that. And so on for my other projects. 
+I used to read a lot of [xkcd](https://xkcd.com/) so ended up making an [xkcd-dl](https://github.com/tasdikrahman/xkcd-dl), a cross platform comic downloader for readers. I liked playing classic FPS games so I ended up writing [spaceShooter](https://github.com/tasdikrahman/spaceShooter), a cross platform game using pygame which ended up on HN, Product hunt and what not. Used to spend most of the time at the terminal, had a lot of `.txt` files lying around which had random links or pieces of text conjured from couch surfing. Thought I should keep them at a unified place with tags and a searcheable interface. Hacked together [tnote](https://github.com/tasdikrahman/tnote) which does just that. And so on for my other projects. 
 
 >There was a need and hence I built it!
 

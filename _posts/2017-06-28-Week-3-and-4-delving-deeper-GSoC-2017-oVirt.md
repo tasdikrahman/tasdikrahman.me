@@ -76,7 +76,7 @@ As I had mentioned in my [earlier post](https://medium.com/@tasdikrahman/week-1-
 
 That applied here too. 
 
-For starters, I rebuilt 2x2gig Centos7 boxes on Linode which were hardened using my own custom ansible playbook called [ansible-bootstrap-server](https://github.com/prodicus/ansible-bootstrap-server). I had a good lesson about security when [one of my servers got compromised](https://edgecoders.com/learnings-from-analyzing-my-compromised-server-linode-cd3be62dc286) so this one was a must. 
+For starters, I rebuilt 2x2gig Centos7 boxes on Linode which were hardened using my own custom ansible playbook called [ansible-bootstrap-server](https://github.com/tasdikrahman/ansible-bootstrap-server). I had a good lesson about security when [one of my servers got compromised](https://edgecoders.com/learnings-from-analyzing-my-compromised-server-linode-cd3be62dc286) so this one was a must. 
 
 ## Some assumptions for the two systems
 
@@ -726,7 +726,7 @@ Until next time!
 
 ## Links
 
-- [Github branch for the work being done on issue #9 namely `remote-dwh-fresh-engine-install`](https://github.com/rhevm-qe-automation/ovirt-ansible/compare/master...prodicus:remote-dwh-fresh-engine-install)
+- [Github branch for the work being done on issue #9 namely `remote-dwh-fresh-engine-install`](https://github.com/rhevm-qe-automation/ovirt-ansible/compare/master...tasdikrahman:remote-dwh-fresh-engine-install)
 - [https://github.com/rhevm-qe-automation/ovirt-ansible/issues/9](https://github.com/rhevm-qe-automation/ovirt-ansible/issues/9)
 - [https://bugzilla.redhat.com/show_bug.cgi?id=1465859](https://bugzilla.redhat.com/show_bug.cgi?id=1465859)
 - [https://www.ovirt.org/documentation/architecture/architecture/](https://www.ovirt.org/documentation/architecture/architecture/)

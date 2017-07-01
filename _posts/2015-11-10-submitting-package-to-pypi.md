@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2015/12/pypi.png'
 ---
 
-Recently I had written a [thin wrapper around getziptastic's API](https://github.com/prodicus/pyzipcode-cli/) and I wanted that to be availble as a [pypi package](pypi.python.org/pypi). 
+Recently I had written a [thin wrapper around getziptastic's API](https://github.com/tasdikrahman/pyzipcode-cli/) and I wanted that to be availble as a [pypi package](pypi.python.org/pypi). 
 
 ## What is `PyPI`?
 
@@ -95,7 +95,7 @@ setup(
   author_email = 'tasdik95@gmail.com',
   # packages = ['pyzipcode_cli'], 
   description = "a thin wrapper around getziptastic's API v2",
-  url = 'https://github.com/prodicus/pyzipcode-cli', 
+  url = 'https://github.com/tasdikrahman/pyzipcode-cli', 
   license = 'MIT',
   install_requires = [
     "docopt==0.6.1",
@@ -108,7 +108,7 @@ setup(
   },
 
   ###
-  download_url = 'https://github.com/prodicus/pyzipcode-cli/tarball/0.0.12', 
+  download_url = 'https://github.com/tasdikrahman/pyzipcode-cli/tarball/0.0.12', 
   classifiers = [
       'Intended Audience :: Developers',
       'Topic :: Software Development :: Build Tools',
@@ -198,7 +198,7 @@ and you're done!
 
 If you want to try my package out here is the 
 
-- [github link to the repo](https://github.com/prodicus/pyzipcode-cli/)
+- [github link to the repo](https://github.com/tasdikrahman/pyzipcode-cli/)
 - [https://pypi.python.org/pypi/pyzipcode-cli/](https://pypi.python.org/pypi/pyzipcode-cli/)
 
 My cool looking badge :D

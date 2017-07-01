@@ -71,7 +71,7 @@ I made a dead simple `Pygame` boilerplate for creating a base for your `pygame` 
 
 Here is the Github link for you.
 
-- link : [prodicus/pygame-boilerplate](https://github.com/prodicus/pygame-boilerplate)
+- link : [tasdikrahman/pygame-boilerplate](https://github.com/tasdikrahman/pygame-boilerplate)
 
 A sneak peak
 
@@ -79,7 +79,7 @@ A sneak peak
 
 ## What can you do with this?
 
-I created [Space Shooter](https://github.com/prodicus/spaceShooter) using this boilerplate. Here's a demo screen for you
+I created [Space Shooter](https://github.com/tasdikrahman/spaceShooter) using this boilerplate. Here's a demo screen for you
 
 <center><img src="http://i.imgur.com/I5mTBFB.png"></center>
 

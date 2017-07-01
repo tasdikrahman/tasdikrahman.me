@@ -95,7 +95,7 @@ As with every project, there is always space to improve and here are some things
 
 - Specify the number of sentences to be generated when the API is being called. As of now only one sentence gets generated till the period. 
 - I am storing the mappings of possible words in memory as of now which can be shifted to redis
-- Or if you can suggest something, I would be very happy to take a look. Create an issue here on it's github page. [https://github.com/prodicus/markovipy/issues/](https://nlp.stanford.edu/IR-book/html/htmledition/markov-chains-1.html)
+- Or if you can suggest something, I would be very happy to take a look. Create an issue here on it's github page. [https://github.com/tasdikrahman/markovipy/issues/](https://nlp.stanford.edu/IR-book/html/htmledition/markov-chains-1.html)
 
 I would like to end this article using the last issue of Calvin and Hobbes which was on 31st December, 1995. The same year and month that I was born :)
 
@@ -107,7 +107,7 @@ Thanks for your time. Cheers!
 
 ## Further read
 
-- [https://github.com/prodicus/markovipy/](https://github.com/prodicus/markovipy/)
+- [https://github.com/tasdikrahman/markovipy/](https://github.com/tasdikrahman/markovipy/)
 - [http://www.joshmillard.com/2015/07/06/calvin-and-markov/](http://www.joshmillard.com/2015/07/06/calvin-and-markov/)
 - [http://setosa.io/ev/markov-chains/](http://setosa.io/ev/markov-chains/)
 - [https://nlp.stanford.edu/IR-book/html/htmledition/markov-chains-1.html](https://nlp.stanford.edu/IR-book/html/htmledition/markov-chains-1.html)

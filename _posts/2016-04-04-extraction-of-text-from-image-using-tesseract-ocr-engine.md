@@ -127,7 +127,7 @@ Now after some reading, we found out that grayscaling the images according would
 
 A simple `PIL` program for that
 
-<script src="https://gist.github.com/prodicus/06239ec6986ce3d05b4dfd00cc038372.js"></script>
+<script src="https://gist.github.com/tasdikrahman/06239ec6986ce3d05b4dfd00cc038372.js"></script>
 
 This improved the accuracy to a certain extent. Here is a sample greyscaled image for you [(link)](https://github.com/foodoh/scraped_menu_items/blob/master/light_cleaned_images/100-ft-boutique-bar-restaurant-indiranagar-listing/100-ft-boutique-bar-restaurant-indiranagar-listing_1_cleaned.jpg)
 

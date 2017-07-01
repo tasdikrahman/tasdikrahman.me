@@ -33,7 +33,7 @@ _image courtesy: TechCrunch_
 Back at [SRM Search Engine](http://srmsearchengine.in/), we manage our own single dedicated server for providing our search service. And sometimes, it goes down due to some or the other reasons. Sometimes for the insane amount of data that we crunch on it or when we are playing around with a new technology which requires some downtime.
 
 
-The idea for [Margo](https://github.com/prodicus/margo) came to me while having a chat with one of my college mates on our slack channel. Oh no, we were not talking about bots! Something totally different, but well it came out of the blue to me!
+The idea for [Margo](https://github.com/tasdikrahman/margo) came to me while having a chat with one of my college mates on our slack channel. Oh no, we were not talking about bots! Something totally different, but well it came out of the blue to me!
 
 Weekend ahead! Weather in Delhi (ok. it was raining that day!), along with some aloo tikkas. What a bliss!
 
@@ -41,13 +41,13 @@ Reading the docs for the [Slack API](https://api.slack.com/) simultaneously and 
 
 Here's a glimpse to what it does
 
-![Margo demo](https://raw.githubusercontent.com/prodicus/margo/master/assets/demo.gif)
+![Margo demo](https://raw.githubusercontent.com/tasdikrahman/margo/master/assets/demo.gif)
 
 Pretty basic for now. I plan to automate the pinging process. But the current deployment of the bot forbades me on doing so. You see, I have deployed it to a basic dyno on [heroku](https://heroku.com/). The thing is that, the dyno goes to sleep if it does not recieve any `HTTP requests` afer some time. Moreover, they have a fixed 6 hour downtime for any basic dyno. So yeah, as I am pretty much broke right now. I cannot afford a Digital Ocean/Linode server. But I mean what the heck right, at least it works for now!
 
 More functionalities are coming through over.
 
->Here's a link to the project : [Margo](https://github.com/prodicus/margo)
+>Here's a link to the project : [Margo](https://github.com/tasdikrahman/margo)
 
 All in all, I enjoyed building [Margo](https://github.com/margo/) for this was a side project after some weeks (several if you may) of break. Reason being, I hadn't had much time to indulge in side projects due to my commitments as an intern at [Wingify](http://wingify.com/). And man, I am loving it here!
 
@@ -63,8 +63,8 @@ So this weekend, me and some of my friends header over to [Bot builder workshop 
 
 All in all we had a really good time and met some really interesting guys.
 
-![Gupshup](https://raw.githubusercontent.com/prodicus/tasdikrahman.me/gh-pages/content/images/2016/6/gupshup.jpg)
+![Gupshup](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/gh-pages/content/images/2016/6/gupshup.jpg)
 
-![innov8](https://raw.githubusercontent.com/prodicus/tasdikrahman.me/gh-pages/content/images/2016/6/innova8.jpg)
+![innov8](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/gh-pages/content/images/2016/6/innova8.jpg)
 
 Cheers!

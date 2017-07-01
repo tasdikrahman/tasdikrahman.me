@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2017/06/rbac_header.jpg'
 ---
 
-> You can find the python module for implementing RBAC0 here at [https://github.com/prodicus/easyrbac](https://github.com/prodicus/easyrbac)
+> You can find the python module for implementing RBAC0 here at [https://github.com/tasdikrahman/easyrbac](https://github.com/tasdikrahman/easyrbac)
 
 ## Main Idea behind it
 
@@ -118,6 +118,6 @@ for user_role in [role.get_name() for role in everyone_user.get_roles()]:
 
 ## Github repo
 
-- [https://github.com/prodicus/easyrbac](https://github.com/prodicus/easyrbac)
+- [https://github.com/tasdikrahman/easyrbac](https://github.com/tasdikrahman/easyrbac)
 
 Cheerio

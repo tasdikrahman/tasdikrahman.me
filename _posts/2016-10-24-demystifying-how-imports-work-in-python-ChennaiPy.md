@@ -34,7 +34,7 @@ Here are the slides.
 
 <script async class="speakerdeck-embed" data-id="df1b0dd2c89b44678015f3565c876881" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-**Code snippets:** [https://github.com/prodicus/talks](https://github.com/prodicus/talks)
+**Code snippets:** [https://github.com/tasdikrahman/talks](https://github.com/tasdikrahman/talks)
 
 ## Introduction to selenium
 

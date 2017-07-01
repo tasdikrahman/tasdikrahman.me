@@ -12,7 +12,7 @@ So it's quite some time since I wrote a thing or two about the things which I ha
 
 This month has been a roller coaster ride if you ask me. Many reasons to it. 
 
-Some being that I travelled to [PyCon Taiwan](http://tasdikrahman.me/2017/06/12/PyCon-Taiwan-2017-Taipei/) which marked my first international trip and also my first PyCon talk. Got my uni results. Fingers crossed but heck. I scored a perfect 10 in the last sem! The final version of [trumporate's](https://github.com/prodicus/trumporate/) UI is almost done and me and Rituraj have to just put some final touches to (blogpost for the whole development process is pending. You can find the first [one here](http://tasdikrahman.me/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/))
+Some being that I travelled to [PyCon Taiwan](http://tasdikrahman.me/2017/06/12/PyCon-Taiwan-2017-Taipei/) which marked my first international trip and also my first PyCon talk. Got my uni results. Fingers crossed but heck. I scored a perfect 10 in the last sem! The final version of [trumporate's](https://github.com/tasdikrahman/trumporate/) UI is almost done and me and Rituraj have to just put some final touches to (blogpost for the whole development process is pending. You can find the first [one here](http://tasdikrahman.me/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/))
 
 As for the GSoC work. I have been working closely with Lukas on the `engine-rename` role which has been assigned as one of the first tasks for the first review.
 
@@ -130,7 +130,7 @@ Now testing these changes out is the real thing.
 
 We are using `docker` containers to test out the roles. I would say this is approach is quite fast and gives us the `works-everywhere` advantage. 
 
-We need two containers, one for the `engine` and one for the `remote-db` which we are using [Chris Meyer's](http://chrismeyersfsu.github.io/), [provision_docker](https://github.com/chrismeyersfsu/provision_docker/) tooling.
+We need two containers, one for the `engine` and one for the `remote-db` which we are using [Chris Meyer's](http://chrismeyersfsu.me/), [provision_docker](https://github.com/chrismeyersfsu/provision_docker/) tooling.
 
 The first role in any test would be to provision the docker containers and make sure that they are reachable.
 
