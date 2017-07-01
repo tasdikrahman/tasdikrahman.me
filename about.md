@@ -28,7 +28,7 @@ Google Summer of Code (GSoC 2017) intern for oVirt org under the Redhat umbrella
 
 I am always a [tweet](https://twitter.com/tasdikrahman) away if you have something interesting in mind.
 
-If you are `IRC` person, I will be there with the handle `tasdikrahman` hanging around OFTC as well as on freenode.
+If you are an `IRC` person, I will be there with the handle `tasdikrahman` hanging around OFTC as well as on freenode.
 
 _I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers_
 
