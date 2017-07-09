@@ -17,7 +17,8 @@ Sometimes I get lucky that people allow me to speak at local meetup groups. Some
 
 ## Present
 
-Google Summer of Code (GSoC 2017) intern for oVirt org under the Redhat umbrella. You can know more about my GSoC [work here](https://summerofcode.withgoogle.com/projects/#6188534896525312).
+- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch. We are considered the Stripe for India
+- Google Summer of Code (GSoC 2017) intern for oVirt org under the Redhat umbrella. You can know more about my GSoC [work here](https://summerofcode.withgoogle.com/projects/#6188534896525312).
 
 ## Formerly
 
