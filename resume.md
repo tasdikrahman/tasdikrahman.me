@@ -13,7 +13,7 @@ title: Resume
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
     my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
 
-    <br><br><i>Last updated on 6th of May, 2017</i>
+    <br><br><i>Last updated on 16th of July, 2017</i>
 
 </p>
 
