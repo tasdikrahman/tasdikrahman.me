@@ -92,7 +92,7 @@ setup(
   name = 'pyzipcode-cli',
   version = '0.0.12',
   author = 'Tasdik Rahman',
-  author_email = 'tasdik95@gmail.com',
+  author_email = 'tasdikrahman@zoho.com',
   # packages = ['pyzipcode_cli'], 
   description = "a thin wrapper around getziptastic's API v2",
   url = 'https://github.com/tasdikrahman/pyzipcode-cli', 

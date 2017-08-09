@@ -27,10 +27,10 @@ from the Real Name, Comment and Email Address in this form:
     "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
 
 Real name: Tasdik Rahman
-Email address: tasdik95@gmail.com
+Email address: tasdikrahman@zoho.com
 Comment: tasdik
 You selected this USER-ID:
-    "Tasdik Rahman (tasdik) <tasdik95@gmail.com>"
+    "Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>"
 
 Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
 You need a Passphrase to protect your secret key.
@@ -58,7 +58,7 @@ gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
 gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
 pub   1024R/B8445B60 2016-11-02
       Key fingerprint = D288 019C 5839 6A6C 9909  5A7E 4A2E 5BC1 B844 5B60
-uid                  Tasdik Rahman (tasdik) <tasdik95@gmail.com>
+uid                  Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>
 sub   1024R/5633FFBB 2016-11-02
 
  tasdik@Acer  ~/Desktop/ns/pgp  ls
@@ -68,25 +68,25 @@ sub   1024R/5633FFBB 2016-11-02
  tasdik@Acer  ~/Desktop/ns/pgp  ls
 tasdik.gpg
  tasdik@Acer  ~/Desktop/ns/pgp  gpg --import tasdik.gpg
-gpg: key B8445B60: "Tasdik Rahman (tasdik) <tasdik95@gmail.com>" not changed
+gpg: key B8445B60: "Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>" not changed
 gpg: Total number processed: 1
 gpg:              unchanged: 1
  tasdik@Acer  ~/Desktop/ns/pgp  vi msg.txt
  tasdik@Acer  ~/Desktop/ns/pgp  gpg -o sign-sig --sign msg.txt
 
 You need a passphrase to unlock the secret key for
-user: "Tasdik Rahman (tasdik) <tasdik95@gmail.com>"
+user: "Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>"
 1024-bit RSA key, ID B8445B60, created 2016-11-02
 
  ✘ tasdik@Acer  ~/Desktop/ns/pgp  gpg -o garble.gpg -r Tasdik --encrypt msg.txt
 tasdik@Acer  ~/Desktop/ns/pgp  gpg -o new.txt --decrypt garble.gpg 
 
 You need a passphrase to unlock the secret key for
-user: "Tasdik Rahman (tasdik) <tasdik95@gmail.com>"
+user: "Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>"
 1024-bit RSA key, ID 5633FFBB, created 2016-11-02 (main key ID B8445B60)
 
 gpg: encrypted with 1024-bit RSA key, ID 5633FFBB, created 2016-11-02
-      "Tasdik Rahman (tasdik) <tasdik95@gmail.com>"
+      "Tasdik Rahman (tasdik) <tasdikrahman@zoho.com>"
  tasdik@Acer  ~/Desktop/ns/pgp  cat new.txt 
 simple text 
  tasdik@Acer  ~/Desktop/ns/pgp  

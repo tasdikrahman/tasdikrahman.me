@@ -8,7 +8,7 @@ title: Resume
 <p class="message">
     This page contains a copy of my resume and is in PDF format (LaTeX doesn't output to Word format so yeah, that's much about it.)
 
-    <br><br>The fastest way to reach me would be through <a href="mailto:tasdik95@gmail.com" > email</a>. 
+    <br><br>The fastest way to reach me would be through <a href="mailto:tasdikrahman@zoho.com" > email</a>. 
 
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
     my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
