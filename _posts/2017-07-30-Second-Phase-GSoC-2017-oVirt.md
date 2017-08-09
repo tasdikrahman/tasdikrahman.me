@@ -8,6 +8,11 @@ share: true
 cover_image: '/content/images/2017/05/gsoc-cover.png'
 ---
 
+It has been a week since the Phase 2 results are out. And we proceed to the last and final Phase of the GSoC. I couldn’t blog regularly in the last phase due to many reasons, which I want to change this Phase.
+But anyhow, this was collectively the output of my work in Phase 2
+
+### Setup
+
 This approach will follow a 3 box VM setup. 
 
 For clarity sake, the VM's can be assumed for now as
@@ -510,6 +515,30 @@ $ ansible-playbook site.yml -i inventory --skip-tags skip_yum_install_ovirt_engi
 Now restart `ovirt-engine` in VMA by doing a `systemctl restart ovirt-engine`
 
 <center><img src="/content/images/2017/07/successfull_deployment_3_vm.png"></center>
+
+### Issues Faced
+
+The very first thing which I faced as an issue was that, there was no proper documentation in the oVirt Downstream docs in place (as on now) in place. This made me research more about the things. Good in one way, anyway I raised report on bugzilla about here. https://bugzilla.redhat.com/show_bug.cgi?id=1475706
+There was another snag like the previous one where an OTOPI variable was not being logged in the answerfiles which led me to
+
+### Reference Commits
+
+- [Adds remote postgresql installation playbook](https://github.com/rhevm-qe-automation/ovirt-ansible/pull/137/commits/d5152c388d2de3bdc4d955561d4a190a9187b62)
+- [Adds role for the dwh service setup along with the remaining three VMS’s](https://github.com/rhevm-qe-automation/ovirt-ansible/pull/137/commits/8dd39bdd46e1a73e9ccf8d09bf7e96de2f3d38cc)
+
+### Future Work
+
+- Cleanup of the PR’s opened so far.
+- Work on test upgrade playbook.
+- role for ovirt metrics deployment
+- role for direct upgrade 
+
+### References
+
+- http://www.ovirt.org/documentation/install-guide/appe-Preparing_a_Remote_PostgreSQL_Database_for_Use_with_the_oVirt_Engine/
+- https://www.linode.com/docs/databases/postgresql/how-to-install-postgresql-relational-databases-on-centos-7
+- https://www.postgresql.org/docs/8.1/static/sql-createrole.html
+- https://support.rackspace.com/how-to/postgresql-creating-and-dropping-roles/
 
 I have to say, I got stuck a lot while trying this out and there have numerous times where I was just about to give up. But my mentor was always there to support my questions and doubts. Thanks for that Lukas :)
 
