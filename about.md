@@ -31,7 +31,7 @@ I am always a [tweet](https://twitter.com/tasdikrahman) away if you have somethi
 
 If you are an `IRC` person, I will be there with the handle `tasdikrahman` hanging around OFTC as well as on freenode.
 
-_I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers_
+_I write about a lot of things on this blog, but it doesn't and has never represented the opinion of any of my employers. This is a personal blog I write in my off-hours_
 
 ***
 
