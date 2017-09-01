@@ -24,6 +24,7 @@ Talks given by me so far! More to come.
 
 <script async class="speakerdeck-embed" data-id="cf622908ec8641ef88ab5c775592812a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+- **Youtube talk link**: [https://www.youtube.com/watch?v=_Yif7EEOCy8&index=19&list=PLqtzN042Qpffip6u4_WUTRXxFZDgdgrPV](https://www.youtube.com/watch?v=_Yif7EEOCy8&index=19&list=PLqtzN042Qpffip6u4_WUTRXxFZDgdgrPV)
 - **PyCon Taiwan talk scehdule**: [https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/)
 
 ### <a name="how-imports-word-chennaipy"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
