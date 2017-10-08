@@ -42,7 +42,7 @@ while capturing it.
 
 <center><img src="/content/images/2017/09/taiwan_trip_4.jpg"></center>
 
-I slept most all the way to Taipei, not that I wanted to. But it was almost forced by my body. Effects of not sleeping at all 
+I slept almost all the way to Taipei, not that I wanted to. But it was almost forced by my body. Effects of not sleeping at all 
 the previous night I guess. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_5.jpg"></center>
@@ -54,25 +54,25 @@ Arrival at Taipei airport was at around the afternoon, hunger caved in
 Luckily there was a Subway near the exit terminal and it was quite the lunch. Now came the time to actually travel back to my hotel room.
 
 I should remind you that very few people actually can speak English back at Taiwan and if you are not comfortable asking 
-questions to strangers without a guide with, you are pretty doomed. 
+questions to strangers without a guide with, you are pretty much doomed. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_6.jpg"></center>
 
-I was staying over at the northern part of Taiwan and it's extremely pretty. You have a very good mix of traditional restaurants mixed with the new age restaurants with all the swanky stuff. Especially, I found quite a lot of national banks littered around the place I was staying. 
+I was staying over at the northern part of Taiwan and it's extremely pretty. You have a very good mix of traditional restaurants mixed with the new age restaurants and all the swanky stuff. Especially, I found quite a lot of national banks littered around the place I was staying. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_8.jpg"></center>
 
 If you are starting out from the airport towards Nangang, you would be having some choices on how one would be willing to travel. Was suggested by people to take a cab, but the what the heck right? Took a metro where I had to change two stations with absolutely no English written over the directions. I dunno how did I not get lost.
 
-And boy was my room not clean. 
+And boy was my room not clean!
 
 <center><img src="/content/images/2017/09/taiwan_trip_9.jpg"></center>
 
-The fluffy bed, the cosy cushions, soft carpet. It was amazing. Even the bathroom, a good nice bath tub with some good marble. Trust, this is the most sophisticated commode that I have ever come across. Had to use Google translate for this. 
+The fluffy bed, the cosy cushions, soft carpet. It was amazing. Even the bathroom, a good nice bath tub with some good marble. Trust me, this is the most sophisticated commode that I have ever come across. Literally had to use Google translate for this. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_10.jpg"></center>
 
-I had this itch of roaming around a little bit, still a sleepyhead. But couldn't help it. This city was so beautiful. I had the most amazing, noodles back in a local Taiwanese resto. It's very different to eat in the sense that it's quite thick than the normal noodles that people have here back in India. Pretty good experience. 
+I had this itch of roaming around a little bit, still a sleepyhead. But couldn't help it. This city is so beautiful! I had the most amazing noodles back in a local Taiwanese resto. It's very different to eat in the sense that it's quite thick than the normal noodles that people have here back in India. And you get a pretty generous helping of it too. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_12.jpg"></center>
 
@@ -80,9 +80,9 @@ On the way back to our hotel room, stopped by the local store. It was quite intr
 
 <center><img src="/content/images/2017/09/taiwan_trip_13.jpg"></center>
 
-Played some good music and didn't realize that I had fallen asleep.
+Came back, crashed on my bed, played some good music and before I knew it, I was fast asleep.
 
-The morning after, I could really feel the pain in my shoulders carrying two bags over the city and trust me. It's not pleasant feeling.
+The morning after, I could really feel the pain in my shoulders carrying two bags over the city and trust me. It's not a pleasant feeling.
 
 Roamed a little bit more before leaving for the venue where the conference was gonna happen. 
 
@@ -148,7 +148,7 @@ Andrew and I had a long chat about his motivations towards Django channels and w
 
 We settled for the night at our respective rooms and I slept like a log. Needed some good sleep as I had my talk slotted for tomorrow. I was nervous, scared and excited all at the same time.
 
-The day finally came and I think I did okayish while giving my talk, will not say that I didn't have any rough edges while giving the talk but I guess I have a lot of space of improvement. 
+The day finally came and I think I did okayish while giving my talk, will not say that I didn't have any rough edges while giving the talk but I guess I have a lot of space for improvement. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_32.jpg"></center>
 
@@ -186,15 +186,15 @@ There was another night market just a little up the temple, this night market wa
 
 <center><img src="/content/images/2017/09/taiwan_trip_29.jpg"></center>
 
-On the way back, back the Lunshan metro station, it was known for fortune readers and you would find one shop at every other corner in the street. It was crazy, I was literally being hounded by people asking me to come in. This is some serious business out there for some people. Got some souvenirs on the way back to the airport from this kind lady who was very inquisitive about what I was doing here back in Taipie. When she learned that I had come to give a talk at a tech conference, she was very surprised that I was here all alone. Anyways, had a good small chat about both our cultures and it was very interesting to know her perspective. 
+On the way back, while passing through the Lunshan metro station, which was known for fortune readers. You would find one shop at every other corner in the street. It was crazy, I was literally being hounded by people asking me to come in. This is some serious business out there for some people. Got some souvenirs on the way back to the airport from this kind lady who was very inquisitive about what I was doing here back in Taipie. When she leart that I had come to give a talk at a tech conference, she was very surprised that I was here all alone while being so young. Not sure how one can react to that. Anyways, had a good small chat about both our cultures and it was very interesting to know her perspective. 
 
 <center><img src="/content/images/2017/09/taiwan_trip_30.jpg"></center>
 
 My flight was set for departure early in the morning for Bangkok, had got nothing but a lot of time to kill at the airport as I reached at around 10pm. 
 
-While charging my phone, I met this girl who was from Macau and was pursuing her bachelors in Computer Science at Taiwan. It was interesting to get to know that back her place, they have a scarcity of good universities and that most people have to come out of there to get an education. She just came back from home after a short vacation. Just as we were discussing about the night markets of Taiwan, a guy joined us in the conversation and added his view point. 
+While charging my phone, I met this girl who was from Macau pursuing her bachelors in Computer Science at Taiwan. It was interesting to get to know that back at her place, they have a real scarcity for good universities and that most people have to come out of there to get an education. She just came back from home after a short vacation. Just as we were discussing about the night markets of Taiwan, a guy joined us in the conversation and added his view point about how this is what actually built the culture of Taiwan, how it provided food and moneny on the table of the average Tiwanese citizen who had opened up a shop at one of the night markets.
 
-Fast forward a few hours, I had the pleasure of talking to his wife who was from Philippines and his little baby boy. He talked about his life here back at Taiwan about how he had to run away from South America because he lost his job as a teacher back in the early 1990's. He talked at length about how he left everything behind to come here and how he missed his family, how he could not meet his dying father who was suffering from cancer back at South Africa. 
+Fast forward a few hours, I had the pleasure of talking to his wife who was from Philippines and his little baby boy. He talked about his life here back at Taiwan about how he had to run away from South Afica because he lost his job as a teacher back in the early 1990's. He talked at length about how he left everything behind to come here and how he missed his family, how he could not meet his dying father who was suffering from cancer back at South Africa. 
 
 Those were the sad parts, he got really emotional talking about how his wife was facing problems about immigration back here in Taiwan and how bad the living conditions were back in Philippines.
 
@@ -202,6 +202,6 @@ Matter of fact, he had his flight for Philippines slotted for the next morning a
 
 <center><img src="/content/images/2017/09/taiwan_trip_31.jpg"></center>
 
-Night ended and we bade good bye as I left to catch my flight to Bangkok and all the last few days kept coming in front of me. It was a great journey indeed, and I am very grateful to the people back in Taiwan to be very accepting and kind. 
+Night ended and we bade good bye as I left to catch my flight to Bangkok. While I was sitting and latching my seat belt, I remembered the last few days here in Taiwan. It was a great journey indeed, and I am very grateful to the people back in Taiwan to be very accepting and kind. 
 
 Until next time Taiwan :)
