@@ -9,9 +9,9 @@ title: About Me
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-Speaks [parseltongue](https://python.org/) way too often apparently. Used to waste his weekends building stuff instead of studying back in college. Loves working on tools, infrastructure and everything Pythonic. Occasional gopher
+Speaks [parseltongue](https://python.org/) way too often apparently. Used to waste his weekends building stuff instead of studying back in college. Loves working on tools, infrastructure and everything Pythonic. Occasional [gopher](https://golang.org)
 
-When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!) or listenting to rap music in moderate to high volumes every day.
+When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!), backpacking across the state or listenting to rap music in moderate to high volumes every day.
 
 Sometimes I get lucky that people allow me to speak at local meetup groups. Sometimes international too(Looking at you PyCon Taiwan) You can find the presentations [here](https://tasdikrahman.me/talks/)
 
