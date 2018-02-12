@@ -11,19 +11,20 @@ title: About Me
 
 Speaks [parseltongue](https://python.org/) way too often apparently. Used to waste his weekends building stuff instead of studying back in college. Loves working on tools, infrastructure and everything Pythonic. Occasional [gopher](https://golang.org)
 
-When not writing code, he can be found playing football(soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!), backpacking across the state or listenting to rap music in moderate to high volumes every day.
+When not writing code, he can be found playing football (soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!), backpacking across the Indian subcontinent (sometimes outside of it)
 
-Sometimes I get lucky that people allow me to speak at local meetup groups. Sometimes international too(Looking at you PyCon Taiwan) You can find the presentations [here](https://tasdikrahman.me/talks/)
+Occasionally, I get lucky that people allow me to speak at local meetup groups. At times even on international forums (Looking at you PyCon Taiwan!). You can find my presentations [here](https://tasdikrahman.me/talks/)
 
 ## Present
 
 - Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch. We are considered the Stripe for India
-- Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my GSoC [work here](https://github.com/tasdikrahman/gsoc2017ovirt).
 
 ## Formerly
 
+- Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my GSoC [work here](https://github.com/tasdikrahman/gsoc2017ovirt).
 - Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
 - Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://tasdikrahman.me/2016/08/13/My-internship-experience-at-Wingify-new-delhi-visual-website-optimiser-vwo/)
+
 
 ***
 
@@ -35,7 +36,7 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 
 ***
 
-If you have found my little bits of software of any use to you, you can help me pay my internet bills :)
+<!-- If you have found my little bits of software of any use to you, you can help me pay my internet bills :) -->
 
 <!--<p align="center">
 <a href="https://www.paypal.me/tasdikrahman" target="_blank"><img src="https://tuxtricks.files.wordpress.com/2016/12/donate.png" alt="Donate via PayPal!" title="Donate via PayPal!" /></a>
@@ -49,14 +50,14 @@ If you have found my little bits of software of any use to you, you can help me 
 <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.instamojo.com/blog/wp-content/uploads/2017/01/instamojo-91.png" alt="Donate via instamojo" title="Donate via instamojo" /></a>
 </p>-->
 
-
+<!-- 
 | PayPal | <a href="https://paypal.me/tasdik" target="_blank"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="Donate via PayPal!" title="Donate via PayPal!" /></a> |
 |:-------------------------------------------:|:-------------------------------------------------------------:|
 | Gratipay  | <a href="https://gratipay.com/tasdikrahman/" target="_blank"><img src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" alt="Support via Gratipay" title="Support via Gratipay" /></a> |
 | Patreon | <a href="https://www.patreon.com/tasdikrahman" target="_blank"><img src="http://i.imgur.com/ICWPFOs.png" alt="Support me on Patreon" title="Support me on Patreon" /></a> |
 | £ (GBP) | <a href="https://transferwise.com/pay/d804d854-6862-4127-afdd-4687d64cbd28" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
 | € Euros | <a href="https://transferwise.com/pay/64c586e3-ec99-4be8-af0b-59241f7b9b79" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
-| ₹ (INR)  | <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.soldermall.com/images/pic-online-payment.jpg" alt="Donate via instamojo" title="Donate via instamojo" /></a> |
+| ₹ (INR)  | <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.soldermall.com/images/pic-online-payment.jpg" alt="Donate via instamojo" title="Donate via instamojo" /></a> | -->
 
 
 ###  Me splattered across the web
