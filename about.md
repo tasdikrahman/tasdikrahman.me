@@ -82,10 +82,10 @@ If you have found my little bits of software of any use to you, you can help me 
 
 ***
 
-<center><p>Obligatory self portrait!</p></center>
+<!-- <center><p>Obligatory self portrait!</p></center> -->
 
 
-<center><img src="/content/images/pycon2015_res.jpg"></center>
+<center><img src="/content/images/austin.jpg"></center>
 
 
-<center><p><em>Me @ Pycon India 2015, Bangalore</em></p></center>
+<!-- <center><p><em>Congr</em></p></center> -->
