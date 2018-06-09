@@ -9,15 +9,15 @@ title: About Me
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-This site is a partial collection of projects I've worked on, stories I've written down, and software I've published. Used to waste weekends building stuff instead of studying back in college. I love working on tools, infrastructure and everything Pythonic. Occasional [gopher](https://golang.org)
+This site is a partial collection of projects I've worked on, stories I've written down, and software I've published. Used to waste weekends building stuff instead of studying back in college. I love working on tools, infrastructure and working on scaling applications from ground up. Occasional [gopher](https://golang.org) and a full time [pythonista](https://python.org/) among other things.
 
-When not writing code, I can be found playing football (soccer if you may), gobbling up pizzas, watching EPL (Go Chelsea!), backpacking across the Indian subcontinent (sometimes outside of it)
+When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while. Has a weak spot for good music, standup comedy and theatre.
 
-Occasionally, I get lucky that people allow me to speak at local meetup groups. At times even on international forums (Looking at you PyCon Taiwan!). You can find my presentations [here](https://tasdikrahman.me/talks/)
+Occasionally, I get lucky when people allow me to speak at local meetup groups, on national/international forums. You can find my presentations [here](https://tasdikrahman.me/talks/)
 
 ## Present
 
-- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch. We are considered the Stripe for India
+- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 
 ## Formerly
 
