@@ -42,7 +42,11 @@ I believe in the philosophy that
 
 > if something moves, you should track it and graph it. If it decides to make a run for it. 
 
-The thing about prometheus is that, they are pretty mature in the ecosystem and have a lot of support in terms of contributors from the OSS community as well as native [kubernetes](https://kubernetes.io) metrics support. And they have a lot of exporters which they have written and some being supported by the community. And if one want's to intrument their code, they can use any of the [client libraries](https://prometheus.io/docs/instrumenting/clientlibs/) to do so. Network metrics, application metrics, you name it. 
+The thing about prometheus is that, they are pretty mature in the ecosystem and have a lot of support in terms of contributors from the OSS community as well as native [kubernetes](https://kubernetes.io) metrics support. Aggregrating metrics from k8s objects is pretty straight forward with the service discovery provided by prometheus. 
+
+And they have a lot of exporters which they have written and some being supported by the community. And if one want's to intrument their code, they can use any of the [client libraries](https://prometheus.io/docs/instrumenting/clientlibs/) to do so. Network metrics, application metrics, you name it. 
+
+Heck, a friend of mine wrote an [exporter for an ISP provider](https://t.co/v96W0oRDax), you can actually go ahead and check the [metrics here](https://grafana.bb8.fun/d/_u2-GHSik/main-dashboard?refresh=5s&orgId=1) 
 
 [grafana](https://grafana.com/) can be used to visualize the data which is being scraped by prometheus (which can be added as a source to grafana), which works on a pull model. 
 
