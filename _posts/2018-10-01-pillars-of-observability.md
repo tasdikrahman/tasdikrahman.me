@@ -20,7 +20,7 @@ There are 3 pillars of observability:
 
 - tracing
 
-While all of them partially overlap,s each have different purpose.
+While all of them partially overlap, each have different purpose.
 
 ### Metrics
 
