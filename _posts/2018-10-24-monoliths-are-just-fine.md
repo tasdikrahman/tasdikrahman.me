@@ -28,6 +28,9 @@ This is the part, where you are working on your prototype and you don't need the
 
 Plus the overhead of managing the health checks, monitoring and graceful shutdown for all the microservices is something which you need to put on your head around when starting with microservices apart from writing your main business logic.
 
+They bring a lot of baggage that you might never have seen before (i.e. big learning curve) and the myth of isolated changes is just that, a myth. Unless it is some low-level thing, you cannot change it without impacting other services and this is no different than a monolith. It just replaces internal calls between services of your monolith with flaky and slower network calls.
+
+
 > Architect your monolith right
 
 When you start off with your monolith, there would be places where you feel you see things repeating. And that's where you separate that out into functions or modules. But you should not be afraid to repeat yourself at the start and try to modularise/abstract out everything, as you would not like to end up with [leaky abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
@@ -56,6 +59,27 @@ The argument of moving to a microservice can be made when
 - autonomy of teams to iterate faster with their own choice of technology
 - make deployments quicker, impact on story structure.
 
+The jump from monolith to service-oriented thinking is a huge one. But the jump from a few services to more is much easier.
+
+Most of the times, I've found a push to microservices within an organization to be due to some combination of:
+
+1) Business is pressuring tech teams to deliver faster, and they cannot, so they blame current system (derogatory name: monolith) and present microservices as solution. Note, this is the same tired argument from years ago when people would refer to legacy systems/legacy code as the reason for not being able to deliver.
+
+2) Inexperienced developers proposing microservices because they think it sounds much more fun than working on the system as it is currently designed.
+
+3) Technical people trying to avoid addressing the lack of communication and leadership in the organization by implementing technical solutions. This is common in the case where tech teams end up trying to "do microservices" as a way to reduce merge conflicts or other such difficulties that are ultimately a problem of human interaction and lack of leadership. Technology does not solve these problems.
+
+4) Inexperienced developers not understanding the immense costs of coordination/operations/administration that come along with a microservices architecture.
+
+5) Some people read about microservices on the engineering blog of one of the major tech companies, and those people are unaware that such blogs are a recruiting tool of said company. Many (most?) of those posts are specifically designed to be interesting and present the company as doing groundbreaking stuff in order to increase inbound applicant demand and fill seats. Those posts should not be construed as architectural advice or *best practices*
+
+In the end, it's absolutely the case that a movement to microservices is something that should be evolutionary, and in direct need to technical requirements. For nearly every company out there, a horizontally-scaled monolith will be much simpler to maintain and extend than some web of services, each of which can be horizontally scaled on their own.
+
+IMHO, the monoliths vs microservices debate is akin to monorepos vs multi-repos: they are both strategies used to share work when your organization grows. Both can work well, depending on your tooling and organization.
+
+But do not forget that those abstractions layers you add, while very useful (say, for release velocity), might also be a direct application of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) 
+
+Which means that refactoring some code, might sometime require refactoring your organisation, so if you lack the ability to do that incrementally, you might converge to an ossified system that stops evolving.
 
 ## References 
  
