@@ -81,6 +81,10 @@ But do not forget that those abstractions layers you add, while very useful (say
 
 Which means that refactoring some code, might sometime require refactoring your organisation, so if you lack the ability to do that incrementally, you might converge to an ossified system that stops evolving.
 
+> So, Microservices or Monoliths?
+
+It depends. 
+
 ## References 
  
 - https://martinfowler.com/bliki/MonolithFirst.html
