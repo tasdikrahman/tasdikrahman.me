@@ -52,6 +52,10 @@ I think of it this way, your product is not a program like [ls](http://man7.org/
 The argument of moving to a microservice can be made when 
 - you have divided certain work among certain teams, by virtue of which there would be times when there would be friction, miscommunication happening over when contributing to certain parts of the codebase which come common when different teams are working. Even if you have managed to write something, it's quite possible that something which you added might have had a regression over something, and at this point, your automated tests in the CI should ideally catch them. But having a clear separation of work when you have multiple teams working on things, microservices can make sense.
 - you would want to rewrite a piece of codebase into something more performant.
+- Feature Velocity
+- autonomy of teams to iterate faster with their own choice of technology
+- make deployments quicker, impact on story structure.
+
 
 ## References 
  
