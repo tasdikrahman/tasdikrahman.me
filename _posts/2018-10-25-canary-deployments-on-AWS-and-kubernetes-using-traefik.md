@@ -40,7 +40,7 @@ Hence, the canary instances would also get traffic in a round robin fashion.
 
 ## Replicating the same in kubernetes
 
-[traefik](https://traefik.io/) runs as our L7 load balancer ([ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-controllers))to route traffic to our [kubernetes services]((https://kubernetes.io/docs/concepts/services-networking/service/) for various microservices running inside our cluster. 
+[traefik](https://traefik.io/) runs as our L7 load balancer, or as our [ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-controllers) inside kubernetes to route traffic to our [kubernetes services](https://kubernetes.io/docs/concepts/services-networking/service/) for various microservices running inside our cluster. 
 
 traefik would be running on `hostNetwork: true` as [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) 
 
