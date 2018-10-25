@@ -198,7 +198,11 @@ There would be a CNAME DNS record for `myapp.example.com` which points to the pu
 
 Similarly a DNS record for canary would be there. 
 
-Traefik would be listening on port 80 on the host's network for incoming requests, and there would be an ingress object in the namespace of the app which would route the 
+Traefik would be listening on port 80 on the host's network for incoming requests, and there would be an ingress object in the namespace of the app which would define which service to route the traffic based on the hostname.
+
+We can have an ingress object like the following in the namespace `myapp` for the services
+- myapp
+- myapp-canary
 
 ```
 # this feature is available only from traefik version 1.7.0 and upwards
