@@ -30,13 +30,13 @@ The canary ASG would be attached to both the
 - main ELB for the service
 - canary's separate ELB
 
-The capacity(min: desired) for the main service is more than the capacity for the ASG for canary, and the canary ASG capacity's max is set to it's desired. The reasoning for this is that, any regression wouldn't proagate to a larger number of users if autoscaling kicks in. 
+The capacity(min: desired) for the main service is more than the capacity for the ASG for canary, and the canary ASG capacity's max is set to it's desired. The reasoning for this is that, any regression wouldn't propagate to a larger number of users if autoscaling kicks in. 
 
-Since our ELB is an Internet-facing load balancer, it gets a public IP addresses. The DNS name of an Internet-facing load balancer is publicly resolvable to the public IP addresses of the nodes of the ELB. Therefore, Internet-facing load balancers can route requests from clients over the Internet.
+Since our ELB is an Internet-facing load balancer, it gets public IP addresses(one for each AZ). The DNS name of an Internet-facing load balancer is publicly resolvable to the public IP addresses of the nodes of the ELB. Therefore, Internet-facing load balancers can route requests from clients over the Internet.
 
-The load balancer node that receives the request selects a registered instance using the [round robin routing](https://community.cisco.com/t5/routing/what-is-round-robin-routing/td-p/1400406) algorithm for TCP listeners and the least outstanding requests routing algorithm for HTTP and HTTPS listeners.
+The load balancer node that receives the request selects an attached instance using the [round robin routing](https://community.cisco.com/t5/routing/what-is-round-robin-routing/td-p/1400406) algorithm for TCP listeners and the least outstanding requests routing algorithm for HTTP and HTTPS listeners.
 
-Hence, the canary instances would also get traffic in a round robin fashion. 
+Hence, the canary instances would also get traffic in a round robin fashion.
 
 ## Replicating the same in kubernetes
 
@@ -44,7 +44,7 @@ Hence, the canary instances would also get traffic in a round robin fashion.
 
 traefik would be running on `hostNetwork: true` as [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) 
 
-These pods will use the host network directly and not the “[pod network](https://kubernetes.io/docs/concepts/cluster-administration/networking/)” (the term “pod network” is a little bit misleading as there is no such thing - it basically just comes down to routing network packets and namespaces). So we can bind the Traefik ports on the host interface on port `80`. That also means of course that no further pods of a DaemonSet can use this ports and of course also no other services on the worker nodes. But that’s what we want here as Traefik is basically our “external” loadbalancer for our “internal” services - our tunnel to the rest of the internet so to say. 
+These pods will use the host network directly and not the “[pod network](https://kubernetes.io/docs/concepts/cluster-administration/networking/)” (the term “pod network” is a little bit misleading as there is no such thing - it basically just comes down to routing network packets and namespaces). So we can bind the Traefik ports on the host interface on port `80`. That also means of course that no further pods of a DaemonSet can use this port and of course also no other services on the worker nodes. But that’s what we want here as Traefik is basically our “external” loadbalancer for our “internal” services - our tunnel to the rest of the internet so to say. 
 
 Sample configuration which you can use to deploy traefik
 
@@ -194,7 +194,7 @@ spec:
 
 The diagram above shows two ASG's for edge nodes, which will host the traefik daemonset(s).
 
-There would be a CNAME DNS record for `myapp.example.com` which point to the public FQDN for the common ELB to which both the edge ASG's are attached to. Traffic would be routed to the edge VM's attached based on a round robin fashion here. Before that, the security groups attached to the ASG's can also be configured to only allow TCP connections on port 80(others would be blocked automatically as it's default deny). 
+There would be a CNAME DNS record for `myapp.example.com` which points to the public FQDN for the common ELB to which both the edge ASG's are attached to. Traffic would be routed to the edge VM's attached based on a round robin fashion here. Before that, the security groups attached to the ASG's can also be configured to only allow TCP connections on port 80(others would be blocked automatically as it's default deny). 
 
 Similarly a DNS record for canary would be there. 
 
@@ -238,7 +238,7 @@ You can have multiple services to which you can specify the weights and I would 
 
 Another thing to note here is that, the service to which you are trying to do a weighted routing for your canary, should be in the same namespace as the other service(which is `myapp` in this case). This was asked here in their issue tracker and they pointed out the same https://github.com/containous/traefik/issues/4043. 
 
-So you have seen how we can do canary deployments on AWS using traditional ELB's and ASG's as well as if you are on kubernetes. 
+So you have seen how we can do canary deployments on AWS using traditional ELB's and ASG's as well as if you are on kubernetes with an ingress controller. 
 
 ## References
 
@@ -250,4 +250,4 @@ So you have seen how we can do canary deployments on AWS using traditional ELB's
 
 ## Credits
 
-The Network diagrams were made using https://draw.io
+The Network diagrams were made using [draw.io](https://draw.io)
