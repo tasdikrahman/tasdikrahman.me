@@ -247,3 +247,7 @@ So you have seen how we can do canary deployments on AWS using traditional ELB's
 - https://github.com/containous/traefik/pull/3112 PR where weighted traffic was added to traefik
 - https://docs.traefik.io/configuration/backends/kubernetes/
 - https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting
+
+## Credits
+
+The Network diagrams were made using https://draw.io
