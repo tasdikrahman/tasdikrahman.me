@@ -9,14 +9,14 @@ Talks given by me so far! More to come.
 
 <!--## <a name="index"/>Index-->
 
-#### Python internals
-
-- ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](#pycontaiwan-deep-dive-imports)
-- ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
-
-#### Automation
+#### 2017
 
 - ["Introduction to Ansible", Bangpypers April 2017](#introduction-to-ansible-bangpypers-april)
+- ["Diving deep on how imports work in Python", PyCon Taiwan June 2017](#pycontaiwan-deep-dive-imports)
+
+#### 2016
+
+- ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
 ***
 

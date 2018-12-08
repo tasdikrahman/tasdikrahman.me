@@ -13,14 +13,12 @@ This site is a partial collection of projects I've worked on, stories I've writt
 
 When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while. Has a weak spot for good music, standup comedy and theatre.
 
-Occasionally, I get lucky when people allow me to speak at local meetup groups, on national/international forums. You can find my presentations [here](https://tasdikrahman.me/talks/)
+You can find the list of talks given be me [here](https://tasdikrahman.me/talks/)
 
-## Present
-
-- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 
 ## Formerly
 
+- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 - Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my GSoC [work here](https://github.com/tasdikrahman/gsoc2017ovirt).
 - Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
 - Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://tasdikrahman.me/2016/08/13/My-internship-experience-at-Wingify-new-delhi-visual-website-optimiser-vwo/)
