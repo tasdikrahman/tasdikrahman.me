@@ -15,6 +15,9 @@ When not writing code, I can be found playing football (soccer if you may), watc
 
 You can find the list of talks given be me [here](https://tasdikrahman.me/talks/)
 
+## Present
+
+Part of the systems team @ [GoJek](https://go-jek.com)
 
 ## Formerly
 
@@ -48,7 +51,7 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.instamojo.com/blog/wp-content/uploads/2017/01/instamojo-91.png" alt="Donate via instamojo" title="Donate via instamojo" /></a>
 </p>-->
 
-<!-- 
+<!--
 | PayPal | <a href="https://paypal.me/tasdik" target="_blank"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="Donate via PayPal!" title="Donate via PayPal!" /></a> |
 |:-------------------------------------------:|:-------------------------------------------------------------:|
 | Gratipay  | <a href="https://gratipay.com/tasdikrahman/" target="_blank"><img src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" alt="Support via Gratipay" title="Support via Gratipay" /></a> |
