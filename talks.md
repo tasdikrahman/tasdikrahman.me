@@ -9,6 +9,10 @@ Talks given by me so far! More to come.
 
 <!--## <a name="index"/>Index-->
 
+#### 2018
+
+- ["kuberception: Self Hosting kubernetes", DevOpsDays India, 2018](#devopsdaysindia-2018)
+
 #### 2017
 
 - ["Introduction to Ansible", Bangpypers April 2017](#introduction-to-ansible-bangpypers-april)
@@ -19,6 +23,12 @@ Talks given by me so far! More to come.
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
 ***
+
+### <a name="#devopsdaysindia-2018"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
+
+<script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+- **Code snippets used during the talk:** [https://github.com/tasdikrahman/infra](https://github.com/tasdikrahman/infra)
 
 ### <a name="#pycontaiwan-deep-dive-imports"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
 
