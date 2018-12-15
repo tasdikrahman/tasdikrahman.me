@@ -17,11 +17,11 @@ You can find the list of talks given be me [here](https://tasdikrahman.me/talks/
 
 ## Present
 
-Part of the systems team @ [GoJek](https://go-jek.com)
+Enabling scale as part of the systems team @ [GoJek](https://www.go-jek.com/)
 
 ## Formerly
 
-- Enabling scale as an Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
+- Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 - Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my GSoC [work here](https://github.com/tasdikrahman/gsoc2017ovirt).
 - Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
 - Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://tasdikrahman.me/2016/08/13/My-internship-experience-at-Wingify-new-delhi-visual-website-optimiser-vwo/)
