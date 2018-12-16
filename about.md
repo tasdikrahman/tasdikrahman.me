@@ -11,9 +11,11 @@ title: About Me
 
 This site is a partial collection of projects I've worked on, stories I've written down, and software I've published. Used to waste weekends building stuff instead of studying back in college. I love working on tools, infrastructure and working on scaling applications from ground up. Occasional [gopher](https://golang.org) and a full time [pythonista](https://python.org/) among other things.
 
-When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while. Has a weak spot for good music, standup comedy and theatre.
+When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while, tending to my home garden or watching the local theatre companies performing or watching the local comics perform at the comedy club.
 
-You can find the list of talks given be me [here](https://tasdikrahman.me/talks/)
+You can find the list of talks given by me [here](https://tasdikrahman.me/talks/)
+
+<center><img src="/content/images/austin.jpg"></center>
 
 ## Present
 
@@ -85,9 +87,5 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 ***
 
 <!-- <center><p>Obligatory self portrait!</p></center> -->
-
-
-<center><img src="/content/images/austin.jpg"></center>
-
 
 <!-- <center><p><em>Congr</em></p></center> -->

@@ -24,7 +24,7 @@ Talks given by me so far! More to come.
 
 ***
 
-### <a name="#devopsdaysindia-2018"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
+### <a name="#devopsdaysindia-2018"/>[Kuberception: Self hosting kubernetes](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
 
 <script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
