@@ -6,12 +6,12 @@ title: Resume
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <p class="message">
-    This page contains a copy of my resume and is in PDF format (LaTeX doesn't output to Word format so yeah, that's much about it.)
+    This page contains a copy of my resume and is in PDF format (LaTeX doesn't output to Word format)
 
-    <br><br>The fastest way to reach me would be through <a href="mailto:tasdikrahman@zoho.com" > email</a>. 
+    <br><br>The fastest way to reach me would be through <i>prodicus AT outlook DOT com</i>
 
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over 
-    my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made  available on request.</i>
+    my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made available on request.</i>
 
     <br><br><i>Last updated on 12th of September, 2018</i>
 
