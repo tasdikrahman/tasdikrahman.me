@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Test driven development as a school of thought"
-description: "Test driven development as a school of thought"
+title: "Test-driven development as a school of thought"
+description: "Test-driven development as a school of thought"
 tags: [tdd, agile]
 comments: true
 share: true
@@ -54,6 +54,11 @@ Some of the things which I noticed worked well while writing tests were
 - Unit tests need true isolation, and they shouldn't be hitting databases or opening sockets when you are testing something. 
 - Use only one assertion per test. 
 
+Testing is like security, you can never be 100% percent sure whether you've got it, but it surely adds to the confidence on what you've built. 
+
+So let's say if you have written some 20 tests, and all of them pass, you wouldn't be sure if whay you have written is correct or not. But let's say you started with all them being in the red state, you would have much more confidence on the system that you have built. 
+
+This back and forth, does take a take time. But it's a process which tries to address the concern of having doubts about whether what you built is a resilient system or not. 
 
 ## Resources 
 
