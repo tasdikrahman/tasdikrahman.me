@@ -23,7 +23,7 @@ And I use [vim](https://github.com/tasdikrahman/dotfiles/blob/master/vim/.vimrc)
 
 ## Present
 
-Enabling scale as part of the systems team @ [GoJek](https://www.go-jek.com/)
+Enabling scale as part of the go-cloud team (prev @ Systems team) @ [GoJek](https://www.go-jek.com/)
 
 ## Formerly
 
