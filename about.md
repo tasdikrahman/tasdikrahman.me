@@ -66,26 +66,6 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 | € Euros | <a href="https://transferwise.com/pay/64c586e3-ec99-4be8-af0b-59241f7b9b79" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
 | ₹ (INR)  | <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.soldermall.com/images/pic-online-payment.jpg" alt="Donate via instamojo" title="Donate via instamojo" /></a> | -->
 
-
-###  Me splattered across the web
-
-
-#### Social media
-
-
-
-| <a href="https://www.linkedin.com/in/tasdikrahman" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>  | <a href="https://quora.com/profile/Tasdik-Rahman" target="_blank"><b>Quora</b></a> |
-|:-------------------------------------------:|:-------------------------------------------------------------:|
-| <a href="https://medium.com/@tasdikrahman" target="_blank"><i class="fa fa-medium fa-2x"></i></a>  | <a href="https://soundcloud.com/tasdikrahman" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a> |
-| <a href="https://www.youtube.com/c/TasdikRahman" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>   |   <a href="https://vimeo.com/tasdikrahman" target="_blank"><i class="fa fa-vimeo fa-2x"></i></a> |
-
-
-####  Developer portfolio
-
-| <a href="https://github.com/tasdikrahman" target="_blank"><i class="fa fa-github fa-2x"></i></a>  | <a href="https://devpost.com/tasdikrahman" target="_blank"><b>Devpost</b></a>   |
-|:-------------------------------------------:|:---------------------:|
-| <a href="https://angel.co/tasdikrahman" target="_blank"><i class="fa fa-angellist fa-2x"></i></a> | <a href="http://careers.stackoverflow.com/tasdikrahman" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>   |
-
 <center>You can reach me through <b>prodicus at outlook dot com</b></center>
 
 ***
