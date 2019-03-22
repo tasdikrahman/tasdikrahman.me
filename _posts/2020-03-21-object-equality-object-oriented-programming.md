@@ -70,7 +70,8 @@ should compare the object attributes and not if they are the same object in memo
 
 ### Equivalence relation
 
-The general contract when we are overriding the == operator in ruby is that it should implement an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation).
+The general contract when we are overriding the == operator in ruby is that it should implement an 
+[equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation).
 
 Which has the following properties.
 
@@ -172,4 +173,13 @@ public boolean equals(Object object) {
 ```
 
 One of the most common mistakes which people make while overriding the equals method is that instead of using the 
-`Object class, they use the class, in which they are overriding the equals method itself.
+`Object` class, they use the class, in which they are overriding the equals method itself.
+
+### References
+
+- https://www.harukizaemon.com/blog/2005/12/28/how-to-write-eql-in-ruby/
+- https://ruby-doc.org/core-2.5.3/Hash.html#class-Hash-label-Hash+Keys
+- https://javarevisited.blogspot.com/2011/02/how-to-write-equals-method-in-java.html
+- https://stackoverflow.com/questions/7156955/whats-the-difference-between-equal-eql-and
+- https://stackoverflow.com/questions/1931604/whats-the-right-way-to-implement-equality-in-ruby'
+- https://mauricio.github.io/2011/05/30/ruby-basics-equality-operators-ruby.html
