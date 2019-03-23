@@ -242,8 +242,6 @@ The train journey was joined by Michael, whom I had met back in the hostel where
 
 <center><img src="/content/images/2019/03/goa-train.jpg"></center>
 
-<center><img src="/content/images/2019/03/goa-day-1.jpg"></center>
-
 After reaching Panjim, which was the last stop of the train. Me and Michael parted ways as he was headed further north of Candolim, which was were I was going. 
 
 Local transport is a little bit hard to find in Goa is what I noticed, most tourists either rent a car or a scooter and you can do the whole city in that. But many are left with the option of going around with the other options. 
