@@ -260,7 +260,7 @@ Candolim itself is a small (but populated) village and it can be covered by brie
 
 <center><img src="/content/images/2019/03/candolim.jpg"></center>
 
-<center><img src="/content/images/2019/03/goa-day-1.jpg"></center>
+<center><img src="/content/images/2019/03/sunset-goa.jpg"></center>
 
 I crashed around in my bunk bed as I settled in for the night after lazing around and having conversations with the folks in the common area of the hostel, where I met a guy from China who had been living in India for some months now. 
 
