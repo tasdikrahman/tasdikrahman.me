@@ -288,6 +288,6 @@ I did something very similar a few years back, when I did my [backpacking trip t
 
 I had to rush through the last section of my trip, midway Hampi. As you might have noticed. The initial plan was to spend two nights on each of the destinations, but as luck would have had it. I had to cut it short to be present in Bangalore for DevOpsDays India to be speaking there.
 
-Would love to visit the southern coast again, coverin Kerala and Mangalore.
+Would love to visit the southern coast again, covering Kerala and Mangalore. Cochin and Aleppey comes over my mind.
 
 Until next time!
