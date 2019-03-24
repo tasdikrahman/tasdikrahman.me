@@ -17,8 +17,6 @@ When not writing code, I can be found playing football (soccer if you may), watc
 
 You can find the list of talks given by me [here](https://tasdikrahman.me/talks/)
 
-And I use [vim](https://github.com/tasdikrahman/dotfiles/blob/master/vim/.vimrc).
-
 <center><img src="/content/images/austin.jpg"></center>
 
 ## Present
