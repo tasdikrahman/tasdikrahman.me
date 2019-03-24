@@ -21,7 +21,7 @@ to start packing for the impromptu solo backpacking trip which I had planned bef
 
 ### Hampi the imperial capital of Vijayanagar, a 14th century empire
 
-Hampi is the forgotten empire, there was a time when diamonds were sold on the streets before it's fall. Such was the grandeus.
+Hampi is the forgotten empire, there was a time when diamonds were sold on the streets before it's fall. Such was the grandeur.
 
 Hampi rose into prominence in the early 14th century when the Kampili Kings rose to power. In 1327, the kingdom was attacked by Muhammad-bin-Tughluq who took two brothers, Bukka and Harihara as prisoners along with thousands of other people. These brothers tricked the Sultan into setting them free and returned to Kampili to set up a kingdom of their own with its capital at Vijayanagara. Thus the Vijayanagara Empire was founded by Harihara I and Bukka I of the Sungama dynasty in 1336. The Sungama dynasty was followed by the Saluvas and the Tuluvas each of whom added  Vijayanagara’s architectural beauty.
 
@@ -29,32 +29,25 @@ At one point Hampi was also one of the biggest trading centers of the world. Vij
 
 The empire encompassed almost the whole of the modern South India.
 
-It is quite a unique experience I would say. On one hand you experience a culture rich in history(every street and corner is steeped in history),On the other hand on crossing the river, you enter into another world – Virupapur Gadde or more popularly known as the Hippie Island. Contradictory indeed! You will find the street lined with cafes which cater to the foreign tourists from all over the world. Tourists from Israel are a common sight.
+It is quite a unique experience I would say. On one hand you experience a culture rich in history(every street and corner is steeped in history) and on the other hand on crossing the river, you enter into another world – Virupapur Gadde or more popularly known as the Hippie Island. Contradictory indeed! You will find the street lined with cafes which cater to the foreign tourists from all over the world. Tourists from Israel are a common sight.
 
-The easiest way to reach Hampi, is to take a bus till Hospet. After which you can take a city bus to the town of hampi.
-Which barely costs you anything. If you are feeling lucky, you can book a Karnataka sarige class, KSRCTC bus from bangalore's
-Majestic bus stand, till Hospet like I did. But a fair warning is that, if you have a big rucksack with you and are looking
-for a good night's sleep(which I feel everyone does), you are better off booking a better bus service for yourself.
-But it's a very good service provided it charged me just about 230 INR, for a distance of close to 300 kms.
+The easiest way to reach Hampi, is to take a bus till Hospet. After which you can take a city bus to the town of hampi. Which barely costs you anything. If you are feeling lucky, you can book a Karnataka sarige class, KSRCTC bus from bangalore's Majestic bus stand, till Hospet like I did. But a fair warning is that, if you have a big rucksack with you and are looking for a good night's sleep(which I feel everyone does), you are better off booking a better bus service for yourself. But nonetheless, it's a very good service, provided it charged me just about 230 INR, for a distance of close to 300 kms.
 
 <center><img src="/content/images/2019/03/hampi-first-impressions.jpg"></center>
 
-For staying around Hampi, you can book one of the lodges which the cafe's around the [Virupaksha temple](https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi), the prices are quite cheap. I booked myself a room for a meagre
-450INR for two nights in of the nearby lodges. The one which I was staying in, had bathrooms which were not maintained
-at all. I was lucky that there was a public bathroom nearby the lodge, where I used to get done with my business. But
-at the price of the lodge, I wouldn't have expected any better.
+For staying around Hampi, you can book one of the lodges which are nothing but the cafe's around the [Virupaksha temple](https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi), the prices are quite cheap. I booked myself a room for a meagre 450INR for two nights in of the nearby lodges. The one which I was staying in, had bathrooms which were not well maintained at all. I was lucky that there was a public bathroom nearby the lodge, where I used to get done with my business. But given the price of the lodge, I wouldn't have expected any better.
 
-There is one particular food joint just right next to the lodge, which used to serve [Dosas](https://en.wikipedia.org/wiki/Dosa) and I used to get breakfast and dinner, along with some tea. And oh boy, was it not good!
+There is one particular food joint just right next to the lodge, which used to serve [Dosas](https://en.wikipedia.org/wiki/Dosa) and I used to get breakfast and dinner, along with some tea. The smell of the batter getting cooked on the stove and it getting served on your plate with some hot sambaar. Heavenly!
 
-The plan for the very first day was to get a cycle (they can be rented at around 200 INR for the whole day), and cover the Virupaksha temple and the road which leads to the southern parts of the ancient city.
+The plan for the very first day was to get a cycle (they can be rented at around 100/200 INR for the whole day), and cover the area near Virupaksha temple and the road which leads to the southern parts of the ancient city.
 
 <center><img src="/content/images/2019/03/hampi-virupaksha.jpg"></center>
 
 It's part of the group of monuments at Hampi, designated as a UNESCO world heritage site.
 
-The day on which I visited, it just so happened that there was a marriage ceremony going on. There was a huge crowd which is as expected. Lakshmi, the temple elephant would be seen blessing the visitors with her trunk.
+The day on which I visited, it just so happened that there was a marriage ceremony going on. There was a huge crowd which is as expected. Lakshmi, the temple elephant would be seen blessing the visitors with her trunk. I would later get to know that it's quite common for weddings to happen here.
 
-Right next to the temple, is the hemakuta hill which leads to other temples in the vicinity. The hill encircled on its three sides by massive fortification. To the north is the eclosure wall of Virupaksha temple. The complex has three gateways. More than 30 shrines stand on this hill. These vary from elaborate structures with multiple sanctums and rudimetaries, single celled construction. Most of these temples have stepped pyramidal type of superstructure.
+Right next to the temple, is the Hemakuta hill which leads to other temples in the vicinity. The hill encircled on its three sides by massive fortification. To the north is the eclosure wall of Virupaksha temple. The complex has three gateways. More than 30 shrines stand on this hill. These vary from elaborate structures with multiple sanctums and rudimetaries, single celled construction. Most of these temples have stepped pyramidal type of superstructure.
 
 <center><img src="/content/images/2019/03/hemakuta-hill.jpg"></center>
 
