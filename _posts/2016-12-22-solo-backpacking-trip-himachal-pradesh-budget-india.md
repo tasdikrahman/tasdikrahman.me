@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "More than 18 stops, a little less than 1800kms, My Himachal Trip"
-description: "More than 18 stops, a little less than 1800kms, Our bootstrapped Himachal Trip"
+title: "More than 18 stops, a little less than 1800kms, Backpacking Trip To Himachal Pradesh"
+description: "More than 18 stops, a little less than 1800kms, Backpacking Trip To Himachal Pradesh"
 tags: [travel]
 comments: true
 share: true
