@@ -174,7 +174,7 @@ I was welcomed by the hosts back at the hostel and the hostel was right next to 
 
 The bunk bed which I was sharing along, had folks who were there for a quick getaway before they attended a friend's wedding, an army officer who was on her way back home before she got to go back to Leh where she was commissioned and many more.
 
-The set of people were very diverse. I met Amazon, who was from [cork](https://en.wikipedia.org/wiki/Cork_(city) and was on a break before he headed back home before he joined his new gig, among with Michael who worked as a Police officer in Australia.
+The set of people were very diverse. I met Amazon, who was from [sussex](https://en.wikipedia.org/wiki/Sussex) and was on a break before he headed back home before he joined his new gig, among with Michael who worked as a Police officer in Australia.
 
 <center><img src="/content/images/2019/03/gokarna-day-1.jpg"></center>
 
