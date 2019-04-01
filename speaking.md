@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks
+title: Speaking
 ---
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -52,4 +52,3 @@ title: Talks
 - **Code snippets used during the talk:** [https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
 
 - **Bangpypers April meetup talks list**: [https://www.meetup.com/BangPypers/events/238670176/](https://www.meetup.com/BangPypers/events/238670176/)
-
