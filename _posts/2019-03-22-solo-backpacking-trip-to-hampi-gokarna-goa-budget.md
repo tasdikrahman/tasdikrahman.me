@@ -103,11 +103,11 @@ The hike was a 3 kilometer trek from my lodge, the Vitthala group of temples.
 
 <center><img src="/content/images/2019/03/day-2-vitthala.jpg"></center>
 
-The path to the temple is not that hard IMO if you are alright with walking in the sun with little to zero presence of humans in th path under the scorching sun. You walk alongside the river banks in some parts and get to witness the ruins which were left behind when the empire had fallen.
+The path to the temple is not that hard IMO if you are alright with walking in the sun with little to zero presence of humans in the path under the scorching sun. You walk alongside the river banks in some parts and get to witness the ruins which were left behind when the empire had fallen.
 
-The other way of reaching to Vitthala temple from Virupaksha is to take a 12 km auto ride which would push you back by some 800 INR or so depending on how well you can bargain for it.
+The other way of reaching to the Vitthala temple from Virupaksha is to take a 12 km auto ride which would push you back by some 800 INR or so depending on how well you can bargain with the auto drivers.
 
-Whichever suits you I would say. I wanted to take that hike as my lodge owner had mentioned it should be doable if I have lot of water with me.
+Whichever suits you I would say. I wanted to take that hike as my lodge owner had mentioned it should be doable given I had lots of water. 
 
 <center><img src="/content/images/2019/03/stone-chariot.jpg"></center>
 
@@ -119,7 +119,7 @@ Outside the temple, to the east, is a huge bazar, measuring 945 meters in length
 
 <center><img src="/content/images/2019/03/hampi-market.jpg"></center>
 
-If you keep walking in that direction, you will what is called [Talarigatta gate](http://hampi.in/talarigatta-gate), which is located stratefically to the north, north-east of the Vijayanagara city leading to the river known as 'Talarigatta'(toll collection point). The gate way, which is narrow, is built in to the fortification wall which enclosed the capital city. It's a two storeid structure with a provision for a guard pavilion in the first storey, the latter having beautifully cut plaster decoration.
+If you keep walking in that direction, you will what is called [Talarigatta gate](http://hampi.in/talarigatta-gate), which is located stratefically to the north, north-east of the Vijayanagara city leading to the river known as 'Talarigatta'(toll collection point). The gate way, which is narrow, is built in to the fortification wall which enclosed the capital city. It's a two storied structure with a provision for a guard pavilion in the first storey, the latter having beautifully cut plaster decoration.
 
 <center><img src="/content/images/2019/03/talarigatta.jpg"></center>
 
@@ -133,21 +133,21 @@ I got dropped very near to the musuem, so the natural thing was to just go and v
 
 As I was heading back to the main Hampi city, I had to find my way back. I had a few options. The easiest was to take an auto and head back to the city. Or wait for the red city bus to come along and halt there at that intersection. I waited for the bus to come and it felt like eons, but it didn't arrive.
 
-While I was waiting there, I met this kid called Mahadev whom I had met just yesterday when I had visited Virupaksha. He was one of the many small kids who were selling the map of Hampi in front of the temple. And I could immediately recognise him. He was waiting for the same bus as I was and he was on his way back home after a gruelling day at school.
+While I was waiting there, I met this kid called Mahadev whom I had met just yesterday when I had visited Virupaksha. He was one of the many small kids who were selling the map of Hampi in front of the temple. And I could immediately recognize him. He was waiting for the same bus as I was and he was on his way back home after a regular day at school.
 
 <center><img src="/content/images/2019/03/mahadev.jpg"></center>
 
-And while we waited, we talked about his family. His father was an auto driver here and his mom used to sell food at her stall. He had an elder sister who was studying in the next town. I asked him what does he like about this place and he responded back the second he heard it. It was the people he said, he said he liked meeting new people and getting to know them.
+And while we waited, we talked about his family. His father was an auto driver here and his mom used to sell food at her stall near the Virupaksha temple grounds. He had an elder sister who was studying in the next town. I asked him what does he like about this place. He said. it was the people and that he liked meeting new people and getting to know them.
 
-After waiting for a long while and both of us sharing some apples which I was carrying, mahadev decided he would get on the back of a motorcycle and reach the town, he generously offered me his ride but I asked him to take the ride as I was hoping to get something similar.
+After waiting for a long while and both of us sharing some apples which I was carrying, Mahadev decided he would get on the back of a motorcycle and reach the town, he generously offered me his ride when a kind gentlemen offered to give him a lift,  but I asked him to take the ride as I was hoping to get something similar.
 
 As luck would have it, a generous gentlemen offered me a ride back into the city. He struck up a conversation immediately after we started towards the city, asking me about where I was from and how was I liking the city.
 
-The next thing on the list was to get on the circular boats which I saw when I hiking down the river. The owner of the boating service was quoting somewhere around 1200 INR for around an hour. I managed to bring it down to some 400INR after some cajoling.
+The next thing on the list was to get on the circular boats which I saw when I hiking down the river. The owner of the boating service was quoting somewhere around 1200 INR for around an hour. I managed to bring it down to some 400INR after a lot of cajoling.
 
 <center><img src="/content/images/2019/03/circular-boat.jpg"></center>
 
-Later that night, I was lazing around the same local tea shop where I used to hang around. I ended up eating at the same place. Took a bus back to Hospet for the bus I had to catch for my next stop
+Later that night, I was lazing around the same local tea shop where I used to hang around. I ended up eating at the same place. Took a bus back to Hospet after which I had to get on a bus from Hospet on to my next destination.
 
 ### Another uncomfortable bus ride
 
@@ -157,7 +157,7 @@ I met Yang, yet again while on my way to Gokarna. And we had a chat again about 
 
 <center><img src="/content/images/2019/03/yang-day2.jpg"></center>
 
-The trip to Gokarna from Hampi is an overnight one but when I woke up to the morning, I was pleasantly surprised by the gentle breeze on my face flowing in through the tiny crevice of the window which was slided open as the bus creeked through the bridge.
+The trip to Gokarna from Hampi is an overnight one and when I woke up to the morning, I was pleasantly surprised by the gentle breeze on my face flowing in through the tiny crevice of the window which slided open as the bus crawled through the bridge.
 
 I got down at the Gokarna city bus stand and decided to walk all the way up to the hostel which I had booked for the stay for one night. It was a kilometer of hike before I could reach my hostel.
 
@@ -165,17 +165,15 @@ I was welcomed by the hosts back at the hostel and the hostel was right next to 
 
 <center><img src="/content/images/2019/03/gokarna-zostel.jpg"></center>
 
-The bunk bed which I was sharing along, had folks who were there for a quick getaway before they attended a friend's wedding, an army officer who was on her way back home before she got to go back to Leh where she was commissioned and many more.
-
-The set of people were very diverse. I met Amazon, who was from [sussex](https://en.wikipedia.org/wiki/Sussex) and was on a break before he headed back home before he joined his new gig, among with Michael who worked as a Police officer in Australia.
+The bunk bed which I was sharing along, had folks who were there for a quick getaway before they attended a friend's wedding, an army officer who was on her way back home before she got to go back to Leh where she was commissioned,  I met Amazon, who was from [sussex](https://en.wikipedia.org/wiki/Sussex) and who was on a break before he headed back home and joined his new gig, among with Michael who worked as a Police officer in Australia.
 
 <center><img src="/content/images/2019/03/gokarna-day-1.jpg"></center>
 
-I lazed around the eating area of the hostel, where me and a couple of folks were just sharing what they had been travelling around and singing songs someone played some guitar sipping over some milkshake. Such bliss.
+I lazed around the dining area of the hostel which was right next to the ridge, where me and a couple of folks were just sharing with each other where they had been travelling around and singing songs while someone played some guitar sipping over some milkshake. 
 
-The afternoon was sliding over and we started to plan around a hike around the beaches of Gokarna.
+The afternoon was sliding over and we started to plan around a hike around the beaches of Gokarna. 
 
-We made it down from the hills from where the hostel was situated and headed to the main beach, where we boarded on the speed boat which was waiting for us to take us to God's own beach.
+We made it down from the hills from where the hostel was situated and headed to the main beach, where we boarded onto the speed boat which was waiting for us to take us to God's own beach.
 
 <center><img src="/content/images/2019/03/gokarna-boat.jpg"></center>
 
@@ -183,9 +181,9 @@ The boat ride was roughly a 30 minute ride till we reached the destination and w
 
 <center><img src="/content/images/2019/03/gods-own-beach.jpg"></center>
 
-Just after you get down at any of the beaches which are farther away from the main roads, you would find a bunch of folks who would have holed up in makeshift tents, playing soccer, cooking food in the open kitchen which they have created. It was very interesting to see that part of it.
+Just after you get down at any of the beaches which are farther away from the main roads, you would find a bunch of folks who would have holed up in makeshift tents, playing soccer, cooking food in the open kitchen which they have created. Most of them being from Israel. 
 
-We started our trek to the beach right next to god's own beach and the beaches along the way, all the way to the main gokarna beach.
+We started our trek to the beach right next to god's own beach and the beaches along the way, all the way to the main Gokarna beach.
 
 Kudle Beach is popular with those that are staying in town but want to spend the day at the beach. At the left end of the Gokarna beach, a narrow path goes up a hill, where you cross a (Rama) temple en route. This temple also has a natural water spring which according to the locals never stops running. The water is quite drinkable. After climbing up some stairs, you will find flat ground and some breath-taking views of Gokarna beach as you turn-around to see the distance you covered. As you move along, about 10 minutes walk from this place, the flat ground leads to a narrow lane, which goes down to Kudle beach, the second of Gokarna's beaches. This beach looks very unkempt, desolate and dirty in off-seasons. You will hardly find a soul here then.
 
@@ -217,13 +215,13 @@ We could see, the sun getting gobbled up by the sea. The orange it was, shining 
 
 To be honest, I didn't want the sunset to end and wanted it to just continue the whole day. And all of us just sitting there till we got the view till our heart's content.
 
-We headed back to the hostel to get a quick shower after which we got some dinner at local restaurant which was serving konkani cuisine.
+We headed back to the hostel to get a quick shower after which we got some dinner at a local restaurant which was serving [konkani cuisine](https://en.wikipedia.org/wiki/Malvani_cuisine).
 
-Just after the dinner, we got to know about the festival which was happening at the Kotitheertha temple tank in the centre of the town and this whole section of the town was lit up with diyas and lights. Everyone was out on the streets trying to get a glimpse of the festvial which was happening.
+Just after the dinner, we got to know about the festival which was happening at the Kotitheertha temple tank in the centre of the town and this whole section of the town was lit up with diyas and lights. Everyone was out on the streets trying to get a glimpse of the festvial.
 
 <center><img src="/content/images/2019/03/Kotitheertha.jpg"></center>
 
-The day ended with all of us crashing in our bunk beds, for me it was also the last night in Gokarna as I packed up my bags and sorted out the clean clothes which I had.
+The day ended with all of us crashing in our bunk beds, for me it was also the last night in Gokarna as I packed up my bags.
 
 <center><img src="/content/images/2019/03/gokarna-last-day.jpg"></center>
 
@@ -239,7 +237,7 @@ After reaching Panjim, which was the last stop of the train. Me and Michael part
 
 Local transport is a little bit hard to find in Goa is what I noticed, most tourists either rent a car or a scooter and you can do the whole city in that. But many are left with the option of going around with the other options.
 
-I reached my hostel and freshened up a bit before heading straight to the beach right behind my hostel, it was meagre 5 minute walk back to the beach and I was greeted by a restaurant quite old shack called Mama Cecilia's shack. Ordered some shrimps and just sat down on the shack to relax and watch the sunset while dogs played around.
+I reached my hostel and freshened up a bit before heading straight to the beach right behind my hostel, it was meagre 5 minute walk back to the beach and I was greeted by quite an old restaurant called Mama Cecilia's shack. Ordered some shrimps and just sat down on the beachside chairs to relax and watch the sunset while dogs were running around in the water, playing with their owners and people jogging. 
 
 <center><img src="/content/images/2019/03/goa-day-1.jpg"></center>
 
@@ -271,7 +269,7 @@ The church is dedicated to Jesus - in portuguese Bom Jesus meaning Good Jesus.
 
 The day ended with me heading back to the hostel and packing my bags, yet again to my final destination. Which was home indeed.
 
-I boarded a bus back to Bangalore, this one being an Airavat. As I felt I needed to really rest for a bit as the last few days had quite been something for me.
+I boarded a bus back to Bangalore, this one being an Airavat. As I felt I reallt need to rest for a bit as the last few days had quite been something for me.
 
 Reaching home, was another level of satisfaction. I had finally completed the trip which was an impromptu one and I was very happy that I made it.
 
@@ -279,7 +277,7 @@ I did something very similar a few years back, when I did my [backpacking trip t
 
 7 days of backpacking across the southern edge of India had come to and end after completing close to 1400kms.
 
-I had to rush through the last section of my trip, midway Hampi. As you might have noticed. The initial plan was to spend two nights on each of the destinations, but as luck would have had it. I had to cut it short to be present in Bangalore for DevOpsDays India to be speaking there.
+I had to rush through the last section of my trip, midway Hampi. As you might have noticed, I had to rush through the last part of the trip. The initial plan was to spend two nights in every place, but as luck would have had it. I had to cut it short to be present in Bangalore for DevOpsDays India to be speaking there.
 
 Would love to visit the southern coast again, covering Kerala and Mangalore. Cochin and Aleppey comes over my mind.
 
