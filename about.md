@@ -15,7 +15,7 @@ I love working on tools, infrastructure and helping scale applications from grou
 
 When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or watch the local comics perform at [the comedy club](https://www.comedywagon.com/).
 
-You can find the list of talks given by me [here](https://tasdikrahman.me/talks/)
+You can find the list of talks given by me [here](https://tasdikrahman.me/speaking/)
 
 <center><img src="/content/images/austin.jpg"></center>
 
