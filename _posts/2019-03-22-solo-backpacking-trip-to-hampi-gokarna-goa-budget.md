@@ -274,7 +274,7 @@ I did something very similar a few years back when I did my [backpacking trip to
 
 7 days of backpacking across the southern edge of India had come to an end after completing close to 1400kms.
 
-I had to rush through the last section of my trip, midway Hampi. As you might have noticed, I had to rush through the last part of the trip. The initial plan was to spend two nights in every place, but as luck would have had it. I had to cut it short to be present in Bangalore for DevOpsDays India to be speaking there.
+As you might have noticed, I had to rush through the last part of the trip. The initial plan was to spend two nights in every place, but as luck would have had it. It was cut short as I had to be present in Bangalore for DevOpsDays India, where I would be giving [a talk](https://www.youtube.com/watch?v=3WgqFoo9eek&feature=youtu.be).
 
 Would love to visit the southern coast again, covering Kerala and Mangalore. Cochin and Aleppey comes over my mind.
 
