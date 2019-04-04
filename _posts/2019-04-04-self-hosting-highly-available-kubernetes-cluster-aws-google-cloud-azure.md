@@ -5,7 +5,7 @@ description: "Self hosting kubernetes"
 tags: [kubernetes, aws]
 comments: true
 share: true
-cover_image: '/content/images/2019/04/kubernetes-horizontal-color.png'
+cover_image: '/content/images/2019/04/k8s-image.png'
 ---
 
 [kubernetes](https://kubernetes.io/) has been around for some time now. At the time of writing this article, [v1.14.0](https://github.com/kubernetes/kubernetes/releases/tag/v1.14.0) being the latest release and with each new release they have a bunch of new features.
@@ -13,6 +13,8 @@ cover_image: '/content/images/2019/04/kubernetes-horizontal-color.png'
 This post is about the initial setup for getting the kubernetes cluster up and running. I gave a talk on the same subject of self hosting kubernetes in [DevOpsDays India, 2018](https://devopsdaysindia.org/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3WgqFoo9eek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 This post assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do.
 
