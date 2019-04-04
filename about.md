@@ -15,15 +15,15 @@ I love working on tools, infrastructure and helping scale applications from grou
 
 When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or watch the local comics at [the comedy club](https://www.comedywagon.com/).
 
-You can find the list of talks given by me [here](https://tasdikrahman.me/speaking/)
+You can find the list of talks given by me [here](https://tasdikrahman.me/speaking/).
 
 <center><img src="/content/images/austin.jpg"></center>
 
-## Present
+#### Present
 
 Enabling scale as part of the go-cloud/kernel team (previously @ Systems team) @ [GoJek](https://www.go-jek.com/)
 
-## Formerly
+#### Formerly
 
 - Infrastructure Engineer @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 - Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my GSoC [work here](https://github.com/tasdikrahman/gsoc2017ovirt).
