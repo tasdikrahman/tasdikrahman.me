@@ -18,6 +18,8 @@ You can find the slides of the talk above.
 
 <script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
+Although there are other tools like [kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) which would help you to [self-host](https://thenewstack.io/kubernetes-now-does-self-hosting-with-kubeadm/) kubernetes, I would like to show how [bootkube](https://github.com/kubernetes-incubator/bootkube) does it. 
+
 ## What is self-hosting kubernetes?
 
 > It runs all required and optional components of a Kubernetes cluster on top of Kubernetes itself. The kubelet manages itself or is managed by the system init and all the Kubernetes components can be managed by using Kubernetes APIs.
@@ -166,6 +168,10 @@ which would be the manifests applied, when the API server pivots from the tempor
 What you see above are the logs of a controller node when the cluster is brought up. The initial `docker ps -a` would show the bootstrap control plane objects which were brought up bootkube.
 
 The second `docker ps -a` shows the list of containers which are part of the pods when all the other manifests in the `manifests` dir got applied.
+
+### Tools to self host k8s clusters
+
+Although I have used typhoon to bring up my kubernetes clusters, check out [gardener cloud](https://gardener.cloud/) which can also help you achieve self hosted kubernetes. 
 
 ### References
 
