@@ -14,6 +14,8 @@ This post is about the initial setup for getting the kubernetes cluster up and r
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3WgqFoo9eek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+You can find the slides of the talk above.
+
 <script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 This post assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do.
