@@ -8,7 +8,3 @@ share: true
 cover_image: '/content/images/2018/10/'
 ---
 
-
-
-
-
