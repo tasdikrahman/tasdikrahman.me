@@ -26,7 +26,7 @@ You can find the slides of the talk above.
 
 <center><img src="/content/images/2019/04/k8s-self-hosted.png"></center>
 
-The cluster which you see above is a self hosted cluster, hosted on [digitalocean](https://digitalocean.com) using [typhoon](https://github.com/poseidon/typhoon)
+The cluster which you see above is a self hosted cluster, hosted on [digitalocean](https://digitalocean.com) using [typhoon](https://github.com/poseidon/typhoon). For reference, you can check the [terraform](https://github.com/tasdikrahman/infra/tree/master/aws/ap-south-1/homelab) config to bring up your own cluster using typhoon.
 
 What you can see above is how you can use [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) to interact with the different components of the kubernetes cluster and how they are abstracted in terms of the native kubernetes objects like [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/), [daemonset](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
 
