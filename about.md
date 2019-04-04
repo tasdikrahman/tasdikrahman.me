@@ -21,7 +21,7 @@ You can find the list of talks given by me [here](https://tasdikrahman.me/speaki
 
 ## Present
 
-Enabling scale as part of the go-cloud team (prev @ Systems team) @ [GoJek](https://www.go-jek.com/)
+Enabling scale as part of the go-cloud/kernel team (previously @ Systems team) @ [GoJek](https://www.go-jek.com/)
 
 ## Formerly
 
