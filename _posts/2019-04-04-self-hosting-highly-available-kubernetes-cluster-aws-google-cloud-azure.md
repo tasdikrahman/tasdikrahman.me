@@ -177,3 +177,4 @@ The second `docker ps -a` shows the list of containers which are part of the pod
 - [bootkube: Upgrading the kubernetes cluster](https://github.com/kubernetes-incubator/bootkube/blob/master/Documentation/upgrading.md)
 - [SIG lifecycle google groups early discussions on self hosting](https://groups.google.com/forum/#!msg/kubernetes-sig-cluster-lifecycle/p9QFxw-7NKE/jeYJF1hBAwAJ)
 - [Typhoon](https://github.com/poseidon/typhoon)
+- [Self hosting kubernetes: how and why](https://www.youtube.com/watch?v=jIZ8NaR7msI)
