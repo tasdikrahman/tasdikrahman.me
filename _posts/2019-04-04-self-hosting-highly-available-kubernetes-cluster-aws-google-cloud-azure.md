@@ -8,9 +8,9 @@ share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
 ---
 
-[kubernetes](https://kubernetes.io/) has been around for some time now. At the time of writing this article, [v1.14.0](https://github.com/kubernetes/kubernetes/releases/tag/v1.14.0) being the latest release and with each new release they have a bunch of new features.
+[kubernetes](https://kubernetes.io/) has been around for some time now. At the time of writing this article, [v1.14.0](https://github.com/kubernetes/kubernetes/releases/tag/v1.14.0) is the latest release and with each new release, they have a bunch of new features.
 
-This post is about the initial setup for getting the kubernetes cluster up and running and assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do. I gave a talk on the same subject of self hosting kubernetes in [DevOpsDays India, 2018](https://devopsdaysindia.org/)
+This post is about the initial setup for getting the kubernetes cluster up and running and assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do. I gave a talk on the same subject of self-hosting kubernetes in [DevOpsDays India, 2018](https://devopsdaysindia.org/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3WgqFoo9eek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -26,7 +26,7 @@ You can find the slides of the talk above.
 
 <center><img src="/content/images/2019/04/k8s-self-hosted.png"></center>
 
-The cluster which you see above is a self hosted cluster, hosted on [digitalocean](https://digitalocean.com) using [typhoon](https://github.com/poseidon/typhoon). For reference, you can check the [terraform](https://github.com/tasdikrahman/infra/tree/master/aws/ap-south-1/homelab) config to bring up your own cluster using typhoon.
+The cluster which you see above is a self-hosted cluster, hosted on [digitalocean](https://digitalocean.com) using [typhoon](https://github.com/poseidon/typhoon). For reference, you can check the [terraform](https://github.com/tasdikrahman/infra/tree/master/aws/ap-south-1/homelab) config to bring up your own cluster using typhoon.
 
 What you can see above is how you can use [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) to interact with the different components of the kubernetes cluster and how they are abstracted in terms of the native kubernetes objects like [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/), [daemonset](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
 
@@ -48,9 +48,9 @@ What are the usual properties of the [k8s control plane](https://kubernetes.io/d
 - Resource allocation
 - RBAC
 
-## How is self hosted kubernetes addressing them
+## How is self-hosted kubernetes addressing them
 
-- **Small Dependencies**: self-hosted should reduce the number of components required, on host, for a Kubernetes cluster to be deployed to a Kubelet. This should greatly simplify the perceived complexity of Kubernetes installation.
+- **Small Dependencies**: self-hosted should reduce the number of components required, on the host, for a Kubernetes cluster to be deployed to a Kubelet. This should greatly simplify the perceived complexity of Kubernetes installation.
 - **Deployment consistency**: self-hosted reduces the number of files that are written to disk or managed via configuration management or manual installation via SSH. Our hope is to reduce the number of moving parts relying on the host OS to make deployments consistent in all environments.
 - **Introspection**: internal components can be debugged and inspected by users using existing Kubernetes APIs like kubectl logs
 - **Cluster Upgrades**: Related to introspection the components of a Kubernetes cluster are now subject to control via Kubernetes APIs. Upgrades of Kubelet's are possible via new daemon sets, API servers can be upgraded using daemon sets and potentially deployments in the future, and flags of add-ons can be changed by updating deployments, etc
@@ -66,7 +66,7 @@ Let's try explaining the above one at a time.
 - Forget about masters for a second, for worker nodes, the components above is all you need for it to connect to the cluster.
 - Everything is running inside kubernetes.
 - Master nodes might have systemd units and some other specialised scripts to run.
-- There is no disctinction between the nodes.
+- There is no distinction between the nodes.
 
 <center><img src="/content/images/2019/04/k8s-disctinction.png"></center>
 
@@ -86,7 +86,7 @@ $ kubectl label node node1 master=true
 
 All the control plane objects run as one or the other kubernetes objects, what happens then is you get the power of doing something like `kubectl logs ..` on the particular object to get the logs.
 
-You can go ahead and send these logs to your logging platform just like how you would do to your application logs. Making them searcheable and gaining more visibility on the control plane objects.
+You can go ahead and send these logs to your logging platform just like how you would do to your application logs. Making them searchable and gaining more visibility on the control plane objects.
 
 #### Cluster Upgrades
 
@@ -102,7 +102,7 @@ First comes the API server. A [certain flow](https://github.com/kubernetes-incub
 
 As the core control plane objects are running as kubernetes objects like deployments, you can increase their replica count and make it scale up/down to the desired number which you would want.
 
-Wouldn't really affect the scheduler/controller-manager/api operations too much if you are thinking of scaling them up and expecting perfomance improvement as each of them take a lock on etcd and elect a leader, hence only one of them is active at any given point.
+Wouldn't really affect the scheduler/controller-manager/api operations too much if you are thinking of scaling them up and expecting performance improvement as each of them take a lock on etcd and elect a leader, hence only one of them is active at any given point.
 
 #### Streamlined cluster lifecycle management
 
@@ -115,7 +115,7 @@ $ kubectl apply -f flannel.yaml
 $ kubectl apply -f my-app.yaml
 ```
 
-Which gives you a familiar ground to be in, of course you should try not doing the above in prod and have some kind of automation to do things instead of doing `kubectl apply`.
+Which gives you a familiar ground to be in, of course, you should try not doing the above in prod and have some kind of automation to do things instead of doing `kubectl apply`.
 
 ## How does all this work?
 
