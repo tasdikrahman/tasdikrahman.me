@@ -10,15 +10,13 @@ cover_image: '/content/images/2019/04/k8s-image.png'
 
 [kubernetes](https://kubernetes.io/) has been around for some time now. At the time of writing this article, [v1.14.0](https://github.com/kubernetes/kubernetes/releases/tag/v1.14.0) being the latest release and with each new release they have a bunch of new features.
 
-This post is about the initial setup for getting the kubernetes cluster up and running. I gave a talk on the same subject of self hosting kubernetes in [DevOpsDays India, 2018](https://devopsdaysindia.org/)
+This post is about the initial setup for getting the kubernetes cluster up and running and assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do. I gave a talk on the same subject of self hosting kubernetes in [DevOpsDays India, 2018](https://devopsdaysindia.org/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3WgqFoo9eek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can find the slides of the talk above.
 
 <script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-This post assumes that you are already familiar with what kubernetes is and a rough idea on what the control plane components are and what do they do.
 
 ## What is self-hosting kubernetes?
 
@@ -59,7 +57,7 @@ What are the usual properties of the [k8s control plane](https://kubernetes.io/d
 - **Easier Highly-Available Configurations**: Using Kubernetes APIs will make it easier to scale up and monitor an HA environment without complex external tooling. Because of the complexity of these configurations tools that create them without self-hosted often implement significant complex logic.
 - **Streamlined, cluster lifecycle management**: you can manage things using your favourite tool like kubectl
 
-Let's try explaining the above one at a time. 
+Let's try explaining the above one at a time.
 
 #### Small dependencies
 
@@ -68,15 +66,15 @@ Let's try explaining the above one at a time.
 - Forget about masters for a second, for worker nodes, the components above is all you need for it to connect to the cluster.
 - Everything is running inside kubernetes.
 - Master nodes might have systemd units and some other specialised scripts to run.
-- There is no disctinction between the nodes. 
+- There is no disctinction between the nodes.
 
 <center><img src="/content/images/2019/04/k8s-disctinction.png"></center>
 
 The nodes are only differentiated on the basis of k8s [labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/) which are attached to nodes and are the only way one can distinguish between the master the other kinds of nodes.
 
-This is done in order so that the scheduler can schedule only the required workloads on the nodes of a particular kind, for example. The API server should only be running on the master nodes, and hence it will try using the label which is attached to the master nodes, tolerate the taint and get scheduled on the master nodes. 
+This is done in order so that the scheduler can schedule only the required workloads on the nodes of a particular kind, for example. The API server should only be running on the master nodes, and hence it will try using the label which is attached to the master nodes, tolerate the taint and get scheduled on the master nodes.
 
-Adding labels to a node is as simple as doing a 
+Adding labels to a node is as simple as doing a
 
 ```
 $ kubectl label node node1 master=true
@@ -86,9 +84,9 @@ $ kubectl label node node1 master=true
 
 <center><img src="/content/images/2019/04/introspection.png"></center>
 
-All the control plane objects run as one or the other kubernetes objects, what happens then is you get the power of doing something like `kubectl logs ..` on the particular object to get the logs. 
+All the control plane objects run as one or the other kubernetes objects, what happens then is you get the power of doing something like `kubectl logs ..` on the particular object to get the logs.
 
-You can go ahead and send these logs to your logging platform just like how you would do to your application logs. Making them searcheable and gaining more visibility on the control plane objects. 
+You can go ahead and send these logs to your logging platform just like how you would do to your application logs. Making them searcheable and gaining more visibility on the control plane objects.
 
 #### Cluster Upgrades
 
@@ -102,9 +100,9 @@ First comes the API server. A [certain flow](https://github.com/kubernetes-incub
 
 <center><img src="/content/images/2019/04/easier-ha.png"></center>
 
-As the core control plane objects are running as kubernetes objects like deployments, you can increase their replica count and make it scale up/down to the desired number which you would want. 
+As the core control plane objects are running as kubernetes objects like deployments, you can increase their replica count and make it scale up/down to the desired number which you would want.
 
-Wouldn't really affect the scheduler/controller-manager/api operations too much if you are thinking of scaling them up and expecting perfomance improvement as each of them take a lock on etcd and elect a leader, hence only one of them is active at any given point. 
+Wouldn't really affect the scheduler/controller-manager/api operations too much if you are thinking of scaling them up and expecting perfomance improvement as each of them take a lock on etcd and elect a leader, hence only one of them is active at any given point.
 
 #### Streamlined cluster lifecycle management
 
@@ -157,7 +155,7 @@ which would hold the temporary control plane manifests, which bootkube would bri
 
 - `manifests`
 
-which would be the manifests applied, when the API server pivots from the temporary one to the one which was injected and applied when bootkube exited. 
+which would be the manifests applied, when the API server pivots from the temporary one to the one which was injected and applied when bootkube exited.
 
 <center><img src="/content/images/2019/04/manifests.png"></center>
 
