@@ -26,6 +26,8 @@ Although there are other tools like [kubeadm](https://kubernetes.io/docs/setup/i
 
 *source: [CoreOS tectonic docs](https://coreos.com/tectonic/docs/latest/troubleshooting/bootkube_recovery_tool.html)*
 
+In a nutshell, static Kubernetes runs control plane components as [systemd](https://www.freedesktop.org/wiki/Software/systemd/) services on the host. Its simple to reason about and the repo has educational docs, but in practice its fairly static (hard to re-configure). Self-hosted Kubernetes runs control plane components as pods. A one-time bootstrapping process is done to setup that control plane. Configuring hosts becomes much more minimal, requiring only a running Kubelet. This favors performing rolling upgrades through Kubernetes, the cluster system, and provisioning immutable host infrastructure. A node's only job is to be a "dumb" member of the larger cluster.
+
 <center><img src="/content/images/2019/04/k8s-self-hosted.png"></center>
 
 The cluster which you see above is a self-hosted cluster, hosted on [digitalocean](https://digitalocean.com) using [typhoon](https://github.com/poseidon/typhoon). For reference, you can check the [terraform](https://github.com/tasdikrahman/infra/tree/master/aws/ap-south-1/homelab) config to bring up your own cluster using typhoon.
