@@ -9,11 +9,11 @@ title: About Me
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-This site is a partial collection of projects I've worked on, stories I've written down, software I've published and a small part of it being a travel log.
+This site is a partial collection of projects I've worked on, stories I've written down, software I've published.
 
-I love working on tools, infrastructure and helping scale applications from ground up. Originally started out as a [pythonista](https://python.org/) but I mostly program in [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) now.
+I love working on tools, infrastructure and helping scale applications from ground up. Started out as a [pythonista](https://python.org/) but I mostly program in [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) now.
 
-When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or watch the local comics perform at [the comedy club](https://www.comedywagon.com/).
+When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), backpacking across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or watch the local comics at [the comedy club](https://www.comedywagon.com/).
 
 You can find the list of talks given by me [here](https://tasdikrahman.me/speaking/)
 
