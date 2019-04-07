@@ -2,17 +2,11 @@
 layout: post
 title: "Monoliths are just fine"
 description: "Monoliths are just fine"
-tags: [architecture, microservices]
+tags: [architecture]
 comments: true
 share: true
 cover_image: '/content/images/2018/10/monolithic-vs-microservices.png'
 ---
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
 
 A lot of great material has already been [written](https://martinfowler.com/articles/microservices.html) out there around what microservices are and what they are not. 
 
