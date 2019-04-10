@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2019/04/docker.png'
 ---
 
-While you might have read posts about [docker](https://news.ycombinator.com/item?id=16036268) being dead, but given it's adoption. That's not [really the case](https://sysdig.com/blog/2018-docker-usage-report/).
+While you might have read posts about [docker](https://news.ycombinator.com/item?id=16036268) being dead, but given its adoption. That's not [really the case](https://sysdig.com/blog/2018-docker-usage-report/).
 
 While we have other container runtimes like [runc](https://github.com/opencontainers/runc), 
 [containerd](https://blog.docker.com/2017/08/what-is-containerd-runtime/), 
@@ -39,31 +39,31 @@ we used to follow in my last company. [Netflix has written at length](https://me
 on how they do it. More on how we used to do it in another post.
 
 I will not go into the how and why of immutable infra in this blog post, as that is something which 
-deserves it's own post.
+deserves its own post.
 
-Docker presents fit's right in, if you follow the above pattern for your infrastructure.
+Docker presents fit's right in if you follow the above pattern for your infrastructure.
 
 Which is, if you are baking the whole application using [packer](https://www.packer.io/) or something similar, including config inside the [AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html),and then adding that AMI in the launch config for the [ASG](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) so that the newer instance which comes up when the ASG scales up, is an exact copy of the instances already present in the ASG. 
 
 What you have is repeatable infra in short, with the above pattern. And you start treating servers as 
-[cattles and not pets](https://news.ycombinator.com/item?id=7311704).
+[cattle and not pets](https://news.ycombinator.com/item?id=7311704).
 
-### Layering of container images
+### The layering of container images
 
 <center><img src="/content/images/2019/04/container-image-layering.png"></center>
 
 We used to follow a layered approach of immutable infrastructure, where we would have a base layer.
 
-- **Base Layer**: 
+### Base Layer
 
-contains a fresh copy of an operating system ([alpine linux](https://alpinelinux.org/) in this case) 
+contains a fresh copy of an operating system ([alpine Linux](https://alpinelinux.org/) in this case) 
 and would include core system tools, (eg: such as bash or coreutils, curl, [dumb-init](https://github.com/Yelp/dumb-init) et al) 
 and tools necessary to install packages and make updates to the image over time. 
 
 As for the Intermediate container images, each would use the base layer, hence inheriting from the 
 base image.
 
-- **Intermediate Layers**:
+### Intermediate Layers
 
   - Language runtime
     - python-27
@@ -90,7 +90,59 @@ For example in the case of
 - go-dep: the cache might be useful for debugging if something went wrong with that 
 old cache. But this can be debated of whether or not to remove `$GOPATH/pkg/dep`
 
-- **Application Image layer**
+### An example of such a setup
+
+- Base layer
+
+```
+FROM gliderlabs/alpine:3.4
+
+ENV ALPINE_VER=3.4
+ENV ALPINE_SHA=45ba65c1116aaf668f7ab5f2b3ae2ef4b00738be
+
+RUN apk update && \
+    apk add xorriso git xz curl tar iptables cpio bash && \
+    rm -rf /var/cache/apk/*
+
+RUN apk add -U --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing aufs-util
+
+RUN addgroup -g 2999 docker
+```
+
+after which you would create the container image from this Dockerfile. And for the sake of this example, you would name it as `base-image`
+
+- Intermediate Layer
+
+To create a JAVA based intermediate layer
+
+```
+FROM tasdikrahman/base-layer:0.1.0
+
+ENV LANG=C.UTF-8
+
+RUN curl -LO 'http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-linux-x64.tar.gz' -H 'Cookie: oraclelicense=accept-securebackup-cookie' \
+	&& chown root:root jre-8u131-linux-x64.tar.gz \
+	&& tar -xzf jre-8u131-linux-x64.tar.gz \
+	&& rm jre-8u131-linux-x64.tar.gz \
+	&& mv jre1.8.0_131 /usr/local/lib
+
+WORKDIR /usr/local/lib/jre1.8.0_131
+
+ENV JAVA_HOME /usr/local/lib/jre1.8.0_131
+ENV PATH $JAVA_HOME/bin:$PATH
+
+RUN apk del --no-cache curl tar # wget ca-certificates
+```
+
+- Application Layer
+
+```
+FROM tasdikrahman/java-base:0.1.0
+
+# Your application specific requirements etc.
+```
+
+### Application Image layer
 
 This is where the container image would contain dependencies specific to the application and other 
 required tooling, inheriting other things from the previous layers.
@@ -100,7 +152,7 @@ required tooling, inheriting other things from the previous layers.
 - [Dumb-init](https://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html) 
 should be specified as the entrypoint for the application container image which is yet
 to be followed in some remaining container images so that /entrypoint.sh is executed as 
-CMD as argument to dumb-init. [More on why have something like dumb-init as PID 1](https://news.ycombinator.com/item?id=11802993)
+CMD as an argument to dumb-init. [More on why have something like dumb-init as PID 1](https://news.ycombinator.com/item?id=11802993)
 
 - If the service does not need `root` privileges, create a new user and switch the user with `USER` 
 directive in the application container image.
@@ -129,9 +181,7 @@ context first, gather all files which would be used in a process. Default contex
 all files in the directory, which would include things like .git directory for example. Which 
 can get pretty big citing the .git/objects subdir.
 
-- Optimizing `COPY` and `RUN` directives
-    - Putting least frequently changed things on the top of the Dockerfile, which would 
-    help us enable caching better. 
+- Optimizing `COPY` and `RUN` directives by putting least frequently changed things on the top of the Dockerfile, which would help us enable caching better. 
 - Whenever possible, chaining commands together (if possible) and sorting multi-line arguments alphanumerically, which will help avoid duplication of packages and make the list much easier to update. This also makes it a lot easier to read and review. Adding a space before a backslash (\) helps as well.
 
 Example: 
