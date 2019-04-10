@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Docker Container Image Structuring for reusability"
-description: "Docker Container Image Structuring for reusability"
+title: "Container Image Structuring for reusability"
+description: "Container Image Structuring for reusability"
 tags: [docker, containers]
 comments: true
 share: true
