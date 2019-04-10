@@ -5,7 +5,7 @@ description: "Docker Container Image Structuring for reusability"
 tags: [docker, containers]
 comments: true
 share: true
-cover_image: '/content/images/2019/04/aws-kiam.png'
+cover_image: '/content/images/2019/04/docker.png'
 ---
 
 While you might have read posts about [docker](https://www.docker.com/), while we have other
