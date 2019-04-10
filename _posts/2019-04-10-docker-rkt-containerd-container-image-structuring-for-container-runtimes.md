@@ -1,22 +1,23 @@
 ---
 layout: post
-title: "Container Image Structuring for reusability"
-description: "Container Image Structuring for reusability"
+title: "Container Image Structuring for container runtimes"
+description: "Container Image Structuring for container runtimes"
 tags: [docker, containers]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/docker.png'
 ---
 
-While you might have read posts about [docker](https://news.ycombinator.com/item?id=16036268) being dead
-, but give it's adoption. That's not really true I feel.
+While you might have read posts about [docker](https://news.ycombinator.com/item?id=16036268) being dead, but given it's adoption. That's not [really the case](https://sysdig.com/blog/2018-docker-usage-report/).
 
 While we have other container runtimes like [runc](https://github.com/opencontainers/runc), 
 [containerd](https://blog.docker.com/2017/08/what-is-containerd-runtime/), 
 [rkt](https://coreos.com/rkt/) and some others. Docker is still something which a lot of 
 folks running containers use as their container runtime. 
 
-What this post will describe is an approach of structuring your docker containers, keeping in mind reusability and keeping them as lightweight as possible. This what I proposed and implemented back at my last company and they still use this approach for their microservices which process payments for the Indian industry.
+What this post will describe is one of the many approaches of structuring your container images, keeping in mind reusability, security and best practices in mind and keeping them as lightweight as possible. At the time of writing this, this is something which is still used to run production container workloads in my last company.
+
+### Prelude
 
 Before going ahead, just so that we are on the same page.
 
@@ -40,16 +41,12 @@ on how they do it. More on how we used to do it in another post.
 I will not go into the how and why of immutable infra in this blog post, as that is something which 
 deserves it's own post.
 
-Docker presents itself as a boon if you follow the above pattern for your infrastructure.
+Docker presents fit's right in, if you follow the above pattern for your infrastructure.
 
-Which is, if you are baking the whole application, including config inside the [AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html), 
-and then adding that AMI in the launch config for the [ASG](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html)
-so that the newer instance which comes up when the ASG scales up, is an exact copy of the instances
-already present in the ASG. 
+Which is, if you are baking the whole application using [packer](https://www.packer.io/) or something similar, including config inside the [AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html),and then adding that AMI in the launch config for the [ASG](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) so that the newer instance which comes up when the ASG scales up, is an exact copy of the instances already present in the ASG. 
 
 What you have is repeatable infra in short, with the above pattern. And you start treating servers as 
 [cattles and not pets](https://news.ycombinator.com/item?id=7311704).
-
 
 ### Layering of container images
 
@@ -80,48 +77,30 @@ base image.
     - php7-nginx-{ nginx/apache2 }
     - golang-nginx-{ nginx/apache2 }
 
+*Note: The above intermediate layers are just to show you an example, you can 
+replace it with your use case.*
+
 Dependency managers like pip/composer/golang-dep would go in this layer for the next layer
 to make use of it and after their use we can clear their cache.
 
 For example in the case of
 - pip : `rm -rf ~/.cache/pip/*`
 - composer : `composer clear-cache`
-- apk: `rm -rf /var/cache/apk/*` that is if --no-cache is not being passed whilst `apk add <package>`
-- go-dep: was suggested the cache might be useful for debugging if something went wrong with that 
+- apk: `rm -rf /var/cache/apk/*` that is if `--no-cache` is not being passed whilst `apk add <package>`
+- go-dep: the cache might be useful for debugging if something went wrong with that 
 old cache. But this can be debated of whether or not to remove `$GOPATH/pkg/dep`
 
-At each layer
-
-- the necessary package managers should be cleared of their cache
-- Unnecessary layers file system layers should not be created
-- Unwanted packages/libs should not be added.
-
-The above division ideally, should always be maintained and any new requirement should 
-always go into the layer most appropriate for it
-
-- Application Image layer
+- **Application Image layer**
 
 This is where the container image would contain dependencies specific to the application and other 
 required tooling, inheriting other things from the previous layers.
 
-#### Refactoring existing container images
+### Security
 
 - [Dumb-init](https://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html) 
 should be specified as the entrypoint for the application container image which is yet
 to be followed in some remaining container images so that /entrypoint.sh is executed as 
 CMD as argument to dumb-init. [More on why have something like dumb-init as PID 1](https://news.ycombinator.com/item?id=11802993)
-- Use `.dockerignore` wherever necessary as when building the image, docker has to prepare 
-context first, gather all files which would be used in a process. Default context contains 
-all files in the directory, which would include things like .git directory for example. Which 
-can get pretty big citing the .git/objects subdir.
-- Optimizing `COPY` and `RUN` directives
-    - Putting least frequently changed things on the top of the Dockerfile, which would 
-    help us enable caching better. 
-- Use `ENV`’s better in the Dockerfiles, in order to reduce ambiguity over lib versions when
-installing
-- Linting can enforce standardization across the container images, a possible solution will be https://github.com/projectatomic/dockerfile_lint
-
-### Security
 
 - If the service does not need `root` privileges, create a new user and switch the user with `USER` 
 directive in the application container image.
@@ -134,12 +113,26 @@ USER myapp
 - Adding better security vulnerability testing
     - [Drone Clair Plugin](https://github.com/jmccann/drone-clair)
 
+### Keeping the size of the docker image small
 
-### Sorting multi line arguments in the Dockerfile
+At each layer
 
-Whenever possible, sorting multi-line arguments alphanumerically will 
-help avoid duplication of packages and make the list much easier to update. This also makes it 
-a lot easier to read and review. Adding a space before a backslash (\) helps as well.
+- the necessary package managers should be cleared of their cache
+- Unnecessary layers file system layers should not be created
+- Unwanted packages/libs should not be added.
+
+The above division ideally, should always be maintained and any new requirement should 
+always go into the layer most appropriate for it
+
+- Use `.dockerignore` wherever necessary as when building the image, docker has to prepare 
+context first, gather all files which would be used in a process. Default context contains 
+all files in the directory, which would include things like .git directory for example. Which 
+can get pretty big citing the .git/objects subdir.
+
+- Optimizing `COPY` and `RUN` directives
+    - Putting least frequently changed things on the top of the Dockerfile, which would 
+    help us enable caching better. 
+- Whenever possible, chaining commands together (if possible) and sorting multi-line arguments alphanumerically, which will help avoid duplication of packages and make the list much easier to update. This also makes it a lot easier to read and review. Adding a space before a backslash (\) helps as well.
 
 Example: 
 
@@ -151,6 +144,10 @@ RUN apt-get update && apt-get install -y \
   mercurial \
   subversion
 ```
+
+### Good to have 
+
+- Linting, which can enforce standardization across the container images, a possible solution will be https://github.com/projectatomic/dockerfile_lint
 
 ### References
 
