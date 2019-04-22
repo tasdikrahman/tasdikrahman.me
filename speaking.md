@@ -51,4 +51,4 @@ title: Speaking
 
 - **Code snippets used during the talk:** [https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup](https://github.com/tasdikrahman/talks/tree/master/accepted/bangpypers/intro-to-ansible-april-meetup)
 
-- **Bangpypers April meetup talks list**: [https://www.meetup.com/BangPypers/events/238670176/](https://www.meetup.com/BangPypers/events/238670176/)
+- **Bangpypers April meetup blog post*: [https://bangalore.python.org.in/blog/2017/04/15/apr-talks/](https://bangalore.python.org.in/blog/2017/04/15/apr-talks/)
