@@ -205,3 +205,5 @@ CMD ["dumb-init", "--rewrite", "15:28", "/code/start.sh"]
 - http://httpd.apache.org/docs/2.2/stopping.html#gracefulstop
 - https://github.com/Yelp/casper/issues/21
 - https://unix.stackexchange.com/questions/362389/send-sigwinch-from-the-keyboard
+- https://unix.stackexchange.com/questions/80044/how-signals-work-internally
+- https://stackoverflow.com/questions/37374310/how-critical-is-dumb-init-for-docker
