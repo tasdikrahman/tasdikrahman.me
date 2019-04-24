@@ -195,15 +195,14 @@ CMD ["dumb-init", "--rewrite", "15:28", "/code/start.sh"]
 
 ## References
 
-- https://lasr.cs.ucla.edu/vahab/resources/signals.html
-- https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/
-- https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods
-- https://httpd.apache.org/docs/2.4/stopping.html
-- https://www.usna.edu/Users/cs/aviv/classes/ic221/s16/lec/19/lec.html
-- http://jkamenik.github.io/blog/2017/10/21/docker-details---dumb-init/
-- http://nginx.org/en/docs/control.html
-- http://httpd.apache.org/docs/2.2/stopping.html#gracefulstop
-- https://github.com/Yelp/casper/issues/21
-- https://unix.stackexchange.com/questions/362389/send-sigwinch-from-the-keyboard
-- https://unix.stackexchange.com/questions/80044/how-signals-work-internally
-- https://stackoverflow.com/questions/37374310/how-critical-is-dumb-init-for-docker
+- [https://lasr.cs.ucla.edu/vahab/resources/signals.html](https://lasr.cs.ucla.edu/vahab/resources/signals.html)
+- [https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/](https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/)
+- [https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods)
+- [https://httpd.apache.org/docs/2.4/stopping.html](https://httpd.apache.org/docs/2.4/stopping.html)
+- [https://www.usna.edu/Users/cs/aviv/classes/ic221/s16/lec/19/lec.html](https://www.usna.edu/Users/cs/aviv/classes/ic221/s16/lec/19/lec.html)
+- [http://jkamenik.github.io/blog/2017/10/21/docker-details---dumb-init/](http://jkamenik.github.io/blog/2017/10/21/docker-details---dumb-init/)
+- [http://nginx.org/en/docs/control.html](http://nginx.org/en/docs/control.html)
+- [http://httpd.apache.org/docs/2.2/stopping.html#gracefulstop](http://httpd.apache.org/docs/2.2/stopping.html#gracefulstop)
+- [https://github.com/Yelp/casper/issues/21](https://github.com/Yelp/casper/issues/21)
+- [https://unix.stackexchange.com/questions/80044/how-signals-work-internally](https://unix.stackexchange.com/questions/80044/how-signals-work-internally)
+- [https://stackoverflow.com/questions/37374310/how-critical-is-dumb-init-for-docker](https://stackoverflow.com/questions/37374310/how-critical-is-dumb-init-for-docker)
