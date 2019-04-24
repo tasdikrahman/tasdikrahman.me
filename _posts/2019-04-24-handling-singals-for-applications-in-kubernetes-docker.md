@@ -58,7 +58,7 @@ SIGTTOU   22,22,27    Stop    tty output for background process
 Each signal has a default value and action defined. You can take a look at `sys/signal.h` and 
 find out more about each and every other signal defined in it. 
 
-## Passing signal to a process from the command line
+## Passing the signal to a process from the command line
 
 When you do a `ctrl+c`, it's the same as sending a `SIGINT` signal and when you type `ctrl+z`, it's
 the same as sending `SIGTSTP`, and when we type `fg` or `bg` that is the same as sending a 
