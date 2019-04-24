@@ -8,26 +8,26 @@ share: true
 cover_image: '/content/images/2019/04/docker-k8s.jpg'
 ---
 
-When the power goes off in a device where linux is running, one can think of ways in which this event can be handles in the applications running. One thing to note is that, when you plug the power cable off, the power doesn't really go off immediately. 
+When the power goes off in a device in a linux based system, one can think of ways in which this event can be handled in the applications running on it. One thing to note is that, when you plug the power cable off, the power doesn't really go off immediately.
 
 But this needs to be notified to processes so that they can handle such an event and save the state of the application (if any).
 
 A few possible ways of doing so would be to
-- Save everything in RAM to disk and then restore the contents stored on disk back to RAM when the startup happens next, but the problem with this approach is that, storing on disk is a slow process.
-- Use a file to state of power, where 0 would denote that the power is on and 1 would mean that the power has gone off, but this approach would mean that the processes running in the system should keep track of this bit stored in the file.
+- Save everything in RAM to disk and then restore the contents stored on disk back to RAM when the startup happens next, but the problem with this approach is that, storing and retrieval on/from a disk is a slow process.
+- Use a file to store the state of power, where 0 would denote that the power is on and 1 would mean that the power has gone off, but this approach would mean that the processes running in the system should keep track of this bit stored in the file.
 - The kernel sends a signal like `SIGTERM` to the process and leaves it to the process on how it handles this signal.
 
-How is you stop a container is something which is very important, depending on your application of course.
+How a container gets stopped is something which is very important or not, depending on your application of course.
 
-I will discuss how does docker and kubernetes at large, handle signals very briefly in this blog post. 
+I will discuss how does docker and kubernetes at large, and how the containers orchestrated via them handle signals very briefly in this blog post. 
 
 ## What is a signal
 
-A signal is a software interrupt and a way to communicate the state of a process(es) to another process, the OS and the hardware. 
+> A signal is a software interrupt and a way to communicate the state of a process(es) to another process, the OS and the hardware. 
 
-By interrupt, we mean that whenever a signal is received by a process. It will stop doing whatever it is doing and handle the process by either doing something about it or ignoring it. 
+By interrupt, we mean that whenever a signal is received by a process. It will stop doing whatever it is doing and handle it by either doing something about it or ignoring it. 
 
-A few Signals and what they intend to do([credits www.usna.edu](https://www.usna.edu/Users/cs/aviv/classes/ic221/s16/lec/19/lec.html))
+A few Signals and what they intend to do([credits www.usna.edu](https://www.usna.edu/Users/cs/aviv/classes/ic221/s16/lec/19/lec.html)) are listed below.
 
 ```sh
 Signal     Value     Action   Comment
@@ -70,8 +70,7 @@ When you issue a `docker stop`, docker send `SIGTERM` to the process running as 
 and waits for 10 seconds before it sends a `SIGKILL` to the kernel which will then straight terminate the
 process, if the process hasn't terminated within that time frame. 
 
-A `docker kill` will not let the container process an opportunity to stop gracefully, but will straight
-terminate the it.
+A `docker kill` will not give the container process, an opportunity to stop gracefully, but will straight ahead kill it. 
 
 ## How kubernetes handles signals
 
@@ -81,10 +80,10 @@ When you do a
 $ kubectl delete pods mypod
 ```
 
-it will send a `SIGTERM` and then wait for set number of seconds to send a `SIGKILL` to the process,
+it will send a `SIGTERM` and then wait for a set number of seconds to send a `SIGKILL` to the process,
 this period is known as the grace termination period of the pod and can be configured in the [podSpec](https://kubernetes.io/docs/api-reference/v1.9/#podspec-v1-core)
 
-If your process doesn't handle `SIGTERM`, then it will `SIGKILL`ed. Processes while are killed are 
+If your process doesn't handle `SIGTERM`, then it will get `SIGKILL`ed. Processes which are killed are 
 immediately removed from the etcd and the API, without waiting for the process to actually terminate on the 
 node. 
 
@@ -142,7 +141,8 @@ Now if you build this container and run it in the background, if you try stoppin
 by doing `docker stop`. You will notice that the container process takes 10 seconds before the process 
 dies and get `SIGKILL`ed
 
-To avoid that, we do a signal rewrite using [dumb-init](https://github.com/Yelp/dumb-init)
+To avoid that, we do a signal rewrite using [dumb-init](https://github.com/Yelp/dumb-init) which runs a PID 1 for the docker
+container. You can [read here](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/) about why running your application process as PID 1 is not usually a good idea.
 
 ```sh
 FROM alpine:3.5
@@ -169,7 +169,6 @@ If you want to initiate a graceful shutdown of an nginx server, you should send 
 None of the Docker commands issue a `SIGQUIT` by default. So the solution for kubernetes is to 
 rewrite the signal `SIGTERM` to a `SIGQUIT` for nginx.
 
-
 ```sh
 ## for full source, check https://github.com/Yelp/casper/blob/master/Dockerfile.opensource
 FROM ubuntu:xenial
@@ -186,7 +185,8 @@ CMD ["dumb-init", "--rewrite", "15:3", "/code/start.sh"]
 
 This will send the signal of `SIGQUIT` to nginx to gracefully handle termination
 
-FOr gracefully terminating apache2, it requires a `SIGWINCH` signal to be passed to it.
+For gracefully terminating apache2, it requires a `SIGWINCH` signal to be passed to it. Which can be done by
+passing the signal `28` to it.
 
 ```sh
 ## your dockerfile contents before this
