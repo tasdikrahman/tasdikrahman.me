@@ -13,20 +13,21 @@
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog</a>
 
       {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
+      {% if node.title != null %}
+      {% if node.layout == "page" %}
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+        href="{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+      {% endif %}
       {% endfor %}
     </nav>
-     
+
     <nav class="sidebar-social">
       <ul class="navigation">
         <li class="social-item github">
@@ -35,9 +36,10 @@
             <span class="label">GitHub</span>
           </a>
         </li>
-        
+
         <li class="social-item stackoverflow">
-          <a href="http://stackexchange.com/users/4741441/tasdik-rahman?tab=accounts" title="tasdikrahman on StackOverflow" target="_blank">
+          <a href="http://stackexchange.com/users/4741441/tasdik-rahman?tab=accounts"
+            title="tasdikrahman on StackOverflow" target="_blank">
             <i class='icon fi-social-stack-overflow'></i>
             <span class="label">StackOverflow</span>
           </a>
@@ -49,7 +51,7 @@
             <span class="label">LinkedIn</span>
           </a>
         </li>
-        
+
         <li class="social-item twitter">
           <a href="http://twitter.com/{{ site.twitter }}" title="{{ site.twitter }} on Twitter" target="_blank">
             <i class='icon fi-social-twitter'></i>
@@ -64,11 +66,11 @@
           </a>
         </li>
 
-        </ul>
-      </nav>
-      
-     <p><small>Hosted with ♥ on <a href="https://github.com/tasdikrahman">Github</a></small></p>
-   
-      <p><small>© 2015-{{ site.time | date: "%Y" }} All rights reserved.</small></p> 
+      </ul>
+    </nav>
+
+    <p><small>Hosted with ♥ on <a href="https://github.com/tasdikrahman">Github</a></small></p>
+
+    <p><small>© 2015-{{ site.time | date: "%Y" }} All rights reserved.</small></p>
   </div>
 </div>
