@@ -2,7 +2,7 @@
 layout: post
 title: "Handling signals for applications running in kubernetes"
 description: "Handling signals for applications running in kubernetes"
-tags: [kubernetes, docker, infrastructure]
+tags: [kubernetes, docker, devops]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/docker-k8s.jpg'

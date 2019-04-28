@@ -2,7 +2,7 @@
 layout: post
 title: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
 description: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
-tags: [open-source, gsoc]
+tags: [oss, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/OVirt-logo-highres.png'

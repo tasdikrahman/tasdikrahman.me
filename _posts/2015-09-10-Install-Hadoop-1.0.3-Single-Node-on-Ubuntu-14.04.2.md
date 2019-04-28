@@ -2,7 +2,7 @@
 layout: post
 title: "Install Hadoop(Single node)"
 description: "Install Hadoop Single node 1.0.3 on Ubuntu 14.04.2"
-tags: [Hadoop, BigData, Ubuntu]
+tags: [hadoop, bigdata, ubuntu]
 comments: true
 share: true
 ---

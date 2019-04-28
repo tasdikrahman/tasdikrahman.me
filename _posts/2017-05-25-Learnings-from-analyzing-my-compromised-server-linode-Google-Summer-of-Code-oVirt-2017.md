@@ -2,7 +2,7 @@
 layout: post
 title: "Learnings from analyzing my compromised server (Linode)"
 description: "Learnings from analyzing my compromised server (Linode)"
-tags: [infosec, server-hardening]
+tags: [infosec, linux]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/web-server-security.jpg'

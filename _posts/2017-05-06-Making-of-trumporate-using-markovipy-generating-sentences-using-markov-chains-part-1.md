@@ -2,7 +2,7 @@
 layout: post
 title: "Making of Trumporate: Building markovipy - Part 1"
 description: "Making of Trumporate: Building markovipy - Part 1"
-tags: [python, markov-chains, probability]
+tags: [python, markovchains, probability]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/calkov-7127446174257307648.jpg'

@@ -2,7 +2,7 @@
 layout: post
 title: "Apache2 : Virtual Hosts"
 description: "Setting up website on localhost using LAMP stack"
-tags: [Apache, WebServers, LAMP]
+tags: [apache, webservers, lampstack]
 comments: true
 share: true
 ---

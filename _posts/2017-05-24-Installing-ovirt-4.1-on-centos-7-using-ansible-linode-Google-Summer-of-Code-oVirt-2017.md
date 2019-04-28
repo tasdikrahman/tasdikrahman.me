@@ -2,7 +2,7 @@
 layout: post
 title: "Using Ansible Playbooks to Install oVirt 4.1 on centOS 7 (Linode)"
 description: "Using Ansible Playbooks to Install oVirt 4.1 on centOS 7 (Linode)"
-tags: [open-source, gsoc]
+tags: [oss, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/ansible-red-hat-blog-top.png'

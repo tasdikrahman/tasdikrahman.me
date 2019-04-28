@@ -2,7 +2,7 @@
 layout: post
 title: "Margo: An opiniated Slack Bot for SRMSE's Slack channel"
 description: "Margo:  Slack bot to tell whether a site is up or not"
-tags: [opensource, bots, python]
+tags: [oss, chatbot, python]
 comments: true
 share: true
 cover_image: '/content/images/2016/6/cover.png'

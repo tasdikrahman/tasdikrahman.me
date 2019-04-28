@@ -2,7 +2,7 @@
 layout: post
 title: "Running CGI Scripts with CGIHTTPServer"
 description: "CGI Scripts with pythons built in server"
-tags: [Apache, Ubuntu, CGI, Python]
+tags: [apache, ubuntu, cgi, python]
 comments: true
 share: true
 ---

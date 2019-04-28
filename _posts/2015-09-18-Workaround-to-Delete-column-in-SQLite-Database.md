@@ -2,7 +2,7 @@
 layout: post
 title: "Workaround for deleting Columns in SQLite"
 description: "inserting and deleting Columns in SQLite"
-tags: [SQL, SQLite]
+tags: [sql, sqlite]
 comments: true
 share: true
 ---

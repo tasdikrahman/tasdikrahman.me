@@ -2,7 +2,7 @@
 layout: post
 title: "Simple lessons learned while building things - My open source journey so far"
 description: "Lessons learnt while builging things"
-tags: [opensource, github]
+tags: [oss]
 comments: true
 share: true
 cover_image: '/content/images/2016/4/Open-source.jpg'

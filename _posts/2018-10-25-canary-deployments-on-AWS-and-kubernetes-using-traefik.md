@@ -2,7 +2,7 @@
 layout: post
 title: "Moving Canary deployments on AWS using ELB to kubernetes using Traefik"
 description: "Moving Canary deployments on AWS using ELB to kubernetes using Traefik"
-tags: [canary, deployments, infrastructure]
+tags: [devops, aws, kubernetes]
 comments: true
 share: true
 cover_image: '/content/images/2018/10/canary-release.png'

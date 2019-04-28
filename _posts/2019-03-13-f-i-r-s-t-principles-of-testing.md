@@ -2,7 +2,7 @@
 layout: post
 title: "F.I.R.S.T principles of testing"
 description: "F.I.R.S.T principles of testing"
-tags: [tdd, agile, unit-testing]
+tags: [tdd, testing]
 comments: true
 share: true
 cover_image: '/content/images/2019/03/painter.jpeg'

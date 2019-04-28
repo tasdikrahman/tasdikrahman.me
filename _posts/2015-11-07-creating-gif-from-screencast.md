@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a gif of the current window"
 description: "creating a screen cast"
-tags: [gif, ubuntu, gui]
+tags: [ubuntu, gui]
 comments: true
 share: true
 cover_image: '/content/images/2014/11/style-color-colorstory-01_large_mdpi.jpeg'

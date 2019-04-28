@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trip to Taiwan, 2017"
-description: "Trip to Taiwan,, 2017"
+description: "Trip to Taiwan, 2017"
 tags: [oss, python, travel]
 comments: true
 share: true

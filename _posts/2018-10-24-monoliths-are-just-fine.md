@@ -2,7 +2,7 @@
 layout: post
 title: "Monoliths are just fine"
 description: "Monoliths are just fine"
-tags: [architecture]
+tags: [softwarearchitecture]
 comments: true
 share: true
 cover_image: '/content/images/2018/10/monolithic-vs-microservices.png'

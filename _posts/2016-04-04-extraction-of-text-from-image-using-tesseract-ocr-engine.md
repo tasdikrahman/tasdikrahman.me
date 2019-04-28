@@ -2,7 +2,7 @@
 layout: post
 title: "Extraction of text from image using tesseract-ocr engine"
 description: "Extraction of text from image using tesseract"
-tags: [linux, windows, OCR python, image-processing]
+tags: [ocr, imageprocessing]
 comments: true
 share: true
 cover_image: '/content/images/2016/4/ocr1.png'

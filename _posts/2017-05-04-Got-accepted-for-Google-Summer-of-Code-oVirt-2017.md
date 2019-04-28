@@ -2,7 +2,7 @@
 layout: post
 title: "Hello oVirt, GSoC 2017"
 description: "Hello oVirt, GSoC 2017"
-tags: [open-source, gsoc]
+tags: [oss, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/gsoc-cover.png'

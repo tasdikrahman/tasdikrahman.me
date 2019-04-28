@@ -2,7 +2,7 @@
 layout: post
 title: "ROS Jade : Installation"
 description: "Install ROS - Jade on Ubuntu 14.10"
-tags: [ROS, Ubuntu, Robotics]
+tags: [ros, ubuntu, robotics]
 comments: true
 share: true
 ---

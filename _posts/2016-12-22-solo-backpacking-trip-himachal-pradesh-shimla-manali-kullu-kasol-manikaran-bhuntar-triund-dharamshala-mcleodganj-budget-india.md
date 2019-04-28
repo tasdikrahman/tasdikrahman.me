@@ -2,7 +2,7 @@
 layout: post
 title: "More than 18 stops, a little less than 1800kms, Backpacking Trip To Himachal Pradesh"
 description: "More than 18 stops, a little less than 1800kms, Backpacking Trip To Himachal Pradesh"
-tags: [travel]
+tags: [travel, backpacking]
 comments: true
 share: true
 cover_image: '/content/images/2016/12/triund5.jpg'

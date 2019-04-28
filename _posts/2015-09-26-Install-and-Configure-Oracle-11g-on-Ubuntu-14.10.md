@@ -2,7 +2,7 @@
 layout: post
 title: "Install and Configure Oracle-11g on Ubuntu-14.10"
 description: "Oracle 11g install"
-tags: [SQL, Oracle11g]
+tags: [sql, oracle11g]
 comments: true
 share: true
 ---

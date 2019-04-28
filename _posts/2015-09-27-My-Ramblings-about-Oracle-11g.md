@@ -2,7 +2,7 @@
 layout: post
 title: "My Ramblings with Oracle-11g"
 description: "Oracle 11g - My Experience"
-tags: [SQL, Oracle11g]
+tags: [sql, oracle11g]
 comments: true
 share: true
 ---

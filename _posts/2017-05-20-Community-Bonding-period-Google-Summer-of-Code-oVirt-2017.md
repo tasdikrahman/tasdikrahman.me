@@ -2,7 +2,7 @@
 layout: post
 title: "Community bonding period, GSoC 2017 with oVirt org"
 description: "Community bonding period, GSoC 2017 with oVirt org"
-tags: [open-source, gsoc]
+tags: [oss, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/LAW_FOSSnetworking.png'

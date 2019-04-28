@@ -2,7 +2,7 @@
 layout: post
 title: "What should and should not be tested in unit tests?"
 description: "What should and should not be tested in unit tests?"
-tags: [tdd, agile, unit-testing]
+tags: [tdd, testing]
 comments: true
 share: true
 cover_image: '/content/images/2019/03/pillar-capitals-2135682_1920.jpg'

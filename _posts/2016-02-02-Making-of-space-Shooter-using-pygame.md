@@ -2,7 +2,7 @@
 layout: post
 title: "Making of space Shooter using pygame"
 description: "Making of space Shooter"
-tags: [linux, windows, pygame, gamedev, python]
+tags: [pygame, gamedevelopment, python]
 comments: true
 share: true
 cover_image: '/content/images/2016/1/spaceshooter.jpg'

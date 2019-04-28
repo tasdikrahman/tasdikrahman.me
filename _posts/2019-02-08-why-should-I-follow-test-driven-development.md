@@ -2,7 +2,7 @@
 layout: post
 title: "Test-driven development as a school of thought"
 description: "Test-driven development as a school of thought"
-tags: [tdd, agile]
+tags: [tdd, testing]
 comments: true
 share: true
 cover_image: '/content/images/2019/02/tdd.jpeg'

@@ -2,7 +2,7 @@
 layout: post
 title: "Install Hadoop(Multi Node)"
 description: "Install Hadoop Multi Node 1.0.3 on Ubuntu 14.04.2"
-tags: [Hadoop, BigData, Ubuntu]
+tags: [hadoop, bigdata, ubuntu]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Running CGI Scripts on Apache2"
 description: "CGI Scripts on Apache2"
-tags: [Apache, Ubuntu, CGI, Python]
+tags: [apache, ubuntu, cgi, python]
 comments: true
 share: true
 ---

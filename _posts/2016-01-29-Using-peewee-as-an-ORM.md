@@ -2,7 +2,7 @@
 layout: post
 title: "Say Hi to peewee"
 description: "Peewee: A simple ORM software"
-tags: [python, ORM, peewee, SQL]
+tags: [python, orm, peewee, sql]
 comments: true
 share: true
 cover_image: '/content/images/2016/1/peewee.png'

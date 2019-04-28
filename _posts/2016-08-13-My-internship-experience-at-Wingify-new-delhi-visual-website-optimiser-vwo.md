@@ -2,7 +2,7 @@
 layout: post
 title: "My internship experience at Wingify (VWO team), New Delhi"
 description: "My internship experience at Wingify (VWO team), New Delhi"
-tags: [internship]
+tags: [internships]
 comments: true
 share: true
 cover_image: '/content/images/2016/08/Wingify_acquisition_main.jpg'

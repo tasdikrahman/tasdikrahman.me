@@ -2,7 +2,7 @@
 layout: post
 title: "Implementing Role Based Access Control"
 description: "Implementing Role Based Access Control"
-tags: [security, python]
+tags: [python]
 comments: true
 share: true
 cover_image: '/content/images/2017/06/rbac_header.jpg'

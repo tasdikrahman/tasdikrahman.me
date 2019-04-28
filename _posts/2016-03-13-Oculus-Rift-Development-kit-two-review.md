@@ -2,7 +2,7 @@
 layout: post
 title: "Trying out Oculus Rift: Development kit 2"
 description: "Trying out Oculus Rift"
-tags: [linux, windows, VirtualReality, VR, futuristic]
+tags: [gadgets]
 comments: true
 share: true
 cover_image: '/content/images/2016/3/OculusLogo.png'

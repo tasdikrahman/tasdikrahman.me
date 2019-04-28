@@ -2,7 +2,7 @@
 layout: post
 title: "Self hosting kubernetes"
 description: "Self hosting kubernetes"
-tags: [kubernetes, aws]
+tags: [kubernetes, aws, gcp, azure]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
