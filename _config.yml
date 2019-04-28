@@ -35,10 +35,9 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-mentions
-#   - jekyll-archives
 
 jekyll-mentions:
-      base_url: https://twitter.com
+  base_url: https://twitter.com
 
 jekyll-archives:
   enabled: []
