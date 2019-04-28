@@ -1,0 +1,50 @@
+ansible:
+  name: ansible
+apache:
+  name: apache
+aws:
+  name: aws
+backpacking:
+  name: backpacking
+bigdata:
+  name: bigdata
+cgi:
+  name: cgi
+conferences:
+  name: conferences
+devops:
+  name: devops
+docker:
+  name: docker
+gamedevelopment:
+  name: gamedevelopment
+gsoc:
+  name: gsoc
+gui:
+  name: gui
+hadoop:
+  name: hadoop
+kubernetes:
+  name: kubernetes
+oracle11g:
+  name: oracle11g
+oss:
+  name: oss
+pygame:
+  name: pygame
+python:
+  name: python
+robotics:
+  name: robotics
+ros:
+  name: ros
+sql:
+  name: sql
+tdd:
+  name: tdd
+testing:
+  name: testing
+travel:
+  name: travel
+ubuntu:
+  name: ubuntu
