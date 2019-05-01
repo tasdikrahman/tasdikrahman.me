@@ -2,26 +2,26 @@
 layout: post
 title: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
 description: "Installing oVirt 4.1 on centOS 7 (DigitalOcean)"
-tags: [oss, gsoc]
+tags: [oss, gsoc, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/OVirt-logo-highres.png'
 ---
 
-Was trying to install oVirt engine on a VM deployed on DigitalOcean. My learnings from it are documented here. 
+Was trying to install oVirt engine on a VM deployed on DigitalOcean. My learnings from it are documented here.
 
-## Installing oVirt Engine 
+## Installing oVirt Engine
 
-I would concentrate on the part of just installing oVirt-engine as I had a fair share of problems while doing so. 
+I would concentrate on the part of just installing oVirt-engine as I had a fair share of problems while doing so.
 
-The VM I am installing it on is a 4GB centOS 7 box with 80GB of SSD to spare for. Also, make sure you read through the whole requirements [mentioned on the official docs](http://www.ovirt.org/documentation/quickstart/quickstart-guide/#ovirt-engine) while going forward with this. 
+The VM I am installing it on is a 4GB centOS 7 box with 80GB of SSD to spare for. Also, make sure you read through the whole requirements [mentioned on the official docs](http://www.ovirt.org/documentation/quickstart/quickstart-guide/#ovirt-engine) while going forward with this.
 
 A quick run through of what oVirt is. If you have used vSphere by VMWare, this product offered by Redhat is a competitor to it.
 
 The oVirt platform consists of at least one oVirt Engine and one or more Nodes.
 
-- oVirt Engine provides a graphical user interface to manage the physical and logical resources of the oVirt infrastructure. 
-- oVirt Engine runs virtual machines. 
+- oVirt Engine provides a graphical user interface to manage the physical and logical resources of the oVirt infrastructure.
+- oVirt Engine runs virtual machines.
 
 oVirt Engine is the control center of the oVirt environment. It allows you to define hosts, configure data centers, add storage, define networks, create virtual machines, manage user permissions and use templates from one central location.
 
@@ -300,7 +300,7 @@ Had been fighting with some dumb defaults for almost an hour. It's 5 am. in the 
 
 - make sure its (the remote host where you are installing `ovirt-engine`) resolvable from your machine.
 - check if the engine is running (check `/var/log/engine.log` and `ovirt-engine` service)
-- check firewall on the machine. 
+- check firewall on the machine.
 - try to connect to the web browser from the virtual machine to be sure its not network issue between you and VM `ping your.vm.com` should resolve that ip address
 
 ## Links

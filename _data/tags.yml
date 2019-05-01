@@ -48,3 +48,9 @@ travel:
   name: travel
 ubuntu:
   name: ubuntu
+monitoring:
+  name: monitoring
+prometheus:
+  name: prometheus
+oop:
+  name: oop

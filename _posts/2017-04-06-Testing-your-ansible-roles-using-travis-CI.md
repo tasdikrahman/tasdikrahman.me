@@ -2,7 +2,7 @@
 layout: post
 title: "Testing your ansible roles using travis-CI"
 description: "Testing your ansible roles using travis CI"
-tags: [python, devops]
+tags: [python, devops, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/04/ansible_plus_travis.png'
@@ -21,9 +21,9 @@ But I am not writing this to explain what is CI right?
 
 ## So you made an ansible playbook?
 
-I have talked about Infra as code in some of my earlier blog posts. Automatically provisioning your complete server(s) in minutes is something which every org is trying/has achieved. 
+I have talked about Infra as code in some of my earlier blog posts. Automatically provisioning your complete server(s) in minutes is something which every org is trying/has achieved.
 
-If you follow TDD principles, you would be knowing right where I am taking this conversation to. 
+If you follow TDD principles, you would be knowing right where I am taking this conversation to.
 
 Here is the directory structure for the ansible role I am testing this out
 
@@ -90,7 +90,7 @@ Let's have a look at `tests/test.yml`
     - {role: ../roles/vimserver}
 ```
 
-Let's break it down, 
+Let's break it down,
 
 - `hosts: localhost` this is simply telling the host/group of hosts which this playbook would be targeting.
 - `connection: local` would tell ansible to run the tasks on the system itself and not `ssh` onto to some remote machine for executing the playbook.
@@ -102,7 +102,7 @@ and the `roles` part is where we would be organising our roles to be executed se
 
 For travis to build your code, it would be requiring a `.travis.yml` file in the root directory of your project.
 
-In this particualr example, the contents of it. 
+In this particualr example, the contents of it.
 
 ```bash
 ---
@@ -158,7 +158,7 @@ The interesting thing to note here is the list arguments for `env` here. Travis 
 
 For this case we have 16 `env` variables, so there would be 16 seperate builds for the specified ansible versions which this playbook will be tested against.
 
-So for the line 
+So for the line
 
 ```bash
 .
@@ -193,7 +193,7 @@ The Build config will be something like, where you can see the `"env": "ANSIBLE_
 }
 ```
 
-- `ansible-playbook -i tests/inventory tests/test.yml --syntax-check`: 
+- `ansible-playbook -i tests/inventory tests/test.yml --syntax-check`:
 
 would check for any syntax errors as obvious from the command itself, helps in checking any errors early on before the build.
 

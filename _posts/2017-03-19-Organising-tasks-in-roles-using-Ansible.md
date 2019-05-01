@@ -2,7 +2,7 @@
 layout: post
 title: "Organising tasks in roles using Ansible"
 description: "Organising tasks in roles using Ansible"
-tags: [python, devops]
+tags: [python, devops, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/03/front.png'
@@ -69,7 +69,7 @@ Those being,
 
 ## `play.yml`
 
-The contents of my `play.yml` are sequenced in such a manner so that the roles get executed in a sequence. This is a very handy feature which allows you to configure software which depends on some other software. 
+The contents of my `play.yml` are sequenced in such a manner so that the roles get executed in a sequence. This is a very handy feature which allows you to configure software which depends on some other software.
 
 ```
 ---
@@ -140,10 +140,10 @@ You needn't have put the quotes if for example it were something like this.
 
 Ansible uses Jinja2 as the templating engine of choice(also the choice of the biggies Flask and Django). So you would be in familair territory if you have dabbled in those.
 
-You can finally run this playbook using 
+You can finally run this playbook using
 
 ```bash
-$ ansible-playbook play.yml -vvv 
+$ ansible-playbook play.yml -vvv
 ```
 
 Happy ansibling!

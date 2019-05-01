@@ -2,7 +2,7 @@
 layout: post
 title: "Using Ansible Playbooks to Install oVirt 4.1 on centOS 7 (Linode)"
 description: "Using Ansible Playbooks to Install oVirt 4.1 on centOS 7 (Linode)"
-tags: [oss, gsoc]
+tags: [oss, gsoc, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/ansible-red-hat-blog-top.png'
@@ -24,11 +24,11 @@ If you compare this to that of Linode's offerings. I am getting the same 4GB VM 
 
 That's like half of what I was paying to digitalocean for my servers! But the ease of use for digitalocean is pretty good. The only reason that I see if I want to use digitalocean for my VM's would be if I wanted low latency. As the closest datecenter to me for linode is in Singapore. While we digitalcoean has a datacenter around in bangalore.
 
-Enough of me ranting around. 
+Enough of me ranting around.
 
 ## Show me the Code
 
-The playbook is already up there on [github](https://github.com/rhevm-qe-automation/ovirt-ansible/) which holds the ansible roles for quite a many things. 
+The playbook is already up there on [github](https://github.com/rhevm-qe-automation/ovirt-ansible/) which holds the ansible roles for quite a many things.
 
 Having a quick look at them
 
@@ -52,14 +52,14 @@ drwxr-xr-x   6 tasdik  tasdik  204 May 23 14:28 ovirt-iso-uploader-conf
 
 I would be showing around the role `ovirt-engine-setup` in this post.
 
-Provision your server and `ssh` into it. 
+Provision your server and `ssh` into it.
 
 I have created an entry on my `/etc/hosts` on my local dev box for the VM where I am going to install `ovirt-engine`.
 
 ```bash
 $ cat /etc/hosts | grep gsoc
 xxx.xxx.xx.xxx ovirtlinode.gsoc.org
-``` 
+```
 
 `xx.xxx.xx.xxx` would be the public IP of your server.
 
@@ -69,12 +69,12 @@ You have to change the `hostname` of your server. Will explaing the why in a bit
 $ ssh root@ovirtlinode.gsoc.org
 root@ovirtlinode.gsoc.org's password:
 [root@ovirtlinode ~]# hostnamectl set-hostname ovirtlinode.gsoc.org
-[root@ovirtlinode ~]# hostname 
+[root@ovirtlinode ~]# hostname
 ovirtlinode.gsoc.org
-[root@ovirtlinode ~]# 
+[root@ovirtlinode ~]#
 ```
 
-Now from your local dev box 
+Now from your local dev box
 
 ```bash
 $ git clone https://github.com/rhevm-qe-automation/ovirt-ansible/
@@ -82,10 +82,10 @@ $ cd ovirt-ansible/
 $ touch site.yml inventory
 ```
 
-The contents of the file above should be in the lines of 
+The contents of the file above should be in the lines of
 
 ```bash
-$ cat inventory 
+$ cat inventory
 [all:vars]
 ovirt_engine_type=ovirt-engine
 ovirt_engine_version=4.1
@@ -107,7 +107,7 @@ $ cat site.yml
 ```
 
 A quick note on the variable `ansible_ssh_pass=secretpassword`. This is not adviced! Don't do this as now obviously your ssh password is
-stored in a text file which can be read by anyone. And god forbid if you add this file to version control accidentally and push it. 
+stored in a text file which can be read by anyone. And god forbid if you add this file to version control accidentally and push it.
 
 Rule of thumb is to always use ssh keys to run playbooks!
 
@@ -131,7 +131,7 @@ Running the playbook, assuming you are on `ovirt-ansible/` dir
 $ ansible-playbook site.yml -i inventory -vvv
 ```
 
-This might take a few minutes to get done. Get a coffee or read some xkcd while it does its thing. 
+This might take a few minutes to get done. Get a coffee or read some xkcd while it does its thing.
 
 You can now access the admin panel through the url [https://ovirtlinode.gsoc.org/ovirt-engine/webadmin/](https://ovirtlinode.gsoc.org/ovirt-engine/webadmin/)
 

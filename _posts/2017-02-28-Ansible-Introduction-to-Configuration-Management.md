@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to Configuration Management using Ansible"
 description: "Introduction to Configuration Management using Ansible"
-tags: [python, devops]
+tags: [python, devops, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/02/ansible-logo600.png'
@@ -14,18 +14,18 @@ There are many devs/sysadmins out there who manage their servers by logging in t
 
 Well hey, you are not alone!
 
-But do you feel that this can create snowflake servers? 
+But do you feel that this can create snowflake servers?
 
 Servers which are impossible to recreate because we missed out on some minute detail which the other dev had known.
 
 > But Tasdik. This wouldn't happen if we have a very good documentation process giving a step by step guide on how to do so!
 
 Good! I will say you guys have followed a very good engineering practice of documenting each and every other process that you do! But in most fast moving
-environments. This is not the case! 
+environments. This is not the case!
 
 ## Enter Configuration management
 
-It's good that we have a good range of config. management tools out there like [CFEngine](http://cfengine.com/), [Ansible](http://ansible.com/), [chef](http://getchef.com/chef) to name a few. 
+It's good that we have a good range of config. management tools out there like [CFEngine](http://cfengine.com/), [Ansible](http://ansible.com/), [chef](http://getchef.com/chef) to name a few.
 
 ## Isn't this DevOps thing some buzzword out there?
 
@@ -41,11 +41,11 @@ The general process of getting the development env up and running for OpenCV inv
 - Build a particular version of OpenCV required by us.
 - Compiling it
 
-And the list goes on! 
+And the list goes on!
 
 ## But you can still write a shell script for it. Right?
 
-Yes! You absolutely can. No doubt. 
+Yes! You absolutely can. No doubt.
 
 I will go further one step and say that it DOES take time and resources to learn a config management tool and have some working knowlege to be productive with it.
 
@@ -55,7 +55,7 @@ But here are some points in favor for config mgmt. tools
 - The DSL's do take away some freedom, but they are much cleaner.
 - **Idempotency**: Which means you can safely re-run it any number of times and each time it will go to the desired state, remain there or more closer to the desired state.
 - Scalable!
-- OS Agnostic. 
+- OS Agnostic.
 - Version Controlling - In short, maintaining Infrastructure as Code.
 - Easy to write
 
@@ -111,7 +111,7 @@ You can put all the necessary commands above and put it inside a `provision.sh` 
       apt: pkg=apache2 state=installed update_cache=true
 
     - name: Push default virtual host configuration
-      copy: src=files/awesome-app dest=/etc/apache2/sites-available/awesome-app mode=0640 
+      copy: src=files/awesome-app dest=/etc/apache2/sites-available/awesome-app mode=0640
 
     - name: Disable the default virtualhost
       file: dest=/etc/apache2/sites-enabled/default state=absent
