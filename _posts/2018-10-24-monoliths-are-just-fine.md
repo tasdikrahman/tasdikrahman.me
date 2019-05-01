@@ -2,13 +2,13 @@
 layout: post
 title: "Monoliths are just fine"
 description: "Monoliths are just fine"
-tags: [softwarearchitecture]
+tags: [systemdesign]
 comments: true
 share: true
 cover_image: '/content/images/2018/10/monolithic-vs-microservices.png'
 ---
 
-A lot of great material has already been [written](https://martinfowler.com/articles/microservices.html) out there around what microservices are and what they are not. 
+A lot of great material has already been [written](https://martinfowler.com/articles/microservices.html) out there around what microservices are and what they are not.
 
 What I would try putting down here is what I saw as we grew from a monolith to a microservices architecture over the period of time back here at [Razorpay](https://www.razorpay.com). Please take it with a grain of salt when you read this as this is going to be opinionated.
 
@@ -37,22 +37,22 @@ When you start off with your monolith, there would be places where you feel you 
 
 When you understand the boundaries and functions well enough, that's when you would start modularizing your codebase. So as to have clear distinctions of which part of the codebase does what. This helps in a few things, specific teams being able to work on specific codebases and clear distinction between core functionality and helper functions.
 
-When you are done dividing your codebase into modules, using a message queue for asynchronous communication between the modules would make more sense. This will enable you to debug faster, distribute the work of different components to different teams for things to start with. 
+When you are done dividing your codebase into modules, using a message queue for asynchronous communication between the modules would make more sense. This will enable you to debug faster, distribute the work of different components to different teams for things to start with.
 
 With all the above in check, you already have a lot of things sorted which would not become a technical debt when trying to move to microservices.
 
-From what I have noticed is, over-optimising from the start is just gonna bog you down. The priority at the start should be to 
+From what I have noticed is, over-optimising from the start is just gonna bog you down. The priority at the start should be to
 - Get it working.
 - Get feedback about your product.
 - Fix the bugs when they are reported or when you find any.
-- If things go down, look why they went wrong and fix them. This is where you will learn from your experience. 
+- If things go down, look why they went wrong and fix them. This is where you will learn from your experience.
 - Repeat the whole process.
 
-I think of it this way, your product is not a program like [ls](http://man7.org/linux/man-pages/man1/ls.1.html) command which is feature complete, you need to constantly iterate upon it, but even before that. You have to give out a working model for people out there to use it. 
+I think of it this way, your product is not a program like [ls](http://man7.org/linux/man-pages/man1/ls.1.html) command which is feature complete, you need to constantly iterate upon it, but even before that. You have to give out a working model for people out there to use it.
 
 > Moving to a microservice?
 
-The argument of moving to a microservice can be made when 
+The argument of moving to a microservice can be made when
 - you have divided certain work among certain teams, by virtue of which there would be times when there would be friction, miscommunication happening over when contributing to certain parts of the codebase which come common when different teams are working. Even if you have managed to write something, it's quite possible that something which you added might have had a regression over something, and at this point, your automated tests in the CI should ideally catch them. But having a clear separation of work when you have multiple teams working on things, microservices can make sense.
 - you would want to rewrite a piece of codebase into something more performant.
 - Feature Velocity
@@ -77,16 +77,16 @@ In the end, it's absolutely the case that a movement to microservices is somethi
 
 IMHO, the monoliths vs microservices debate is akin to monorepos vs multi-repos: they are both strategies used to share work when your organization grows. Both can work well, depending on your tooling and organization.
 
-But do not forget that those abstractions layers you add, while very useful (say, for release velocity), might also be a direct application of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) 
+But do not forget that those abstractions layers you add, while very useful (say, for release velocity), might also be a direct application of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 Which means that refactoring some code, might sometime require refactoring your organisation, so if you lack the ability to do that incrementally, you might converge to an ossified system that stops evolving.
 
 > So, Microservices or Monoliths?
 
-It depends. 
+It depends.
 
-## References 
- 
+## References
+
 - https://martinfowler.com/bliki/MonolithFirst.html
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 - http://www.paulgraham.com/avg.html
