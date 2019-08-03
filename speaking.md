@@ -7,6 +7,10 @@ title: Speaking
 
 <!--## <a name="index"/>Index-->
 
+#### 2019
+
+- ["Kingsly - The Cert Manager", DevConf 2019, India](#devconfindia2019)
+
 #### 2018
 
 - ["kuberception: Self Hosting kubernetes", DevOpsDays India, 2018](#devopsdaysindia-2018)
@@ -19,6 +23,12 @@ title: Speaking
 #### 2016
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
+
+### <a name="#devconfindia2019"/>[Kingsly - The Cert Manager](https://speakerdeck.com/tasdikrahman/kingsly-the-cert-manager)
+
+<script async class="speakerdeck-embed" data-id="3e0b36f62907438094dde34369646e50" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+- **Github** [https://github.com/gojekfarm/kingsly](https://github.com/gojekfarm/kingsly)
 
 ### <a name="#devopsdaysindia-2018"/>[Kuberception: Self hosting kubernetes](https://speakerdeck.com/tasdikrahman/kuberception-self-hosting-kubernetes)
 
