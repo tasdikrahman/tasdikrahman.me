@@ -9,7 +9,7 @@ title: Speaking
 
 #### 2019
 
-- ["Kingsly - The Cert Manager", DevConf 2019, India](#devconfindia2019)
+- ["Kingsly - The Cert Manager", DevConf India, 2019](#devconfindia2019)
 
 #### 2018
 
