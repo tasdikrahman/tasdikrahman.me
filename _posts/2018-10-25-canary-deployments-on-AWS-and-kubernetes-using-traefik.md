@@ -246,11 +246,11 @@ So you have seen how we can do canary deployments on AWS using traditional ELB's
 
 ## References
 
-- https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html
-- https://martinfowler.com/bliki/CanaryRelease.html
-- https://github.com/containous/traefik/pull/3112 PR where weighted traffic was added to traefik
-- https://docs.traefik.io/configuration/backends/kubernetes/
-- https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting
+- [https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html)
+- [https://martinfowler.com/bliki/CanaryRelease.html](https://martinfowler.com/bliki/CanaryRelease.html)
+- [https://github.com/containous/traefik/pull/3112](https://github.com/containous/traefik/pull/3112) PR where weighted traffic was added to traefik
+- [https://docs.traefik.io/configuration/backends/kubernetes/](https://docs.traefik.io/configuration/backends/kubernetes/)
+- [https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting](https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting)
 
 ## Credits
 
