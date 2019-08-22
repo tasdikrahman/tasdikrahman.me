@@ -398,8 +398,6 @@ If you have found my little bits of software being of any use to you, do conside
 
 ***
 
-If you have something in your mind, you can reach me at **prodicus [at] outlook [dot] com**
+If you have something in your mind, you can reach me at **tasdik95 AT gmail DOT com**
 
-I do tweet sometimes by the handle [@tasdikrahman](http://twitter.com/tasdikrahman)
-
-Happy coding!
+You can find me on twitter at [@tasdikrahman](http://twitter.com/tasdikrahman)
