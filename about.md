@@ -34,4 +34,4 @@ _I write about a lot of things on this blog, but it doesn't and has never repres
 
 ***
 
-<center>You can reach me through <b>prodicus at outlook dot com</b></center>
+<center>You can reach me through <b>tasdik95 AT gmail DOT com</b></center>
