@@ -5,9 +5,9 @@ title: About Me
 
 This site is a partial collection of projects I've worked on, stories I've written down, software I've published.
 
-I love working on tools, infrastructure and helping scale systems from ground up. Started out as a [pythonista](https://python.org/) but I mostly dabble around in [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) these days. 
+I love working on tools, infrastructure and helping scale systems from ground up. Started out as a [pythonista](https://python.org/) but I mostly dabble around in [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) these days.
 
-When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), [backpacking](https://tasdikrahman.me/blog/tag/travel/) across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or trying to improve my skills at [Argentine tango](https://en.wikipedia.org/wiki/Argentine_tango) over at a milonga.
+When not writing code, I can be found playing football (soccer if you may), watching EPL (Go Chelsea!), [backpacking](https://tasdikrahman.me/blog/tag/travel/) across the Indian subcontinent and outside of it once in a while, tending to my home garden, watching the local theatre companies perform or trying to improve my skills at [Argentine tango](https://en.wikipedia.org/wiki/Argentine_tango) over at a milonga. You might find me with a [book/kindle](https://www.goodreads.com/user/show/19151223-tasdik-rahman).
 
 You can find the list of talks given by me [here](https://tasdikrahman.me/speaking/).
 
