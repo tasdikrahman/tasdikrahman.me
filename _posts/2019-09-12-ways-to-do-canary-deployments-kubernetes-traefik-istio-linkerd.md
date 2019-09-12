@@ -165,19 +165,26 @@ spec:
 
 #### References
 
-- https://martinfowler.com/bliki/CanaryRelease.html
-- https://martinfowler.com/bliki/FeatureToggle.html
+- [https://martinfowler.com/bliki/CanaryRelease.html](https://martinfowler.com/bliki/CanaryRelease.html)
+- [https://martinfowler.com/bliki/FeatureToggle.html](https://martinfowler.com/bliki/FeatureToggle.html)
+
 Canary using istio
-- https://istio.io/blog/2017/0.1-canary/
-Bare bones canary on k8s 
-- https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#canary-deployments
+
+- [https://istio.io/blog/2017/0.1-canary/](https://istio.io/blog/2017/0.1-canary/)
+
+Bare bones canary on k8s
+
+- [https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#canary-deployments](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#canary-deployments)
+
 Canary using traefik
-- https://blog.containo.us/canary-releases-with-traefik-on-gke-at-holidaycheck-d3c0928f1e02?gi=c58435e35526
-- https://tasdikrahman.me/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/
-- https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting
+
+- [https://blog.containo.us/canary-releases-with-traefik-on-gke-at-holidaycheck-d3c0928f1e02?gi=c58435e35526](https://blog.containo.us/canary-releases-with-traefik-on-gke-at-holidaycheck-d3c0928f1e02?gi=c58435e35526)
+- [https://tasdikrahman.me/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/](https://tasdikrahman.me/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/)
+- [https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting](https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting)
+
 Canary using linkerd
-- https://linkerd.io/2/tasks/canary-release/
-- https://linkerd.io/2/features/traffic-split/
-Done using https://flagger.app/
-- https://www.tarunpothulapati.com/posts/traffic-splitting-linkerd/
+
+- [https://linkerd.io/2/tasks/canary-release/](https://linkerd.io/2/tasks/canary-release/)
+- [https://linkerd.io/2/features/traffic-split/](https://linkerd.io/2/features/traffic-split/) Done using https://flagger.app/
+- [https://www.tarunpothulapati.com/posts/traffic-splitting-linkerd/](https://www.tarunpothulapati.com/posts/traffic-splitting-linkerd/)
 Excerpt: “Flagger combines traffic shifting and L7 metrics to do canary deployments, etc. It will slowly increase the weight to the newer version, based on the metrics, and if there is any problem (e.g. failed requests), it would roll back. If not it will continue increasing the weight until all the requests are routed to the newer version. Tools like Flagger can be built on top of SMI and they work on all the meshes that implement it.”
