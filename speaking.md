@@ -10,7 +10,7 @@ title: Speaking
 #### 2019
 
 - ["Kingsly - The Cert Manager", DevConf India, 2019](#devconfindia2019)
-- ["Enabling Canary deployments in k8s, DevopsDays, 2019 (Lightening talk)"](#devopsdaysindia2019)
+- ["Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)"](#devopsdaysindia2019)
 
 #### 2018
 
@@ -25,7 +25,7 @@ title: Speaking
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
-### <a name="#devopsdaysindia2019"/>[Enabling Canary deployments in k8s, DevopsDays, 2019 (Lightening talk)](https://speakerdeck.com/tasdikrahman/ways-of-enabling-canary-deployments-in-kubernetes)
+### <a name="#devopsdaysindia2019"/>[Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)](https://speakerdeck.com/tasdikrahman/ways-of-enabling-canary-deployments-in-kubernetes)
 
 <script async class="speakerdeck-embed" data-id="0b063af43dd54ea794077749a347b58e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
