@@ -8,6 +8,10 @@ share: true
 cover_image: '/content/images/2018/10/canary-release.png'
 ---
 
+**Update** I gave a quick lightening talk about the same talk @ DevopsDays India, 2019. The slides for which can be found below
+
+<script async class="speakerdeck-embed" data-id="0b063af43dd54ea794077749a347b58e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ### What canary can be
 
 Shaping the traffic in a way, so that we could direct a % of traffic to the new pods and promoting the same deployment to a full scaleout and gradually phasing out the older release.
