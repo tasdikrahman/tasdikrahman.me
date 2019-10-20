@@ -154,7 +154,7 @@ spec:
       terminationGracePeriodSeconds: 60
       hostNetwork: true
       containers:
-      - image: traefik:v1.7.2-alpine
+      - image: traefik:v1.7.16-alpine
         name: traefik-ingress-lb
         ports:
         - name: http
