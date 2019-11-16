@@ -28,7 +28,7 @@ title: Speaking
 
 ### <a name="#rootconfhyderabadindia2019"/>[Achieving repeatable, extensible and self serve infrastructure, Rootconf Hyderabad, India, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
 
-- [conference schedule](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
+- **Conference schedule**: [Rootconf Hyderabad, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
 
 <script async class="speakerdeck-embed" data-id="907c7c72cdf74e249ae0babd95856bbd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -36,10 +36,11 @@ title: Speaking
 
 <script async class="speakerdeck-embed" data-id="0b063af43dd54ea794077749a347b58e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-### <a name="#devconfindia2019"/>[Kingsly - The Cert Manager](https://speakerdeck.com/tasdikrahman/kingsly-the-cert-manager)
+### <a name="#devconfindia2019"/>[Kingsly - The Cert Manager](https://devconfin19.sched.com/event/RVQW/kingsly-the-cert-manager)
 
 <script async class="speakerdeck-embed" data-id="3e0b36f62907438094dde34369646e50" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
+- **Conference schedule**: [Devconf 2019](https://devconfin19.sched.com/event/RVQW/kingsly-the-cert-manager)
 - **Github** [https://github.com/gojekfarm/kingsly](https://github.com/gojekfarm/kingsly)
 - **OSS Release blog post** [https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65)
 
