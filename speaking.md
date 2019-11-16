@@ -11,6 +11,7 @@ title: Speaking
 
 - ["Kingsly - The Cert Manager", DevConf India, 2019](#devconfindia2019)
 - ["Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)"](#devopsdaysindia2019)
+- ["Achieving repeatable, extensible and self serve infrastructure", Rootconf Hyderabad, India, 2019](#rootconfhyderabadindia2019)
 
 #### 2018
 
@@ -24,6 +25,12 @@ title: Speaking
 #### 2016
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
+
+### <a name="#rootconfhyderabadindia2019"/>[Achieving repeatable, extensible and self serve infrastructure, Rootconf Hyderabad, India, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
+
+- [conference schedule](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
+
+<script async class="speakerdeck-embed" data-id="907c7c72cdf74e249ae0babd95856bbd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### <a name="#devopsdaysindia2019"/>[Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)](https://speakerdeck.com/tasdikrahman/ways-of-enabling-canary-deployments-in-kubernetes)
 
