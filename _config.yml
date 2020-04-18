@@ -12,7 +12,7 @@ permalink:        pretty
 
 # Setup
 title:            Tasdik Rahman
-description:      'blog > /dev/null 2>&1'
+description:      'cat /var/log/life'
 
 url:              https://tasdikrahman.me
 # url:              http://0.0.0.0:4000/
