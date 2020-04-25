@@ -90,13 +90,13 @@ We use the [Etcd community cookbook](https://github.com/chef-cookbooks/etcd/) to
 
 <script src="https://gist.github.com/tasdikrahman/6eccff66192b81e6f264391caa7bdb9f.js"></script>
 
-The sample systemd service is for a single node Etcd database. Depending on if you require an Etcd cluster or don’t want etcdv2 API to be available — among other things — the parameters to your `ExecStart will` change. (This is well-documented in the cookbook repo).
+The sample systemd service is for a single node Etcd database. Depending on if you require an Etcd cluster or don’t want etcdv2 API to be available — among other things — the parameters to your `ExecStart` will change. (This is well-documented in the cookbook repo).
 
 We haven’t tried running Etcd on Kubernetes. Although statefulSets are something slowly gaining traction, we didn’t feel running this on top of Kubernetes was something we wanted to do. That being said, we have heard good things about [etcd-operator](https://github.com/coreos/etcd-operator), although the project has been archived.
 
 ### So how do we automate provision of Etcd?
 
-We do it via a [proctor script automation](https://github.com/gojek/proctor), paired with a chef cookbook on top of https://github.com/chef-cookbooks/etcd with a few extra things, to create the defragmentation related systemd services.
+We do it via a [proctor script automation](https://github.com/gojek/proctor), paired with a chef cookbook on top of [https://github.com/chef-cookbooks/etcd](https://github.com/chef-cookbooks/etcd) with a few extra things, to create the defragmentation related systemd services.
 
 ### A few optimizations you can do
 
