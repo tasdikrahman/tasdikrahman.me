@@ -56,3 +56,11 @@ oop:
   name: oop
 systemdesign:
   name: systemdesign
+ruby:
+  name: ruby
+security:
+  name: security
+letsencrypt:
+  name: letsencrypt
+x509:
+  name: x509
