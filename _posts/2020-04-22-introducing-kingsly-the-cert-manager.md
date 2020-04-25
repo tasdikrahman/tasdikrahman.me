@@ -173,3 +173,7 @@ As the saying goes, there’s no silver bullet in software and Kingsly checks of
 - [https://github.com/gojekfarm/iap_authenticator](https://github.com/gojekfarm/iap_authenticator) — Ruby Gem to create authentication token for services running behind IAP
 - [https://github.com/gojekfarm/iap-auth-cookbook](https://github.com/gojekfarm/iap-auth-cookbook) — chef cookbook to setup up the iap-auth proxy binary on an IPSec VPN box.
 
+Kingsly was also presented by me over at DevConf, India
+
+<script async class="speakerdeck-embed" data-id="3e0b36f62907438094dde34369646e50" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
