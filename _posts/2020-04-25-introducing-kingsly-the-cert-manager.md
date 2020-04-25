@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/04/kingsly_header.jpeg'
 ---
 
-> This blog was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65), this post is a repost. 
+> This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65), this post is a repost.
 
 There’s one thing all devices connected to the Internet have in common — they rely on protocols called SSL/TLS to protect information in transit.
 
@@ -171,5 +171,5 @@ As the saying goes, there’s no silver bullet in software and Kingsly checks of
 - [https://github.com/gojekfarm/kingsly-certbot-cookbook](https://github.com/gojekfarm/kingsly-certbot-cookbook) — chef cookbook to setup certbot while provisioning an IPSec VPN.
 - [https://github.com/gojekfarm/iap_auth](https://github.com/gojekfarm/iap_auth) — Proxy for talking to an IAP enabled service.
 - [https://github.com/gojekfarm/iap_authenticator](https://github.com/gojekfarm/iap_authenticator) — Ruby Gem to create authentication token for services running behind IAP
--  [https://github.com/gojekfarm/iap-auth-cookbook](https://github.com/gojekfarm/iap-auth-cookbook) — chef cookbook to setup up the iap-auth proxy binary on an IPSec VPN box.
+- [https://github.com/gojekfarm/iap-auth-cookbook](https://github.com/gojekfarm/iap-auth-cookbook) — chef cookbook to setup up the iap-auth proxy binary on an IPSec VPN box.
 
