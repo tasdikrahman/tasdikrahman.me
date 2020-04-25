@@ -5,7 +5,7 @@ description: "Introducing Kingsly — The Cert Manager"
 tags: [security, x509, devops, ruby, letsencrypt, oss]
 comments: true
 share: true
-cover_image: '/content/images/2020/04/Kingsly.png'
+cover_image: '/content/images/2020/04/kingsly_header.jpeg'
 ---
 
 > This blog was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65), this post is a repost. 
@@ -165,11 +165,11 @@ As the saying goes, there’s no silver bullet in software and Kingsly checks of
 
 ### Links
 
-- https://github.com/gojekfarm/kingsly — the API server which handles cert generation and renewals.
-- https://github.com/gojekfarm/kingsly/tree/master/docs/deploy/k8s — kingsly-server and worker deployment docs
-- https://github.com/gojekfarm/kingsly-certbot — the IPSec VPN client for kingsly
-- https://github.com/gojekfarm/kingsly-certbot-cookbook — chef cookbook to setup certbot while provisioning an IPSec VPN.
-- https://github.com/gojekfarm/iap_auth — Proxy for talking to an IAP enabled service.
-- https://github.com/gojekfarm/iap_authenticator — Ruby Gem to create authentication token for services running behind IAP
--  https://github.com/gojekfarm/iap-auth-cookbook — chef cookbook to setup up the iap-auth proxy binary on an IPSec VPN box.
+- [https://github.com/gojekfarm/kingsly](https://github.com/gojekfarm/kingsly) — the API server which handles cert generation and renewals.
+- [https://github.com/gojekfarm/kingsly/tree/master/docs/deploy/k8s](https://github.com/gojekfarm/kingsly/tree/master/docs/deploy/k8s) — kingsly-server and worker deployment docs
+- [https://github.com/gojekfarm/kingsly-certbot](https://github.com/gojekfarm/kingsly-certbot) — the IPSec VPN client for kingsly
+- [https://github.com/gojekfarm/kingsly-certbot-cookbook](https://github.com/gojekfarm/kingsly-certbot-cookbook) — chef cookbook to setup certbot while provisioning an IPSec VPN.
+- [https://github.com/gojekfarm/iap_auth](https://github.com/gojekfarm/iap_auth) — Proxy for talking to an IAP enabled service.
+- [https://github.com/gojekfarm/iap_authenticator](https://github.com/gojekfarm/iap_authenticator) — Ruby Gem to create authentication token for services running behind IAP
+-  [https://github.com/gojekfarm/iap-auth-cookbook](https://github.com/gojekfarm/iap-auth-cookbook) — chef cookbook to setup up the iap-auth proxy binary on an IPSec VPN box.
 
