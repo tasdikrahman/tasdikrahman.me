@@ -2,7 +2,7 @@
 layout: post
 title: "Object Comparison"
 description: "Object Comparison"
-tags: [oop]
+tags: [oop, ruby]
 comments: true
 share: true
 cover_image: '/content/images/2019/03/gabriel-gurrola-609666-unsplash.jpg'
