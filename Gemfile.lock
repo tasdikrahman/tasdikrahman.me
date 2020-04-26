@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/flori/json.git
+  remote: https://github.com/flori/json.git
   revision: 7f4cfd853f2c919d854fb95548a19980feff17e8
   branch: v1.8
   specs:
@@ -291,4 +291,4 @@ DEPENDENCIES
   json!
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
