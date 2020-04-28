@@ -12,7 +12,7 @@ Anyone who is evaluating into having a networking solution for their kubernetes 
 
 The problem which we faced specifically while running this in our clusters was missing routes upon restart of the node, or sometimes in the case when the node was joining the cluster as part of the worker node.
 
-For us, the issue would come around as a the [kiam](https://github.com/uswitch/kiam) (which we were using for identity management for pods inside the k8s clusters) pod would go into [CrashLoopBackOff](https://stackoverflow.com/questions/44702715/kubernetes-pod-fails-with-crashloopbackoff) as described by me in the github issue https://github.com/uswitch/kiam/issues/49, as the dns resolution would fail (more on that later)
+For us, the issue would come around as a the [kiam](https://github.com/uswitch/kiam) (which we were using for identity management for pods inside the k8s clusters) pod would go into [CrashLoopBackOff](https://stackoverflow.com/questions/44702715/kubernetes-pod-fails-with-crashloopbackoff) as described by me in the github issue [https://github.com/uswitch/kiam/issues/49](https://github.com/uswitch/kiam/issues/49), as the dns resolution would fail (more on that later)
 
 We were using the latest version of [Coreos](http://coreos.com/), but we found out that the version 1576.5.0 of Coreos was not plagued by this problem.
 
