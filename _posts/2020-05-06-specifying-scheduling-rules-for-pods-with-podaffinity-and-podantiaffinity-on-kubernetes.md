@@ -31,7 +31,9 @@ A very simple example of podAntiaffinity being specified for a deployment, where
 
 <script src="https://gist.github.com/tasdikrahman/b706b8e9c57d8b7ec3e311ab0dacb188.js"></script>
 
-You can notice, that the pods present here are getting scheduled in the same node, while the scheduler was trying it's best to spread the pods out. 
+You can notice, that the pods present here are getting scheduled in the same node, while the scheduler was trying it's best to spread the pods out. If you had presumable 3 nodes, in 3 different zones, the rule above would have tried spreading out the pods in all the three zones, giving you resiliency over zone failures.
+
+For the purpose of this example, I have a single node cluster in place.
 
 ```
 $ k get nodes
