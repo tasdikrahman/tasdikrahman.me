@@ -12,9 +12,10 @@ This is more of an extended version of the tweet here
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you haven&#39;t had a look at pod-affinity and anti-affinity, it&#39;s a great way which one can use to distribute the pods of their service across zones. <a href="https://t.co/iqhbyhruD8">https://t.co/iqhbyhruD8</a> (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1231635358363729920?ref_src=twsrc%5Etfw">February 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+
 PodAntiAffinity/PodAffinity were released in beta some time back in 2017, in the [1.16 release](https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/) for k8s, along with node affinity/anti-affinity, taints and tolerations and custom scheduling.
 
-Depending on your use case, you can definitely use a few for specific type of workloads in running in your k8s cluster. 
+Depending on your use case, you can definitely use a few of them for specific type of workloads, to achieve certain outcomes, for things running in your k8s cluster.
 
 Will talk about how you can achieve distributing your pods across zones for your service using pod-affinity and anti-affinity.
 
@@ -44,8 +45,26 @@ NAME                          READY   STATUS    RESTARTS   AGE    IP           N
 redis-cache-566bcff79-2qrzr   1/1     Running   0          110s   10.244.0.6   kind-control-plane   <none>           <none>
 redis-cache-566bcff79-grhwk   1/1     Running   0          110s   10.244.0.7   kind-control-plane   <none>           <none>
 redis-cache-566bcff79-ktmxv   1/1     Running   0          110s   10.244.0.5   kind-control-plane   <none>           <none>
+```
+
+One thing to note here is that, you can specificy multiple `matchExpressions` inside `podAffinityTerm.labelSelector`.
+
+So if you wanted the scheduler to take into consideration another label like `app_type: server`, you can do something like
 
 ```
+- podAffinityTerm:
+    labelSelector:
+    matchExpressions:
+    - key: app
+        operator: In
+        values:
+        - store
+    - key: app_type
+        operator: In
+        values:
+        - server
+```
+so both the match expressions will be `AND`'d while the scheduler is evaluating the rules.
 
 Now if we would want this rule to be enforced while being schduled you can use `requiredDuringSchedulingIgnoredDuringExecution` instead of `preferredDuringSchedulingIgnoredDuringExecution`
 
