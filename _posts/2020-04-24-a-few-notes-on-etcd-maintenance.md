@@ -5,7 +5,7 @@ description: "Learnings on provisioning, compaction, defragmentation, and more"
 tags: [databases, devops, etcd]
 comments: true
 share: true
-cover_image: '/content/images/2020/04//etcd-header.jpeg'
+cover_image: '/content/images/2020/04/etcd-header.jpeg'
 ---
 
 > This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/a-few-notes-on-etcd-maintenance-c06440011cbe), this post is a repost. 
