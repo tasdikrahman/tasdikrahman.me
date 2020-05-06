@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Specifying scheduling rules for your pods in kubernetes"
+title: "Specifying scheduling rules for your pods on kubernetes"
 description: "Learnings on scheduling rules native to the default k8s scheduler"
 tags: [kubernetes, devops]
 comments: true
