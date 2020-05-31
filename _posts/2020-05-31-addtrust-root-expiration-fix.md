@@ -5,7 +5,7 @@ description: "If you are affected by the Sectigo root cert"
 tags: [ssl]
 comments: true
 share: true
-cover_image: '/content/images/2020/05/1024px-Internet2.jpg'
+cover_image: '/content/images/2020/05/internet.jpg'
 ---
 
 With the root cert expiring for [sectigo](https://support.sectigo.com/articles/Knowledge/Sectigo-AddTrust-External-CA-Root-Expiring-May-30-2020), the older linux distributions are not properly ignoring the cert.
