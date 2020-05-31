@@ -68,3 +68,5 @@ databases:
   name: databases
 etcd:
   name: etcd
+ssl:
+  name: ssl
