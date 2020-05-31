@@ -8,16 +8,17 @@ share: true
 cover_image: '/content/images/2020/05/1024px-Internet2.jpg'
 ---
 
-With the root cert expiring for [sectigo](https://support.sectigo.com/articles/Knowledge/Sectigo-AddTrust-External-CA-Root-Expiring-May-30-2020), the older linux distributions are not properly ignoring the cert
-I have seen this affect boxes which ran ubuntu 16.04, but there would be others too as people have pointed out. Didn't notice anything on Debian 10(buster)
+With the root cert expiring for [sectigo](https://support.sectigo.com/articles/Knowledge/Sectigo-AddTrust-External-CA-Root-Expiring-May-30-2020), the older linux distributions are not properly ignoring the cert.
+
+I have seen this affect boxes which ran ubuntu 16.04, but there would be others too. Didn't notice anything on Debian 10(buster)
 
 As people have pointed out [around](https://www.reddit.com/r/linux/comments/gshh70/sectigo_root_ca_expiring_may_not_be_handled_well/), 
 this is an openssl 1.0.2 bug. So even a system upgrade wouldn't help the situation wouldn't help, as this would require
 an actual distro upgrade.
 
-Programs which don't depend on openssl(like go binaries), won't get affected by this. Ruby/Jruby on the other hand will have problems similar to curl. 
+Programs which don't depend on openssl(like go binaries), won't get affected by this. Services/client on Ruby/Jruby for example, on the other hand will have problems similar to curl.
 
-The same goes for programs which do certificate pinning on their clients. These clients would see external calls to other endpoints failing. 
+The same goes for programs which do certificate pinning on their clients. Personally, saw a saas vendor dole out a fix for this yesterday for their python client, These clients would see external calls to other endpoints failing.
 
 This is also a great twitter thread by [Ryan](https://twitter.com/sleevi_/status/1266647545675210753) on twitter
 
