@@ -19,6 +19,8 @@ Programs which don't depend on openssl(like go binaries), won't get affected by 
 
 The same goes for programs which do certificate pinning on their clients. These clients would see external calls to other endpoints failing. 
 
+This is also a great twitter thread by [Ryan](https://twitter.com/sleevi_/status/1266647545675210753) on twitter
+
 ## How curl fails in a typical affected client box
 
 ```
@@ -64,5 +66,3 @@ this file would not get updated.
 sudo sed -i -e 's/^mozilla\/AddTrust_External_Root.crt/!mozilla\/AddTrust_External_Root.crt/' /etc/ca-certificates.conf
 sudo update-ca-certificates --fresh
 ```
-
-
