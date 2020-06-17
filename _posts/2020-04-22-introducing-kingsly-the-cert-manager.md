@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/04/kingsly_header.jpeg'
 ---
 
-> This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65), this post is a repost.
+> This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65) by me, this post is a repost.
 
 There’s one thing all devices connected to the Internet have in common — they rely on protocols called SSL/TLS to protect information in transit.
 

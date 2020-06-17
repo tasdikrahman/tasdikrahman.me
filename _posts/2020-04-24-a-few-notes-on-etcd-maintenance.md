@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/04/etcd-header.jpeg'
 ---
 
-> This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/a-few-notes-on-etcd-maintenance-c06440011cbe), this post is a repost. 
+> This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/a-few-notes-on-etcd-maintenance-c06440011cbe) by me, this post is a repost.
 
 If you have worked around managing [Kubernetes](https://kubernetes.io/) clusters on your infrastructure — instead of going with a managed version provided by cloud providers — chances are that you already are managing an [etcd](https://etcd.io/) cluster. In case you are new to it, this post is for you.
 
