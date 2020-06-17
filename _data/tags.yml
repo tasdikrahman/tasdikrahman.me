@@ -70,3 +70,5 @@ etcd:
   name: etcd
 ssl:
   name: ssl
+istio:
+  name: istio
