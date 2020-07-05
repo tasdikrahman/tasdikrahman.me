@@ -398,6 +398,6 @@ If you have found my little bits of software being of any use to you, do conside
 
 ***
 
-If you have something in your mind, you can reach me at **tasdik95 AT gmail DOT com**
+If you have something in your mind, you can reach me at **hey AT tasdikrahman DOT me**
 
 You can find me on twitter at [@tasdikrahman](http://twitter.com/tasdikrahman)
