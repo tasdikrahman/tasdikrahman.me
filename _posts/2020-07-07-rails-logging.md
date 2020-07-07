@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/07/rails_logging.png'
 ---
 
-If you are on rails, you would have noticed that the rails logs which you get by default are quite verbose and spread across multiple lines, even if the context is of processing just one line of log. 
+If you are on rails, you would have noticed that the rails logs which you get by default are quite verbose and spread across multiple lines, even if the context is of processing just one simple controller action.
 
 Let's take the example of a simple health check controller which you would add to just make the health check pass for your rails app deployed on kubernetes
 
@@ -21,17 +21,17 @@ class HealthCheckController < ActionController::Base
 end
 ```
 
-and for the config (shown for the development evironment for )
+and for the config (shown for the development evironment for this example)
 
 ```ruby
-# config/environments/developement.rb
+# config/environments/development.rb
 Rails.application.configure do
     config.log_tags = [:request_id]
     config.log_level = :debug
 end
 ```
 
-A simple route for the `GET` verb, to call the #ping action in the HealthCheckController
+A simple route for the `GET` verb, to call the `#ping` action in the `HealthCheckController`
 
 ```ruby
 # config/routes.rb
@@ -52,14 +52,14 @@ This is what the logs would look like for the route `ping`
 You can notice a few things here, 
 
 - the logs are spread over multiple lines, adding to the difficulty in debugging the whole request/response flow.
-    - given you would be pushing to your logging platform, let's say EFK, which would allow you to do full text search, the configuration to have the request-id for each log would come handy. A little better than not having anything at all. 
-    - if you are not pushing to any logging platform, then you would be debugging this by tailing the logs of the rails app somewhere, if deployed to kubernetes, doing a [kubetail](https://github.com/johanhaleby/kubetail) or if in a VM, sitting inside the VM and then tailing the logs of each and every application server instance. But then the first step here would be to obviously have centralized logging.
-- extremely verbose, hindering debugging.
-- no clear way to parse the logs as the logs format are non-standard.
+    - given you would be pushing to your logging platform, let's say EFK, which would allow you to do full text search, the configuration to have the request-id for each log would come handy. A little better than not having anything at all. (Have a look at [baritolog](https://github.com/BaritoLog) if you haven't, our in house ELK platform)
+    - if you are not pushing to any logging platform, then you would be debugging this by tailing the logs of the rails app somewhere, if deployed to kubernetes, doing a [kubetail](https://github.com/johanhaleby/kubetail) or if on VMs, sitting inside the VM and then tailing the logs of each and every application server instance. But then the first step here would be to obviously have centralized logging.
+- extremely verbose, hindering debugging, if you don't have that already.
+- no clear way to parse the logs as the logs format are non-standard (if you hadn't added `config.log_tags = [:request_id]` which is not present by default)
 
 ## Ways to improve this
 
-Taking things one at a time, you can compact out the log so that it stays meaningful at the same time too, by using something like [lograge](https://github.com/roidrage/lograge). There are a bunch of other alternatives like [https://logger.rocketjob.io/](https://logger.rocketjob.io/) and [https://github.com/shadabahmed/logstasher](https://github.com/shadabahmed/logstasher), but I went ahead with lograge since it has been around for sometime now and has a larger adoption, my use case of what I required to do worked, hence I didn't dig too much on this, more on this later. 
+Taking things one at a time, you can compact out the log so that it stays meaningful and not verbose the way it is right now, by using something like [lograge](https://github.com/roidrage/lograge). There are a bunch of other alternatives like [https://logger.rocketjob.io/](https://logger.rocketjob.io/) and [https://github.com/shadabahmed/logstasher](https://github.com/shadabahmed/logstasher), but I went ahead with lograge since it has been around for sometime now and has a larger adoption, my use case of what I required to do worked, and the use case for this as such was just to have certain things injected in our logs along with json formatted logging, and this worked very well for our use case.
 
 Add lograge in your `Gemfile`
 
@@ -69,7 +69,7 @@ gem 'lograge', '~> 0.11.2'
 ...
 ```
 
-and do a `$ bundle`
+and do a `$ bundle`, after which you need to add setup the configuration as followed
 
 ```ruby
 # config/environments/developement.rb
@@ -78,7 +78,6 @@ Rails.application.configure do
   config.lograge.enabled = true
   config.lograge.base_controller_class = ['ActionController::Base']
   config.lograge.custom_options = lambda do |event|
-    exceptions = %w(controller action format id)
     {
       request_time: Time.now,
       application: Rails.application.class.parent_name,
@@ -96,7 +95,7 @@ Rails.application.configure do
 end
 ```
 
-`config.lograge.base_controller_class = ['ActionController::Base']`, this assumes that each controller will be inheriting from `ActionController::Base`, you can include any other controller which doesn't inherit from Base
+`config.lograge.base_controller_class = ['ActionController::Base']`, this part assumes that each controller will be inheriting from `ActionController::Base`, you can include any other controller which doesn't inherit from the Base controller, in order for lograge to pick it up.
 
 along with 
 
@@ -129,9 +128,9 @@ and check the logs of your rails app
 {"level":"INFO","progname":null,"message":"{\"method\":\"GET\",\"path\":\"/ping\",\"format\":\"*/*\",\"controller\":\"HealthCheckController\",\"action\":\"ping\",\"status\":200,\"duration\":8.36,\"view\":0.22,\"db\":0.0,\"request_time\":\"2020-07-07 16:10:17 +0530\",\"application\":\"MyApplication\",\"process_id\":7869,\"params\":\"{}\",\"rails_env\":\"development\",\"request_id\":\"4967a677-ab86-4a10-8a01-ea520951cf46\"}"}
 ```
 
-Now the whole log line captures a lot of metadata so that you can debug for each log line, you can also notic that one of keys present in the log line is the `request_id` present, in this way, what is happening is, you have a unique trace id for for your particular request, which you can do a full text search on your logging platform for to trace the whole flow. 
+Now the whole log line captures a lot of metadata so that you can debug for each log line, you can also notice that one of the keys present in the log line is the `request_id` present, in this way, what is happening is, you have a unique trace id for your particular request, which you can do a full text search on your logging platform, if it supports it.
 
-To extend this further, what one can do is capture the `request_id`, and pass it along the controller's flow, to capture it, you can simply do a `request.request_id` if you are doing a `Rails.logger.{info|debug}` you can use to log certain things, when you are logging, you can also log the request-id captured, this way, the request_id's generated would now also be propagated to the custom logs which you would be adding to your application. 
+To extend this further, what one can do is capture the `request_id`, and pass it along the each controller's flow, to capture it, you can simply do a `request.request_id`. Not that you have the `request_id`, if you are doing a `Rails.logger.{info|debug}` you can use it to log the `request_id`, this way, the request_id's generated would now also be propagated to the custom logs which you would be adding to your application. The biggest advantage is, now you can add this `request_id` to each and `Rails.logger.{info|bdebug}` every core flow, which would be logged now, what this gives you is, you can just put the request_id in your search param in your logging platform, and it will give you all the logs which has this key in it.
 
 You would also be able to capture additional information like host, remote_ip, ip of the rails app servicing it. by simply doing `request.host`, `request.remote_ip`, `request.ip`, `request.request_id`
 
@@ -160,6 +159,8 @@ class LogFormatter < ::Logger::Formatter
   end
 end
 ```
+
+initialize it in the application config (development here in this case for this example)
 
 ```ruby
 # config/environments/developement.rb
