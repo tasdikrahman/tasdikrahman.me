@@ -175,7 +175,7 @@ and just to test the above out
 # app/controllers/health_check_controller.rb
 class HealthCheckController < ActionController::Base
   def ping
-    Rails.logger.info("bazbar")
+    Rails.logger.info("bazbar, request-id: #{request.request_id}")
     render json: { success: true, errors: nil, data: 'pong' }, status: :ok
   end
 end
@@ -184,7 +184,7 @@ end
 ## How will my logs look like after this? 
 
 ```
-{"level":"INFO","progname":null,"message":"bazbar"}
+{"level":"INFO","progname":null,"message":"bazbar, request_id: 4967a677-ab86-4a10-8a01-ea520951cqw3"}
 {"level":"INFO","progname":null,"message":"{\"method\":\"GET\",\"path\":\"/ping\",\"format\":\"*/*\",\"controller\":\"HealthCheckController\",\"action\":\"ping\",\"status\":200,\"duration\":8.36,\"view\":0.22,\"db\":0.0,\"request_time\":\"2020-07-07 16:10:17 +0530\",\"application\":\"MyApplication\",\"process_id\":7869,\"params\":\"{}\",\"rails_env\":\"development\",\"request_id\":\"4967a677-ab86-4a10-8a01-ea520951cqw3\"}"}
 ```
 
