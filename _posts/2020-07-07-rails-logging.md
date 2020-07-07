@@ -10,6 +10,10 @@ cover_image: '/content/images/2020/07/rails_logging.png'
 
 If you are on rails, you would have noticed that the rails logs which you get by default are quite verbose and spread across multiple lines, even if the context is of processing just one simple controller action.
 
+What I will discuss in this post is how can sanitize the logs, without losing out on information along with how you can add additional information for your log lines to make full use of the querying features of your logging platform.
+
+What is not in scope of this blog is setting up the mechanism to push the logs from your rails app to your respective logging platform.
+
 Let's take the example of a simple health check controller which you would add to just make the health check pass for your rails app deployed on kubernetes
 
 ```ruby
