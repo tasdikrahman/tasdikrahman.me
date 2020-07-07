@@ -40,7 +40,7 @@ A simple route for the `GET` verb, to call the `#ping` action in the `HealthChec
 ```ruby
 # config/routes.rb
 Rails.application.routes.draw do
-    get '/ping', to: 'health_check#ping
+    get '/ping', to: 'health_check#ping'
 end
 ```
 
