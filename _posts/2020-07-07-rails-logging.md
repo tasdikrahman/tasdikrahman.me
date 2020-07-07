@@ -192,6 +192,15 @@ end
 {"level":"INFO","progname":null,"message":"{\"method\":\"GET\",\"path\":\"/ping\",\"format\":\"*/*\",\"controller\":\"HealthCheckController\",\"action\":\"ping\",\"status\":200,\"duration\":8.36,\"view\":0.22,\"db\":0.0,\"request_time\":\"2020-07-07 16:10:17 +0530\",\"application\":\"MyApplication\",\"process_id\":7869,\"params\":\"{}\",\"rails_env\":\"development\",\"request_id\":\"4967a677-ab86-4a10-8a01-ea520951cqw3\"}"}
 ```
 
+As you can see, the logs from both
+- the controller logs which lograge is showing
+- the `Rails.logger.info` is spitting
+
+are having
+
+- logs in json format
+- log line has the `request_id` appended to it in the message key
+
 That's all folks
 
 ## References
@@ -205,4 +214,4 @@ That's all folks
 
 ## Credits
 
-- Image credits [https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/](https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/) and [https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/](https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/)
+- Image credits [https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/](https://pixabay.com/photos/logs-timber-wood-logging-lumber-690888/) and [https://en.wikipedia.org/wiki/Ruby_on_Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails)
