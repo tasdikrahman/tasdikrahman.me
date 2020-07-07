@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Rails logging"
-description: "Rails logging"
+title: "Structured logging in Rails"
+description: "Structured logging in Rails"
 tags: [rubyonrails, logging]
 comments: true
 share: true
