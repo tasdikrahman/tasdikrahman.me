@@ -72,7 +72,7 @@ ssl:
   name: ssl
 istio:
   name: istio
-rails:
-  name: rails
+rubyonrails:
+  name: rubyonrails
 logging:
   name: logging

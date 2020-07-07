@@ -2,7 +2,7 @@
 layout: post
 title: "Rails logging"
 description: "Rails logging"
-tags: [rails, logging]
+tags: [rubyonrails, logging]
 comments: true
 share: true
 cover_image: '/content/images/2020/07/rails_logging.png'
