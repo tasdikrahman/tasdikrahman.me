@@ -2,7 +2,7 @@
 layout: post
 title: "Structured logging in Rails"
 description: "Structured logging in Rails"
-tags: [rubyonrails, logging]
+tags: [ruby, rubyonrails, logging]
 comments: true
 share: true
 cover_image: '/content/images/2020/07/rails_logging.png'

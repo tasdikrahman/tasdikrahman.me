@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing Kingsly — The Cert Manager"
 description: "How an internal hackathon project led to the creation of GOJEK’s open-source certificate management tool"
-tags: [security, x509, devops, ruby, letsencrypt, oss]
+tags: [security, x509, devops, ruby, rubyonrails, letsencrypt, oss]
 comments: true
 share: true
 cover_image: '/content/images/2020/04/kingsly_header.jpeg'
