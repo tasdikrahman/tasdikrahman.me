@@ -15,7 +15,7 @@ A list of talks given by me, can be found [here](https://tasdikrahman.me/speakin
 
 #### Present
 
-Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.gojek.com/). I occasionally write about what we are working on over at [medium](https://blog.gojekengineering.com/@tasdik.rahman).
+Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.gojek.io/). I occasionally write about what we are working on over at [medium](https://blog.gojekengineering.com/@tasdik.rahman).
 
 #### Formerly
 
