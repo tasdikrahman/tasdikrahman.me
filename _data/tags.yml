@@ -12,10 +12,14 @@ cgi:
   name: cgi
 conferences:
   name: conferences
+databases:
+  name: databases
 devops:
   name: devops
 docker:
   name: docker
+etcd:
+  name: etcd
 gamedevelopment:
   name: gamedevelopment
 gsoc:
@@ -24,12 +28,24 @@ gui:
   name: gui
 hadoop:
   name: hadoop
+istio:
+  name: istio
 kubernetes:
   name: kubernetes
+letsencrypt:
+  name: letsencrypt
+logging:
+  name: logging
+monitoring:
+  name: monitoring
+oop:
+  name: oop
 oracle11g:
   name: oracle11g
 oss:
   name: oss
+prometheus:
+  name: prometheus
 pygame:
   name: pygame
 python:
@@ -38,8 +54,18 @@ robotics:
   name: robotics
 ros:
   name: ros
+ruby:
+  name: ruby
+rubyonrails:
+  name: rubyonrails
+security:
+  name: security
 sql:
   name: sql
+ssl:
+  name: ssl
+systemdesign:
+  name: systemdesign
 tdd:
   name: tdd
 testing:
@@ -48,31 +74,5 @@ travel:
   name: travel
 ubuntu:
   name: ubuntu
-monitoring:
-  name: monitoring
-prometheus:
-  name: prometheus
-oop:
-  name: oop
-systemdesign:
-  name: systemdesign
-ruby:
-  name: ruby
-security:
-  name: security
-letsencrypt:
-  name: letsencrypt
 x509:
   name: x509
-databases:
-  name: databases
-etcd:
-  name: etcd
-ssl:
-  name: ssl
-istio:
-  name: istio
-rubyonrails:
-  name: rubyonrails
-logging:
-  name: logging
