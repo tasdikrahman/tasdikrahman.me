@@ -166,3 +166,7 @@ So if you really have the liberty, a managed solution is the way to go, take thi
 - [https://tasdikrahman.me/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/](https://tasdikrahman.me/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/)
 - [https://kubernetes.io/docs/concepts/workloads/pods/disruptions/](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
 - [https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
+
+## Credits
+
+- Image credits to [wikipedia](https://en.m.wikipedia.org/wiki/File:Chrome_Vanadium_Adjustable_Wrench.jpg) and [kubernetesio](https://kubernetes.io)
