@@ -184,6 +184,8 @@ As of now, the operations like
 - reenabling surge upgrages/autoscaling
 - setting maintenance window and release channel if already not set
 
+All the above being done via the CLI.
+
 The next parts would be to automate the sequence in which these operations are done and codify the learnings and edge cases to the tool.
 
 ## Ending notes
