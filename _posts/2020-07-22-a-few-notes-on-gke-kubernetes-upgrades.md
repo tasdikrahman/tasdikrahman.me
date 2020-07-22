@@ -188,6 +188,14 @@ All the above being done via the CLI.
 
 The next parts would be to automate the sequence in which these operations are done and codify the learnings and edge cases to the tool.
 
+This is a bit mundane, no doubt. But this laundry has to be done, there's no running away from it. Until one has automated the whole/major chunk of it, what we are currently doing in our team is to rotate people around doing cluster upgrades.
+
+One person gets added to the roster, while there is a person who is already in the roster from the last week who will drive the upgrade for the week, also while giving context to the person who has just joined.
+
+This helps in quick context sharing as well as the person who has just joined, they get to upgrade the clusters by following the playbooks, hence filling the gaps as we go forward.
+
+The important part is that, you always come out of the week, with something improved, some automation added, some docs added. While also allocating dev time for automation explicitly in your sprint.
+
 ## Ending notes
 
 All in all, GKE really has a stable base which in turn allows us to focus more on building the platform on top of it rather than managing the underlying system and improve the developer productivity by building out tooling on top of the primitives k8s gives you.
