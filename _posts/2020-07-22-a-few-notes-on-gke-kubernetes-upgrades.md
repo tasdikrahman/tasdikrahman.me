@@ -145,6 +145,46 @@ One thing to note here is that, if you are using [PodDisruptionBudget(PDB)](http
 
 For [statefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/), you might have to take a small dowtime while you are upgrading, as the pods on which the stateful set is scheduled, that gets bumped out, the pvc claim will again be made by another pod, when it gets scheduled on the other node. 
 
+## But Tasdik these steps of upgrade are so mundane
+
+Agreed, it is mundane, but there's nothing stopping anyone from having a tool do these things for you, have a look at [eks-rolling-update](https://github.com/hellofresh/eks-rolling-update), GKE is way easier if you look at it. Which makes fewer touch points and cases where things can go wrong
+
+- one being the pdb budget being the showstopper for your upgade if you don't pay attention
+- replicas being 1 or so for services
+- quite a few replicas being in pending or crashloopbackoff
+- statefulsets being an exception and needing to handholded.
+
+For most of the above, you can initially start with having a fixed process (playbook) which one needs to follow and run through for each cluster whenever you are upgrading, so even though if the task is mundane, one knows which checks to follow and what to do to check the sanity of the cluster after the upgrade is done.
+
+Replicas being set to 1 is just being plain naive, let your deployment tool have sane defaults of having replicas of 3 for minimum (3 zones in 1 region assuming you have podantiaffinity and a best case effort gets logged by the scheduler)
+
+For the pods being in pending state, it means, you either are trying to request cpu/memory which is not available in any of the nodes present in the node pools, which again means, you are either not sizing your pods correctly, or there are a few deployments which are hogging resources, either way, it's a smell that you are not having enough visibility into your cluster. 
+
+For statefulsets, I don't think you can prevent not taking a downtime. So that's there. 
+
+Once you have rinsed and repeated these steps above, you can very well start with automating a few things. 
+
+## What we have automated
+
+We have automated the part, where the whole analysis of what pods are running in the cluster, we extract this information out in an excel sheet. Information like
+- replicas of the pods
+- age of the pod
+- status of the pods
+- which pods are in pending/crashloopbackoff
+- node cpu/mem utilization
+
+The same script handles inserting the team ownership details of the service, by querying our service registry and storing that info.
+
+So all of the above details, at your tips, by just running the script in your command line and switching context to your clusters context.
+
+As of now, the operations like
+- upgrading the master nodes to a certain version
+- disabling surge upgrades/autoscaling the nodes
+- upgading the node pool(s)
+- reenabling surge upgrages/autoscaling
+- setting maintenance window and release channel if already not set
+
+The next parts would be to automate the sequence in which these operations are done and codify the learnings and edge cases to the tool.
 
 ## Ending notes
 
