@@ -139,8 +139,8 @@ Distribution across zones will make your service resilient to zonal failures, th
 
 In case the service which has only 1 replica, and it is scheduled on the node which is set for upgrade by GKE, whilst the scheduler tries finding itself a new node, there would be no other pod which is serving requests, which would cause a temporary downtime in this case
 
-One thing to note here is that, if you are using [PodDisruptionBudget(PDB)](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/), and if your running replicas are the same as the maxAvailable specified in the PDB rule, the upgade will just not happen, this is because of the fact that the node will not be able to drain the pod(s), as it respects the PDB budget in this case, hence you have to either
-- increase the pods such that the running pods are > maxAvailable specified in your PDB
+One thing to note here is that, if you are using [PodDisruptionBudget(PDB)](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/), and if your running replicas are the same as the minAvailable specified in the PDB rule, the upgade will just not happen, this is because of the fact that the node will not be able to drain the pod(s), as it respects the PDB budget in this case, hence you have to either
+- increase the pods such that the running pods are > minAvailable specified in your PDB
 - remove the PDB rule specified.
 
 For [statefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/), you might have to take a small dowtime while you are upgrading, as the pods on which the stateful set is scheduled, that gets bumped out, the pvc claim will again be made by another pod, when it gets scheduled on the other node.
