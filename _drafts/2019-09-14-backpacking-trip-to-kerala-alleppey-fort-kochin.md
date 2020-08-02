@@ -36,9 +36,9 @@ I love how zostels have always ended up placing their hostels at some really gor
 
 <center><img src="/content/images/2020/07/kerala-blog-1.jpg"></center>
 
-Another early bird was [Sameeksha](https://khatiwarasamiksha.wordpress.com/), who had arrived maybe a day or two earlier than us to the zostel and we ended up striking a conversation with her and our host about the things which we had planned on doing.
+Another early bird was [Samiksha](https://khatiwarasamiksha.wordpress.com/), who had arrived maybe a day or two earlier than us to the zostel and we ended up striking a conversation with her and our host about the things which we had planned on doing.
 
-As [Anirudh](https://twitter.com/anirudh2403) had bailed out the last minute of the whole thing, we had an extra ticket spare with us for the Nehru tropy, which Sameeksha was ready to grab as we were laying down our plan for the day, to her.
+As [Anirudh](https://twitter.com/anirudh2403) had bailed out the last minute of the whole thing, we had an extra ticket spare with us for the Nehru tropy, which samiksha was ready to grab as we were laying down our plan for the day, to her.
 
 After dilly dallying for a bit on whether to have breakfast right now or later, we went ahead with skipping it till we reached the venue as we heard from our host that the whole thing gets very crowded and the seats are assigned on a first come first serve basis, which made us not risk getting a distant seat in the stands.
 
@@ -66,7 +66,7 @@ We left at around lunch time as we passed the crowd off through the main gates, 
 
 And the stubbornness to eat something authentic was really an itch we add had, so off we went in an aimless search for something which was cheap as well as something which was local.
 
-We landed up at [Subash Hotel](https://goo.gl/maps/spHQSjxY2AqXUTzs6), not very far off from where we started searching for a hotel. And luck behold, it was also co-incidentally a [Toddy](https://en.wikipedia.org/wiki/Palm_wine) (palm wine) shop. The host seeing all three of us a bit uncomfortable at first as we had Sameeksha with us, told us not to worry at all by showing us around the kitchen and his family who were helping him run the shop. The sight was a delightful one, where we could see freshly made tapioca, fried fish chips and of course toddy. We ended up settling down in one corner of the restaurant and out host helped us order a bit of everything which we saw in the kitchen. Me and Deepak didn't have the Toddy, but Sameeksha managed to gulp down the whole Toddy bottle to herself. Our host sheepishly had a look at both me and Deepak as smiled at Sameeksha when both our glasses were empty and she was drinking straight out of the jar.
+We landed up at [Subash Hotel](https://goo.gl/maps/spHQSjxY2AqXUTzs6), not very far off from where we started searching for a hotel. And luck behold, it was also co-incidentally a [Toddy](https://en.wikipedia.org/wiki/Palm_wine) (palm wine) shop. The host seeing all three of us a bit uncomfortable at first as we had samiksha with us, told us not to worry at all by showing us around the kitchen and his family who were helping him run the shop. The sight was a delightful one, where we could see freshly made tapioca, fried fish chips and of course toddy. We ended up settling down in one corner of the restaurant and out host helped us order a bit of everything which we saw in the kitchen. Me and Deepak didn't have the Toddy, but samiksha managed to gulp down the whole Toddy bottle to herself. Our host sheepishly had a look at both me and Deepak as smiled at samiksha when both our glasses were empty and she was drinking straight out of the jar.
 
 <center><img src="/content/images/2020/07/kerala-blog-5.jpg"></center>
 
@@ -74,5 +74,11 @@ The road adjacent to the shop was also having a small canal running beside it, w
 
 <center><img src="/content/images/2020/07/kerala-blog-6.jpg"></center>
 
-We ended up taking a rick back to our hostel as our legs had given up after all the
+We ended up taking a rick back to our hostel as our legs had given up after all the running around since morning. As we zoomed past the roads, we also crossed the Alleppey beach light house, which has been since the time of erstwhile Travancore, before India's independence. Alleppey light house catered to one of the busiest ports and trade centers in the southern coast, after the arrival of the dutch, portuguese and english traders.
+
+Looking at this beauty, we got off at the light house as our hostel was not too far off, to look at the sun set from right next to the beach.
+
+<center><img src="/content/images/2020/07/kerala-blog-7.jpg"></center>
+
+The beach was not very crowded and we ended up taking a small place right next to the pillars. Pillars? Yes, pillars. Or what was left off them. If you're wondering what these pillars were doing here, my best guess would be that these were the remnants of the port where ships used to dock and load/unload the cargo. While the watchful lighthouse, gazed over
 
