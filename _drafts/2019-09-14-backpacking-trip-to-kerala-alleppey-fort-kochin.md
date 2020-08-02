@@ -90,7 +90,20 @@ The pillars had rust from all the years of standing still, getting beat down by 
 
 We stayed around till the the sun set and all we that would guide us back were the shining stars above us, the hostel was barely a few hundred meters and off we went trodding down the beach with the occaional dog running around us.
 
-Dog tired as we went back to our rooms, crashing back into our beds after taking a shower and quickly falling asleep.
+Dog tired as we went back to our rooms, crashing back into our beds after taking a shower and quickly falling asleep. This marked the end of the first day for me and Deepak in Alleppey.
+
+Me and Deepak had planned on visiting the beach early in the morning and that's what we did after we woke up, we wore our sandals and off we went to just walk on the beach as the waves splashed onto the shore, taking back a bit of it with each visit it made.
+
+<center><img src="/content/images/2020/07/kerala-blog-9.jpg"></center>
+
+The boats were parked in at the shores for the fisherman after they had come back from their hunt into the sea and the boats awaiter their masters as they stood there, their nose facing the sea, getting ready for their next shift.
+
+While walking around, we encoutered bunch of puppies cuddled together to keep themselves warm with the perennial breeze of the sea. On coming closer, they all ran towards their mother who was probably in search of some food.
+
+Which also reminded that we need to get some breakfast too! I didn't order myself much, a sandwich and an omletter along with a serving of watermelon was all I had for breakfast as I was too occupied with planning on what we were going to do during the course of the day and as usual of me, we always made the plans on wwhich place to visit and what to do on the go. But not to digress, it has always been alright whenever I did so, which is why I wasn't too worried, as long as we didn't sit inside our rooms and not do anything.
+
+Bugging our host on things to do, we managed to land ourselves a scooter for hire for the whole day. The catch was that Samiksha was to also accompany us along for the day, which would mean that either we had to land another scooter for rent from our host. Unlickily, the last scooter had been taken, even if we got another scooter for ourselves as only Deepak amongst all three of us had an actual license for a 2 wheeler. I know, I know. But I do have one now. But not to digress, this meant that we had to do a tripple seater pillion ride wherever we were going.
 
 
 
+Trust me it was really uncomfortable for the whole journey, but we really had a lot
