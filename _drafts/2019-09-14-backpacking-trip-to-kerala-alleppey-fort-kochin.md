@@ -80,5 +80,17 @@ Looking at this beauty, we got off at the light house as our hostel was not too 
 
 <center><img src="/content/images/2020/07/kerala-blog-7.jpg"></center>
 
-The beach was not very crowded and we ended up taking a small place right next to the pillars. Pillars? Yes, pillars. Or what was left off them. If you're wondering what these pillars were doing here, my best guess would be that these were the remnants of the port where ships used to dock and load/unload the cargo. While the watchful lighthouse, gazed over
+The beach was not very crowded and we ended up taking a small place right next to the pillars. Pillars? Yes, pillars. Or what was left off them. If you're wondering what these pillars were doing here, my best guess would be that these were the remnants of the port where ships used to dock and load/unload the cargo. While the watchful lighthouse, gazed over all of us spraying light over the horizon as it moved it's shower in circles.
+
+We didn't waste time in removing our shoes, keeping our socks aside and feeling the sand on our toes, the waves gushing in seaweed into our feet and us trying to keep up with not tumbling over into the sea by the shear strenght of the water gushing towards to us.
+
+<center><img src="/content/images/2020/07/kerala-blog-8.jpg"></center>
+
+The pillars had rust from all the years of standing still, getting beat down by the waves and all saline water treating it all day long. Wild moss growing along it's body, it almost felt like it was at this point part of the sea and an extension to it and not something mankind had put there.
+
+We stayed around till the the sun set and all we that would guide us back were the shining stars above us, the hostel was barely a few hundred meters and off we went trodding down the beach with the occaional dog running around us.
+
+Dog tired as we went back to our rooms, crashing back into our beds after taking a shower and quickly falling asleep.
+
+
 
