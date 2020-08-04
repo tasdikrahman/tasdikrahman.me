@@ -5,7 +5,7 @@ description: "Structured logging in Rails"
 tags: [ruby, rubyonrails, logging]
 comments: true
 share: true
-cover_image: '/content/images/2020/07/rails_logging.png'
+cover_image: '/content/images/2020/07/rails_logging.jpeg'
 ---
 
 > This post was originally published in [Gojeks engineering blog, here](https://blog.gojekengineering.com/structured-logging-in-rails-75e9a8c5370b), this post is a cross post of the same
@@ -55,7 +55,7 @@ This is what the logs would look like for the route `ping`
 [my-app-fbf8d7bfc-wk5cd] I, [2020-07-01T07:19:05.292363 #1]  INFO -- : [86332306-62e4-412e-a690-eee8253ab1c8] Processing by HealthCheckController#ping as HTML
 ```
 
-You can notice a few things here, 
+You can notice a few things here,
 
 - the logs are spread over multiple lines, adding to the difficulty in debugging the whole request/response flow.
     - given you would be pushing to your logging platform, let's say EFK, which would allow you to do full text search, the configuration to have the request-id for each log would come handy. A little better than not having anything at all. (Have a look at [baritolog](https://github.com/BaritoLog) if you haven't, our in house ELK platform)
@@ -103,7 +103,7 @@ end
 
 `config.lograge.base_controller_class = ['ActionController::Base']`, this part assumes that each controller will be inheriting from `ActionController::Base`, you can include any other controller which doesn't inherit from the Base controller, in order for lograge to pick it up.
 
-along with 
+along with
 
 ```ruby
 class ApplicationController < ActionController::Base
@@ -121,7 +121,7 @@ end
 now if you do a
 
 ```
-$ curl -I localhost:3000/ping | grep -i "request"                                                                                               
+$ curl -I localhost:3000/ping | grep -i "request"
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
@@ -142,13 +142,13 @@ You would also be able to capture additional information like host, remote_ip, i
 
 ### Why not use lograge for even the custom logger?
 
-Lograge doesn't support [this](https://github.com/roidrage/lograge/issues/136). 
+Lograge doesn't support [this](https://github.com/roidrage/lograge/issues/136).
 
 ### What should I do now to add structured logging for my custom logs
 
-You can add a custom logger for your application and initialize it in your application config for the environments wherever you want it. 
+You can add a custom logger for your application and initialize it in your application config for the environments wherever you want it.
 
-only thing you need to add is 
+only thing you need to add is
 
 ```ruby
 # app/logger/log_formatter.rb
@@ -187,7 +187,7 @@ class HealthCheckController < ActionController::Base
 end
 ```
 
-## How will my logs look like after this? 
+## How will my logs look like after this?
 
 ```
 {"level":"INFO","progname":null,"message":"bazbar, request_id: 4967a677-ab86-4a10-8a01-ea520951cqw3"}
