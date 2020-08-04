@@ -102,8 +102,20 @@ While walking around, we encoutered bunch of puppies cuddled together to keep th
 
 Which also reminded that we need to get some breakfast too! I didn't order myself much, a sandwich and an omletter along with a serving of watermelon was all I had for breakfast as I was too occupied with planning on what we were going to do during the course of the day and as usual of me, we always made the plans on wwhich place to visit and what to do on the go. But not to digress, it has always been alright whenever I did so, which is why I wasn't too worried, as long as we didn't sit inside our rooms and not do anything.
 
-Bugging our host on things to do, we managed to land ourselves a scooter for hire for the whole day. The catch was that Samiksha was to also accompany us along for the day, which would mean that either we had to land another scooter for rent from our host. Unlickily, the last scooter had been taken, even if we got another scooter for ourselves as only Deepak amongst all three of us had an actual license for a 2 wheeler. I know, I know. But I do have one now. But not to digress, this meant that we had to do a tripple seater pillion ride wherever we were going.
+Bugging our host on things to do, we managed to land ourselves a scooter for hire for the whole day. The catch was that Samiksha was to also accompany us along for the day, which would mean that either we had to land another scooter for rent from our host. Unluckily, the last scooter had been taken, but even if we got another scooter for ourselves, only Deepak amongst all three of us had an actual license for a 2 wheeler, hence even getting that extra scooter was not something which we could have had made much use. I know, I know. But I do have a license now. But not to digress, this meant that we had to do a tripple seater pillion ride wherever we were going.
 
+And that's what we did, not very proud of it. But Deepak driving and both me and Samiksha, huddling together in the back with our raincoats, holding an umbrella, cutting through the wind, trying to save us all from getting more wet, off we went into towards the Coir museum, which was good ~8kms from our hostel. Luckily, it was a straight road and we covered the distance after a bit zooming around, trying to maintain our balance and not let the wind take away the umbrella.
 
+<center><img src="/content/images/2020/07/kerala-blog-10.jpg"></center>
+
+The proctor of the hall was also kind enough to answer our questions about who used to work here and how many people would be working here on average on such machines. She also mentioned that the govt had incentivised studying coir courses and setup hostels for folks to come and learn the art while earning a small stipiend too which I felt was really helpful to attract more people to take this up while also sustaining themselves from the stipend money.
+
+I had only heard about coir beds until that point, but I had no clue that one could do so many things using coir. We saw, actual beds, boats, houses, umbrellas, wall art, carpets, eco-friendly plant beds and what not. All of this being made from cocunut being the raw material.
+
+Traditionaly coir was spun by bare hands, by simply twisting fibres between the palms of the hands, the introduction of ratts(spinning wheels) in the 19th century, significantly increased the productivity.
+
+During the mid 18th century, a few europians with experience with jute products in Bengal, arrived in Alappuzha with two Bengali technicians to explore the prospects of the Coir yarn, on seeing their success, a lot of other industrialists set up their shops there. The establishment of such organised coir production facilities helped Alleppey become the unchallenged Coir Capital of the world.
+
+The next stop was Marari beach, which was an odd ~7-8kms from the place which we were at.
 
 Trust me it was really uncomfortable for the whole journey, but we really had a lot
