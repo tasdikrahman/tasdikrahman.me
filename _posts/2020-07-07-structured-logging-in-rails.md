@@ -58,7 +58,7 @@ This is what the logs would look like for the route `ping`
 You can notice a few things here,
 
 - the logs are spread over multiple lines, adding to the difficulty in debugging the whole request/response flow.
-    - given you would be pushing to your logging platform, let's say EFK, which would allow you to do full text search, the configuration to have the request-id for each log would come handy. A little better than not having anything at all. (Have a look at [baritolog](https://github.com/BaritoLog) if you haven't, our in house ELK platform)
+    - given you would be pushing to your logging platform, let's say EFK, which would allow you to do full text search, the configuration to have the request-id for each log would come handy. A little better than not having anything at all. (Have a look at [baritolog](https://github.com/BaritoLog) if you haven't, our in house EFK platform)
     - if you are not pushing to any logging platform, then you would be debugging this by tailing the logs of the rails app somewhere, if deployed to kubernetes, doing a [kubetail](https://github.com/johanhaleby/kubetail) or if on VMs, sitting inside the VM and then tailing the logs of each and every application server instance. But then the first step here would be to obviously have centralized logging.
 - extremely verbose, hindering debugging, if you don't have that already.
 - no clear way to parse the logs as the logs format are non-standard (if you hadn't added `config.log_tags = [:request_id]` which is not present by default)
