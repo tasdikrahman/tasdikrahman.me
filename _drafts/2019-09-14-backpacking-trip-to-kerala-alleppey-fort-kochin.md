@@ -116,6 +116,26 @@ Traditionaly coir was spun by bare hands, by simply twisting fibres between the 
 
 During the mid 18th century, a few europians with experience with jute products in Bengal, arrived in Alappuzha with two Bengali technicians to explore the prospects of the Coir yarn, on seeing their success, a lot of other industrialists set up their shops there. The establishment of such organised coir production facilities helped Alleppey become the unchallenged Coir Capital of the world.
 
-The next stop was Marari beach, which was an odd ~7-8kms from the place which we were at.
+The next stop was Marari beach, which was an odd ~7-8kms from the place which we were at. We could have gone with the usual way, which is the highway, but since we were doing a tripsy, we didn't wanna take the risk of getting a ticket for this. Plus, what's the fun on taking the highway when we had the alternative of going via the country side.
+
+And this was probably one of the best decisions of the whole day. The roads were certainly very narrow at places, but the plus side of the whole thing was the fact that we could see everyone doing about their daily lives and us being the witness for it. Coir as we saw, was a huge industry, we saw a bunch of godowns which were operating out of small/mid-sized houses which from where they would probably process the fibre obtained from coconuts. The houses were built in a distinct style, where one could see the porch and the borders of the roof having a certain angle, which is very common to places where there is heavy rainfall, the columns were made of wooden, shaped like a cylinder, with the midriff being a bit broader from both the ends. And the verandah would usually be huge.
+
+There came a point in the middle of all this, where we had to cross a huge puddle of water. Imagine 3 people holding to each other, trying to cross this puddle and not fall into it at the same time. Poor Deepak had to balance the scooter as well as both me and Samiksha, while we both were laughing it out while the poor chap took us across.
+
+<center><img src="/content/images/2020/07/kerala-blog-11.jpg"></center>
+
+After circling around the beach for a bit (thanks to us for putting the wrong landmark), we finally reached the beach and it was serene. It has been the only beach, where I have actually noticed the sea cutting through land and delving inside the mainland. As the waves crashed on the shore, gnawing away at the shore, and taking parts and bits of whatever it could scavenge, inwards towards the mainland.
+
+It was quite the sight.
+
+<center><img src="/content/images/2020/07/kerala-blog-12.jpg"></center>
+
+The beach was luckily not that crowded when I reached there, plus also due to the fact that it was lunch time which added to the small number of people who were there.
+
+<center><img src="/content/images/2020/07/kerala-blog-13.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-14.jpg"></center>
 
 Trust me it was really uncomfortable for the whole journey, but we really had a lot
+
+
