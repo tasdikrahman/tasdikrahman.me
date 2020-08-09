@@ -144,4 +144,38 @@ The beach was luckily not that crowded when I reached there, plus also due to th
 
 <center><img src="/content/images/2020/07/kerala-blog-14.jpg"></center>
 
+After leaving Marari beach and it's sand on our toes with us, we ended up in a restaurant which was on the side of the road, which we found out out of the blue. The food was amazing, although it was also the case that we had not eaten anything properly since the morning plus us being famished by the time we had left Marari. But not to take away from the restaurants food, it was quite good. On that note, we also managed to clean our feet and remove all the sand which we had gathered on our toes in the washroom of the restaurant after we ate.
 
+### Kumarakoram
+
+As usual, we did not have a clue on what to do next. We were sort of split between going for a boat house in the backwaters or going to the bird sanctuary which Samiksha was mentioning. At the end we decided to do whatever was open by the time we would have reached the place.
+
+We took off on our scooty, to find someone who would be able to give us a quick boat ride. Yes, it was that random. We were literally scourging our way [Aryakara](https://goo.gl/maps/ypftTyRqLFJfwqoa8), trying to find for a party which would take us in their shelter, as it had also started drizzling quite hard. Imagine 3 people in an old beat down scooty, trying to just move around coast. This is when we stumbled upon a small narrow alley which was leading to the backwaters, we could also hazily see that there was a boat achored on the side and there were a few people standing there.
+
+It started raining heavily and we had to park the scooter and hastily make a run for the shed. What we had stumbled upon was a govt outpost for jetty's which would be used to transport people from one side to the other side of the backwater. We all looked at each other and decided, sure we can try this out, as it was not very far from the time when it would get dark, plus our search effort for a house boat was not leading us to anything special in particular, we decided to hop in into the next boat which was coming in, the fun part of it? We could also take our scooter inside with us as the trawler had provisions for it and so did the other few people who got in with us.
+
+The tickets were subsidised and if I recall correctly, they costed less than 50INR individually, along with our scooter, which is pretty cheap if you ask me relatively. The next stop was Kumarakoram. As the trawler drifted past the sea plants, the view was breathtaking!
+
+<center><img src="/content/images/2020/07/kerala-blog-15.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-16.jpg"></center>
+
+It must have been an odd 15-20mins by the time which we reached the coast of kumarakoram, the trawler took it's own sweet time to reach the last end spot where we were supposed to get down. We could see the distance we had traversed, it was only trees only the swamp on our sides which gave way to the backwaters, at the horizon where we could see the fine line of trees of Aryakara which we had left behind.
+
+<center><img src="/content/images/2020/07/kerala-blog-17.jpg"></center>
+
+On getting down from the boat and collecting our scooter, we headed straight to the small shops where we could see the owners of the houseboats, but sadly, the coversations were unweildy. We had already crossed the time until which they ply their services and they rightfully didn't budge on that. Dejected, we decided to head back to our parked scooter and decided that we would take the scooter back all the way to our hostel.
+
+Now we are talking about a good ~40kms give or take! In a scooter! While doing a trippsy!
+
+But we had already made up our minds and off we went. It was certainly not comfortable before. Add on top of the fact that we were literally doing this from the time the day had started and we had embarked on our little adventure.
+
+<center><img src="/content/images/2020/07/kerala-blog-18.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-19.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-20.jpg"></center>
+
+We crossed numerous boathouses, resorts, empty houses, fishermen coming back with their catch while on our way back our hostel. And when we finally reached, I just wanted to crash at my bed and even the hard cushion felt like an expensive high end mattress at the end of the day.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7z7F3QfI3MI" frameborder="0" allowfullscreen></iframe>
