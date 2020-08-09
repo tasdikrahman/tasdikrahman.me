@@ -190,3 +190,26 @@ I ended up singing while Samiksha did the strings, while Sakshi took was vloggin
 
 After all this, we went in search for a restaurant, at a time which I would easily consider quite late for given everything was more or less closed. On our way, we crossed a wedding ceremony, where we could see people dancing and being jolly. Now I have never done this before, but everyone more or less chimed in to agree upon us asking the folks inside if they had any food left! We literally ended up gatecrashing the thing and a few of us ended up dancing with the folks inside(Sakshi captures the same in her vlog)
 
+<center><img src="/content/images/2020/07/kerala-blog-21.jpg"></center>
+
+There was a lot of banter and tomfollery which followed when the younger folks saw us with cameras or maybe they were just really having fun in the absense of the elders there to control what they were doing, either way, we let them all be and went ahead in search of a restaurant which we did find at the end of the whole thing(Sakshi has captured this too in her blog, alright, I will not repeat this again.)
+
+We headed straight back to our hostel rooms and crashing for the night after the long day.
+
+I ended up waking early in the morning and waking Deepak along with me too, to just run around the beach and spend sometime there, which we both had been planning to do. The best early morning beach view that I have ever had. We got to see small crabs, trying to dig through the sand, make a run for the sea as soon as they saw us. And just about that time, it also started raining quite heavily, we did not have any gear to protect us from the rain, which made us run towards the shelter to get some respite from the rain, as we watched the fishermen come back with their days catch. It was just beautiful, seeing the clouds pour their hearts out, flooding the sidelines of the porch of where we were standing. One thing which really stood out was a pair of swimmers, in full gear, cutting past the sea, further away from the shore, swimming against the waves, with each wave hitting them, their skill and practice clearly showing up as they moved away farther and farther away from the shore and we lost sight of them the moment they crossed the iron columns of the poles which used to be the erstwhile dock.
+
+<center><img src="/content/images/2020/07/kerala-blog-22.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-23.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-24.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-25.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-26.jpg"></center>
+
+Did I forget to mention that, there was a local dog which had been accompanying us all the time since we had almost started from the hostel towards the light house?
+
+This dog also managed to take away my flip-flops and make me run after itself for a good distance before he gave them up back to me. While the intension was clear for the dog that it wanted to play early in the morning for this not so hostile human being which it found strolling around in the beach, it also managed to playfully bite (mouthing if you may) as we walked along the shore (more on this later.)
+
+
