@@ -50,6 +50,8 @@ Coming back to what we ate, I ordered some appam for myself, of which I repeated
 
 Filling out our tummies, gave us the energy to trod faster towards the venue and take our seats.
 
+### Nehru Trophy
+
 <center><img src="/content/images/2020/07/kerala-blog-2.jpg"></center>
 
 The atmosphere was electric to say the least, everyone cheering their own team, clear evidence of a few rivalries between a few teams, the sound of the vuvuzela echoing the stands, the vendors shuttling around, trying to keep up with the demands of the buyers, rain droplets hitting your countenance as you cheer for the rowers from each team as they row with the mission of winning. All of this happening in the middle of the majestic backwaters.
@@ -73,6 +75,8 @@ We landed up at [Subash Hotel](https://goo.gl/maps/spHQSjxY2AqXUTzs6), not very 
 The road adjacent to the shop was also having a small canal running beside it, which gradually merged into Kollam-Kottapuram waterway and wasn't it a sight to just look at the fresh green fields and the cocunut trees, we could see people occasionally drive(row) past us as we washed our hands after our fulfilling meal.
 
 <center><img src="/content/images/2020/07/kerala-blog-6.jpg"></center>
+
+### Alleppey Light house
 
 We ended up taking a rick back to our hostel as our legs had given up after all the running around since morning. As we zoomed past the roads, we also crossed the Alleppey beach light house, which has been since the time of erstwhile Travancore, before India's independence. Alleppey light house catered to one of the busiest ports and trade centers in the southern coast, after the arrival of the dutch, portuguese and english traders.
 
@@ -108,6 +112,8 @@ And that's what we did, not very proud of it. But Deepak driving and both me and
 
 <center><img src="/content/images/2020/07/kerala-blog-10.jpg"></center>
 
+### Alleppey Coir Musueum
+
 The proctor of the hall was also kind enough to answer our questions about who used to work here and how many people would be working here on average on such machines. She also mentioned that the govt had incentivised studying coir courses and setup hostels for folks to come and learn the art while earning a small stipiend too which I felt was really helpful to attract more people to take this up while also sustaining themselves from the stipend money.
 
 I had only heard about coir beds until that point, but I had no clue that one could do so many things using coir. We saw, actual beds, boats, houses, umbrellas, wall art, carpets, eco-friendly plant beds and what not. All of this being made from cocunut being the raw material.
@@ -115,6 +121,8 @@ I had only heard about coir beds until that point, but I had no clue that one co
 Traditionaly coir was spun by bare hands, by simply twisting fibres between the palms of the hands, the introduction of ratts(spinning wheels) in the 19th century, significantly increased the productivity.
 
 During the mid 18th century, a few europians with experience with jute products in Bengal, arrived in Alappuzha with two Bengali technicians to explore the prospects of the Coir yarn, on seeing their success, a lot of other industrialists set up their shops there. The establishment of such organised coir production facilities helped Alleppey become the unchallenged Coir Capital of the world.
+
+### Marari beach
 
 The next stop was Marari beach, which was an odd ~7-8kms from the place which we were at. We could have gone with the usual way, which is the highway, but since we were doing a tripsy, we didn't wanna take the risk of getting a ticket for this. Plus, what's the fun on taking the highway when we had the alternative of going via the country side.
 
@@ -135,7 +143,5 @@ The beach was luckily not that crowded when I reached there, plus also due to th
 <center><img src="/content/images/2020/07/kerala-blog-13.jpg"></center>
 
 <center><img src="/content/images/2020/07/kerala-blog-14.jpg"></center>
-
-Trust me it was really uncomfortable for the whole journey, but we really had a lot
 
 
