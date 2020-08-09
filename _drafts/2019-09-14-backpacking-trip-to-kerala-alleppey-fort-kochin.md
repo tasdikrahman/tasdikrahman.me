@@ -108,11 +108,11 @@ Which also reminded that we need to get some breakfast too! I didn't order mysel
 
 Bugging our host on things to do, we managed to land ourselves a scooter for hire for the whole day. The catch was that Samiksha was to also accompany us along for the day, which would mean that either we had to land another scooter for rent from our host. Unluckily, the last scooter had been taken, but even if we got another scooter for ourselves, only Deepak amongst all three of us had an actual license for a 2 wheeler, hence even getting that extra scooter was not something which we could have had made much use. I know, I know. But I do have a license now. But not to digress, this meant that we had to do a tripple seater pillion ride wherever we were going.
 
+### Alleppey Coir Musueum
+
 And that's what we did, not very proud of it. But Deepak driving and both me and Samiksha, huddling together in the back with our raincoats, holding an umbrella, cutting through the wind, trying to save us all from getting more wet, off we went into towards the Coir museum, which was good ~8kms from our hostel. Luckily, it was a straight road and we covered the distance after a bit zooming around, trying to maintain our balance and not let the wind take away the umbrella.
 
 <center><img src="/content/images/2020/07/kerala-blog-10.jpg"></center>
-
-### Alleppey Coir Musueum
 
 The proctor of the hall was also kind enough to answer our questions about who used to work here and how many people would be working here on average on such machines. She also mentioned that the govt had incentivised studying coir courses and setup hostels for folks to come and learn the art while earning a small stipiend too which I felt was really helpful to attract more people to take this up while also sustaining themselves from the stipend money.
 
@@ -178,4 +178,15 @@ But we had already made up our minds and off we went. It was certainly not comfo
 
 We crossed numerous boathouses, resorts, empty houses, fishermen coming back with their catch while on our way back our hostel. And when we finally reached, I just wanted to crash at my bed and even the hard cushion felt like an expensive high end mattress at the end of the day.
 
+Just when the grasp of slumber was closing in, hearing my own grumbling tummy woke me back up from what little sleep that I was about to get. After freshening up, I pulled Deepak too outside of his room to sit in the common room.
+
+It just so happened that a few folks ended up jamming together while we lazed away at the sidelines, our host and a few of his friends and some of the fellow hostelers
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7z7F3QfI3MI" frameborder="0" allowfullscreen></iframe>
+
+I ended up singing while Samiksha did the strings, while Sakshi took was vlogging her trip video. Thanks Sakshi for capturing this. Do give a watch to her original [video](https://www.youtube.com/watch?v=DbC14shIDxs) which I used to trim this part out.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KcUNtQGxEio" frameborder="0" allowfullscreen></iframe>
+
+After all this, we went in search for a restaurant, at a time which I would easily consider quite late for given everything was more or less closed. On our way, we crossed a wedding ceremony, where we could see people dancing and being jolly. Now I have never done this before, but everyone more or less chimed in to agree upon us asking the folks inside if they had any food left! We literally ended up gatecrashing the thing and a few of us ended up dancing with the folks inside(Sakshi captures the same in her vlog)
+
