@@ -12,7 +12,7 @@ This post is more of a continuation to this tweet
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A few notes on <a href="https://twitter.com/kubernetes?ref_src=twsrc%5Etfw">@kubernetes</a> cluster upgrades on GKE (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1285619368353726465?ref_src=twsrc%5Etfw">July 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you are running kubernetes on [GKE](https://cloud.google.com/kubernetes-engine), chances are that you are already doing some form of upgrades for your kubernetes clusters, given that their release cycle is quaterly, which means you will have a minor version bump every quarter in the upstream. That is really a high velocity for version releases, but that's not the focus of this post, the focus is on how you can attempt to keep up with this release cycle.
+If you are running kubernetes on [GKE](https://cloud.google.com/kubernetes-engine), chances are that you are already doing some form of upgrades for your kubernetes clusters, given that their release cycle is quarterly, which means you will have a minor version bump every quarter in the upstream. That is really a high velocity for version releases, but that's not the focus of this post, the focus is on how you can attempt to keep up with this release cycle.
 
 Quite a few things are GKE specific, but overall at the same time, there are also a lot of things which apply to in general any kubernetes cluster, whether self hosted or a managed one.
 
@@ -47,12 +47,12 @@ Although, in the case of regional clusters, I haven't personally seen any servic
 
 The reason for that is, the control plane needs to be upgraded first and then the rest of the worker nodes.
 
-When one is upgrading the the master nodes(you will not see the nodes in GKE, but this would be running somewhere as part of VMs/borg pods et al. whatever google is using as an abstraction), the workloads running on it like the controller-manager, scheduler, etcd, the api-server are the components which are getting upgraded to the version of k8s which you are setting it to.
+When one is upgrading the master nodes(you will not see the nodes in GKE, but this would be running somewhere as part of VMs/borg pods et al. whatever google is using as an abstraction), the workloads running on it like the controller-manager, scheduler, etcd, the api-server are the components which are getting upgraded to the version of k8s which you are setting it to.
 
 Master upgrades need to happen and then one can move on the worker node upgrades, the process of master node upgradation is very opaque in nature, as GKE manages the upgrade for you and not the cluster operator, which might not give you a lot of visibility on what exactly is happening. But nevertheless, if you just want to learn on what's happening inside, you can try [typhoon](https://github.com/poseidon/typhoon) and try upgrading the control plane of the cluster brought up using that, which I used to live upgrade the control plane of a self hosted k8s cluster in [devopsdays 2018 india's talk](https://www.youtube.com/watch?v=3WgqFoo9eek&feature=youtu.be).
 
 
-## GKE cluster master ugpraded, what next
+## GKE cluster master upgraded, what next
 
 The next obvious thing after you have done your GKE master node upgrade, is to upgrade your worker nodes, in the case of GKE, you would have node pools, which would in turn be having nodes being managed by the node pools.
 
@@ -207,7 +207,7 @@ All in all, GKE really has a stable base which in turn allows us to focus more o
 
 If you compare this to something like running your own k8s cluster on top of VMs, there is a massive overhead of managing/upgrading/replacing components/nodes of your self managed cluster which in itself does require dedicated folks to handhold the cluster at times.
 
-So if you really have the liberty, a managed solution is the way to go, take this from someone who has managed prod self hosted k8s clusters, and I will be honest, it's definitely not easy, and something which if you can should be delegated to focus on other problems
+So if you really have the liberty, a managed solution is the way to go, take this from someone who has managed prod self hosted k8s clusters, and I will be honest, it's definitely not easy, and something which if you can, should be delegated to focus on other problems
 
 ### References
 
