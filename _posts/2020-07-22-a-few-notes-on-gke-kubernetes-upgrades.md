@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A few notes on GKE kubernetes upgrade"
-description: "A few notes on GKE kubernetes upgrade"
+title: "A few notes on GKE kubernetes upgrades"
+description: "A few notes on GKE kubernetes upgrades"
 tags: [kubernetes, devops]
 comments: true
 share: true

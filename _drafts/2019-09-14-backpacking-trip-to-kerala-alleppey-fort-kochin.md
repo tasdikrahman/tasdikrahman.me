@@ -212,4 +212,6 @@ Did I forget to mention that, there was a local dog which had been accompanying 
 
 This dog also managed to take away my flip-flops and make me run after itself for a good distance before he gave them up back to me. While the intension was clear for the dog that it wanted to play early in the morning for this not so hostile human being which it found strolling around in the beach, it also managed to playfully bite (mouthing if you may) as we walked along the shore (more on this later.)
 
+Heading back to our hostel, we quickly took a shower and picked up our packed backpacks, heading for the train station.
 
+We hadn't eaten anything, which made us look for a decent place to fill our tummies, we did find a
