@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Backpacking trip to Kerala, Alleppey and Fort Kochi"
-description: "Backpacking trip to Kerala, Alleppey and Fort Kochi"
+title: "Backpacking trip to Alleppey and Kochi"
+description: "Backpacking trip to Alleppey and Kochi"
 tags: [backpacking, travel]
 comments: true
 share: true
