@@ -5,7 +5,7 @@ description: "Backpacking trip to Kerala, Alleppey and Fort Kochi"
 tags: [backpacking, travel]
 comments: true
 share: true
-cover_image: '/content/images/'
+cover_image: '/content/images/2020/07/kerala-blog-26.jpg'
 ---
 
 > I did this trip last year, in August 2019. Finishing this was long overdue.
