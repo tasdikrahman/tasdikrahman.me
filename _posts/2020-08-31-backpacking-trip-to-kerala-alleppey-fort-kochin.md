@@ -10,7 +10,7 @@ cover_image: '/content/images/2020/07/kerala-blog-26.jpg'
 
 > I did this trip last year, in August 2019. Finishing this was long overdue.
 
-Trying to follow up with the manager of [Khawa karko](https://www.tripadvisor.in/Restaurant_Review-g297628-d7925789-Reviews-Khawa_Karpo-Bengaluru_Bangalore_District_Karnataka.html) as Sushant and Rajat also finished their sharing of dinner which we were grabbing to call it a day. We all rushed as I grabbed my takeaway, to get a [rick](https://en.wikipedia.org/wiki/Rickshaw) to catch my bus which was due to leave in about 15mins or so.
+Trying to follow up with the manager of [Khawa karpo](https://www.tripadvisor.in/Restaurant_Review-g297628-d7925789-Reviews-Khawa_Karpo-Bengaluru_Bangalore_District_Karnataka.html) as Sushant and Rajat also finished their sharing of dinner which we were grabbing to call it a day. We all rushed as I grabbed my takeaway, to get a [rick](https://en.wikipedia.org/wiki/Rickshaw) to catch my bus which was due to leave in about 15mins or so.
 
 Didn't try bargaining too much and just went ahead with the exorbitant charge for the meagre ~1km which was to be traversed.
 
