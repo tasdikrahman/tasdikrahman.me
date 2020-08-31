@@ -262,4 +262,31 @@ As we all settled down the small but cozy auditorium, the crowd was tring to fin
 
 The whole thing was just breathtaking, right from the expressions, to the preparation, to the dexterity and experience of the performers which made it look so fflawless. All in all, this is a great way in which they are preserving their culture and also showcasing it to the people of other cultures.
 
+After this ended, I headed back to the hostel room, to finally give some rest to my feet, which was much required. Crashing on my bunk bed with the fan on top of my head, made me fall asleep for a good few hours, before being waken up by Deepak to head out for some dinner.
+
+The next day, after waking up, we hired a scooter for rent for the whole day, which we planned to make full use of before we left from kochi, and off we went to get some breakfast. Next stop was [Pepper house](https://www.tripadvisor.in/Restaurant_Review-g297633-d3738019-Reviews-Pepper_House_Cafe-Kochi_Cochin_Ernakulam_District_Kerala.html), which is one of the few old spice houses back from the time when these buildings were used for actually storing spices, no surprises here on what pepper house used to store.
+
+The view was lovely and the service was exemplery, although a bit pricey compared to other the eateries around, but would say definitely worth it.
+
+<center><img src="/content/images/2020/07/kerala-blog-37.jpg"></center>
+
+After checking out the local art gallery and library inside pepper house, we headed out for the narrow streets of Mattencherry, which was also very close to Jew Town. The roads are filled with a lot of antique shops which sell everything right from really old antiques, paintings and souvenirs to collectibles which have been created by the localites.
+
+<center><img src="/content/images/2020/07/kerala-blog-38.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-39.jpg"></center>
+
+The 16th century, Jewish Synagogue had a lot of rich culture and history associated with it, which was definitely fascinating. The best part of all this was the fact that, there were still a few local Jewish folks living around near the Synagogue.
+
+We visited the naval museum after this, which had a bunch of historical writings around the naval history of Kochi, we also stumbled upon an officer back from Bangalore who asked us to tell more about the Ulsoor lake and the ASC center not from from it, such a small world. The funny part is, we got so lost in all the readings that somehow we did not notice that the musuem was closing down(the host at the gate, did tell us that it was supposed to close down at 5pm, but well we didn't really keep track of time), and we almost got locked out inside the museum and had to literally rush back towards the entrance of the museum bunker (yes they have converted actual bunkers into musuems, how cool is that!)
+
+After this, we went decided to head back to our hostel rooms, but before that, we headed to get some early dinner in one of the restaurants around the art galleries, around near the fishing nets, we didn't fuss around too much and ate quickly, before heading back to drop off our scooter back to the garage from where we picked it up.
+
+Reaching our hostel, we packed our stuff, and bade goodbye to the host, after hopping onto our taxi to head back to ernakulam Junction from where our train back to Bangalore was supposed to leave, trivia about this ticket was that, both of our tickets got confirmed a day before our departure.
+
+Reaching bangalore early next morning, made us come back to our reality and realize that our trip was about to get/finally over.
+
+I have very fond memories of Kerala. It was a lovely trip and I had a lot of fun writing this.
+
+Until next time!
 
