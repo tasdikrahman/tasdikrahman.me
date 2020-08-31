@@ -210,8 +210,35 @@ I ended up waking early in the morning and waking Deepak along with me too, to j
 
 Did I forget to mention that, there was a local dog which had been accompanying us all the time since we had almost started from the hostel towards the light house?
 
-This dog also managed to take away my flip-flops and make me run after itself for a good distance before he gave them up back to me. While the intension was clear for the dog that it wanted to play early in the morning for this not so hostile human being which it found strolling around in the beach, it also managed to playfully bite (mouthing if you may) as we walked along the shore (more on this later.)
+This dog also managed to take away my flip-flops and make me run after itself for a good distance before he gave them up back to me. While the intension was clear for the dog that it wanted to play early in the morning for this, not so hostile human being which it found strolling around in the beach, it also managed to playfully bite (mouthing if you may) as we walked along the shore (more on this later.) much to our amusement.
 
 Heading back to our hostel, we quickly took a shower and picked up our packed backpacks, heading for the train station.
 
-We hadn't eaten anything, which made us look for a decent place to fill our tummies, we did find a
+We hadn't eaten anything, which made us look for a decent place to fill our tummies, we did find a small eatery, which was being run by the railways. On settling down, we ordered a few dosas and cup of tea for each of us, while we waited for the train to arrive. The train did arrive, but little did we know that the train was to halt for only about 2 minutes. And here we were hastingly stuffing food into our mouths, trying to also eat and clear the bill, much to the amusement of everybody around us.
+
+<center><img src="/content/images/2020/07/kerala-blog-27.jpg"></center>
+
+### Kochi
+
+The next leg in this trip was our visit to kochi, train tickets were pretty cheap, we got it for about less than 50INR each. The train itself was a passenger one, which meant it was a bit slower and halted at quite a few places, but that also gave us a chance to admire the countryside. The lush green meadows, the swamps and the local livestock grazing onto grass.
+
+We reached in about an hour or two after we started to Ernakulam, from there we had to either take a ride back to the fort kochi or take a bus, we chose the latter. The only problem being, that we had a tough time finding a ride which would take us to fort kochi, with the clock ticking past 2pm and our heavy rucksacks behinds our backs, was making us rethink the whole idea of taking a bus ride to fort kochi but to rather just take a cab and just be done with it. But to our good luck, we did get a bus. which was also not very crowded.
+
+The ride back to fort kochi was rougly around more than 10kms, which took us about another half an hour to reach. We saddled down our bags in a corner.
+
+<center><img src="/content/images/2020/07/kerala-blog-28.jpg"></center>
+
+As luck would have it, our hostel where we were going to stay was hardly a few meters away from the bus stop which we got down off. And you might have guessed it right, it was a zostel again! We had to dump our backs in the common area, as the host was out for lunch, we quickly freshened up in one of the spare washrooms around the common area and off we went in search of some food.
+
+We settled for this restaurant, right next to the fishing nets, which was a bit pricy? But well, we were really famished and we didn't really mind paying premium for some decent food. For someone visiting, they should definitely try out the prawns and the likes when they visit.
+
+<center><img src="/content/images/2020/07/kerala-blog-29.jpg"></center>
+
+It was a no brainer to decide on going for a walk alongside fort kochi and the fishing nets, once we were done with finishing up our meal.
+
+<center><img src="/content/images/2020/07/kerala-blog-30.jpg"></center>
+
+If you haven't seen the chinese fishing nets before, they are quite something to watch being operated by the fishermen, which is exactly what we did. They are huge, made with bamboo shoots and just about are the most complicated fishing nets I have ever seen, I am sure they are efficient than a lot more of the nets which we have around in Assam, where they use simple nets which you would imagine a fishermen to have, but this was entirely different which I hadn't personally seen before. A couple of fishermen would be required to operate it.
+
+Moving on, the boulevard which leads up to the edge of the fort, is bordered by a very old mansion. I say mansion, because you will have to actually see this one to gauge the sprawling lawn and experience the architecture of the house which is definitely back from the time Kochi was inhabited by the Portuguese and the Dutch. And there are a bunch of houses like this along the road and this not being a singular event.
+
