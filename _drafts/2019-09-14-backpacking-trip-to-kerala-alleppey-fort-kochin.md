@@ -212,7 +212,7 @@ Did I forget to mention that, there was a local dog which had been accompanying 
 
 This dog also managed to take away my flip-flops and make me run after itself for a good distance before he gave them up back to me. While the intension was clear for the dog that it wanted to play early in the morning for this, not so hostile human being which it found strolling around in the beach, it also managed to playfully bite (mouthing if you may) as we walked along the shore (more on this later.) much to our amusement.
 
-Heading back to our hostel, we quickly took a shower and picked up our packed backpacks, heading for the train station.
+Heading back to our hostel, we quickly took a shower and picked up our packed backpacks, heading for the train station before which we baded goodbye to Samiksha and whoever was awake when we were leaving.
 
 We hadn't eaten anything, which made us look for a decent place to fill our tummies, we did find a small eatery, which was being run by the railways. On settling down, we ordered a few dosas and cup of tea for each of us, while we waited for the train to arrive. The train did arrive, but little did we know that the train was to halt for only about 2 minutes. And here we were hastingly stuffing food into our mouths, trying to also eat and clear the bill, much to the amusement of everybody around us.
 
@@ -240,5 +240,26 @@ It was a no brainer to decide on going for a walk alongside fort kochi and the f
 
 If you haven't seen the chinese fishing nets before, they are quite something to watch being operated by the fishermen, which is exactly what we did. They are huge, made with bamboo shoots and just about are the most complicated fishing nets I have ever seen, I am sure they are efficient than a lot more of the nets which we have around in Assam, where they use simple nets which you would imagine a fishermen to have, but this was entirely different which I hadn't personally seen before. A couple of fishermen would be required to operate it.
 
-Moving on, the boulevard which leads up to the edge of the fort, is bordered by a very old mansion. I say mansion, because you will have to actually see this one to gauge the sprawling lawn and experience the architecture of the house which is definitely back from the time Kochi was inhabited by the Portuguese and the Dutch. And there are a bunch of houses like this along the road and this not being a singular event.
+Moving on, the boulevard which leads up to the edge of the fort, is bordered by a very old mansion. I say mansion, because you will have to actually see this once to gauge the sprawling lawn and experience the architecture of the house which is definitely back from the time Kochi was inhabited by the Portuguese and the Dutch. And there are a bunch of houses like this along the road and this not being a singular event.
+
+<center><img src="/content/images/2020/07/kerala-blog-31.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-32.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-33.jpg"></center>
+
+We headed back straight to our hostel rooms after we had finished this small walk around the fishing nets, Deepak decided that he would sleep the afternoon out.
+
+There was a [Kathakali](https://en.wikipedia.org/wiki/Kathakali) which was about to start nearby the place where we were staying, called Kerala Kathakali centre, this was probably the first time I was going to watch this live with the performers doing their preparation live in front of the audience, this was definitely something which I didn't want to miss out.
+
+As we all settled down the small but cozy auditorium, the crowd was tring to find a seat as close as possible to the stage which would allow them to be closer to the whole spectacle.
+
+<center><img src="/content/images/2020/07/kerala-blog-34.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-35.jpg"></center>
+
+<center><img src="/content/images/2020/07/kerala-blog-36.jpg"></center>
+
+The whole thing was just breathtaking, right from the expressions, to the preparation, to the dexterity and experience of the performers which made it look so fflawless. All in all, this is a great way in which they are preserving their culture and also showcasing it to the people of other cultures.
+
 
