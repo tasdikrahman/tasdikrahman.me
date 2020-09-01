@@ -116,7 +116,7 @@ If you are running a version lesser than 1.14.x and don't have the ip-masq-agent
 - 172.16.0.0/12
 - 192.168.0.0/16
 
-the packets in the egress traffic will not be masquared, which means that the node IP will be seen in this case.
+the packets in the egress traffic will not be masqueraded, which means that the node IP will be seen in this case.
 
 The default behaviour after 1.14.x (and on [COS](https://cloud.google.com/container-optimized-os/docs)), packets flowing from the pods stop getting NAT'd. This can cause disruption as you might not have whitelisted the pod address range.
 
