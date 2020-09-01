@@ -5,8 +5,10 @@ description: "A few notes on GKE kubernetes upgrades"
 tags: [kubernetes, devops]
 comments: true
 share: true
-cover_image: '/content/images/2020/07/kubernetes_upgrades.png'
+cover_image: '/content/images/2020/07/k8s-upgrades-gojek-header.jpeg'
 ---
+
+> This post was originally published in [Gojeks engineering blog, here](https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055), this post is a cross post of the same
 
 This post is more of a continuation to this tweet
 
