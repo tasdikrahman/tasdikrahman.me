@@ -70,6 +70,8 @@ index f4fa49b..71c40c8 100644
 
 So as you see, it's not necessary that following the above practices, will allow you to create bug free software.
 
+Bhola had [~99.63%](https://github.com/tasdikrahman/bhola/pull/65/checks?check_run_id=1203022679) coverage at the time this bug was present in it, but it didn't stop it from having this bug.
+
 100% code coverage doesn't mean that your software is bug free/free of issues. The only real test is when your software is getting used by someone. This is where it should behave/perform as it is expected out of it. There's [no silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet).
 
 ## So what's the use then?
