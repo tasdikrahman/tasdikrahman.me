@@ -97,7 +97,7 @@ If I have to compare it with bhola, I ended up having [coverage for even a small
 
 Another question which comes is, at the end it would be the functioning lines of code which your consumer of the software would be interacting with, not the tests. So why write tests? But would skipping these mean, taking a hit on maintainability, I feel the answer is yes.
 
-As for [bhola](https://github.com/tasdikrahman/bhola), I feel I would definitely have more confidence and faster feedback cycle when adding changes to it in future.
+As for [bhola](https://github.com/tasdikrahman/bhola), I feel I would definitely have more confidence and a faster feedback cycle when adding changes to it in future.
 
 If you liked this piece, I have written a few more under [#testing](https://tasdikrahman.me/blog/tag/testing) and [#tdd](https://tasdikrahman.me/blog/tag/tdd).
 
