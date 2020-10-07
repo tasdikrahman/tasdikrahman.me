@@ -36,34 +36,34 @@ This is where tests for the routines bring in value. It's your 1st level of safe
 
 As luck will have it, I have an example from the side project which I was working on itself, where the coverage was high and covered the specific flow, but would ultimately fail when trying to run it!
 
-There's one specific flow, where the service reads an env var from the environment variable via [Figaro](https://github.com/laserlemon/figaro). The value is a plain boolean var of `true`. Now to simulate this in the spec, what I did was simply stub the call to the method of the figaro lib, to return the value I wanted for the flow. The problem being here, that I was stubbing the wrong value! This in turn would also affect the way, the implementation would happen.
+There's one specific flow, where the service reads an env var from the environment variable via [Figaro](https://github.com/laserlemon/figaro). The value is a plain boolean var of `true`. Now to simulate this in the spec, what I did was simply stub the call to the method of the figaro lib, to return the value I wanted for the flow. The problem being here, that I was stubbing the wrong value! Figaro, when it reads the env var, it reads it as a string rather than a boolean, which is where I was going wrong. This in turn would also affect the way, the implementation would happen.
 
 Here's a small snippet from the changelog of [https://github.com/tasdikrahman/bhola/pull/65](https://github.com/tasdikrahman/bhola/pull/65) for reference, to give you an idea of what I am trying to depict here.
 
 ```patch
 diff --git a/app/jobs/check_certificate_job.rb b/app/jobs/check_certificate_job.rb
 index 93fb16b..76f995b 100644
---- a/app/jobs/check_certificate_job.rb
 +++ b/app/jobs/check_certificate_job.rb
+--- a/app/jobs/check_certificate_job.rb
 @@ -10,7 +10,7 @@ class CheckCertificateJob < ApplicationJob
      Domain.all.each do |domain|
        if domain.certificate_expiring?
          Rails.logger.info("#{domain.fqdn} is expiring within the buffer period")
--        if (Figaro.env.send_expiry_notifications_to_slack == 'true') && !Figaro.env.slack_webhook_url.empty?
-+        if (Figaro.env.send_expiry_notifications_to_slack == true) && !Figaro.env.slack_webhook_url.empty?
++        if (Figaro.env.send_expiry_notifications_to_slack == 'true') && !Figaro.env.slack_webhook_url.empty?
+-        if (Figaro.env.send_expiry_notifications_to_slack == true) && !Figaro.env.slack_webhook_url.empty?
            message = "Your #{domain.fqdn} is expiring at #{domain.certificate_expiring_not_before}, please renew your cert"
            slack_notifier = SlackNotifier.new(Figaro.env.slack_webhook_url)
            begin
 diff --git a/spec/jobs/check_certificate_job_spec.rb b/spec/jobs/check_certificate_job_spec.rb
 index f4fa49b..71c40c8 100644
---- a/spec/jobs/check_certificate_job_spec.rb
 +++ b/spec/jobs/check_certificate_job_spec.rb
+--- a/spec/jobs/check_certificate_job_spec.rb
 @@ -48,7 +48,7 @@ RSpec.describe CheckCertificateJob, type: :job do
 
            it 'will not call SlackNotifier#notify' do
              allow_any_instance_of(Domain).to receive(:certificate_expiring?).and_return(true)
--            allow(Figaro).to receive_message_chain(:env, :send_expiry_notifications_to_slack).and_return('false')
-+            allow(Figaro).to receive_message_chain(:env, :send_expiry_notifications_to_slack).and_return(false)
++            allow(Figaro).to receive_message_chain(:env, :send_expiry_notifications_to_slack).and_return('false')
+-            allow(Figaro).to receive_message_chain(:env, :send_expiry_notifications_to_slack).and_return(false)
              allow(Figaro).to receive_message_chain(:env, :slack_webhook_url).and_return(slack_webhook_url)
              expect_any_instance_of(SlackNotifier).not_to receive(:notify).with(anything)
 ```
