@@ -26,7 +26,7 @@ This in turn would do two things, for one, it would create a form of resistance,
 
 The 2nd thing which would be a by-product of this, is that for these changes, I am doing the testing manually, which would mean I would have spent say x amount of time doing it which could have been used for something else.
 
-This x amount of time, would vary wildly, depending on many factors. Some can be, how good are the docs, which would allow 1 to replicate the setup quickly? Familiarity with the codebase so as to remember all the cases, corner cases included, so that you don't miss them.
+This x amount of time, would vary wildly, depending on many factors. Some can be, how good are the docs, which would allow 1 to replicate the setup quickly(another reason why I really love 1 step dev setup commands)? Familiarity with the codebase so as to remember all the cases, corner cases included, so that you don't miss them.
 
 It's natural for someone to not remember minute details of the codebase, when they are looking at it again after weeks/months/years. Naturally, they will need some time to again get acclimatized to the codebase which they had interacted/authored.
 
