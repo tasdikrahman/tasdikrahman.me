@@ -12,7 +12,7 @@ This post is more of a continuation to this tweet
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One thing which I tried doing differently this time with one of my side projects is to do TDD from the start. Someone may ask why? It&#39;s just a side project no? (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1312622418230296576?ref_src=twsrc%5Etfw">October 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I have been building [bhola](https://github.com/tasdikrahman/bhola) in my free time, and one thing which I tried doing differently this time with one of my side projects is to practice [TDD](https://en.wikipedia.org/wiki/Test-driven_development) from the start.
+I have been building [bhola](https://github.com/tasdikrahman/bhola) in my free time, and one thing which I tried doing differently this time with it, was to practice [TDD](https://en.wikipedia.org/wiki/Test-driven_development) from the start.
 
 ## But why?
 
@@ -22,7 +22,7 @@ One reason is that, for some of my past side projects, when someone creates an i
 
 Coming back to say reviewing a bugfix/feature PR. Having no coverage for those specific routines which were modified, would mean I either would have to rely on my gut feeling, or I would have to test it by pulling the changes.
 
-This in turn would do two things, for one, it would create a form of resistance, as to even review the PR, it would mean me having to also manually test out things and see if changes are not having any regression/the feature works as expected.
+This in turn would do two things, for one, it would create a form of resistance, as to even review the PR, it would mean me having to also manually test out things and see if changes are not having any regression/the feature works as expected. Which would mean, I would either get swamped by the things to do to just review something, making the requests pile up one by one and then ending up in a position where there are multiple stale PR's which have been just lying there. (If you have ever experienced this with any of my repositories, I sincerely apologise, I will strive to be better.)
 
 The 2nd thing which would be a by-product of this, is that for these changes, I am doing the testing manually, which would mean I would have spent say x amount of time doing it which could have been used for something else.
 
