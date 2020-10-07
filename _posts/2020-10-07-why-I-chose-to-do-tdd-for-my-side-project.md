@@ -36,9 +36,9 @@ This is where tests for the routines bring in value. It's your 1st level of safe
 
 As luck will have it, I have an example from the side project which I was working on itself, where the coverage was high and covered the specific flow, but would ultimately fail when trying to run it!
 
-There's one specific flow, where the service reads an env var from the environment variable via [Figaro](https://github.com/laserlemon/figaro). The value is a plain boolean var of `true`. Now to simulate this in the spec, what I did was simply stub the call to the method of the figaro lib, to return the value I wanted for the flow. The problem being here, that I was stubbing the wrong value! Figaro, when it reads the env var, it reads it as a string rather than a boolean, which is where I was going wrong. This in turn would also affect the way, the implementation would happen.
+There's one specific flow, where the service reads an env var from the environment variable via [Figaro](https://github.com/laserlemon/figaro). The value is a plain boolean var of `true`. Now to simulate this in the spec, what I did was simply stub the call to the method of the figaro lib, to return the value I wanted for the flow. The problem being here, that I was stubbing the wrong type for the value! Figaro, when it reads the env var, it reads it as a string rather than a boolean(or any other type for that matter, all will be read as a plain string), which is where I was going wrong. This in turn would also affect the way, the implementation would happen.
 
-Here's a small snippet from the changelog of [https://github.com/tasdikrahman/bhola/pull/65](https://github.com/tasdikrahman/bhola/pull/65) for reference, to give you an idea of what I am trying to depict here.
+Here's a small snippet from the changelog of [https://github.com/tasdikrahman/bhola/pull/65](https://github.com/tasdikrahman/bhola/pull/65) for reference, to give you an idea of what I am trying to depict here and what I changed to fix the same in the spec as well as the implementation.
 
 ```patch
 diff --git a/app/jobs/check_certificate_job.rb b/app/jobs/check_certificate_job.rb
