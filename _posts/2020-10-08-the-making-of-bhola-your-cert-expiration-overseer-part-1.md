@@ -122,7 +122,7 @@ The above tools will work, no doubt about it, if you already are on these system
 
 Adding to it, one plus which bhola has is the validations before tracking endpoints, not tracking invalid/not having certs attached to endpoints. Which helps in keeping the entries sane.
 
-Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to. Further reducing their friction in prioritzing adding alerting on domain expirations. Rather than first trying to run prometheus (if they aren't alredy) or having the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
+Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to, hence further reducing their friction in prioritizing adding alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't alredy) or those who don't yet have the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
 
 
 ### Assumptions made by bhola
