@@ -42,7 +42,9 @@ I do plan to extend bhola further, there are quite a few thing which I want to s
   - while accessing the api to do insertion for tracking domains, add authz/authn.
 - Ability to delete domains associated with a user.
 - Ability to sign up using email id.
-- Ability to send alert notifactions of all the domains associated to the user in their specified email id.
+- Ability to send alert notifications of all the domains associated to the user in their specified email id.
+- Not an immediate goal, but I want to host this on my own infrastructure, as a public facing endpoint.
+
 
 While I have not spread the above in specific milestones, but I would mostly pick up the first one for milestone 0.3.
 
