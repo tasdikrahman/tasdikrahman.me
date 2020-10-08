@@ -28,7 +28,7 @@ Then [bhola](https://github.com/tasdikrahman/bhola) is for you!
 
 The operator can set a buffer period, which would bhola, then use to see if it meets the threshold number of days, before the cert is going to expire, before marking the cert, that it needs renewal asap.
 
-Want to check, what domains, is it already tracking? Bhola comes with a very simple bare minimum UI, which one can use to check, what domains are being tracked, when are they expiring and other metadata details.
+Want to check, what domains, is it already tracking? Bhola comes with a very simple bare minimum UI, which one can use to check, what domains are being tracked, when are they expiring and other metadata details, like who issuer of the domain, when is it expiring, when was it issued.
 
 What is required by Bhola to run? It just needs a good old postgres to function to keep track of the domains, and that's it. Nothing shiny. Plain and simple.
 
