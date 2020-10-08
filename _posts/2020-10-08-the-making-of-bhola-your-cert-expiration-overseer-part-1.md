@@ -100,6 +100,12 @@ $ curl --location --request GET 'localhost:3000/api/v1/domains' \
 - bhola will not register the domain to be tracked, if it can't reach it, it would be apt to place bhola somewhere, in your network, which would make it possible for bhola to resolve your dns endpoints with ease, so in case, the domains which you are trying to track, if they resolve to a private IP, make sure bhola can reach them.
 - bhola will not register the domain to be tracked, if it doesn't have an SSL cert attached, it will not track it.
 
+### What bhola will not be
+
+- will not generate certificates for you by being the intermediate broker
+- will not install the certificates for it's clients
+- will not provide a UI to generate/install/replace the certs for it's clients
+
 ### What's next?
 
 I do plan to extend bhola further, there are quite a few thing which I want to see in it, in future. Some of them being
