@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/10/bhola.png'
 ---
 
-If you are following me on [twitter](https://twitter.com/tasdikrahman), I wrote a little bit about why I have been building [bhola](https://github.com/tasdikrahman/bhola). This post is more of a continuation to this tweet and what I envision it to be moving forward.
+You might have already seen writing a bit about this blog post on [twitter](https://twitter.com/tasdikrahman), I wrote a little bit about why I have been building [bhola](https://github.com/tasdikrahman/bhola). This post is more of a continuation to this tweet and what I envision it to be moving forward.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you sometimes wake up, with a call by someone from your team, telling you some SSL cert has expired? Do you keep track of SSL cert expirations on your to do notes or excel sheets? Would you like to be on top of such x509 cert renewals? <a href="https://t.co/MVFRZCUlZN">https://t.co/MVFRZCUlZN</a> is for you (1/n) <a href="https://t.co/pj8JHJEkje">pic.twitter.com/pj8JHJEkje</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1306945863369936896?ref_src=twsrc%5Etfw">September 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -29,6 +29,8 @@ Further on [v0.2](https://github.com/tasdikrahman/bhola/releases/tag/v0.2.0) of 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It will alert for all the domains, which have already expired/are about to expire within the buffer period which you have set &amp; send notification to your slack channel via webhook endpoint, periodically checking in the interval set by the operator, for expiration. (2/n) <a href="https://t.co/IdpDGxJQtr">pic.twitter.com/IdpDGxJQtr</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1312414866133512192?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Further more, smaller improvements like 1 step dev setup, docker-compose setup and container images available for docker would make reproducing the setup for bhola easier than before, than the status in milestone 0.1.
+
+Not that it matters much, but [rails](https://rubyonrails.org/) has been a fun framework to work on, especially with [rspec](https://rspec.info/), practicing [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) and [TDD](https://en.wikipedia.org/wiki/Test-driven_development) has been a great experience.
 
 ### What's next?
 
