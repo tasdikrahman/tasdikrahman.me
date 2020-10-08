@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2020/10/bhola.png'
 ---
 
-You might have already seen writing a bit about this blog post on [twitter](https://twitter.com/tasdikrahman), I wrote a little bit about why I have been building [bhola](https://github.com/tasdikrahman/bhola). This post is more of a continuation to this tweet and what I envision it to be moving forward.
+You might have already seen me writing a bit about bhola already on [twitter](https://twitter.com/tasdikrahman), I wrote a little bit about why I have been building [bhola](https://github.com/tasdikrahman/bhola). This post is more of a continuation to this tweet and what I envision it to be moving forward.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you sometimes wake up, with a call by someone from your team, telling you some SSL cert has expired? Do you keep track of SSL cert expirations on your to do notes or excel sheets? Would you like to be on top of such x509 cert renewals? <a href="https://t.co/MVFRZCUlZN">https://t.co/MVFRZCUlZN</a> is for you (1/n) <a href="https://t.co/pj8JHJEkje">pic.twitter.com/pj8JHJEkje</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1306945863369936896?ref_src=twsrc%5Etfw">September 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
