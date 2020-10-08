@@ -94,6 +94,37 @@ $ curl --location --request GET 'localhost:3000/api/v1/domains' \
 }
 ```
 
+### Are there other ways to do such domain expiration checks?
+
+Yes, there are are other ways to do this.
+
+If you are on [cert-manager](https://github.com/jetstack/cert-manager/), then you can make use of [https://grafana.com/grafana/dashboards/11001](https://grafana.com/grafana/dashboards/11001), adding alerts on top of the dashboard should not be very complicated.
+
+There is an exporter [https://github.com/ribbybibby/ssl_exporter](https://github.com/ribbybibby/ssl_exporter), which will do the scraping for you and expose the expiration date of the cert as the metric `ssl_cert_not_after`, which then you can add an alert on top.
+
+```
+scrape_configs:
+  - job_name: "ssl"
+    metrics_path: /probe
+    static_configs:
+      - targets:
+          - example.com:443
+          - prometheus.io:443
+```
+
+Where `example.com` and `prometheus.io` would be your scrape endpoints, in this example.
+
+Thanks to [Joy](https://twitter.com/hashfyre/), for pointing the above out to me.
+
+### How does me running bhola help then?
+
+The above tools will work, no doubt about it, if you already are on these systems, you can definitely leverage them to make use of them in ways similarly shown above. But even then, redundancy is never a bad thing to have.
+
+Adding to it, one plus which bhola has is the validations before tracking endpoints, not tracking invalid/not having certs attached to endpoints. Which helps in keeping the entries sane.
+
+Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to. Further reducing their friction in prioritzing adding alerting on domain expirations. Rather than first trying to run prometheus (if they aren't alredy) or having the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
+
+
 ### Assumptions made by bhola
 
 - bhola assumes that the dns being inserted, resolves to a single IP, so in case you are doing dns loadbalancing on a single FQDN, with multiple IP's behind it, it may try connecting to whichever IP first get's returned.
@@ -119,9 +150,13 @@ I do plan to extend bhola further, there are quite a few thing which I want to s
 - Ability to send alert notifications of all the domains associated to the user in their specified email id.
 - Not an immediate goal, but I want to host this on my own infrastructure, as a public facing endpoint.
 
-
 While I have not spread the above in specific milestones, but I would mostly pick up the first one for milestone 0.3.
+
+### Enging notes
+
+While there if you are using [letsencrypt](https://letsencrypt.org/), given that the certificates would be expiring within [3 months](https://community.letsencrypt.org/t/pros-and-cons-of-90-day-certificate-lifetimes/4621) and that they also send [email notifications](https://letsencrypt.org/docs/expiration-emails/), you would have used some automation to renew your certificates, due to the 3months expiration policy of LE certs. Having bhola as your external system to monitor your domains, would be an extra guard against the automation failing silently or the emails getting missed.
 
 I envision bhola to be a 1 stop service for your needs of tracking your domain expirations for starters.
 
 As bhola is completely open source, would love to hear what you feel can be added to make [bhola](https://github.com/tasdikrahman/bhola) better than before.
+
