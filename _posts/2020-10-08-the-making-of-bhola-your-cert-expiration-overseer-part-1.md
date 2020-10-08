@@ -12,7 +12,15 @@ You might have already seen me writing a bit about bhola already on [twitter](ht
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you sometimes wake up, with a call by someone from your team, telling you some SSL cert has expired? Do you keep track of SSL cert expirations on your to do notes or excel sheets? Would you like to be on top of such x509 cert renewals? <a href="https://t.co/MVFRZCUlZN">https://t.co/MVFRZCUlZN</a> is for you (1/n) <a href="https://t.co/pj8JHJEkje">pic.twitter.com/pj8JHJEkje</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1306945863369936896?ref_src=twsrc%5Etfw">September 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Do you sometimes wake up, with a call by someone from your team, telling you some SSL cert has expired? Do you keep track of SSL cert expirations on your to do notes or excel sheets? Would you like to be on top of such x509 cert renewals? Then [bhola](https://github.com/tasdikrahman/bhola) is for you!
+## What was the inspiration
+
+Do you sometimes wake up, with a call by someone from your team, telling you some SSL cert has expired? Do you keep track of SSL cert expirations on your to do notes or excel sheets? Would you like to be on top of such x509 cert renewals?
+
+All of this are directly due to
+- No visibility about when the certificate is expiring
+- No alerts in form of email or test message when the certificate is expiring
+
+Then [bhola](https://github.com/tasdikrahman/bhola) is for you!
 
 ## What does bhola do?
 
@@ -31,6 +39,66 @@ Further on [v0.2](https://github.com/tasdikrahman/bhola/releases/tag/v0.2.0) of 
 Further more, smaller improvements like 1 step dev setup, docker-compose setup and container images available for docker would make reproducing the setup for bhola easier than before, than the status in milestone 0.1.
 
 Not that it matters much, but [rails](https://rubyonrails.org/) has been a fun framework to work on, especially with [rspec](https://rspec.info/), practicing [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) and [TDD](https://en.wikipedia.org/wiki/Test-driven_development) has been a great experience.
+
+### How does one even insert a domain to be tracked as of now?
+
+##### Example request
+```
+$ curl --location --request POST 'localhost:3000/api/v1/domains' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+      "fqdn": "https://expired.badssl.com"
+  }'
+```
+
+##### Example response
+```
+{
+    "data": {
+        "fqdn": "expired.badssl.com",
+        "certificate_expiring": true,
+        "certificate_issued_at": "2016-08-08T21:17:05.000Z",
+        "certificate_expiring_at": "2018-08-08T21:17:05.000Z",
+        "certificate_issuer": "/C=US/ST=California/L=San Francisco/O=BadSSL/CN=BadSSL Intermediate Certificate Authority"
+    },
+    "errors": []
+}
+```
+#### querying the domains stored
+##### Example request
+```
+$ curl --location --request GET 'localhost:3000/api/v1/domains' \
+  --header 'Accept: application/json'
+```
+
+##### Example response
+```
+{
+    "data": [
+        {
+            "fqdn": "tasdikrahman.me",
+            "certificate_expiring": false,
+            "certificate_issued_at": "2020-05-06T00:00:00.000Z",
+            "certificate_expiring_at": "2022-04-14T12:00:00.000Z",
+            "certificate_issuer": "/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "fqdn": "expired.badssl.com",
+            "certificate_expiring": true,
+            "certificate_issued_at": "2016-08-08T21:17:05.000Z",
+            "certificate_expiring_at": "2018-08-08T21:17:05.000Z",
+            "certificate_issuer": "/C=US/ST=California/L=San Francisco/O=BadSSL/CN=BadSSL Intermediate Certificate Authority"
+        }
+    ],
+    "errors": []
+}
+```
+
+### Assumptions made by bhola
+
+- bhola assumes that the dns being inserted, resolves to a single IP, so in case you are doing dns loadbalancing on a single FQDN, with multiple IP's behind it, it may try connecting to whichever IP first get's returned.
+- bhola will not register the domain to be tracked, if it can't reach it, it would be apt to place bhola somewhere, in your network, which would make it possible for bhola to resolve your dns endpoints with ease, so in case, the domains which you are trying to track, if they resolve to a private IP, make sure bhola can reach them.
+- bhola will not register the domain to be tracked, if it doesn't have an SSL cert attached, it will not track it.
 
 ### What's next?
 
