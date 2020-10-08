@@ -122,8 +122,9 @@ The above tools will work, no doubt about it, if you already are on these system
 
 Adding to it, one plus which bhola has is the validations before tracking endpoints, not tracking invalid/not having certs attached to endpoints. Which helps in keeping the entries sane.
 
-Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to, hence further reducing their friction in prioritizing adding alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't alredy) or those who don't yet have the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
+If you are using [letsencrypt](https://letsencrypt.org/), given that the certificates would be expiring within [3 months](https://community.letsencrypt.org/t/pros-and-cons-of-90-day-certificate-lifetimes/4621) and that they also send [email notifications](https://letsencrypt.org/docs/expiration-emails/), you would have used some automation to renew your certificates, due to the 3months expiration policy of LE certs. Having bhola as your external system to monitor your domains, would be an extra guard against the automation failing silently or the emails getting missed.
 
+Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to, hence further reducing their friction in prioritizing adding alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't alredy) or those who don't yet have the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
 
 ### Assumptions made by bhola
 
@@ -139,7 +140,7 @@ Furthermore, bhola panders more to the userbase, who are just in search of somet
 
 ### What's next?
 
-I do plan to extend bhola further, there are quite a few thing which I want to see in it, in future. Some of them being
+I envision bhola to be a 1 stop service for your needs of tracking your domain expirations for starters and there are quite a few thing which I want to see in it, in future. Some of them being
 
 - Ability for it to associate domains and alerts with users, this will allow bhola to be multi-tenant.
   - The idea is to have a system in place if someone wants to enable this feature, this can be turned on with just enabling a feature flag when they start the
@@ -151,12 +152,6 @@ I do plan to extend bhola further, there are quite a few thing which I want to s
 - Not an immediate goal, but I want to host this on my own infrastructure, as a public facing endpoint.
 
 While I have not spread the above in specific milestones, but I would mostly pick up the first one for milestone 0.3.
-
-### Enging notes
-
-While there if you are using [letsencrypt](https://letsencrypt.org/), given that the certificates would be expiring within [3 months](https://community.letsencrypt.org/t/pros-and-cons-of-90-day-certificate-lifetimes/4621) and that they also send [email notifications](https://letsencrypt.org/docs/expiration-emails/), you would have used some automation to renew your certificates, due to the 3months expiration policy of LE certs. Having bhola as your external system to monitor your domains, would be an extra guard against the automation failing silently or the emails getting missed.
-
-I envision bhola to be a 1 stop service for your needs of tracking your domain expirations for starters.
 
 As bhola is completely open source, would love to hear what you feel can be added to make [bhola](https://github.com/tasdikrahman/bhola) better than before.
 
