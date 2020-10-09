@@ -116,6 +116,14 @@ Where `example.com` and `prometheus.io` would be your scrape endpoints, in this 
 
 Thanks to [Joy](https://twitter.com/hashfyre/), for pointing the above out to me.
 
+And the good old `openssl` command will always be there
+
+```bash
+$ echo | openssl s_client -servername tasdikrahman.me -connect tasdikrahman.me:443 2>/dev/null | openssl x509 -noout -dates
+notBefore=Aug 19 13:59:14 2020 GMT
+notAfter=Nov 17 13:59:14 2020 GMT
+```
+
 ### How does me running bhola help then?
 
 The above tools will work, no doubt about it, if you already are on these systems, you can definitely leverage them to make use of them in ways similarly shown above. But even then, redundancy is never a bad thing to have.
@@ -124,7 +132,7 @@ Adding to it, one plus which bhola has is the validations before tracking endpoi
 
 If you are using [letsencrypt](https://letsencrypt.org/), given that the certificates would be expiring within [3 months](https://community.letsencrypt.org/t/pros-and-cons-of-90-day-certificate-lifetimes/4621) and that they also send [email notifications](https://letsencrypt.org/docs/expiration-emails/), you would have used some automation to renew your certificates, due to the 3months expiration policy of LE certs. Having bhola as your external system to monitor your domains, would be an extra guard against the automation failing silently or the emails getting missed.
 
-Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unknown to, hence further reducing their friction in prioritizing adding alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't alredy) or those who don't yet have the right level of automation maturity for their cert renewals. If you/your org are already on this level, then if I may say, you would come under a minority and not the norm.
+Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unfamiliar with, hence further reducing their friction in prioritizing their efforts to add alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't already) or for those who don't yet have the right level of automation maturity for their certificate renewals. If you/your org are already on a level where you have already done and dusted this alerting part via one of the ways described above or via some other way, then if I may say, you would come under a minority and not the norm.
 
 ### Assumptions made by bhola
 
