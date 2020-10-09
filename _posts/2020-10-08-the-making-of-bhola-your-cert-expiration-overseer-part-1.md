@@ -134,6 +134,8 @@ If you are using [letsencrypt](https://letsencrypt.org/), given that the certifi
 
 Furthermore, bhola panders more to the userbase, who are just in search of something, running which they can just start tracking and getting alerts for their domains, rather than tinkering with tools which they may be unfamiliar with, hence further reducing their friction in prioritizing their efforts to add alerting on domain expirations, rather than first trying to run [prometheus](https://github.com/prometheus/prometheus)(if they aren't already) or for those who don't yet have the right level of automation maturity for their certificate renewals. If you/your org are already on a level where you have already done and dusted this alerting part via one of the ways described above or via some other way, then if I may say, you would come under a minority and not the norm.
 
+Albeit there is an overhead with bhola which will be running a rails service and a postgres db. The decision then would with the operators, on what kind of solution would they be comfortable maintaining. People should always have multiple options for such tools to pick with, depending on their comfort level and the level of overhead they would want in their system.
+
 ### Assumptions made by bhola
 
 - bhola assumes that the dns being inserted, resolves to a single IP, so in case you are doing dns loadbalancing on a single FQDN, with multiple IP's behind it, it may try connecting to whichever IP first get's returned.
