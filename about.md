@@ -3,9 +3,9 @@ layout: page
 title: About Me
 ---
 
-This site is a partial collection of projects I've worked on, stories I've written down, software I've published.
+This site is a partial collection of projects I've worked on, stories I've written down and software I've published.
 
-A generalist dev, with focus on infrastructure side of things. I love working on building systems and software which help the developers become more efficient by abstracting out infrastructure and making it boring for them, so that it gets out of their way. In that process, picking up the language(s)/tool(s), which would make the most sense for the task at hand, but I do have a soft spot for [python](https://python.org/), [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) these days.
+A generalist developer, with focus on the infrastructure side of things. I love working on building systems and software which help the developers become more efficient by abstracting out infrastructure and making it boring for them, so that it gets out of their way. In that process, picking up the language(s)/tool(s), which would make the most sense for the task at hand, but I do have a soft spot for [python](https://python.org/), [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) these days.
 
 When not working on a [side project](https://github.com/tasdikrahman), I can be found playing football (soccer if you may) or [cycling](https://www.strava.com/athletes/38551461), watching EPL (Go Chelsea!). I do [backpack](https://tasdikrahman.me/blog/tag/travel/) whenever I get the chance to, across the Indian subcontinent and outside of it once in a while. Have picked up a very addictive habit of watching theatre companies perform. Lately been trying to improve my skills at [Argentine tango](https://en.wikipedia.org/wiki/Argentine_tango) over at a milonga. You might find me with a [book/kindle](https://www.goodreads.com/user/show/19151223-tasdik-rahman) if we stumble upon each other.
 
@@ -22,7 +22,7 @@ Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.go
 - Engineer #4 in the Cloud Infrastructure team @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
 - Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my [contributions here](https://github.com/tasdikrahman/gsoc2017ovirt).
 - Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
-- Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://team.wingify.com/tasdik-talks-about-his-internship-experience-at-wingify/)
+- Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://team.wingify.com/tasdik-talks-about-his-internship-experience-at-wingify/).
 
 ***
 
