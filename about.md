@@ -20,9 +20,9 @@ Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.go
 #### Formerly
 
 - Engineer #4 in the Cloud Infrastructure team @ [Razorpay](https://razorpay.com/) of [YCombinator Winter 2015](https://techcrunch.com/2015/03/24/y-combinator-demos/) Batch.
-- Contributor to [oVirt](http://ovirt.org/) under the Redhat umbrella. You can know more about my [contributions here](https://github.com/tasdikrahman/gsoc2017ovirt).
+- Contributor to [oVirt](https://web.archive.org/web/20170805074500/http://www.ovirt.org/blog/2017/05/welcome-gsoc-2017-students/) under the Redhat umbrella. You can know more about my [contributions here](https://github.com/tasdikrahman/gsoc2017ovirt).
 - Engineering Intern (S17) @ Cisco as part of their Security Business group helping make scalable security products.
-- Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://team.wingify.com/tasdik-talks-about-his-internship-experience-at-wingify/).
+- Engineering Intern (S16) with the backend team @ [Wingify](https://wingify.com/), helped build [visual website optimizer](https://vwo.com/), the world's easiest A/B testing tool. You can read about my [work here](https://web.archive.org/web/20161218195134/https://team.wingify.com/tasdik-talks-about-his-internship-experience-at-wingify/).
 
 ***
 
