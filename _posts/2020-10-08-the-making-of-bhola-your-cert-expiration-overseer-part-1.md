@@ -116,6 +116,8 @@ Where `example.com` and `prometheus.io` would be your scrape endpoints, in this 
 
 Thanks to [Joy](https://twitter.com/hashfyre/), for pointing the above out to me.
 
+Then there is a [guide](https://www.robustperception.io/get-alerted-before-your-ssl-certificates-expire), on how to do with prometheus, via the the [blackbox exporter](https://github.com/prometheus/blackbox_exporter)
+
 And the good old `openssl` command will always be there
 
 ```bash
