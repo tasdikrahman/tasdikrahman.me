@@ -74,7 +74,7 @@ The TV channel ["Vasanth TV"](https://www.youtube.com/watch?v=k-tvEKqdIQ4) aired
 
 ### <a name="plino"/>[Plino](https://plino.herokuapp.com)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=plino&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 <center><a href="https://plino.herokuapp.com"><img src="http://i.imgur.com/jJfnz7f.jpg"></a></center>
 
@@ -89,7 +89,7 @@ the first version of the application. Classifier was trained against 33,000 emai
 
 <i class="fa fa-code fa-2x"></i> `python`, `nltk`, `Machine Learning`, `flask`, `REST APIs`, `dill`
 
-As covered by 
+As covered by
 
 - [Product Hunt](https://www.producthunt.com/tech/plino)
 
@@ -100,7 +100,7 @@ As covered by
 
 ### <a name="spammy"/>[Spammy](https://github.com/tasdikrahman/spammy)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spammy&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 <center><a href="https://github.com/tasdikrahman/spammy"><img src="http://i.imgur.com/L8moQ2U.jpg"></a></center>
 
@@ -108,7 +108,7 @@ Custom `Naive Bayes classifier` in the form of pip module , which can be trained
 classifying emails into spam/ham. **Accuracy achieved: 80%-90%**. Blazingly fast once trained. “Dill” was
 used to serialize the classifier object for later use. Powers the web app [**Plino**](https://plino.herokuapp.com/)
 
-As covered by 
+As covered by
 
 - [Import Python's issue #68](http://importpython.com/newsletter/no/68/)
 - ['Awesome Machine Learning' Github](https://github.com/josephmisiti/awesome-machine-learning#natural-language-processing-9)
@@ -121,7 +121,7 @@ As covered by
 
 ### <a name="moviereview"/>[Movie Reviews Analysis](https://github.com/tasdikrahman/movieReviewsAnalysis)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=movieReviewsAnalysis&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 <center><a href="http://srmsearchengine.in/se.html"><img src="http://i.imgur.com/d7pwSTe.jpg"></a></center>
 
@@ -134,10 +134,10 @@ An analysis of the `movie_reviews` corpus present in the `nltk` corpus by applyi
 
 ***
 
-### <a name="vocabulary"/>[vocabulary](../vocabulary)  
+### <a name="vocabulary"/>[vocabulary](../vocabulary)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 [![vocabulary](https://raw.githubusercontent.com/tasdikrahman/vocabulary/master/assets/usage.gif)](https://github.com/tasdikrahman/vocabulary)
@@ -162,7 +162,7 @@ As covered by
 ### <a name="spaceshooter"/>[Space Shooter](https://github.com/tasdikrahman/spaceShooter)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=spaceShooter&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 <center><a href="https://github.com/tasdikrahman/spaceShooter"><img src="/content/images/2016/1/spaceShooter.gif"></a></center>
@@ -184,7 +184,7 @@ As covered by
 - [weekly.pychina.org on issue #58](http://weekly.pychina.org/importpython/importpython-58.html)
 - [dighub.ru on issue #35](http://dighub.ru/digests/35/)
 - [oschina.net](http://www.oschina.net/p/spaceshooter): An open source community supported by Ministry of OSS promotion Union
-- [mybridge.co](http://www.mybridge.co/view/28020): A `San Francisco` based news aggregator. 
+- [mybridge.co](http://www.mybridge.co/view/28020): A `San Francisco` based news aggregator.
 - [recordnotfound.com](https://recordnotfound.com/spaceShooter-tasdikrahman-5374): A curated list of open source projects
 - [neuropuff.com](https://neuropuff.com/post/show-hn-space-shooter-retro-game-recreated-using-python): a programming blog
 
@@ -230,7 +230,7 @@ A cross platform, command line note taking app built using `python`. **peewee** 
 - **Secure**: Encrypts your database using standard `AES-256 in CBC mode`.
 - Title, content(duh!), timestamp and tags support.
 - Delete/add notes tags.
-- Supports full text search for notes using content as well as tags as search parameter. 
+- Supports full text search for notes using content as well as tags as search parameter.
 - Query highlighting when a search result is found
 
 <i class="fa fa-code fa-2x"></i>  `python`, `pycrypto`, `pysqlcipher3`, `peewee`, `sqlite3`, `clint`, `args`
@@ -278,7 +278,7 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 > [Blog post](http://tasdikrahman.me/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
 
-Role based access control (RBAC0) implementation 
+Role based access control (RBAC0) implementation
 
 As covered by
 
@@ -332,17 +332,17 @@ the guidelines layed out by OWASP.
 ### <a name="xkcddl"/>[xkcd-dl](../xkcd_dl)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 [![Usage](https://raw.githubusercontent.com/tasdikrahman/xkcd-dl/master/assets/usage.gif)](../xkcd_dl)
 
-A command line application to **download all xkcd's** which have been uploaded till date. Ever! 
+A command line application to **download all xkcd's** which have been uploaded till date. Ever!
 
 
 <i class="fa fa-code fa-2x"></i>  `python`, `requests`, `beautifulsoup4`, `docopt`, `python-magic`
 
-As covered by 
+As covered by
 
 - [lamiradadelreplicante.com on their blog post named "Download the geeks strips from the terminal xkcd xkcd-d"](http://lamiradadelreplicante.com/2015/11/15/descarga-los-tiras-geeks-de-xkcd-desde-la-terminal-con-xkcd-dl/) a spanish Linux blog.
 
@@ -354,14 +354,14 @@ As covered by
 ### <a name="pycalc"/>[pyCalc](https://github.com/tasdikrahman/pyCalc)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=pyCalc&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 <center><a href="https://github.com/tasdikrahman/pyCalc"><img src="https://raw.githubusercontent.com/tasdikrahman/pyCalc/master/assets/pyCalc_usage.gif"></a></center>
 
 A cross platform, GUI calculator.
 
-The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious. 
+The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious.
 
 <i class="fa fa-code fa-2x"></i>  `python`, `tkinter`
 
@@ -372,7 +372,7 @@ The making of this project was covered in a [blog post](http://tasdikrahman.me/2
 ### <a name="margo"/>[margo](https://github.com/tasdikrahman/margo)
 
 
-<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=margo&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
 <center><a href="https://github.com/tasdikrahman/margo"><img src="https://raw.githubusercontent.com/tasdikrahman/margo/master/assets/demo.gif"></a></center>
@@ -385,18 +385,6 @@ Related blog [post of mine](http://tasdikrahman.me/2016/06/25/Margo-An-opiniated
 
 <center><a href="#index"><i class="fa fa-chevron-circle-up fa-2x"></i></a></center>
 
-***
-
-If you have found my little bits of software being of any use to you, do consider helping me pay my internet bills :)
-
-
-| PayPal | <a href="https://paypal.me/tasdik" target="_blank"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="Donate via PayPal!" title="Donate via PayPal!" /></a> |
-|:-------------------------------------------:|:-------------------------------------------------------------:|
-| £ (GBP) | <a href="https://transferwise.com/pay/d804d854-6862-4127-afdd-4687d64cbd28" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
-| € Euros | <a href="https://transferwise.com/pay/64c586e3-ec99-4be8-af0b-59241f7b9b79" target="_blank"><img src="http://i.imgur.com/ARJfowA.png" alt="Donate via TransferWise!" title="Donate via TransferWise!" /></a> |
-| ₹ (INR)  | <a href="https://www.instamojo.com/@tasdikrahman" target="_blank"><img src="https://www.soldermall.com/images/pic-online-payment.jpg" alt="Donate via instamojo" title="Donate via instamojo" /></a> |
-
-***
 
 If you have something in your mind, you can reach me at **hey AT tasdikrahman DOT me**
 
