@@ -34,7 +34,7 @@ A very simple implementation to solve this is described [here](http://blog.chero
 
 And whenever someone is running any DDL/DML command, they would also need to insert into this table, helping in keeping track what's the last status of the database for that environment.
 
-There are much more mature & well tested ways to do this, like active record migrations in [rails](https://rails.org), [Flyway](https://flywaydb.org/) in java world, [golang-migrate](https://github.com/golang-migrate/migrate/) in golang et al. The root of it being, having a way to know what ran where & having a repeatable way to setup the schema of your database across different environments.
+There are much more mature & well tested ways to do this, like active record migrations in [rails](https://rubyonrails.org), [Flyway](https://flywaydb.org/) in java world, [golang-migrate](https://github.com/golang-migrate/migrate/) in golang et al. The root of it being, having a way to know what ran where & having a repeatable way to setup the schema of your database across different environments.
 
 This is where rails active record migrations really shine. I find it's UX super clean.
 
@@ -66,7 +66,7 @@ This will immediately help, in having the 1st-order check to prevent inserting s
 
 A very simple example of this can be, when you are trying to put a check on a column in your database to ever not be a null value, even if your model has a validation to protect against inserting a null value, it can be backed by a database constraint at the same time for the database for enforce this at the end too along with the ORM.
 
-There are also methods like [update_column](https://apidock.com/rails/ActiveRecord/Persistence/update_column), which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script when as part of the migration unless you have a good reason to.
+There are also methods like [update_column](https://apidock.com/rails/ActiveRecord/Persistence/update_column), which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script, as part of a migration file, unless you have a good reason to.
 
 ## Rolling out migrations for your applications
 
