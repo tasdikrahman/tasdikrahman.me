@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A few things about rails migrations"
-description: "A few things about rails migrations"
+title: "A few things about database migrations"
+description: "A few things about database migrations"
 tags: [rails, golang, databases]
 comments: true
 share: true
