@@ -48,7 +48,7 @@ Want to roll back the migration which was run on your database? `rails db:rollba
 
 Want to redo a migration which was rolled back/run it again? `rails db:migrate:redo VERSION=<UTC-timestamp-prefix-of-migration-file>`.
 
-A similar approach can be found in [golang-migrate](https://github.com/golang-migrate/migrate), where each schema change is introduced with an SQL script numbered sequentially starting from 1 for example (the 1 can be any unsigned integer), and ending with a suffix of up.sql and down.sql
+A similar approach can be found in [golang-migrate](https://github.com/golang-migrate/migrate), where each schema change is introduced with an SQL script numbered sequentially starting from 1 for example (the 1 can be any 64 bit unsigned integer), and ending with a suffix of up.sql and down.sql
 
 Each new schema change will be added in a new SQL file, and numbered accordingly. Users would then add the helper methods provided by golang-migrate, for running migrations into the cli interface for their app, for both applying the migrations and to rollback them.
 
