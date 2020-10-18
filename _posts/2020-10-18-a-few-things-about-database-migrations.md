@@ -64,9 +64,9 @@ The model.[update](https://apidock.com/rails/ActiveRecord/Persistence/update) me
 
 This will immediately help, in having the 1st-order check to prevent inserting something you shouldn't have. The 2nd-order check being in your database schema itself. Being present as your final guard for the entries to not be dirty. While I don't remember anyone telling that it is a rule of thumb to have both, but it's not either uncommon to stumble upon this either. You may argue that it goes against [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), but I feel having the final validation on the schema of the database, definitely acts as the final source of truth where you can always fallback on and there's no downside to it.
 
-A very simple example of this can be, when you are trying to put a check on a column in your database to ever not be a null value, even if your model has a validation to protect against inserting a null value, it must be backed by a database constraint at the same time
+A very simple example of this can be, when you are trying to put a check on a column in your database to ever not be a null value, even if your model has a validation to protect against inserting a null value, it can be backed by a database constraint at the same time for the database for enforce this at the end too along with the ORM.
 
-There are also methods like [`update_column`](https://apidock.com/rails/ActiveRecord/Persistence/update_column), which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script when as part of the migration unless you have a good reason to.
+There are also methods like [update_column](https://apidock.com/rails/ActiveRecord/Persistence/update_column), which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script when as part of the migration unless you have a good reason to.
 
 ## Rolling out migrations for your applications
 
