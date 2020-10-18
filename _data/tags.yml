@@ -24,6 +24,8 @@ gamedevelopment:
   name: gamedevelopment
 gsoc:
   name: gsoc
+golang:
+  name: golang
 gui:
   name: gui
 hadoop:
