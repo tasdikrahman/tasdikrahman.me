@@ -2,7 +2,7 @@
 layout: post
 title: "A few things about database migrations"
 description: "A few things about database migrations"
-tags: [rails, golang, databases]
+tags: [rubyonrails, golang, databases]
 comments: true
 share: true
 cover_image: '/content/images/2020/10/migration.jpg'
