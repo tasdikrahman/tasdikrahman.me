@@ -60,13 +60,13 @@ Another thing to notice here is that, both of them encourage you/give you mechan
 
 Rails allows one to introduce validations on models before persisting the object to the database. But it's also important to have the same validation wherever you can on your schema. Allowing both the ORM and the database to enforce validations.
 
-The model.update method, does this for you. It will do the validations and the callbacks required for example, along with updated_at/updated_on for you, whenever you are trying to update the attributes for the object.
+The model.[update](https://apidock.com/rails/ActiveRecord/Persistence/update) method, does this for you. It will do the validations and the callbacks required for example, along with updated_at/updated_on for you, whenever you are trying to update the attributes for the object.
 
 This will immediately help, in having the 1st-order check to prevent inserting something you shouldn't have. The 2nd-order check being in your database schema itself. Being present as your final guard for the entries to not be dirty. While I don't remember anyone telling that it is a rule of thumb to have both, but it's not either uncommon to stumble upon this either. You may argue that it goes against [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), but I feel having the final validation on the schema of the database, definitely acts as the final source of truth where you can always fallback on and there's no downside to it.
 
 A very simple example of this can be, when you are trying to put a check on a column in your database to ever not be a null value, even if your model has a validation to protect against inserting a null value, it must be backed by a database constraint at the same time
 
-There are also methods like `update_column`, which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script when as part of the migration unless you have a good reason to.
+There are also methods like [`update_column`](https://apidock.com/rails/ActiveRecord/Persistence/update_column), which will straight up update the attribute which you want to insert to the database, skipping all the validations, callbacks etc. Don't use it in your DML script when as part of the migration unless you have a good reason to.
 
 ## Rolling out migrations for your applications
 
