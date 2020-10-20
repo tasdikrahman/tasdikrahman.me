@@ -111,3 +111,7 @@ Running all the specs would work now.
 
 - [https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks](https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks)
 - [https://stackoverflow.com/questions/32381017/running-rake-tasks-in-rspec-multiple-times-returns-nil](https://stackoverflow.com/questions/32381017/running-rake-tasks-in-rspec-multiple-times-returns-nil)
+
+### Credits
+
+- Picture credits to [https://rspec.info/](https://rspec.info/)
