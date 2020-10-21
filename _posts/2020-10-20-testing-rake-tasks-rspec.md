@@ -105,11 +105,16 @@ describe "task_my_task" do
 end
 ```
 
+`reenable` first resets the task's `already_invoked` state, allowing the task to then be executed again with all it's dependencies.
+
+There are `execute` and `invoke` methods too which are mentioned in this [SO answer](https://stackoverflow.com/a/32382929). No preference as such to why I went with `reenable`.
+
 Running all the specs would work now.
 
 ### References
 
 - [https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks](https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks)
+- [https://ruby-doc.org/stdlib-2.0.0/libdoc/rake/rdoc/Rake/Task.html#method-i-reenable](https://ruby-doc.org/stdlib-2.0.0/libdoc/rake/rdoc/Rake/Task.html#method-i-reenable)
 - [https://stackoverflow.com/questions/32381017/running-rake-tasks-in-rspec-multiple-times-returns-nil](https://stackoverflow.com/questions/32381017/running-rake-tasks-in-rspec-multiple-times-returns-nil)
 
 ### Credits
