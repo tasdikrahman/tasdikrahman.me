@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Writing tests for rake tasks"
-description: "Writing tests for rake tasks"
+title: "Testing rake tasks with rspec"
+description: "Testing rake tasks with rspec"
 tags: [ruby, rubyonrails, testing]
 comments: true
 share: true
