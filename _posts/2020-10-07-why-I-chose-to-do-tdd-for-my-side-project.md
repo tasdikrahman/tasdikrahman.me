@@ -78,6 +78,8 @@ Bhola had [~99.63%](https://github.com/tasdikrahman/bhola/pull/65/checks?check_r
 
 100% code coverage doesn't mean that your software is bug free/free of issues. The only real test is when your software is getting used by someone. This is where it should behave/perform as it is expected out of it. There's [no silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet).
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Being proud of 100% test coverage is like being proud of reading every word in the newspaper. Some are more important than others.</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/812703192437981184?ref_src=twsrc%5Etfw">December 24, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## So what's the use then?
 
 But having a high coverage would also mean, that you can refactor without fear, and have a faster feedback cycle than before, i.e testing for changes manually.
