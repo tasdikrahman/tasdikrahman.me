@@ -20,6 +20,10 @@ Someone may ask why? It's just a side project no? True, yes. It is, but let me e
 
 One reason is that, for some of my past side projects, when someone creates an issue/submits a PR. I wouldn't necessarily remember everything which I did/why I did x instead of y, when I would have authored it (more on how this can be improved later)
 
+Taking the liberty to quote [Ajey](https://twitter.com/AjeyGore).
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What ever code you write, it will be out of context in 18 months, write tests along with it, so at least people know what you meant</p>&mdash; Ajey Gore (@AjeyGore) <a href="https://twitter.com/AjeyGore/status/865555853423673344?ref_src=twsrc%5Etfw">May 19, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Coming back to say reviewing a bugfix/feature PR. Having no coverage for those specific routines which were modified, would mean I either would have to rely on my gut feeling, or I would have to test it by pulling the changes.
 
 This in turn would do two things, for one, it would create a form of resistance, as to even review the PR, it would mean me having to also manually test out things and see if changes are not having any regression/the feature works as expected. Which would mean, I would either get swamped by the things to do to just review something, making the requests pile up one by one and then ending up in a position where there are multiple stale PR's which have been just lying there. (If you have ever experienced this with any of my repositories, I sincerely apologise, I will strive to be better.)
