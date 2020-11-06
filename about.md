@@ -15,7 +15,7 @@ A list of public talks given by me, can be found [here](https://tasdikrahman.me/
 
 #### Presently
 
-Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.gojek.io/), providing infrastructure as a [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service), to the developers of the 20+ product groups inside the org. I occasionally write about what we are working on over at our [engineering blog](https://blog.gojekengineering.com/@tasdik.rahman).
+Enabling scale as part of the Engineering Platform team @ [Gojek](https://www.gojek.io/), providing infrastructure as a [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service), to the developers of the 20+ product groups inside the org. I occasionally write about what we are working on over at the [engineering blog](https://blog.gojekengineering.com/@tasdik.rahman).
 
 #### Formerly
 
