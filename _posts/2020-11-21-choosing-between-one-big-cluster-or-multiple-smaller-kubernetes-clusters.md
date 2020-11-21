@@ -68,17 +68,23 @@ Although I have not personally used it, but I have heard good things about [kube
 
 #### Access management
 
-Giving the right kind of access to the developers/operational folks/xyz designation person in the team is a problem to solve. Solving the same problem over for multiple clusters requires automation and a proper mechanism. If your workloads are sensitive (payments data etc.), you would require for such environments to be tighly audited and managed.
+Giving the right kind of access to the developers/operational folks/xyz person in the team is necessary problem to solve, unless you are only givin admin privileges to only the operational folks/one groups of people. Even then, solving the same problem over for multiple clusters requires automation and a proper mechanism.
 
-There are a few tools out there which help you in doing so, like [krane](https://github.com/appvia/krane), [audit2rbac](https://github.com/appvia/krane), which help you in this process (thanks to [rahul](https://rmenn.in) for pointing them out to me).
+What is to be done when a person leaves/joins? How can access be granted in granular manner for certain rbac roles which are only to be given read access, but no deletion access. If you have been in a position, where someone from the team has deleted the [deployment object](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) of your service and you ended up with an outage. This can happen with anyone, but reducing the blast radius is not a bad idea.
+
+If your workloads are sensitive (payments data etc.), you would require access for such environments to be tighly audited and managed.
+
+There are a few tools out there which would help you in doing so, like [krane](https://github.com/appvia/krane), [audit2rbac](https://github.com/appvia/krane), which help you in this process (thanks to [rahul](https://rmenn.in) for pointing them out to me).
 
 #### Deployment automation
 
-With all honesty, hand applying yaml files will only go so far. It works, but is a recipe for disaster over the long run, creating more spaghetti in the cluster and creating more problems than solving them. Problems like, who applied x resource object, who changed x resource, who is using this x resource. And the list so goes on.
+With all honesty, hand applying yaml files will only go so far. It works, but is a recipe for disaster over the long run, creating more spaghetti in the cluster and creating more problems than solving them. Problems like, who applied x resource object, who changed x resource, who is using this x resource. And the list so goes on. Multiple clusters or a single large cluster doesn't matter here in this context, but someone editing something which they are not supposed to for some other teams product?
 
-Continous Delivery is hardly a requirement for anyone(mostly?), the ability to reliably deploy something is a hard requirement in most cases though.
+Namespace as a service, to teams, is a model which I have heard people doing, keeping all access to specific roles tied to a particular namespace.
 
-Having some form CI to safely modify the respective resources via a tool/process will prevent a lot of surprises in production.
+Continous Delivery is hardly a requirement for anyone(mostly?), but the ability to reliably deploy something is a hard requirement in most cases though.
+
+Having some form CI, to safely modify the respective resources via a tool/process will prevent a lot of surprises in production. Audit trail logs in the CI pipeline for someone to see what happened, automated rollbacks too? That would be a sweet spot I would say. (We have built out our deployment platform similar to these practices described in my current org, but more on that in another post)
 
 There are multiple tools out there which allow fine grained RBAC rules, CI/CD, progressive delivery to your kubernetes clusters, [flagger](https://flagger.app/), [argo](https://argoproj.github.io/argo-cd/) being a few ones to name.
 
@@ -86,7 +92,7 @@ There are multiple tools out there which allow fine grained RBAC rules, CI/CD, p
 
 If we look at the flip-side, having one big cluster, concentrates the risk of failure.
 
-If you are not on a vendor specific kubernetes installation, what happens when the control plane goes for a toss? 1 person having all the context is not scalable, what happens when the person who knows the operational know how is not present to handle the pager?
+If you are not on a vendor specific kubernetes installation, what happens when the control plane goes for a toss? 1 person having all the context is not scalable, what happens when the person who knows the operational know-how, to fix x problem, is not present to handle the pager?
 
 What about zonal failures affecting the cluster? Do we have checks and balances to handle such an event?
 
