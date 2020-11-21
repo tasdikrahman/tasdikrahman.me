@@ -44,6 +44,8 @@ Given someone ends up with such a large cluster, the upgrade is equally gonna be
 
 What might increase a side effect of the cluster being huge, is that someone would have to baby sit the whole upgrade operation longer, than what they would spend on a smaller cluster(give upgrade automation is not present/not mature enough to remove the human involved here.)
 
+The eventual state is to have automation which does a bunch of domain specific operations, and the humand has to only get paged/notified in case when the upgrade gets done and dusted/there was some failure which occured, which the decision tree wasn't able to resolve itself. [Keiko](https://github.com/keikoproj/) project's [upgrade manager](https://github.com/keikoproj/upgrade-manager) is one such tool which comes to mind, apart from [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update).
+
 And if there are non-standardized workloads in the cluster(folks hand applying yamls/no track of objects in cluster), there are various ways on how an upgrade can either get stuck due to pdb budgets of pods not being met when the node gets cycled/end up causing an outage. Which makes this whole operation for a focused cluster running x teams applications much more saner.
 
 Hence, upgrade strategy is something to consider seriously while choosing the sizing.
@@ -66,12 +68,13 @@ Giving the right kind of access to the developers/operational folks/xyz designat
 
 There are a few tools out there which help you in doing so, like [krane](https://github.com/appvia/krane), [audit2rbac](https://github.com/appvia/krane), which help you in this process (thanks to [rahul](https://rmenn.in) for pointing them out to me).
 
-
 #### Deployment automation
 
 With all honesty, hand applying yaml files will only go so far. It works, but is a recipe for disaster over the long run, creating more spaghetti in the cluster and creating more problems than solving them. Problems like, who applied x resource object, who changed x resource, who is using this x resource. And the list so goes on.
 
 No one need not do Continous Delivery, but having some form CI to safely modify the respective resources via a tool/process will prevent a lot of surprises in production.
+
+There are multiple tools out there which allow fine grained RBAC rules, CI/CD, progressive delivery to your kubernetes clusters, [flagger](https://flagger.app/), [argo](https://argoproj.github.io/argo-cd/) being a few ones to name.
 
 #### Concentration risk
 
@@ -96,5 +99,5 @@ Given, most/all of these problems can be solved, the right trade-offs can be mad
 - [https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055](https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055)
 - [https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/)
 - [https://github.com/kubernetes/sig-release/issues/1290](https://github.com/kubernetes/sig-release/issues/1290)
-- [https://github.com/kubernetes-sigs/multi-tenancy]*(https://github.com/kubernetes-sigs/multi-tenancy)
+- [https://github.com/kubernetes-sigs/multi-tenancy](https://github.com/kubernetes-sigs/multi-tenancy)
 - [https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc)
