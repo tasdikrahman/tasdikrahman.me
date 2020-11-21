@@ -60,11 +60,11 @@ API's getting deprecated, for example [1.16](https://kubernetes.io/blog/2019/07/
 
 There's no one to blame here in case of API deprecations, an object getting stabler and getting promoted to a more stable API, is a natural progression. To enjoy the benefits of a stable kubernetes object, it only makes sense to move to the stable api rather than being stuck on one which is less stable/getting deprecated in the next release.
 
-If you're a small org, with a small group of folks managing the k8s clusters, the manual toil will be quite high. The reasons are also obvious, the lack of bandwidht will attribute to them not being able to automate the redundant tasks required for the upgrade. Even if they manage to write some automation, the automation will become stale over time if not given prioritisation to maintain it, as the domain changes. Plus, an average operations team will also have developer requests coming in their way, prioritising all this along with tasks such as maintaing your k8s cluster? Definitely a hard task to begin with.
-
 For a larger org having bandwidth, managing multiple clusters for teams, they will eventually have automation over time to reduce the toil.
 
-Folks have started working on building something in the open, although I have not personally used it, but I have heard good things about [kube-no-trouble](https://github.com/doitintl/kube-no-trouble), which takes a stab at telling the deprecated API's in a cluster.
+But if you're a small org, with a small group of folks managing the k8s clusters, the manual toil will be quite high. The reasons are also obvious, the lack of bandwidht will attribute to them not being able to automate the redundant tasks required for the upgrade. Even if they manage to write some automation, the automation will become stale over time if not given prioritisation to maintain it, as the domain changes. Plus, an average operations team will also have developer requests coming in their way, prioritising all this along with tasks such as maintaing your k8s cluster? Definitely a hard task to begin with.
+
+Although I have not personally used it, but I have heard good things about [kube-no-trouble](https://github.com/doitintl/kube-no-trouble), which takes a stab at telling the deprecated API's in a cluster.
 
 #### Access management
 
