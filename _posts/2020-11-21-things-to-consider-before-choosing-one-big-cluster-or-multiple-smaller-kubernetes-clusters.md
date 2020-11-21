@@ -5,7 +5,7 @@ description: "Things to consider before choosing a big cluster or multiple small
 tags: [kubernetes]
 comments: true
 share: true
-cover_image: '/content/images/2020/04/'
+cover_image: '/content/images/2019/04/k8s-image.png'
 ---
 
 This post is a continuation on the discussion which I was having with [@vineeth](https://twitter.com/VineethReddy02)
