@@ -56,11 +56,11 @@ Hence, upgrade strategy is something to consider seriously while choosing the mu
 
 #### API deprecations
 
-API's getting deprecated, for example [1.16](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/) was a release which had a bunch of changes, which would have involved the cluster operators to upgrade their automation/helm charts to be compatible with those changes.
+API's getting deprecated, for example [1.16](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/) was a release which had a bunch of changes, which would have involved the cluster operators to upgrade their automation/helm charts to be compatible with those changes, if they had plans on upgrading from some x version to v1.16.
 
 There's no one to blame here in case of API deprecations, an object getting stabler and getting promoted to a more stable API, is a natural progression. To enjoy the benefits of a stable kubernetes object, it only makes sense to move to the stable api rather than being stuck on one which is less stable/getting deprecated in the next release.
 
-If you're a small org, with a small group of folks managing the k8s clusters, the manual toil will be quite high. The reasons are also obvious, the lack of bandwidht will attribute to them not being able to automate the redundant tasks required for the upgrade. Even if they manage to write some automation, the automation will become stale over time if not given prioritisation, as the domain changes. Plus, an average operations team will also have developer requests coming in their way, prioritising all this with a small task is just a hard task to begin with.
+If you're a small org, with a small group of folks managing the k8s clusters, the manual toil will be quite high. The reasons are also obvious, the lack of bandwidht will attribute to them not being able to automate the redundant tasks required for the upgrade. Even if they manage to write some automation, the automation will become stale over time if not given prioritisation to maintain it, as the domain changes. Plus, an average operations team will also have developer requests coming in their way, prioritising all this along with tasks such as maintaing your k8s cluster? Definitely a hard task to begin with.
 
 For a larger org having bandwidth, managing multiple clusters for teams, they will eventually have automation over time to reduce the toil.
 
