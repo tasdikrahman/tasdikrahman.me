@@ -74,7 +74,9 @@ There are a few tools out there which help you in doing so, like [krane](https:/
 
 With all honesty, hand applying yaml files will only go so far. It works, but is a recipe for disaster over the long run, creating more spaghetti in the cluster and creating more problems than solving them. Problems like, who applied x resource object, who changed x resource, who is using this x resource. And the list so goes on.
 
-No one need not do Continous Delivery, but having some form CI to safely modify the respective resources via a tool/process will prevent a lot of surprises in production.
+Continous Delivery is hardly a requirement for anyone(mostly?), the ability to reliably deploy something is a hard requirement in most cases though.
+
+Having some form CI to safely modify the respective resources via a tool/process will prevent a lot of surprises in production.
 
 There are multiple tools out there which allow fine grained RBAC rules, CI/CD, progressive delivery to your kubernetes clusters, [flagger](https://flagger.app/), [argo](https://argoproj.github.io/argo-cd/) being a few ones to name.
 
