@@ -68,7 +68,7 @@ Although I have not personally used it, but I have heard good things about [kube
 
 #### Access management
 
-Giving the right kind of access to the developers/operational folks/xyz person in the team is necessary problem to solve, unless you are only givin admin privileges to only the operational folks/one groups of people. Even then, solving the same problem over for multiple clusters requires automation and a proper mechanism.
+Giving the right kind of access to the developers/operational folks/xyz person in the team is necessary problem to solve, unless you are giving admin privileges to only the operational folks/one groups of people. Even then, solving the same problem over for multiple clusters requires automation and a proper mechanism.
 
 What is to be done when a person leaves/joins? How can access be granted in granular manner for certain rbac roles which are only to be given read access, but no deletion access. If you have been in a position, where someone from the team has deleted the [deployment object](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) of your service and you ended up with an outage. This can happen with anyone, but reducing the blast radius is not a bad idea.
 
