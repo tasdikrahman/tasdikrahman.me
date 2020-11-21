@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A few things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
-description: "A few things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
+title: "Things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
+description: "Things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
 tags: [kubernetes]
 comments: true
 share: true
@@ -34,9 +34,17 @@ One operational aspect which might be important to note here is the burden of up
 
 Even on a managed platform platform provided by the cloud vendors (where they maintain the control plane for you), it's still an operational heavy task, and we are not even talking about self managed clusters via for eg: [kops](https://github.com/kubernetes/kops/).
 
-Multiply this effort with multiple such clusters, and you will end up needing to have people dedicated to just do this. There is no such thing as an LTS release as of now, unless you are fine with running super old kubernetes installations which would have CVE's reported and fixed in the upcoming releases/you are ok with doing big bang upgrades. Both of which might not be a great idea to begin with. Even if someone decides to run an archaic installation for long, if you feel running a super old installation will fly with your cloud provider, you will be in for a rude shock, where they can literally force upgrade your cluster(yes, they do it).
+Multiply this effort with multiple such clusters, and you will end up needing to have people dedicated to just do this. There is no such thing as an [LTS](https://en.wikipedia.org/wiki/Long-term_support) release as of now, unless you are fine with running super old kubernetes installations which would have CVE's reported and fixed in the upcoming releases/you are ok with doing big bang upgrades. Both of which might not be a great idea to begin with. Even if someone decides to run an archaic installation for long, if you feel running a super old installation will fly with your cloud provider, you will be in for a rude shock, where they can literally force upgrade your cluster(yes, they do it).
 
 All of the toil which goes into cluster upgrades might have been a factor, which would have led to the initiation of this discussion [here](https://github.com/kubernetes/sig-release/issues/1290) where folks discuss about modifying the kubernetes release cadence. I for one [did vote](https://github.com/kubernetes/sig-release/issues/1290#issuecomment-709774428), on moving to 3 releases than 4 every year. But there are also arguments against doing slower releases, which might make the next release bloated with features and going against the philosophy of small incremental changes, but that discussion is for another post.
+
+Given someone ends up with such a large cluster, the upgrade is equally gonna be as operationally heavy if not more than when someone was upgrading a bunch of clusters, as the operations to be done would remain more or less the same.
+
+What might increase a side effect of the cluster being huge, is that someone would have to baby sit the whole upgrade operation longer, than what they would spend on a smaller cluster(give upgrade automation is not present/not mature enough to remove the human involved here.)
+
+And if there are non-standardized workloads in the cluster(folks hand applying yamls/no track of objects in cluster), there are various ways on how an upgrade can either get stuck due to pdb budgets of pods not being met when the node gets cycled/end up causing an outage. Which makes this whole operation for a focused cluster running x teams applications much more saner.
+
+Hence, upgrade strategy is something to consider seriously while choosing the sizing.
 
 #### API deprecations
 
@@ -46,9 +54,34 @@ There's no one to blame here in case of API deprecations, an object getting stab
 
 If you're a small org, with a small group of folks managing the k8s clusters, the manual toil will be quite high. The reasons are also obvious, the lack of bandwidht will attribute to them not being able to automate the redundant tasks required for the upgrade. Even if they manage to write some automation, the automation will become stale over time if not given prioritisation, as the domain changes. Plus, an average operations team will also have developer requests coming in their way, prioritising all this with a small task is just a hard task to begin with.
 
+For a larger org having bandwidth, managing multiple clusters for teams, they will eventually have automation over time to reduce the toil.
+
+#### Access management
+
+Giving the right kind of access to the developers/operational folks/xyz designation person in the team is a problem to solve. Solving the same problem over for multiple clusters requires automation and a proper mechanism. If your workloads are sensitive (payments data etc.), you would require for such environments to be tighly audited and managed.
+
+#### Deployment automation
+
+With all honesty, hand applying yaml files will only go so far. It gets the job done, but unless you have
+
+#### Concentration risk
+
+If we look at the flip-side, having one big cluster, concentrates the risk of failure.
+
+If you are not on a vendor specific kubernetes installation, what happens when the control plane goes for a toss? 1 person having all the context is not scalable, what happens when the person who knows the operational know how is not present to handle the pager?
+
+What about zonal failures affecting the cluster? Do we have checks and balances to handle such an event?
+
+#### Ending notes
+
+Either of the two options, one large cluster vs multiple large clusters, both are an opinionated way to run clusters, or for that matter any compute infrastructure. What works best, might not work out in another context. Someone else's best practice might turn out into a nightmare for another org/team to manage/run.
+
+Given, most/all of these problems can be solved, the right trade-offs can be made when deciding for a solution and I hope this discussion helps you making the right decision in your context.
+
 ### References
 
 - [https://kubernetes.io/docs/concepts/services-networking/network-policies/](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - [https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055](https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055)
 - [https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/)
+- [https://github.com/kubernetes/sig-release/issues/1290](https://github.com/kubernetes/sig-release/issues/1290)
