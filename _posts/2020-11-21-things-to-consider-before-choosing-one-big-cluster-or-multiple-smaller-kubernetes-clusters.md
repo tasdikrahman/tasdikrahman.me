@@ -24,7 +24,9 @@ Before we start, big, here will be relative, but for the sake of this conversati
 
 #### Multi tenancy
 
-Hard multi-tenancy is something, which might not work the way as expected as of now on k8s, even with [netpols](https://kubernetes.io/docs/concepts/services-networking/network-policies/)/[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and upcoming mechanisms like [Hierararchical namespaces (aka HNC)](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc), which is still in incubation at the time of writing this. That's what I have last checked, but please correct me here if I am wrong if have something which tells otherwise.
+Hard multi-tenancy is something, which might not work the way as expected as of now on k8s, even with [netpols](https://kubernetes.io/docs/concepts/services-networking/network-policies/)/[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and upcoming mechanisms like [Hierararchical namespaces (aka HNC)](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc), which is still in incubation at the time of writing this.
+
+That's what I have last checked, but please correct me here if you came across something which tells otherwise.
 
 All of this might make people concentrate towards having multiple k8s clusters to achieve it that way.
 
@@ -42,7 +44,7 @@ All of the toil which goes into cluster upgrades might have been a factor, which
 
 Given someone ends up with such a large cluster, the upgrade is equally gonna be as operationally heavy if not more than when someone was upgrading a bunch of clusters, as the operations to be done would remain more or less the same.
 
-What might increase a side effect of the cluster being huge, is that someone would have to baby sit the whole upgrade operation longer, than what they would spend on a smaller cluster(give upgrade automation is not present/not mature enough to remove the human involved here.)
+What might increase a side effect of the cluster being huge, is that someone would have to baby sit the whole upgrade operation longer, than what they would spend on a smaller cluster(given upgrade automation is not present/not mature enough to remove the human involved here). The upgrades here, have to be done one ASG group/node pool size at a time, and takes time even if done for a smaller cluster. Imagine having to do it with a large cluster size, having 100's of node pools. But I am sure there are ways in which someone would have improvised here, but I am yet to come across something like that.
 
 The eventual state is to have automation which does a bunch of domain specific operations, and the humand has to only get paged/notified in case when the upgrade gets done and dusted/there was some failure which occured, which the decision tree wasn't able to resolve itself. [Keiko](https://github.com/keikoproj/) project's [upgrade manager](https://github.com/keikoproj/upgrade-manager) is one such tool which comes to mind, apart from [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update).
 
