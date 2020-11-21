@@ -18,7 +18,7 @@ Context is when I came across a tweet which demonstrated the ability of kubernet
 
 The discussion was originally around costs and how much would it take to run one such large kubernetes cluster, but it went into a different direction altogether.
 
-So what should the decision be? Rather, we can take the part where we discuss a few things about both sides of the coin. While this post is not a recommendation on what one should do, but the idea is to guide you to take a more informed decision with the data points and constraints that you have.
+So what should the decision be? Rather, I would like to take the path, where we discuss a few things about both sides of the coin. While this post is not a recommendation on what one should do, but the idea is to guide you to take a more informed decision with the data points, trade-offs and constraints that you have.
 
 Before we start, big, here will be relative, but for the sake of this conversation, let's say you plan to run a cluster, with worker nodes greater than ~50 (this is a big cluster for me right now, more on the why part of it in a bit) and a small cluster for the context of this post is say, 5-10 worker nodes.
 
@@ -84,7 +84,7 @@ Namespace as a service, to teams, is a model which I have heard people doing, ke
 
 Continous Delivery is hardly a requirement for anyone(mostly?), but the ability to reliably deploy something is a hard requirement in most cases though.
 
-Having some form CI, to safely modify the respective resources via a tool/process will prevent a lot of surprises in production. Audit trail logs in the CI pipeline for someone to see what happened, automated rollbacks too? That would be a sweet spot I would say. (We have built out our deployment platform similar to these practices described in my current org, but more on that in another post)
+Having some form of CI, to safely modify the respective resources via a tool/process will prevent a lot of surprises in production. Audit trail logs in the CI pipeline for someone to see what happened, automated rollbacks too? That would be a sweet spot I would say. (We have built out our deployment platform similar to these practices described in my current org, but more on that in another post)
 
 There are multiple tools out there which allow fine grained RBAC rules, CI/CD, progressive delivery to your kubernetes clusters, [flagger](https://flagger.app/), [argo](https://argoproj.github.io/argo-cd/) being a few ones to name.
 
@@ -100,7 +100,7 @@ Having one cluster, per product group is also a model which people follow, helpi
 
 #### Ending notes
 
-Either of the two options, one large cluster vs multiple large clusters, both are an opinionated way to run clusters, or for that matter any compute infrastructure. What works best, might not work out in another context. Someone else's best practice might turn out into a nightmare for another org/team to manage/run.
+Either of the two options, one large cluster vs multiple smaller clusters, both are an opinionated way to run clusters, or for that matter any compute infrastructure. What works best, might not work out in another context. Someone else's best practice might turn out into a nightmare for another org/team to manage/run.
 
 Given, most/all of these problems can be solved, the right trade-offs can be made when deciding for a solution and I hope this discussion helps you making the right decision in your context.
 
