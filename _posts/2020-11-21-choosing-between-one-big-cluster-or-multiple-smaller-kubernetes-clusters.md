@@ -22,6 +22,10 @@ So what should the decision be? Rather, I would like to take the path, where we 
 
 Before we start, big, here will be relative, but for the sake of this conversation, let's say you plan to run a cluster, with worker nodes greater than ~50 (this is a big cluster for me right now, more on the why part of it in a bit) and a small cluster for the context of this post is say, 5-10 worker nodes.
 
+#### Basic house keeping
+
+Having separate cluster(s) for staging and production, similar to how you would have been following the same for your compute infrastructure on VM's.
+
 #### Multi tenancy
 
 Hard multi-tenancy is something, which might not work the way as expected as of now on k8s, even with [netpols](https://kubernetes.io/docs/concepts/services-networking/network-policies/)/[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and upcoming mechanisms like [Hierararchical namespaces (aka HNC)](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc), which is still in incubation at the time of writing this.
