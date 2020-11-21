@@ -28,15 +28,15 @@ Hard multi-tenancy is something, which might not work the way as expected as of 
 
 That's what I have last checked, but please correct me here if you came across something which tells otherwise.
 
-All of this might make people concentrate towards having multiple k8s clusters to achieve it that way.
+So if your workloads do have a hard requirement for this, multiple k8s clusters would be a way here,
 
 #### Upgrade charter
 
-One operational aspect which might be important to note here is the burden of upgrades. Keeping up with upgrades, with the release cycle of kubernetes is not a trivial task. I have written about our experiences in this thread sometime back, to give you an idea of what really goes into one such upgrade.
+One operational aspect which is important to note here is the burden of upgrades. Keeping up with upgrades, with the release cycle of kubernetes is not a trivial task. I have written about our experiences in this thread sometime back, to give you an idea of what really goes into one such upgrade.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A few notes on <a href="https://twitter.com/kubernetes?ref_src=twsrc%5Etfw">@kubernetes</a> cluster upgrades on GKE (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1285619368353726465?ref_src=twsrc%5Etfw">July 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Even on a managed platform platform provided by the cloud vendors (where they maintain the control plane for you), it's still an operational heavy task, and we are not even talking about self managed clusters via for eg: [kops](https://github.com/kubernetes/kops/).
+Even on a managed platform provided by the cloud vendors (where they maintain the control plane for you), it's still an operational heavy task, and we are not even talking about upgrades on self hosted and managed clusters via tools for eg: [kops](https://github.com/kubernetes/kops/).
 
 Multiply this effort with multiple such clusters, and you will end up needing to have people dedicated to just do this. There is no such thing as an [LTS](https://en.wikipedia.org/wiki/Long-term_support) release as of now, unless you are fine with running super old kubernetes installations which would have CVE's reported and fixed in the upcoming releases/you are ok with doing big bang upgrades. Both of which might not be a great idea to begin with. Even if someone decides to run an archaic installation for long, if you feel running a super old installation will fly with your cloud provider, you will be in for a rude shock, where they can literally force upgrade your cluster(yes, they do it).
 
