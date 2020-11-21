@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
-description: "Things to consider before choosing a big cluster or multiple smaller kubernetes clusters"
+title: "Choosing between one big cluster or multiple smaller kubernetes clusters"
+description: "Choosing between one big cluster or multiple smaller kubernetes clusters"
 tags: [kubernetes]
 comments: true
 share: true
