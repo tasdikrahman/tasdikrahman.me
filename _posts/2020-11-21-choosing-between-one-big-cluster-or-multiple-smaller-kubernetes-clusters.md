@@ -20,7 +20,7 @@ The discussion was originally around costs and how much would it take to run one
 
 So what should the decision be? Rather, we can take the part where we discuss a few things about both sides of the coin. While this post is not a recommendation on what one should do, but the idea is to guide you to take a more informed decision with the data points and constraints that you have.
 
-Before we start, big, here will be relative, but for the sake of this conversation, let's say you plan to run a cluster, with worker nodes greater than ~50 (this is a big cluster for me right now, more on the why part of it in a bit)
+Before we start, big, here will be relative, but for the sake of this conversation, let's say you plan to run a cluster, with worker nodes greater than ~50 (this is a big cluster for me right now, more on the why part of it in a bit) and a small cluster for the context of this post is say, 5-10 worker nodes.
 
 #### Multi tenancy
 
