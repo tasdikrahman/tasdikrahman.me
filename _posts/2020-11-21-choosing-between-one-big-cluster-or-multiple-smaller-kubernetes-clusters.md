@@ -16,7 +16,7 @@ Context is when I came across a tweet which demonstrated the ability of kubernet
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">15k nodes cluster 🤯 <a href="https://t.co/VMWI7HeYHH">https://t.co/VMWI7HeYHH</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1329615066405093379?ref_src=twsrc%5Etfw">November 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The discussion was originally was around costs and how much would it take to run one such large kubernetes cluster, but it went into a different direction altogether. While this post is not a recommendation on what one should do, but the idea is to guide you to take a more informed decision with the data points and constraints that you have.
+The discussion was originally around costs and how much would it take to run one such large kubernetes cluster, but it went into a different direction altogether. While this post is not a recommendation on what one should do, but the idea is to guide you to take a more informed decision with the data points and constraints that you have.
 
 So what should the decision be? Rather, we can take the part where we discuss a few things about both sides of the coin
 
