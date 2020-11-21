@@ -24,7 +24,9 @@ Before we start, big, here will be relative, but for the sake of this conversati
 
 #### Multi tenancy
 
-Hard multi-tenancy is something, which might not work the way as expected as of now on k8s, even with [netpols](https://kubernetes.io/docs/concepts/services-networking/network-policies/)/[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)(that's what I have last checked, but please correct me here if I am wrong if have something which tells otherwise), which might make people concentrate towards having multiple k8s clusters to achieve it that way.
+Hard multi-tenancy is something, which might not work the way as expected as of now on k8s, even with [netpols](https://kubernetes.io/docs/concepts/services-networking/network-policies/)/[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and upcoming mechanisms like [Hierararchical namespaces (aka HNC)](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc), which is still in incubation at the time of writing this. That's what I have last checked, but please correct me here if I am wrong if have something which tells otherwise.
+
+All of this might make people concentrate towards having multiple k8s clusters to achieve it that way.
 
 #### Upgrade charter
 
@@ -56,13 +58,20 @@ If you're a small org, with a small group of folks managing the k8s clusters, th
 
 For a larger org having bandwidth, managing multiple clusters for teams, they will eventually have automation over time to reduce the toil.
 
+Folks have started working on building something in the open, although I have not personally used it, but I have heard good things about [kube-no-trouble](https://github.com/doitintl/kube-no-trouble), which takes a stab at telling the deprecated API's in a cluster.
+
 #### Access management
 
 Giving the right kind of access to the developers/operational folks/xyz designation person in the team is a problem to solve. Solving the same problem over for multiple clusters requires automation and a proper mechanism. If your workloads are sensitive (payments data etc.), you would require for such environments to be tighly audited and managed.
 
+There are a few tools out there which help you in doing so, like [krane](https://github.com/appvia/krane), [audit2rbac](https://github.com/appvia/krane), which help you in this process (thanks to [rahul](https://rmenn.in) for pointing them out to me).
+
+
 #### Deployment automation
 
-With all honesty, hand applying yaml files will only go so far. It gets the job done, but unless you have
+With all honesty, hand applying yaml files will only go so far. It works, but is a recipe for disaster over the long run, creating more spaghetti in the cluster and creating more problems than solving them. Problems like, who applied x resource object, who changed x resource, who is using this x resource. And the list so goes on.
+
+No one need not do Continous Delivery, but having some form CI to safely modify the respective resources via a tool/process will prevent a lot of surprises in production.
 
 #### Concentration risk
 
@@ -71,6 +80,8 @@ If we look at the flip-side, having one big cluster, concentrates the risk of fa
 If you are not on a vendor specific kubernetes installation, what happens when the control plane goes for a toss? 1 person having all the context is not scalable, what happens when the person who knows the operational know how is not present to handle the pager?
 
 What about zonal failures affecting the cluster? Do we have checks and balances to handle such an event?
+
+Having one cluster, per product group is also a model which people follow, helping de-risk the affects of failure to not affect other products/product groups. But then the operation problem/complexity of managing multiple clusters arise.
 
 #### Ending notes
 
@@ -84,4 +95,6 @@ Given, most/all of these problems can be solved, the right trade-offs can be mad
 - [https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - [https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055](https://blog.gojekengineering.com/how-we-upgrade-kubernetes-on-gke-91812978a055)
 - [https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/](https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/)
-- [https://github.com/kubernetes/sig-release/issues/1290](https://github.com/kubernetes/sig-release/issues/1290)
+- [https://github.com/kubernetes/sig-release/issues/1290](https://github.com/kubernetes/sig-release/issues/1290)
+- [https://github.com/kubernetes-sigs/multi-tenancy]*(https://github.com/kubernetes-sigs/multi-tenancy)
+- [https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc)
