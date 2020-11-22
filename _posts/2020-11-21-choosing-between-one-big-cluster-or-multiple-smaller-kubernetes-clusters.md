@@ -100,7 +100,7 @@ If you are not on a vendor specific kubernetes installation, what happens when t
 
 What about zonal failures affecting the cluster? Do we have checks and balances to handle such an event?
 
-What if the [requests and limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits) for memory and CPU were not set properly for foo service in foo namespace, that it ended up hogging more cpu and memory, affecting baz service from baz team(baz service's getting degraded). It's not a great place to be in. Se
+What if the [requests and limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits) for memory and CPU were not set properly for foo service in foo namespace, that it ended up hogging more cpu and memory, affecting baz service from baz team(baz service's getting degraded). It's not a great place to be in. Overprovisioning pods for teams/services and then gradually checking the trendline usage over time and then setting them over in requests and limits is one way to have sanity in the cluster and sizing it accordingly. More on this in another post.
 
 Having one cluster, per product group is also a model which people follow, helping de-risk the affects of failure to not affect other products/product groups. But then the operation problem/complexity of managing multiple clusters arise.
 
