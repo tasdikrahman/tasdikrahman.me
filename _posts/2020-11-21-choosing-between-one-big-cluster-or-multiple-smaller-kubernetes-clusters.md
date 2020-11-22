@@ -110,6 +110,8 @@ Either of the two options, one large cluster vs multiple smaller clusters, both 
 
 Given, most/all of these problems can be solved, the right trade-offs can be made when deciding for a solution and I hope this discussion helps you making the right decision in your context.
 
+P.S. A good amount of discussion also happened on [/r/kubernetes](https://reddit.com/r/kubernetes), here in [this thread](https://www.reddit.com/r/kubernetes/comments/jy85ly/choosing_between_one_big_cluster_or_multiple/)
+
 ### References
 
 - [https://kubernetes.io/docs/concepts/services-networking/network-policies/](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
