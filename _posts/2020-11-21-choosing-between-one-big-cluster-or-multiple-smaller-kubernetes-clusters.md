@@ -100,6 +100,8 @@ If you are not on a vendor specific kubernetes installation, what happens when t
 
 What about zonal failures affecting the cluster? Do we have checks and balances to handle such an event?
 
+What if the [requests and limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits) for memory and CPU were not set properly for foo service in foo namespace, that it ended up hogging more cpu and memory, affecting baz service from baz team(baz service's getting degraded). It's not a great place to be in. Se
+
 Having one cluster, per product group is also a model which people follow, helping de-risk the affects of failure to not affect other products/product groups. But then the operation problem/complexity of managing multiple clusters arise.
 
 #### Ending notes
@@ -117,3 +119,5 @@ Given, most/all of these problems can be solved, the right trade-offs can be mad
 - [https://github.com/kubernetes/sig-release/issues/1290](https://github.com/kubernetes/sig-release/issues/1290)
 - [https://github.com/kubernetes-sigs/multi-tenancy](https://github.com/kubernetes-sigs/multi-tenancy)
 - [https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc)
+- [https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits)
+- [https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/resource-qos.md](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/resource-qos.md)
