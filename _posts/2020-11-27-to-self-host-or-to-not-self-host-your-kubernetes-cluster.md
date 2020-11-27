@@ -44,7 +44,7 @@ But at the same time, the right tradeoffs do need to made. Kubernetes absolutely
 
 If you are in a very specialised environment where you absolutely know what you are doing and you must, this post is obviously not for you, in which case I would love to hear more about your learnings :).
 
-Coincidentally, my last post was also about the trade-offs in specific situation similar to this situation, hope you have this piece informative.
+Coincidentally, my last post was also about the trade-offs in specific situation similar to this situation, when dealing with kubernetes. Hope you have found this piece informative.
 
 ### Links
 
