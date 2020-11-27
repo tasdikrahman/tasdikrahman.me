@@ -10,7 +10,7 @@ cover_image: '/content/images/2019/04/k8s-image.png'
 
 A friend of mine asked this to me recently, about how was it to [self host](https://en.wikipedia.org/wiki/Self-hosting) [kubernetes](https://kubernetes.io) clusters. And I was cursing myself about why I did not write this post earlier (I mean, technically I have written about how we used to do self hosting [before](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but not the pros and cons of it), as this was not the first time I had been asked this question. So this post is dedicated to my friend and to others when they chance upon this question.
 
-Just for context, self host here is does not only mean, [kubernetes inside kubernetes](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but in a broader sense mean, managing the control plane of the kubernetes cluster too, along with the worker nodes (which is the usual case these days with the cloud vendor k8s options)
+Just for context, self host here does not mean, [kubernetes inside kubernetes](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but in a broader sense, would mean, managing the control plane of the kubernetes cluster too, along with the worker nodes (which is the usual case these days with the cloud vendor k8s options), which would also include the first case of kubernetes inside kubernetes,
 
 I had to pry out this tweet thread which I wrote about sometime back and it's a good summary more or less, most of which still holds true for me.
 
@@ -30,17 +30,20 @@ An event like switching out our [CNI](https://chrislovecnm.com/kubernetes/cni/ch
 
 I get that people do run other things like postgresql or mysql on VM's, but postgresql doesn't need an upgrade every few months, and would just about run for years without an upgrade without too much hiccups for most of the times.
 
+And not to forget kubernetes is a really fast moving project, [v1.4.6](https://github.com/kubernetes/kubernetes/releases/tag/v1.4.6) which was released around in november, 2016 was also a version close to which which we ran our production workloads back in 2017 for an org. Come 2020 november, we are already on [v1.18.12](https://github.com/kubernetes/kubernetes/releases/tag/v1.18.12). And not to mention the amount of changes which happen each release. As with any fast moving project, things are bound to change, as [Joe](https://www.infoq.com/podcasts/joe-beda-kubernetes-cncf/) mentions here that kubernetes should be boring, postgresql/mysql is boring tech. Kubernetes might take some time for it to become something similar to that. On a related note, this is a very good piece on that [topic](https://mcfunley.com/choose-boring-technology).
+
 There's just a mouthful of things to take care off too, in case you decide to manage your own [etcd clusters](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/), along with the control pane components. There's great learning for sure in all this, but the idea is to provide a reliable peice of infrastructure over to your customers here (assuming you work in the operations/platform team, your customers are your developers), unless the team is really rock solid in terms of their k8s knowledge and is able to keep up with self hosting, this sort of path can very quickly go down the wrong path for your team.
 
 Plus it would not make too much sense, if you're whole team is just about in the initial days of building your product, this will only (I would also say k8s, if the team is not very familiar with it) end up being a distraction and you are better off with plain simple [ASG's](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) and [instance groups](https://cloud.google.com/compute/docs/instance-groups) for that matter. Less moving part is good to start with.
 
 ### Ending notes
 
-Having managed and built platforms on top of multiple k8s clusters, for the better part of 3 and a half years now, one thing for sure I love about k8s is the power it gives. The ease of deployments(rolling deployments out of the box), the immutable nature of deployments(containerized workloads), the programmtic interface for starters([kubernetes/client-go](https://github.com/kubernetes/client-go), need I even say more), but at the same time, the right tradeoffs do need to made, if you're just in the phase of building your product, would highly recommend thinking twice in case of going the self hosting route, if you must.
+Having managed and built platforms on top of multiple k8s clusters, for the better part of 3 and a half years now, one thing for sure I love about k8s is the power it gives. The ease of deployments(rolling deployments out of the box), the immutable nature of deployments(containerized workloads), the programmatic interface for starters([kubernetes/client-go](https://github.com/kubernetes/client-go), need I even say more) and I am not even scratching the surface, but at the same time, the right tradeoffs do need to made. Kubernetes absolutely solves some very core problems, but if you're just in the phase of building your product, with not much of bandwidht. Would highly recommend thinking twice in case of going the self hosting route, if you must.
 
 If you are in a very specialised environment where you absolutely know what you are doing and you must, this post is obviously not for you, in which case I would love to hear more about your learnings :).
 
 Co-incendentally, my last post was also about the trade-offs in specific situation similar to this situation, hope you have this piece informative.
+
 ### Links
 
 - [https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/](https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/)
