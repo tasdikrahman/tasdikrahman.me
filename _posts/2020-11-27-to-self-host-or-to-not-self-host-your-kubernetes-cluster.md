@@ -30,9 +30,9 @@ An event like switching out our [CNI](https://chrislovecnm.com/kubernetes/cni/ch
 
 I get that people do run other things like postgresql or mysql on VM's, but postgresql doesn't need an upgrade every few months, and would just about run for years without an upgrade without too much hiccups for most of the times.
 
-There's just a mouthful of things to take care off too, in case you decide to manage your own etcd clusters, along with the control pane components. There's great learning for sure in all this, but the idea is to provide a reliable peice of infrastructure over to your customers here (assuming you work in the operations/platform team, your customers are your developers), unless the team is really rock solid in terms of their k8s knowledge and is able to keep up with self hosting, this sort of path can very quickly go down the wrong path for your team.
+There's just a mouthful of things to take care off too, in case you decide to manage your own [etcd clusters](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/), along with the control pane components. There's great learning for sure in all this, but the idea is to provide a reliable peice of infrastructure over to your customers here (assuming you work in the operations/platform team, your customers are your developers), unless the team is really rock solid in terms of their k8s knowledge and is able to keep up with self hosting, this sort of path can very quickly go down the wrong path for your team.
 
-Plus it would not make too much sense, if you're whole team is just about in the initial days of building your product, this will only (I would also say k8s, if the team is not very familiar with it) end up being a distraction and you are better off with plain simple ASG's and instance groups for that matter. Less moving part is good to start with.
+Plus it would not make too much sense, if you're whole team is just about in the initial days of building your product, this will only (I would also say k8s, if the team is not very familiar with it) end up being a distraction and you are better off with plain simple [ASG's](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) and [instance groups](https://cloud.google.com/compute/docs/instance-groups) for that matter. Less moving part is good to start with.
 
 ### Ending notes
 
