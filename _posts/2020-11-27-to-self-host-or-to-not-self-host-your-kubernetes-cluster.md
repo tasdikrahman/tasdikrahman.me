@@ -40,6 +40,7 @@ Having managed and built platforms on top of multiple k8s clusters, for the bett
 
 If you are in a very specialised environment where you absolutely know what you are doing and you must, this post is obviously not for you, in which case I would love to hear more about your learnings :).
 
+Co-incendentally, my last post was also about the trade-offs in specific situation similar to this situation, hope you have this piece informative.
 ### Links
 
 - [https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/](https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/)
