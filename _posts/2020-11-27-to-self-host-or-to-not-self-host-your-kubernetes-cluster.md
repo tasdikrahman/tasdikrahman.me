@@ -55,3 +55,7 @@ Coincidentally, my last post was also about the trade-offs in specific situation
 - [https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/](https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/)
 - [https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/)
 - [https://tasdikrahman.me/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/](https://tasdikrahman.me/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/)
+
+### Credits
+
+- Thanks to [nemo](https://captnemo.in/) for proofreading and the folks at [kubernetes](https://kubernetes.io/) for the post image.
