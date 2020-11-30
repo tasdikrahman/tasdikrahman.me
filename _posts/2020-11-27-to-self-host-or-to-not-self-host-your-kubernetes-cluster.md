@@ -34,7 +34,7 @@ And not to forget kubernetes is a really fast moving project. [v1.4.6](https://g
 
 There's just a mouthful of things to take care of too, in case you decide to manage your own [etcd clusters](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/), along with the control plane components, if you decide to self host. There's great learning for sure in all this, but the idea is to provide a reliable peice of infrastructure over to your customers here first (assuming you work in the operations/platform team, your customers are your developers), unless the team is really rock solid in terms of their k8s knowledge and is able to keep up with self hosting, this sort of path can very quickly become a possible wrong decision for your team.
 
-And not to forget the automation which needs to be maintained to bring up/upgrade parts if not all of the whole self-hosted cluster automation.
+And not to forget the automation which needs to be maintained to bring up/upgrade parts if not all of the whole self-hosted cluster automation. The automation can vary based on the solution which you picked up to orchestrate the creation of your cluster and could be anything from shell scripts/terraform modules etc. The point is that, if it's not a standard solution out there and you have hand smashed a lot of automation yourself, the added overhead of maintaing that automation shows up over time.
 
 ### Ending notes
 
