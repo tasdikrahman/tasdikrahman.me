@@ -48,8 +48,18 @@ There is no right size for a PR, but ideally smaller changes, which have one pur
 
 If the feature/changeset requires a lot of changes, it would either mean that the scope was not broken down properly, which ended up creeping inside the PR as a reflection.
 
+Another common thing, as pointed out by [Joy](https://twitter.com/hashfyre/) is that we sometimes tend to add something extra in addition to the original scope of the PR. This becomes a problem when the scope of change, if too big/unrelated to the original scope, would affect the review of the PR as a sideeffect of the reviewer then trying to review two different contexts/intents. Keeping the intent to just one thing helps the reviewer's job.
+
 Over time people will notice what is a big enough changeset for their specific services and they will start breaking the PR's down, if that is not happening it's definitely something which needs to be brought to notice by other members in the team.
+
+## Being pedantic about coverage
+
+[Code coverage](https://en.wikipedia.org/wiki/Code_coverage) is not really a good metric to measure software and it's stability. While good (lesser bugs) software tend to have high coverage, it's not necessary that it's gonna solve all the problems you would have/encounter. I have written a bit more about this [here](https://tasdikrahman.me/2020/10/07/why-I-chose-to-do-tdd-for-my-side-project/) on why even close to 100% code coverage would not prevent your software to be bug free.
 
 ## Ending notes
 
 These are the things are usually try following which would allow the changeset getting accepted in a timely manner without compromising on the quality on the quality too much, but would love to hear what you think about it.
+
+## Credits
+
+Thanks to [Joy](https://twitter.com/hashfyre/) for proof reading the post.
