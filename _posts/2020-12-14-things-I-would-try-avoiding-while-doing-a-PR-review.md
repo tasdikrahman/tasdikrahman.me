@@ -12,7 +12,9 @@ As with time this doc will change, but jotting my thoughts down here on things w
 
 ## Code formatting/style suggestions
 
-I believe it's best left to the machine to do this instead of a human trying to fixate their attention to this. A code formatter should ideally, should pick this step up from the human reviewers's. An opinionated code-formatter/linter/style checker is the best option to have. An example for this will be [gofmt](https://golang.org/cmd/gofmt/). What a tool is not able to enforce should be added as a team guide when reviewing PR's, opining about certain styles and blocking the merging of the PR is not the best way to deal about changes being introduced, worse yet. If the person is new/not someone from the team, would only add up to the friction of contributing towards the codebase, which is not a good sign.
+I believe it's best left to the machine to do this instead of a human trying to fixate their attention to this, given it takes away the precious time of the reviewer which could be diverted to review the crux of the changes which the submission tries introducing. A code formatter should ideally pick this step up from the human reviewers's. An opinionated code-formatter/linter/style checker is the best option to have. An example for this will be [gofmt](https://golang.org/cmd/gofmt/)/linter which weeds out code formatting issues right in the build/test step. [rubocop](https://github.com/rubocop-hq/rubocop) is another great example.
+
+What a tool is not able to enforce should be added as a team guide when reviewing PR's, opining about certain styles and blocking the merging of the PR is not the best way to deal about changes being introduced, worse yet. If the person is new/not someone from the team, would only add up to the friction of contributing towards the codebase, which is not a good sign.
 
 If there is something which the reviewer is very concerned as a style in the PR, they should ideally leave it be for this changeset if it was not caught by the automated tooling/not mentioned in the team style guide and raise it with the team to be voted upon from the next PR's.
 
