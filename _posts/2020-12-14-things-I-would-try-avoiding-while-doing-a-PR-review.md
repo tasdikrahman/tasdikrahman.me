@@ -48,4 +48,4 @@ Over time people will notice what is a big enough changeset for their specific s
 
 ## Ending notes
 
-I usually try following the above, but would love to hear what you think about it.
+These are the things are usually try following which would allow the changeset getting accepted in a timely manner without compromising on the quality on the quality too much, but would love to hear what you think about it.
