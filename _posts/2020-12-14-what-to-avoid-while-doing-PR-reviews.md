@@ -26,7 +26,7 @@ Wrote a small thread around the same here.
 
 ## Going over the whole design again
 
-A higher level design change is not something which I will suggest on a PR, this needs to be caught right before someone starts implementing foo feature. It's a massive waste of time for the whole team, while you go over something which neither of the team members had consensus upon. Which is why I really like the approach of [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) like process where the changeset if big enough would involve a discussion and a consensus be formed upon, so that things don't come as surprises at the implementation stage for both the reviewer and the driver of the changeset.
+A higher level design change is not something which I will suggest on a PR, this needs to be caught right before someone starts implementing foo feature/refactoring. It's a massive waste of time for the whole team, while you go over something which neither of the team members had consensus upon. Which is why I really like the approach of [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) like process where the changeset if big enough would involve a discussion and a consensus be formed upon, so that things don't come as surprises at the implementation stage for both the reviewer and the driver of the changeset.
 
 What this will also immediately do is also make others familiar with what you are trying to propose and point out any mistakes which might not get caught by you in the early desing phase, which they might have seen/experienced.
 
