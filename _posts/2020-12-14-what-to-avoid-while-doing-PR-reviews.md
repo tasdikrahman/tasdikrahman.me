@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Things I would try avoiding while doing a PR review"
-description: "Things I would try avoiding while doing a PR review"
+title: "What to avoid while doing PR reviews"
+description: "What to avoid while doing PR reviews"
 tags: [softwaredevelopment]
 comments: true
 share: true
 cover_image: '/content/images/2020/12/review-image.png'
 ---
 
-As with time this doc will change, but jotting my thoughts down here on things which I feel I would like to avoid while I review PR's.
+As with time this doc will change, but jotting my thoughts down here on what I feel I would like to avoid while I review PR's.
 
 ## Code formatting/style suggestions
 
@@ -40,7 +40,7 @@ Again, going via an RFC approach might be one way where this would get caught as
 
 For example, there was this one change made in the codebase in the client of an API which would get distributed to developers internally for a toolset which our team would provide. This change would effectively introduce parsing of the API response and being quite tied to the exact semantics of the payload which it would recieve from the server. Trickling down such logic to the client meant, that any changes to the response would have to be backward compatible. And when we did end up introducing a change to the response payload, we ended up having to keep this versioned API backward compatible. While I agree that versioning is for this specific purpose, but I feel it could have been avoided if the client would have been decoupled from the exact response semantics in this case and would just about be very naive, instead the server being smart enough to send the appropriate data over to the client.
 
-## Accepting a large enough changeset which introduces a whole bunch of things
+## Accepting a large enough changeset which introduces too many changes
 
 With all honesty, I really don't feel that someone would be able to effectively, actually go through a PR which changes 50 different files and has a huge LOC changeset, without having to spend copious amounts of time dedicated to just reviewing the PR. I personally have felt that such changes are super hard to review and would considerably increase the PR review time. In worst cases, to just unblock the team member, you have to either trust their changeset while you have gone through it on a very high level and going ahead and merging their PR, this introduces the problem of the PR not having gone through the usual PR process which would be a bit more rigorous.
 
@@ -62,4 +62,4 @@ These are the things are usually try following which would allow the changeset g
 
 ## Credits
 
-Thanks to [Joy](https://twitter.com/hashfyre/) for proof reading the post.
+Thanks to [Joy](https://twitter.com/hashfyre/) and [nemo](https://twitter.com/captn3m0/) for proof reading the post.
