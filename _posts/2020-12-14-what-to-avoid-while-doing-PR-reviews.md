@@ -18,7 +18,7 @@ What a tool is not able to enforce should be added as a team guide when reviewin
 
 If there is something which the reviewer is very concerned as a style in the PR, they should ideally leave it be for this changeset if it was not caught by the automated tooling/not mentioned in the team style guide and raise it with the team to be voted upon from the next PR's.
 
-Obvious thing to avoid here is going against the language guidelines themselves, I would preferabley rather stick to the language guidelines([pep8](https://www.python.org/dev/peps/pep-0008/) for example) unless absolutely required. What this will enable is, someone new joining the team would have less familiar things to get onboarded to making them productive faster in terms of moving around the codebase, finding things or making sense of why for certain choices.
+Obvious thing to avoid here is going against the language guidelines themselves, I would preferably rather stick to the language guidelines([pep8](https://www.python.org/dev/peps/pep-0008/) for example) unless absolutely required. What this will enable is, someone new joining the team would have less familiar things to get onboarded to making them productive faster in terms of moving around the codebase, finding things or making sense of why for certain choices.
 
 Wrote a small thread around the same here.
 
@@ -32,7 +32,7 @@ What this will also immediately do is also make others familiar with what you ar
 
 ## Idealistic changeset
 
-This is something which I would like to prevent in the codebase, if the feature adoption is hard for foo feature, it would probably not make sense to add it if no one is going to use it. There should be some strategy on how to get users for the problem you are solving and reducing the friction for adoption. If no-one is uses that feature/it provides to added value in the codebase, it's as good as dead code to me.
+This is something which I would like to prevent in the codebase, if the feature adoption is hard for foo feature, it would probably not make sense to add it if no one is going to use it. There should be some strategy on how to get users for the problem you are solving and reducing the friction for adoption. If no-one is using that feature/it provides no added value in the codebase, it's as good as dead code to me.
 
 If the feature is not gonna get used, why bother adding it at that moment? If instead the attention can be diverted to more burning issues/solving customer problems which are gonna give more leverage.
 
@@ -40,7 +40,7 @@ Again, going via an RFC approach might be one way where this would get caught as
 
 For example, there was this one change made in the codebase in the client of an API which would get distributed to developers internally for a toolset which our team would provide. This change would effectively introduce parsing of the API response and being quite tied to the exact semantics of the payload which it would recieve from the server. Trickling down such logic to the client meant, that any changes to the response would have to be backward compatible. And when we did end up introducing a change to the response payload, we ended up having to keep this versioned API backward compatible. While I agree that versioning is for this specific purpose, but I feel it could have been avoided if the client would have been decoupled from the exact response semantics in this case and would just about be very naive, instead the server being smart enough to send the appropriate data over to the client.
 
-## Accepting a large enough changeset which introduces too many changes
+## Accepting a large changeset which introduces too many changes
 
 With all honesty, I really don't feel that someone would be able to effectively, actually go through a PR which changes 50 different files and has a huge LOC changeset, without having to spend copious amounts of time dedicated to just reviewing the PR. I personally have felt that such changes are super hard to review and would considerably increase the PR review time. In worst cases, to just unblock the team member, you have to either trust their changeset while you have gone through it on a very high level and going ahead and merging their PR, this introduces the problem of the PR not having gone through the usual PR process which would be a bit more rigorous.
 
