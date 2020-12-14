@@ -12,7 +12,7 @@ As with time this doc will change, but jotting my thoughts down here on things w
 
 ## Code formatting/style suggestions
 
-I believe it's best left to the machine to do this instead of a human trying to fixate their attention to this, given it takes away the precious time of the reviewer which could be diverted to review the crux of the changes which the submission tries introducing. A code formatter should ideally pick this step up from the human reviewers's. An opinionated code-formatter/linter/style checker is the best option to have. An example for this will be [gofmt](https://golang.org/cmd/gofmt/)/linter which weeds out code formatting issues right in the build/test step. [rubocop](https://github.com/rubocop-hq/rubocop) is another great example.
+I believe it's best left to the machine to do this instead of a human trying to fixate their attention to this, given it takes away the precious time of the reviewer which could be diverted to review the crux of the changes which the submission tries introducing. A code formatter should ideally pick this step up from the human reviewers's plate. An opinionated code-formatter/linter/style checker is the best option to have. An example for this will be [gofmt](https://golang.org/cmd/gofmt/)/linter which weeds out code formatting issues right in the build/test step. [rubocop](https://github.com/rubocop-hq/rubocop) is another great example.
 
 What a tool is not able to enforce should be added as a team guide when reviewing PR's, opining about certain styles and blocking the merging of the PR is not the best way to deal about changes being introduced, worse yet. If the person is new/not someone from the team, would only add up to the friction of contributing towards the codebase, which is not a good sign.
 
@@ -42,7 +42,7 @@ For example, there was this one change made in the codebase in the client of an 
 
 ## Accepting a large enough changeset which introduces a whole bunch of things
 
-With all honesty, I really don't feel that someone would be able to effectively, actually go through a PR which changes 50 different files and has a huge LOC changeset. I personally have felt that such changes are super hard to review and would considerably increase the PR review time. In worst cases, to just unblock the team member, you have to either trust their changeset while you have gone through it on a very high level and going ahead and merging their PR, this introduces the problem of the PR not having gone through the usual PR process which would be a bit more rigorous.
+With all honesty, I really don't feel that someone would be able to effectively, actually go through a PR which changes 50 different files and has a huge LOC changeset, without having to spend copious amounts of time dedicated to just reviewing the PR. I personally have felt that such changes are super hard to review and would considerably increase the PR review time. In worst cases, to just unblock the team member, you have to either trust their changeset while you have gone through it on a very high level and going ahead and merging their PR, this introduces the problem of the PR not having gone through the usual PR process which would be a bit more rigorous.
 
 There is no right size for a PR, but ideally smaller changes, which have one purpose are easier to review. Say for example, refactoring a flow to remove redundancy and re-using another module from the same codebase. Adding a small feature which would not require a lot of work.
 
