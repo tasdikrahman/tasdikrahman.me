@@ -60,7 +60,7 @@ What I would like seeing is ways in which the changeset can be tested to gain mo
 
 ## Ending notes
 
-These are some of the prompts which I usually try following, which would allow the changeset getting accepted in a timely manner without compromising on the quality on the quality too much, but would love to hear what you think about it.
+These are some of the prompts which I usually try following, which would allow the changeset getting accepted in a timely manner without compromising on the quality too much, but would love to hear what you think about it.
 
 ## Credits
 
