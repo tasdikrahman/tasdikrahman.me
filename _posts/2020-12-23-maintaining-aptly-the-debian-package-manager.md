@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Maintaing aptly"
-description: "Maintaing aptly"
+title: "Maintaing aptly - The debian package manager"
+description: "Maintaing aptly - The debian package manager"
 tags: [devops]
 comments: true
 share: true
