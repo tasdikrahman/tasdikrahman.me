@@ -78,7 +78,10 @@ Will immediately solve the problem of slower builds, as well as the sideeffect o
 
 The other solution is to either self host another alternative like Pulp3 etc, or a paid package manager, which would take away some bits of these off your plate.
 
+Another thing to note here is that, aptly hasn't had a commit on it's master for quite some time along with a new release not being put our for some time now. There has been an open [issue](https://github.com/aptly-dev/aptly/issues/920) regarding the question of whether it's maintained anymore. Although, I personally feel it's feature complete for the set of features we have been currently using, and runs without any fuss whatsover for the most part, this is definitely something which you should consider as something while weighing down on options.
+
 ## References
 
 - [https://www.aptly.info/doc/aptly/publish/repo/](https://www.aptly.info/doc/aptly/publish/repo/)
 - [https://github.com/aptly-dev/aptly/blob/24a027194ea8818307083396edb76565f41acc92/system/t12_api/publish.py#L49](https://github.com/aptly-dev/aptly/blob/24a027194ea8818307083396edb76565f41acc92/system/t12_api/publish.py#L49)
+- [https://github.com/aptly-dev/aptly/issues/920](https://github.com/aptly-dev/aptly/issues/920)
