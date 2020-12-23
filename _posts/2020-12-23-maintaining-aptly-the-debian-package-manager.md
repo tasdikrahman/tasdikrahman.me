@@ -62,11 +62,13 @@ func apiPublishUpdateSwitch(c *gin.Context) {
 	if c.Bind(&b) != nil {
 		return
 	}
+...
+...
 ```
 
 The var `b` would get it's de-serialised content for `SkipContents` is what we anticipated, when we started passing the value `skip-contents: true`(as we saw in the [docs](https://www.aptly.info/doc/aptly/publish/repo/)), in the `PUT` call, as part of the final package step.But this also seemed to not work.
 
-After digging a bit more, [Vidit](https://twitter.com/viditganpi/) and [Kartik](https://twitter.com/kartik7153/) discovered that we were passing the wrong header key which would be used to Skip contents, from their test suite, the configuration to allow [setting this value](https://github.com/aptly-dev/aptly/blob/24a027194ea8818307083396edb76565f41acc92/system/t12_api/publish.py#L49), the header to be passed was `SkipContents`, after making the change. This was the step which was taking all the time as the package index size grew over time, making the whole package upload step slow.
+After digging a bit more, [Vidit](https://twitter.com/viditganpi/) and [Kartik](https://twitter.com/kartik7153/) discovered that we were passing the wrong header key which would be used to Skip contents, from their test suite, the configuration to allow [setting this value](https://github.com/aptly-dev/aptly/blob/24a027194ea8818307083396edb76565f41acc92/system/t12_api/publish.py#L49), the header to be passed was `SkipContents: true`, after making the change. This was the step which was taking all the time as the package index size grew over time, making the whole package upload step slow.
 
 ## Alternative ways of tackling this problem
 
