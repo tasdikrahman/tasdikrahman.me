@@ -36,7 +36,7 @@ The particular step is the package publish step, for a distribution which slows 
 
 The publish step [https://www.aptly.info/doc/aptly/publish/repo/](https://www.aptly.info/doc/aptly/publish/repo/) has an option/flag called `--skip-contents`, which will essentially not generate the index of the contents stored. We had tried unsuccessfully storing this in the aptly app config, but it seemed to not work.
 
-After checking the codebase, in the specific route, which was `/publish/:prefix/:distribution` which used to take the most time, and for which we wanted to set the above setting.
+After checking the [codebase](https://github.com/aptly-dev/aptly/blob/24a027194ea8818307083396edb76565f41acc92/api/publish.go#L232), in the specific route, which was `/publish/:prefix/:distribution` which used to take the most time, and for which we wanted to set the above setting.
 
 
 ```golang
