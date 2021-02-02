@@ -5,7 +5,7 @@ description: "Handling language stack deprecations"
 tags: [devops]
 comments: true
 share: true
-cover_image: '/content/images/2021/01/vm-inventory-trendline.jpg'
+cover_image: '/content/images/2021/02/vm-inventory-trendline.jpg'
 ---
 
 This post is a continuation of this [tweet thread](https://twitter.com/tasdikrahman/status/1355129674192490498?s=20)
