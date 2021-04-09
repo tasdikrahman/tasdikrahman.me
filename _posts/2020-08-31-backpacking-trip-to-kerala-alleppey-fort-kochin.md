@@ -24,11 +24,11 @@ As I devoured my takeaway from Khawa korpo, I felt giddy happy as I have always 
 
 And what better timing could it have been. I was visiting during the legendary [Nehru Trophy Boat Race](https://en.wikipedia.org/wiki/Nehru_Trophy_Boat_Race), the cherry on top being that [Sachin Tendulkar](https://en.wikipedia.org/wiki/Sachin_Tendulkar) was gonna visit too being one of the chief guests.
 
-Morning shined bright on our faces waking us up to the serene view in front of us, the drenched roads with the fresh bits of rainfall, the trees growing on the side of the road, making way for us as we swisshed passed them.
+Morning shined bright on our faces waking us up to the serene view in front of us, the drenched roads with the fresh bits of rainfall, the trees growing on the side of the road, making way for us as we swished passed them.
 
 All of this, while checking google maps constantly to look for when do we need to get off the bus to be nearest to the hostel where we were gonna crash in Alleppey.
 
-Similar to the gokarna trip, I managed to get bunk beds for me and Deepak in Zostel Alleppey, and off we went walking with out rucksacks towards the hostel, looking at google maps every now and then to check if we were not headed in the wrong direction.
+Similar to the gokarna trip, I managed to get bunk beds for me and Deepak in Zostel Alleppey, and off we went walking with our rucksacks towards the hostel, looking at google maps every now and then to check if we were not headed in the wrong direction.
 
 Luckily, we got a rick to deliver us straight in front of the hostel. It was still super early for us to checkin to our rooms, but our host was kind enough to let us keep our rucksacks aside and let us use the washrooms.
 
