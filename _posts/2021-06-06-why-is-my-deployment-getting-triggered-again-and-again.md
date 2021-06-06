@@ -52,7 +52,7 @@ The block handling the response from the deployment service, was having a guard 
 
 Given the timeout configuration, the HTTP error flow not being handled before the parsing the deployment response flow, it would end up error-ing out the deployment job, leading it to be retried by the background job processor.
 
-## What we did to prevent this again
+## What did we do to prevent this from happening again
 
 The first fix added was to increase the response timeout in the reverse proxy to be comfortably more than the timeout set on the gunicorn timeout, so that if the worker times out, the response would be sent through, without the connection getting timed out by the proxy.
 
