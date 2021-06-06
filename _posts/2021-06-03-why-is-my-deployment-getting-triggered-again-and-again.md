@@ -58,7 +58,9 @@ The first fix added was to increase the response timeout in the reverse proxy to
 
 The second thing which we ended up doing was to keep a check on the deployment flow, before initiating the deployment on whether the deployment is already in a terminal state (failed/succeeded) which was easy to check given the state transitions being maintained.
 
-We could have also made use of the background job processor's `max_retry` setting in this case by setting it to 0, which would have not retried the job at all if it failed once. Another option would have been to use `discard_on` here [https://edgeapi.rubyonrails.org/classes/ActiveJob/Exceptions/ClassMethods.html#method-i-discard_on]()
+We could have also made use of the background job processor's `max_retry` setting in this case by setting it to 0, which would have not retried the job at all if it failed once. Another option would have been to use `discard_on` here [https://edgeapi.rubyonrails.org/classes/ActiveJob/Exceptions/ClassMethods.html#method-i-discard_on](https://edgeapi.rubyonrails.org/classes/ActiveJob/Exceptions/ClassMethods.html#method-i-discard_on)
+
+Obligatory plug of the fallacy of ["Network is reliable"](https://web.archive.org/web/20171107014323/http://blog.fogcreek.com/eight-fallacies-of-distributed-computing-tech-talk/)
 
 ## Links
 
