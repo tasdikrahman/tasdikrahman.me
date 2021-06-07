@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Why is my deployment getting triggered again and again?"
-description: "Why is my deployment getting triggered again and again?"
+title: "Bug which would cause some deployments to get triggered again and again"
+description: "Bug which would cause some deployments to get triggered again and again"
 tags: ["softwaredevelopment"]
 comments: true
 share: true
