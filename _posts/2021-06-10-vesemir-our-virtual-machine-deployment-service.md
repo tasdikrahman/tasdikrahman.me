@@ -28,6 +28,8 @@ Given, GCP doesn't have a service similar to [AWS codedeploy](https://aws.amazon
 
 Vesemir is a inhouse python service, which in a gist is a wrapper on top of chef API's, where-in it receives a request for deploying a service in a particular cluster (a GCP project), filters out the VM's where it has to deploy the changeset and then goes about deploying the changeset, either one at a time or at the level of concurrency insisted upon by the request.
 
+It hels us deploy to integration and production environments, 300+ times every day.
+
 ### How does it do it?
 
 The initial request payload, bits which are of most relevance are
