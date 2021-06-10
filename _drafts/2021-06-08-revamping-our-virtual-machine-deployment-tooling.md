@@ -44,7 +44,12 @@ The ansible playbook which gets fed into `playbook.PlaybookExecutor`, is a stati
 
 The options named var, will take in details like, which user and other authz/authn details to be used by ansible to ssh into the hosts, along with options like `forks` where the concurrency is set for the number of boxes where we would want to run the playbook.
 
-The next step is to execute the [`run`](https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_executor.py#L84) method on the initialiazed object of `playbook.PlaybookExecutor`
+The next step is to execute the [`run`](https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_executor.py#L84) method on the initialiazed object of `playbook.PlaybookExecutor`. The important bit here after the run is the collection of stats which we pick up, from the [`TaskQueueManager`](https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_queue_manager.py#L52), which is what we then use to check for nodes where the playbook ran successfully or not, if the hosts were unreachable and so on.
+
+This piece of information is then used to form a response to be given back to the client which has called vesemir.
+
+As for the playbook and what does it do, in gist, it first, disables the server where it is first going to deploy, in the haproxy backend for the application servers. Introduces the changeset, restarts the service, enables this VM back in the HAproxy backend with weights if provided during the request, an option to sleep for a bit is also introduced which is again controlled by the request, before which the VM is inserted back with 100% weight.
+
 
 ### Links
 
