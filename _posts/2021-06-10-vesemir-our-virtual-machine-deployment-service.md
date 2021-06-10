@@ -8,6 +8,10 @@ share: true
 cover_image: '/content/images/2021/06/pyramids.jpg'
 ---
 
+This post is a continuation of the tweet here
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The build and deployment pipeline for each org will be different in some way or the other, given each co will have it’s own requirements. This thread talks a bit about our virtual machine deployment pipeline (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1403038789052735491?ref_src=twsrc%5Etfw">June 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 The build and deployment pipeline for each org will be different in some way or the other, given each co will have it's own requirements. Even in my last org, the way our team enabled other teams to ship code/config changes, was pretty different from the way we do it in my current org.
 
 ## Background
