@@ -61,3 +61,4 @@ The playbook is then looped over the hosts, returned by the chef query while sea
 - [TaskExecutor class - https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_executor.py#L84](https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_executor.py#L84)
 - [TaskQueueManager class - https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_queue_manager.py#L52](https://github.com/ansible/ansible/blob/v2.5.0/lib/ansible/executor/task_queue_manager.py#L52)
 - [https://github.com/coderanger/pychef](https://github.com/coderanger/pychef)
+- [Cover image credits](https://unsplash.com/photos/ejqfevj3Xv8)
