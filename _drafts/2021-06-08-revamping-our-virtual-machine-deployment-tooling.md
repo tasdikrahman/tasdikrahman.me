@@ -70,9 +70,11 @@ Monitoring, logging and reliability changes, along with better testing mechanism
 
 ## Takeaways
 
-I learned a bunch during the course of the whole revamp, but the biggest for me was prioritisation on what is the more important problem to solve which would create more impact and helping the end users along with project management.
+Learned a bunch during the course of the whole revamp, but the biggest for me was prioritisation on what is the more important problem to solve which would create more impact and helping the end users along with project management.
 
 This was also the time when fresh grads had joined our team, helping them ramping up on the codebase and the operational side of things was something which helped me deepen my own understanding around our domain.
+
+Dealing with a really hairy, legacy piece of software, working around it while enhancing it at the same time without causing issues to the customers(product team devs) was something new.
 
 Thanks for reading, more on around normandy, our kubernetes deployment service, the other part of our deployment platform.
 
