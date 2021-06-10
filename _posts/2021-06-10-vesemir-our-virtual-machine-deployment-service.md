@@ -5,7 +5,7 @@ description: "Vesemir: Our virtual machine deployment service"
 tags: ["softwaredevelopment", "deployments"]
 comments: true
 share: true
-cover_image: '/content/images/2020/06/pyramids.jpg'
+cover_image: '/content/images/2021/06/pyramids.jpg'
 ---
 
 The build and deployment pipeline for each org will be different in some way or the other, given each co will have it's own requirements. Even in my last org, the way our team enabled other teams to ship code/config changes, was pretty different from the way we do it in my current org.
