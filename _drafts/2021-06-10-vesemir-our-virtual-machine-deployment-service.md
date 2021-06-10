@@ -54,6 +54,20 @@ As for the playbook and what does it do, in gist, it first, disables the server 
 
 The playbook is then looped over the hosts, returned by the chef query while searching.
 
+## Shortcomings of this deployment pattern
+
+Given the changelog is introduced in each VM in such a way, immutability is not possible, which is again to the [AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) based approach, where AWS codedeploy would do something similar to inject the codebase into the target VMs.
+
+More moving parts in the system, which depend on external dependencies. For eg: ansible being a very important part for vesemir to deploy the changeset, right from using piggybackin on the ssh interface provided, to the templatising of the steps of execution to be done.
+
+Maintenance of a custom tool, which would have it's own lifecycle, maintenance, bugs and feature requests.
+
+## Takeaways
+
+There are numerous ways in which people end up deploying their codebases, but maintaining vesemir for sometime now for my current org, having seen both sides of having immutable deployments via container images, to deploying changeset via vesemir, it's not very hard to see the selling point of immutability.
+
+Thanks for reading this piece so far, more on how we ended up revamping vesemir in another post.
+
 ### Links
 
 - [playbook.PlaybookExecutor class - https://github.com/ansible/ansible/blob/v2.5.1/lib/ansible/executor/playbook_executor.py](https://github.com/ansible/ansible/blob/v2.5.1/lib/ansible/executor/playbook_executor.py)
