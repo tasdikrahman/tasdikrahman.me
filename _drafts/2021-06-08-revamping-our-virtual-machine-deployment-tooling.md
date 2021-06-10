@@ -14,7 +14,7 @@ Trite as it is, everything in software I feel is improved over iterations and th
 
 When our team took ownership for the deployment ecosystem, we started looking for ways in which we could better handle the support requests for deployment issues and to reduce the firefighting, given we were slowly starting to gain context bit by bit.
 
-For starters, there were around 2-3 boxes(VM's) in which Vesemir was deployed, which would receive requests for deploying applications. We also noticed some teams independently cloning the initial vesemir VM's, where they had added their own set of changes and then using this Vesemir VM to deploy their applications.
+For starters, there were a couple of boxes(VM's) in which Vesemir was deployed, which would receive requests for deploying applications. We also noticed some teams independently cloning the initial vesemir VM's, where they had added their own set of changes and then using this Vesemir VM to deploy their applications.
 
 Centralised logging was something which we needed to add. This would cause devs to look inside the specific VM boxes of vesemir to see what was going on.
 
