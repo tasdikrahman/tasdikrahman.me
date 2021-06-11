@@ -24,6 +24,8 @@ For this post, I will specifically talk about the virtual machine deployment ser
 
 Given, GCP doesn't have a service similar to [AWS codedeploy](https://aws.amazon.com/codedeploy/), vesemir came out of the same requirement.
 
+<center><img src="/content/images/2021/06/vesemir-deployment-flow.jpg"></center>
+
 ### What does it really do?
 
 Vesemir is a inhouse python service, which in a gist is a wrapper on top of chef API's, where-in it receives a request for deploying a service in a particular cluster (a GCP project), filters out the VM's where it has to deploy the changeset and then goes about deploying the changeset, either one at a time or at the level of concurrency insisted upon by the request.
@@ -59,6 +61,10 @@ This piece of information is then used to form a response to be given back to th
 As for the playbook and what does it do, in gist, it first, disables the server where it is first going to deploy, in the haproxy backend for the application servers. Introduces the changeset, restarts the service, enables this VM back in the HAproxy backend with weights if provided during the request, an option to sleep for a bit is also introduced which is again controlled by the request, before which the VM is inserted back with 100% weight.
 
 The playbook is then looped over the hosts, returned by the chef query while searching, all while executing the playbook tasks on the hosts.
+
+## Pros of this deployment pattern
+
+The obvious is since we control the deployment platform tooling, it allows for us to have a level of flexibility, not possible with vendors. Everything is more or less, an outcome of this flexibility which we get.
 
 ## Shortcomings of this deployment pattern
 
