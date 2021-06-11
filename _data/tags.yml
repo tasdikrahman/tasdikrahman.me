@@ -80,4 +80,6 @@ ubuntu:
   name: ubuntu
 x509:
   name: x509
+deployments:
+  name: deployments
 
