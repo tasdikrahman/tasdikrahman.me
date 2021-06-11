@@ -2,7 +2,7 @@
 layout: post
 title: "Vesemir: Our virtual machine deployment service"
 description: "Vesemir: Our virtual machine deployment service"
-tags: ["softwaredevelopment", "deployments"]
+tags: [softwaredevelopment, deployments]
 comments: true
 share: true
 cover_image: '/content/images/2021/06/pyramids.jpg'
