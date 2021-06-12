@@ -111,3 +111,4 @@ Thanks for reading this piece. More on around normandy, our kubernetes deploymen
 
 - [https://www.gojek.io/blog/how-we-reduced-skyrocketing-cpu-usage](https://www.gojek.io/blog/how-we-reduced-skyrocketing-cpu-usage)
 - [https://tasdikrahman.me/2021/06/10/vesemir-our-virtual-machine-deployment-service/](https://tasdikrahman.me/2021/06/10/vesemir-our-virtual-machine-deployment-service/)
+- [Cover image credits](https://unsplash.com/photos/8lvHMctQMrU)
