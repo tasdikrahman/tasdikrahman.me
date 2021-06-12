@@ -12,6 +12,8 @@ This is a continuation of the [post](https://tasdikrahman.me/2021/06/10/vesemir-
 
 While this post will focus more more on how we went on with revamping vesemir for increasing it's reliability, maintainability and modernizing it.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Continuing the thread around how we did the same for Vesemir. (1/n) <a href="https://t.co/Xol0uRraJv">https://t.co/Xol0uRraJv</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1403746484630159360?ref_src=twsrc%5Etfw">June 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Previous state of affairs
 
 Trite as it is, everything in software I feel is improved over iterations and the same is true with vesemir here too. We have a functional piece of software which does things as expected and has been running for quite some time now. After the initial set of features, this project remained in a bug fix state for a bit.
@@ -96,12 +98,13 @@ There were a couple of things, which we considered before deciding upon not to r
 
 - Completely new codebase, following basic sanity checks and best practices, right from the start.
 - Rewrite in a language more familiar with the rest of our teams codebases(majority being in ruby/golang) rather than being the single service written in python.
+- Not necessary, that the shortcomings solved in this rewrite would overshadow the new bugs which would come in as part of the rewrite.
 
 ### Takeaways
 
 Learned a bunch during the course of the whole revamp, while creating the project plan and cutting out user stories for this, but the biggest for me was learning prioritization, deciding on what is more important of a problem to solve which would create more impact, helping the end users achieve(the product developers) achieve the end result of introducing their changeset for their service, in a reliable manner.
 
-This was also the time when fresh grads had joined our team, helping them ramping up on the codebase and the operational side of things was something which helped me deepen my own understanding around our domain.
+This was also the time when fresh grads had joined our team, mentoring them to ramp up on the codebase and the operational side of things was something which helped me deepen my own understanding around our domain.
 
 This also was a good experience in dealing with a really hairy, legacy piece of software, working around it while enhancing it at the same time without causing issues to the customers(product team devs) and was something new.
 
