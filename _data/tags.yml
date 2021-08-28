@@ -16,6 +16,8 @@ databases:
   name: databases
 devops:
   name: devops
+deployments:
+  name: deployments
 docker:
   name: docker
 etcd:
@@ -80,6 +82,4 @@ ubuntu:
   name: ubuntu
 x509:
   name: x509
-deployments:
-  name: deployments
 
