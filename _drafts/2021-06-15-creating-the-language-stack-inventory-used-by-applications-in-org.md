@@ -38,11 +38,23 @@ Given the simplicity of the solution, it would be simpler to just parse that spe
 
 The deploy scripts are just a wrapper which make use of the cli interacting with the central service registry to deploy the application, along with added logic to handle the response
 
-Next was to just add a simple route on the service registry which would recieve an HTTP request to receive this information, everytime a deployment would happen via the CI/CD UI. Leading to updation
+Next was to just add a simple route on the service registry which would recieve an HTTP request to receive this information, everytime a deployment would happen via the CI/CD UI. Leading to updation of this information.
 
 ## Current state
 
+As of now this script of fetching this information is run for each and every VM deployment which we run via our deployment automation. 
+
+The same is also true for all the k8s deployments which go via our deployment platoform. 
+
+This has in turn helped us create the inventory of all the language stacks which are actually being used by the 
+applications which are onboarded to our internal service registry and having deployments orchestrated via the same.
+
+## Future
+
+We would want to then onboard our other applications which are not present in the service registry, to track their stack versions. Which would allow us to have more coverage on what are we currently supporting for the org, which would be our next step.
+
 ## Takeaways
 
-Tracking what is the container image, language stack/version being used in the service's test/build/deploy pipeline is what we would need to solve fowhere the container image get's built is simply impractical. The problem is compounded when the number of services which are running are more than
-
+- If we don't know what we are running, we will not know what are we supporting
+- This becomes paramount, whenever we are trying to resolve security issues/add patches to software/support existing software
+- Not having this information would mean, getting surprised about the issues which come along with the versions of stacks which you are not aware of.
