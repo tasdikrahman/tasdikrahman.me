@@ -5,7 +5,7 @@ description: "Creating the language stack inventory for applications deployed on
 tags: [softwaremaintenance]
 comments: true
 share: true
-cover_image: '/content/images/2021/05/'
+cover_image: '/content/images/2021/02/vm-inventory-trendline.jpg'
 ---
 
 Given the number of language stacks which different product teams end up using inside the org, variations come, in the form of different versions being used, or different versions of dependent libraries coming in. This combination will quickly lead up to a whole set of container image variations for a particular language, crossed with operating system versions.
