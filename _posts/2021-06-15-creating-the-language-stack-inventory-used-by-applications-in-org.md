@@ -42,16 +42,16 @@ Next was to just add a simple route on the service registry which would recieve 
 
 ## Current state
 
-As of now this script of fetching this information is run for each and every VM deployment which we run via our deployment automation. 
-
-The same is also true for all the k8s deployments which go via our deployment platoform. 
+As of now this script of fetching this information is run for each and every k8s deployment which we run via our deployment automation. 
 
 This has in turn helped us create the inventory of all the language stacks which are actually being used by the 
 applications which are onboarded to our internal service registry and having deployments orchestrated via the same.
 
+For deployments happening via other automation tools (helm for eg), we currently don't have support to fetch what is the language stack being used.
+
 ## Future
 
-We would want to then onboard our other applications which are not present in the service registry, to track their stack versions. Which would allow us to have more coverage on what are we currently supporting for the org, which would be our next step.
+We would want to then onboard our other applications which are not present in the service registry, to track their stack versions. Which would allow us to have more coverage on what are we currently supporting for the org, which would be the next step.
 
 ## Takeaways
 
