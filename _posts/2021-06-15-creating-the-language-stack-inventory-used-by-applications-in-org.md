@@ -38,16 +38,25 @@ Given the simplicity of the solution, it would be simpler to just parse that spe
 
 The deploy scripts are just a wrapper which make use of the cli interacting with the central service registry to deploy the application, along with added logic to handle the response
 
-Next was to just add a simple route on the service registry which would recieve an HTTP request to receive this information, everytime a deployment would happen via the CI/CD UI. Leading to updation of this information.
+Next was to just add a simple route on the service registry which would recieve an HTTP request to receive this information, everytime a deployment would happen via the CI/CD UI. Leading to updation of this information for each application.
 
 ## Current state
 
 As of now this script of fetching this information is run for each and every k8s deployment which we run via our deployment automation. 
 
 This has in turn helped us create the inventory of all the language stacks which are actually being used by the 
-applications which are onboarded to our internal service registry and having deployments orchestrated via the same.
+applications which are onboarded to our internal service registry and having deployments orchestrated via the same to our k8s clusters.
 
 For deployments happening via other automation tools (helm for eg), we currently don't have support to fetch what is the language stack being used.
+
+## Challenges faced
+
+- There were places where we wouldn't be able to gauge the language stack version from the env vars which we would parse for an application, as there would be multiple versions present of that env var which were declared. We didn't want to handle such cases initially, as we wanted to first cover the ideal cases first. Leaving this as an anamoly
+- Some applications hadn't been deployed since months/years. Asking the devs to deploy was one solution, but there were cases where the services had no clear ownership, we didn't want to deploy the application, to just fetch this information. We ended up creating an automation where we would fetch such applications from the source repository, running the parse logic and then making the http call to the service registry to store the information.
+
+The solution was not perfect, but this worked for us to build the initial language stack inventory for containers.
+
+The next thing which we did was to plot this information on grafana to be easily accesible. 
 
 ## Future
 
@@ -58,3 +67,4 @@ We would want to then onboard our other applications which are not present in th
 - If we don't know what we are running, we will not know what are we supporting
 - This becomes paramount, whenever we are trying to resolve security issues/add patches to software/support existing software
 - Not having this information would mean, getting surprised about the issues which come along with the versions of stacks which you are not aware of.
+- Piggybacking on existing workflows helped expedite the whole process of fetching the language stack information for an application
