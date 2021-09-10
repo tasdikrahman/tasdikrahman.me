@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Creating the language stack inventory for applications deployed on containers in the org"
-description: "Creating the language stack inventory for applications deployed on containers in the org"
+title: "Handling language stack deprecations: Part 2: Container infrastructure"
+description: "Handling language stack deprecations: Part 2: Container infrastructure"
 tags: [softwaremaintenance]
 comments: true
 share: true

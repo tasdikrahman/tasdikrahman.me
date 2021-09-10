@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Handling language stack deprecations for Virtual Machine infrastructure"
-description: "Handling language stack deprecations for Virtual Machine infrastructure"
+title: "Handling language stack deprecations: Part 1: Virtual Machine infrastructure"
+description: "Handling language stack deprecations: Part 1: Virtual Machine infrastructure"
 tags: [devops]
 comments: true
 share: true
