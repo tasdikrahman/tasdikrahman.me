@@ -68,3 +68,5 @@ We would want to then onboard our other applications which are not present in th
 - This becomes paramount, whenever we are trying to resolve security issues/add patches to software/support existing software
 - Not having this information would mean, getting surprised about the issues which come along with the versions of stacks which you are not aware of.
 - Piggybacking on existing workflows helped expedite the whole process of fetching the language stack information for an application
+
+If you liked what you read here, I have written a bit more about how we did the same for virtual machines [here](https://tasdikrahman.me/2021/02/02/handling-language-stack-deprecations-part-1-virtual-machine-infrastructure/)

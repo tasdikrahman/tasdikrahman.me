@@ -81,3 +81,5 @@ Which would then blurt out the version information, the script captures this inf
 The helper library created here, is flexible enough to take input in the form of the query which you would want to run on the VM to capture the relevant information, which helps in future inventory management.
 
 Would love to hear what you folks do for this repetitive chore and how you do it.
+
+If you liked what you read here, I have written a bit more about how we did the same for containers [here](https://tasdikrahman.me/2021/02/02/handling-language-stack-deprecations-part-1-virtual-machine-infrastructure/)
