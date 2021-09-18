@@ -8,4 +8,3 @@ share: true
 cover_image: '/content/images/2021/05/'
 ---
 
-I used to be present
