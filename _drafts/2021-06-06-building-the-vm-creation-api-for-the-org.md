@@ -5,7 +5,7 @@ description: "Building the VM creation API for the org"
 tags: ["softwaredevelopment"]
 comments: true
 share: true
-cover_image: '/content/images/2021/05/'
+cover_image: '/content/images/2021/06/24BDDA89-7EF4-4E21-B244-919D364A386D.jpeg'
 ---
 
 Over the years, there have been a lot of changes in the way, people create their virtual machines in their cloud environment. 
@@ -52,6 +52,24 @@ There's now a central place where we are storing, which applications are running
 
 We also ended up adding a client for it, which people could use to create VM's of their choice of demand, adding all the necessary helper methods (polling, checking resource status etc.)
 
+## User Flow
+
+<center><img src="/content/images/2021/06/24BDDA89-7EF4-4E21-B244-919D364A386D.jpeg"></center>
+
+1) The user sends a `POST` call to orchestration service to the VM creation route, sending all the necessary information in the `POST` body to create the VM/VM's for their application. Information like, which application, the environment, the type of VM to pick, the OS version etc 
+
+2) Orchestration service validates the request body and presence of certain fields in the request body, which are required for creation of the VM. eg: environment, language stack etc.
+
+3) Orchestration service constructs the information required to send to proctor daemon to call the right proctor job, with the correct request body, sending multiple requests to proctor in case multiple VM's are requested for creation. 
+
+4) Proctor daemon runs the automation to create the VM in a background job to provision and configure the VM. 
+
+5) Orchestration service polls proctor daemon for the job which was scheduled to create the VM, with a default backoff present.
+
+6 & 7) proctor job completes, if the poll gets a response within the appropriate time, the status of the job is saved in orchestration service, which decides the final status of the resource in orchestration service DB too. 
+
+The user can at this point, make a `GET` call on the resource URI, to see the updated resource status to check what's the current state of the state machine.
+
 ## How has it been used so far
 
 The very first thing, this API got used for was to automatically create our version of managed instances by the productivity team inside engineering platform. It's a lovely abstraction which they came up with, but simply put, people would ask for a new application to be created from our developer portal, choosing what tech stack to use and which environment. Whether they would want a private reverse proxy or a public one. And they would get their VM's automatically created for the application along with the loadbalancers, along with mapping the DNS's to the respective loadbalancers. 
@@ -79,3 +97,7 @@ But we took to call to move the orchestration bit of every resource going forwar
 The end result was a lot of time saved in terms of developer time which they would have otherwise spent to create VM's, cycle VM fleets with minimal developer intervention.
 
 Which is the original and broader goal of automation too I feel, to move out more and more things out of the human hands so that people can move on to do other things. And as always, automation is a moving target for everyone, you build abstractions on top of abstractions sometimes to ease things out for everyone, without compromising on the usual things like quality of what is being delivered, ease of using. 
+
+## Final thoughts
+
+Creating this along with Vidit and Kartik was such a great experience. Thanks for the learnings. 
