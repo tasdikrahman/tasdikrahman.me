@@ -100,4 +100,4 @@ Which is the original and broader goal of automation too I feel, to move out mor
 
 ## Final thoughts
 
-Creating this along with Vidit and Kartik was such a great experience. Thanks for the learnings. 
+Creating this along with [Vidit](https://twitter.com/vidit_m100) and [Kartik](https://twitter.com/kartik7153) was such a great experience. Thanks for the learnings. 
