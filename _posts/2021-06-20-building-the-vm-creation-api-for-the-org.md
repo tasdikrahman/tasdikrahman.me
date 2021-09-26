@@ -58,7 +58,7 @@ We also ended up adding a client for it, which people could use to create VM's o
 
 1) The user sends a `POST` call to orchestration service to the VM creation route, sending all the necessary information in the `POST` body to create the VM/VM's for their application. Information like, which application, the environment, the type of VM to pick, the OS version etc 
 
-2) Orchestration service validates the request body and presence of certain fields in the request body, which are required for creation of the VM. eg: environment, language stack etc.
+2) Orchestration service validates the request body and presence of certain fields in the request body, which are required for creation of the VM. eg: environment, language stack etc. It would also send a response back to the client, which would include the information like the VM names etc, which would be something which the user would find useful. Given the async nature of the response, we store the state of the creation of the VMs for each resource. The client can query the resource and the response body would also send the state details of the resource.
 
 3) Orchestration service constructs the information required to send to proctor daemon to call the right proctor job, with the correct request body, sending multiple requests to proctor in case multiple VM's are requested for creation. 
 
