@@ -11,11 +11,11 @@ When I'm not working on a [side project](https://github.com/tasdikrahman), I can
 
 A list of public talks given by me, can be found [here](https://tasdikrahman.me/speaking/).
 
-<center><img src="/content/images/austin.jpg"></center>
+<center><img src="/content/images/54B4DBF4-D6AF-4711-BA18-0FBCAED28AB1.jpeg"></center>
 
 #### Presently
 
-On a short break
+- Working as part of Logistics, system engineering team @ [Deliveryhero](https://deliveryhero.com)
 
 #### Formerly
 
