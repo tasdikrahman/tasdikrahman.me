@@ -12,6 +12,8 @@ cover_image: '/content/images/2022/02/Webervogelnst_Auoblodge.jpg'
 
 As time has progressed, I have been part of teams of different sizes in terms of org size as well as the team sizes which I have been part of. This post is a conglomeration of the ideas I have picked up, things which have worked out/which haven't and mental models developed as being a part of such infrastructure teams and growing with them.
 
+Another thing noticed over time, would be the amount of adhoc work being slightly higher than other engineering teams out there, hence the difference in structure on how to handle it as we will see over the course of this post.
+
 This post condenses the ideas presented here.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A little late to the party but here are a few ways, infrastructure teams could function during the organization growth phases and different engineering team sizes over time (1/n) 🧵 <a href="https://t.co/wUC7ujyaU3">https://t.co/wUC7ujyaU3</a></p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1495881281745440772?ref_src=twsrc%5Etfw">February 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
