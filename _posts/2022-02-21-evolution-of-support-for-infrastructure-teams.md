@@ -66,6 +66,8 @@ If the request workload is still increasing, it might be time to introduce rotat
 
 This helps in a couple of ways, for starters, helps prevent burnout for the team members as support becomes democratized within team. Since not everyone gets support tickets by default, the others can focus on strategic problems to be solved. The idea should be that, apart from toil work. There should be ample amount of time left for strategic work, which helps reduce toil work and improves dev experience, helping create good abstractions
 
+## Further improving productivity inside the sub-teams
+
 You could further go into having dedicated folks for support for each teams to having dedicated folks for handling support for infrastructure sub-team engineering support. This will not immediately start showing any positive impact as with every new member in the team, it takes some time for the impact to come across, but having an L1 support structure pays back in time for the overall team
 
 This L1 support team can be the first line of defense for anything related to infrastructure queries for all the sub-teams inside
