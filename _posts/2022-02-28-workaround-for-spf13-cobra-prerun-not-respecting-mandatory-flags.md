@@ -53,9 +53,27 @@ func init() {
 
 Now if you run the cli without passing the required flag or `r` when running the cli, the routines inside `PreRun` don't get run, and this flag is not respected anymore.
 
-## Workaround
+## Workaround 1
 
 Just move the flow inside the `PreRun` to `Run`, as there is no workaround as of now, even the same has been done by some other projects like [keptn](https://github.com/keptn/keptn/issues/2729), where they have done the same. Agreed this bloats the `Run`, directive, but until there is a better solution, it's better than not having any validation and repeating what the framework has already done for you.
+
+## Workaround 2
+
+You can start using the `cobra.ExactArgs()` instead of using flags, this solution looks a bit confusing for the user using the CLI though, as there would be no named arguments and the CLI user has to then actually start remembering which positional arguments they need to pass to the CLI and which position is for what, leading to a CLI which requires to actually have a mental model
+
+## Comparison of the two workarounds for the cli
+
+```sh
+// case of using the mandatory flag withouth any PreRun and having the valition inside Run directive for the user to pass the region
+$ my_cli foo-command -r=region-foo
+
+// using the positional argument
+$ my_cli foo-command region-foo
+```
+
+## Ending notes
+
+Given these two alternatives, I would prefer the 1st workaround simply because the CLI user doesn't have to then remember what does the positional arguments stand for and we can leverage the framework to direct which flag is standing for what attribute and what do they need to pass further.
 
 I didn't find anything, the last open ticket on [this](https://github.com/spf13/cobra/issues/655) is still open, I ended up [enquiring](https://github.com/spf13/cobra/issues/655#issuecomment-1054509187) in case this is by design, in case I have missed something. Will check back and update here in case there is an update.
 
