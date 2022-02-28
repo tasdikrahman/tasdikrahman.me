@@ -15,7 +15,7 @@ Just a continuation of the tweet, adding into small snippets for context.
 
 ## Context
 
-During the `Run` directive which you have present
+When you have both the `PreRun` and `Run` directives, and the mandatory flag present, which you expect to run before the `PreRun` directives mentioned, it will not be respected. This post is just a small nudge to prevent someone from trying to achieve the same as the same hasn't been documented on cobra.dev side so far (in case nothing has been missed)
 
 ```golang
 // sample snippet from https://cobra.dev/#prerun-and-postrun-hooks
