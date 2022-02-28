@@ -65,6 +65,7 @@ There was an old [issue](https://github.com/spf13/cobra/issues/206) which talks 
 
 - [https://github.com/keptn/keptn/issues/2729](https://github.com/keptn/keptn/issues/2729)
 - [https://github.com/spf13/cobra/issues/655](https://github.com/spf13/cobra/issues/655)
+- [https://github.com/spf13/cobra/issues/655#issuecomment-1054509187](https://github.com/spf13/cobra/issues/655#issuecomment-1054509187)
 
 ## Credits
 
