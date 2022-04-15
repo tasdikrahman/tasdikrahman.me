@@ -102,8 +102,7 @@ class IO:
 
 Now we can stub this method in our spec, since we already knew the behaviour of the stubbed method and what it would give us, we added the response value for it for our spec, effectively replacing an actual call. It's interesting to see this in the decorator syntax provided and looks quite clean to read.
 
-```
-
+```python
 import fileinput
 from unittest import TestCase
 from mock import patch
